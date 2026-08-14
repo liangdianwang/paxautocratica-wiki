@@ -1,5 +1,6 @@
 import Link from "next/link";
 import siteData from "../public/site-data.json";
+export { AdSlot } from "./ad-slot";
 
 export function Header() {
   const navigation = siteData.blueprint?.navigation || [];
@@ -11,13 +12,6 @@ export function Header() {
     </Link>
     <div className="nav-right"><div className="nav-links">{navigation.map((item: any) => <Link key={item.slug} href={`/${item.slug}`}>{item.name}</Link>)}</div><span className="nav-status"><i aria-hidden="true" />EARLY ACCESS LOG</span></div>
   </div></nav>;
-}
-
-export function AdSlot({ id }: { id: string }) {
-  if (!siteData.ads?.enabled) return null;
-  return <aside className="ad-slot" data-ad-slot={id} data-provider={siteData.ads?.provider || "adsterra"} data-test-mode={String(siteData.ads?.test_mode === true)} aria-label="Advertisement">
-    <span>{siteData.ads?.test_mode === true ? "Adsterra test placeholder" : "Advertisement"}</span>
-  </aside>;
 }
 
 function ExternalOrText({ value, label }: { value: string; label?: string }) {

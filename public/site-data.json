@@ -1971,8 +1971,10 @@
   ],
   "ads": {
     "provider": "adsterra",
-    "enabled": false,
+    "enabled": true,
     "test_mode": false,
+    "website_id": 5981586,
+    "activation": "live",
     "formats": {
       "display_banner": true,
       "native_banner": true,
@@ -1980,6 +1982,30 @@
       "popunder": false,
       "interstitial": false,
       "smartlink": false
+    },
+    "units": {
+      "native": {
+        "id": 30736302,
+        "name": "NativeBanner_1",
+        "script_src": "https://pl30836801.effectivecpmnetwork.com/f22588f9849da77fb58b4a6b66bde75d/invoke.js",
+        "container_id": "container-f22588f9849da77fb58b4a6b66bde75d"
+      },
+      "banner": {
+        "id": 30736303,
+        "name": "300x250_1",
+        "key": "3732098b057fe8beafdd762c5d50153f",
+        "script_src": "https://www.highperformanceformat.com/3732098b057fe8beafdd762c5d50153f/invoke.js",
+        "width": 300,
+        "height": 250
+      }
+    },
+    "placements": {
+      "home-1": {"format": "native", "position": "after_file_selector"},
+      "home-2": {"format": "banner", "position": "after_archive"},
+      "aggregate-1": {"format": "native", "position": "after_intro"},
+      "aggregate-2": {"format": "banner", "position": "after_cards"},
+      "detail-1": {"format": "native", "position": "after_direct_answer"},
+      "detail-2": {"format": "banner", "position": "after_sources"}
     },
     "adsense": {
       "enabled": false,
