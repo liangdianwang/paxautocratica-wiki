@@ -20,9 +20,9 @@
       ]
     },
     "hero": {
-      "eyebrow": "Independent player guide",
-      "title": "Pax Autocratica, explained",
-      "description": "Start with the verified basics: what the game is, how its colony-to-frontier loop is framed, and where to check current access, demo, and community information.",
+      "eyebrow": "THE INDEPENDENT PLAYER'S FIELD DOSSIER",
+      "title": "Pax Autocratica Field Guide",
+      "description": "From colony administration to frontier expeditions, find verified basics, practical starting advice, and current game information in one place.",
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
@@ -1825,8 +1825,8 @@
   },
   "homeProvenance": {
     "contract_version": "2.3.2",
-    "tutorial_payload_sha256": "2fc5c9288de11d509a8bb85a2f2ecea41b1e23fd22cea66646e4b06a447e59dc",
-    "projection_sha256": "2fc5c9288de11d509a8bb85a2f2ecea41b1e23fd22cea66646e4b06a447e59dc",
+    "tutorial_payload_sha256": "57f281ee8113d253c8ebe722cec0831eedd70a22d87889d51a535e16363ec4ce",
+    "projection_sha256": "57f281ee8113d253c8ebe722cec0831eedd70a22d87889d51a535e16363ec4ce",
     "source_ids": [
       "src-official-site",
       "src-steam-store",
