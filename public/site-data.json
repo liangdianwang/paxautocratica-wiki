@@ -2317,10 +2317,10 @@
   ],
   "ads": {
     "provider": "adsterra",
-    "enabled": true,
+    "enabled": false,
     "test_mode": false,
     "website_id": 5981586,
-    "activation": "live",
+    "activation": "paused_due_to_unverified_redirect",
     "formats": {
       "display_banner": true,
       "native_banner": true,
