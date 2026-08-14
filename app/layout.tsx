@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
 import siteData from "../public/site-data.json";
+import { AnalyticsScripts } from "./analytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteData.site?.base_url || "http://localhost:3000"),
@@ -20,5 +21,5 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     "--theme-saturation": `${theme.saturation}%`,
     "--theme-lightness": `${theme.lightness}%`
   } as CSSProperties;
-  return <html lang={siteData.site?.default_locale || "en"} data-theme={theme.mode || "light"} style={style}><body>{children}</body></html>;
+  return <html lang={siteData.site?.default_locale || "en"} data-theme={theme.mode || "light"} style={style}><body>{children}<AnalyticsScripts /></body></html>;
 }
