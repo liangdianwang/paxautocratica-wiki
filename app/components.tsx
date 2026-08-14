@@ -9,8 +9,11 @@ export function Header() {
   const declaredPrimary = Array.isArray((siteData.blueprint as any)?.primary_navigation) ? (siteData.blueprint as any).primary_navigation : [];
   const primaryNavigation = (declaredPrimary.length ? declaredPrimary : publicPages.slice(0, 5).map((item: any) => ({ slug: item.slug, name: String(item.keyword || item.slug) })))
     .filter((item: any) => item.slug && !aggregateSlugs.has(String(item.slug)));
+  const primaryAggregate = navigation[0];
+  const overflowAggregates = navigation.slice(1).map((item: any) => ({ ...item, kind: "aggregate" }));
   const primarySlugs = new Set(primaryNavigation.map((item: any) => String(item.slug)));
-  const explorerPages = publicPages.filter((item: any) => !primarySlugs.has(String(item.slug)));
+  const explorerPages = publicPages.filter((item: any) => !primarySlugs.has(String(item.slug))).map((item: any) => ({ ...item, kind: "detail" }));
+  const exploreItems = [...overflowAggregates, ...explorerPages];
   const icon = siteData.site?.favicon_path || "/favicon.svg";
   return <nav className="nav" aria-label="Primary navigation"><div className="container nav-inner">
     <Link className="brand" href="/" aria-label={`${siteData.game?.name || "Game Wiki"} home`}>
@@ -19,12 +22,12 @@ export function Header() {
     </Link>
     <div className="nav-right"><div className="nav-links">
       <Link href="/" aria-current="page">Home</Link>
-      {navigation.map((item: any) => <Link key={item.slug} href={`/${item.slug}`}>{item.name}</Link>)}
+      {primaryAggregate ? <Link href={`/${primaryAggregate.slug}`}>{primaryAggregate.name}</Link> : null}
       {primaryNavigation.map((item: any) => <Link key={item.slug} href={`/${item.slug}`}>{item.name}</Link>)}
-      {explorerPages.length ? <details className="nav-explorer">
+      {exploreItems.length ? <details className="nav-explorer">
         <summary>Explore</summary>
         <div className="nav-explorer-panel" aria-label="Explore published guides">
-          {explorerPages.map((item: any) => <Link key={item.slug} href={`/${item.slug}`}>{String(item.keyword || item.name || item.slug).replace(new RegExp(`^${siteData.game?.name || ""}\\s+`, "i"), "")}</Link>)}
+          {exploreItems.map((item: any) => <Link key={`${item.kind}-${item.slug}`} href={`/${item.slug}`}>{String(item.keyword || item.name || item.slug).replace(new RegExp(`^${siteData.game?.name || ""}\\s+`, "i"), "")}</Link>)}
         </div>
       </details> : null}
     </div><span className="nav-status"><i aria-hidden="true" />EARLY ACCESS LOG</span></div>
