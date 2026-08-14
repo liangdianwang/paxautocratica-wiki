@@ -79,7 +79,9 @@ export function AdSlot({ id, format }: { id: string; format?: AdFormat }) {
 
   if (!isEnabled || !unit) return null;
   if (ads.test_mode === true) {
-    return <aside className="ad-slot ad-slot--test" data-ad-slot={id} data-provider="adsterra" data-test-mode="true" data-ad-state="test" aria-label="Advertisement"><span>Adsterra test placeholder</span></aside>;
+    // Keep test mode inspectable without exposing provider/control-plane copy.
+    // The slot geometry is enough for local layout QA; it is never an ad fill.
+    return <aside className="ad-slot ad-slot--test" data-ad-slot={id} data-provider="adsterra" data-test-mode="true" data-ad-state="test" aria-label="Advertisement" />;
   }
 
   return <aside ref={rootRef} className={`ad-slot ad-slot--${selected}`} data-ad-slot={id} data-provider="adsterra" data-ad-unit-id={String(unit.id)} data-ad-state="reserved" aria-label="Advertisement" />;

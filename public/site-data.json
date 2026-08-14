@@ -121,7 +121,7 @@
     "description": "No active codes are published; do not treat search snippets or third-party downloads as official resources.",
     "playGame": "https://www.paxautocratica.com/",
     "officialDiscord": "https://linktr.ee/playefas",
-    "officialYoutube": "https://www.youtube.com/watch?v=PKHmwx0iebA",
+    "officialYoutube": "https://www.youtube.com/watch?v=G3OkYGmB3cY",
     "communityTool": "https://steamcommunity.com/app/1067360",
     "privacyPolicy": "/privacy/",
     "termsOfService": "/terms/"
@@ -698,7 +698,7 @@
         "pax-autocratica-trailer",
         "pax-autocratica-mods"
       ],
-      "ad_slot_count": 3
+      "ad_slot_count": 2
     },
     {
       "keyword": "Pax Autocratica Mods",
@@ -816,6 +816,7 @@
         "src-community-mod-thread",
         "src-steam-community",
         "src-official-site",
+        "src-official-linktree",
         "src-steam-store"
       ],
       "claim_ids": [
@@ -842,8 +843,7 @@
       "parent_category": "Guide",
       "related_slugs": [
         "pax-autocratica-gameplay",
-        "pax-autocratica-community",
-        "pax-autocratica-steam-deck"
+        "pax-autocratica-community"
       ],
       "ad_slot_count": 2
     },
@@ -957,7 +957,9 @@
       "source_ids": [
         "src-steam-store",
         "src-community-multiplayer-thread",
-        "src-steam-community"
+        "src-steam-community",
+        "src-official-site",
+        "src-official-launch-video"
       ],
       "claim_ids": [
         "claim-multiplayer-status",
@@ -2043,8 +2045,8 @@
   },
   "homeProvenance": {
     "contract_version": "2.3.2",
-    "tutorial_payload_sha256": "80d1ffb876ec8e3c8efa214312554536f76c5e2f2e0dc4bacda1fd8803dc86da",
-    "projection_sha256": "80d1ffb876ec8e3c8efa214312554536f76c5e2f2e0dc4bacda1fd8803dc86da",
+    "tutorial_payload_sha256": "3fe446d1ed6847dc1e7160cad977d0e55157e852ff1268856555fbb68c7c94d2",
+    "projection_sha256": "3fe446d1ed6847dc1e7160cad977d0e55157e852ff1268856555fbb68c7c94d2",
     "source_ids": [
       "src-official-site",
       "src-steam-store",
@@ -2070,7 +2072,7 @@
       },
       {
         "label": "YouTube",
-        "url": "https://www.youtube.com/watch?v=PKHmwx0iebA",
+        "url": "https://www.youtube.com/watch?v=G3OkYGmB3cY",
         "status": "verified"
       },
       {
@@ -2090,12 +2092,12 @@
       }
     ],
     "homepage_video": {
-      "url": "https://www.youtube.com/watch?v=PKHmwx0iebA",
-      "embed_url": "https://www.youtube-nocookie.com/embed/PKHmwx0iebA?rel=0",
-      "title": "Pax Autocratica official video",
+      "url": "https://www.youtube.com/watch?v=G3OkYGmB3cY",
+      "embed_url": "https://www.youtube.com/embed/G3OkYGmB3cY?rel=0&playsinline=1",
+      "title": "Pax Autocratica - Early Access Release Date Trailer",
       "source_id": "src-official-launch-video",
       "status": "verified",
-      "checked_at": "2026-08-14T07:22:21Z"
+      "checked_at": "2026-08-14T11:13:02Z"
     },
     "theme": {
       "hue": 164,
@@ -2129,7 +2131,7 @@
       "relevance_reason": "Brand mark for the game-specific site, not used as a route image.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-favicon.webp",
-      "content_sha256": "b9723e40874ce73197a27f2d19e08813d3dbca944763dfab2be3136fa8091f09"
+      "content_sha256": "0024862274b3f1184f945859f361fd4baa8a641f3fd57834eba20f01953e4084"
     },
     {
       "asset_id": "pax-autocratica-hero-bg-v1",
@@ -2148,7 +2150,7 @@
       "generated_prompt": "hero-prompt.md",
       "status": "ready",
       "public_path": "/media/pax-autocratica-hero-bg-v1.webp",
-      "content_sha256": "3a13447add32b7efe77d9af26ef689adb60cf7069c132e4afd5b319d500d5413"
+      "content_sha256": "290ad7ec340b9455cb33cdc32c5a5bcd98e56370b8df48827329dea4f471ecb8"
     },
     {
       "asset_id": "pax-autocratica-home-01",
@@ -2166,7 +2168,7 @@
       "relevance_reason": "Orients new visitors to the colony-management side of the game's advertised loop.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-home-01.webp",
-      "content_sha256": "88f444717e955758383bd325ae4990a053ef792906771c5bf67e398058edb86a"
+      "content_sha256": "f23fa05cb06217cb78ec8443867fec936110dd94188ee8b8d875658c874d7d1e"
     },
     {
       "asset_id": "pax-autocratica-guide-02",
@@ -2184,7 +2186,7 @@
       "relevance_reason": "Provides a visual index for the site's source-backed game guides.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-guide-02.webp",
-      "content_sha256": "35bd513dba3d00a36380a7150cb760ab87baa076c9e62c0e500db17139340649"
+      "content_sha256": "5b5e4a35a805b2f6c31ca48448aaeebdedac6292af2025576df0e74db0bd7e57"
     },
     {
       "asset_id": "pax-autocratica-gameplay-03",
@@ -2202,7 +2204,7 @@
       "relevance_reason": "Shows the frontier side of the colony-to-expedition gameplay loop described on the page.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-gameplay-03.webp",
-      "content_sha256": "0b01f0f17f00ce9aa1cdd14348d640372680bfcfd0a7efe24c1a7851c5ac77d9"
+      "content_sha256": "3b450677226dce9e53342df7dac37f6f742a3faae0c495d445afc58ab804d8ed"
     },
     {
       "asset_id": "pax-autocratica-demo-04",
@@ -2220,7 +2222,7 @@
       "relevance_reason": "Keeps the demo-access page visually tied to the actual game rather than a generic store card.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-demo-04.webp",
-      "content_sha256": "2a1da19a6541a8b32b56a138061c2421a6b7a692687f5619149b3dd9a92ea3cc"
+      "content_sha256": "e20754ea1ea3c45a7ed5e820f03eb001512a9952dded17d58125c1eb23ae2835"
     },
     {
       "asset_id": "pax-autocratica-trailer-05",
@@ -2238,7 +2240,7 @@
       "relevance_reason": "Supports the official-trailer page with a non-repeated visual from the same verified game listing.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-trailer-05.webp",
-      "content_sha256": "acb04893f4a54fe45f1184262499cd234b4bb2d3b63ca198ebdb4f13dc654fee"
+      "content_sha256": "b11010f149fd8ca51630d36cdae8e17ba1302fc357068de8d7daf1c502a11546"
     },
     {
       "asset_id": "pax-autocratica-mods-06",
@@ -2256,7 +2258,7 @@
       "relevance_reason": "Gives the mods-status page a relevant customization visual without implying that mods are currently supported.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-mods-06.webp",
-      "content_sha256": "918b53187393ae419096a5aa38fb976f9a47e7577a2763534155f9fcb56be52e"
+      "content_sha256": "25f6f689e79e990d344f1b6406a44230934a91359a7aee6e3144c77a4fb4e820"
     },
     {
       "asset_id": "pax-autocratica-multiplayer-07",
@@ -2274,7 +2276,7 @@
       "relevance_reason": "Provides game context for a multiplayer-status page while the copy clearly distinguishes future co-op work from current availability.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-multiplayer-07.webp",
-      "content_sha256": "2c202072495ee4d6a8493e2aab663d0622bfb84ada0f40b9a9611205f82da76f"
+      "content_sha256": "92137aee454e9f2bbf4e49cfa0c04fc2c6edf375fabd26d47527ac2a934058c0"
     },
     {
       "asset_id": "pax-autocratica-price-08",
@@ -2292,7 +2294,7 @@
       "relevance_reason": "Adds a real game visual to the purchase page while the price itself remains a live-store handoff.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-price-08.webp",
-      "content_sha256": "373ce068241ba2ea0da65750c91c79b16844a644df764a9651bd622ea46b0119"
+      "content_sha256": "3ebedbbc51cac29dc4ace824bc7ce1f6f4123742719988e300ecef4594ffa7c9"
     },
     {
       "asset_id": "pax-autocratica-community-09",
@@ -2310,7 +2312,7 @@
       "relevance_reason": "Keeps the community directory visually grounded in the actual game before sending visitors to live discussion channels.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-community-09.webp",
-      "content_sha256": "483cada8fa7ead10ca46397b9333c105a9752bb2a113a535181fcb876b22fe71"
+      "content_sha256": "fc4f61473eb176e48619f25fb151c07ad2666675e5d31aa807b1de360399e710"
     }
   ],
   "ads": {
@@ -2383,12 +2385,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-e7c61045c906",
+    "version": "local-476fb6047839",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-08-14T10:21:15Z"
+  "generated_at": "2026-08-14T11:31:38Z"
 }

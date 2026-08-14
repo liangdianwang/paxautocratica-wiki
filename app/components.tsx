@@ -74,7 +74,5 @@ export function Sources({ slug }: { slug: string }) {
 export function EvidenceRail({ slug }: { slug: string }) {
   const provenance: any = ((siteData as any).pageProvenance || {})[slug];
   const links = provenance?.source_links || [];
-  const page: any = (siteData.pages || []).find((item: any) => item.slug === slug);
-  const isIndexed = page?.page_status === "publish" && page?.index_status === "index";
-  return <aside className="evidence-rail" aria-label="Guide status"><div className="section-kicker">GUIDE STATUS</div><div className={`status-stamp ${isIndexed ? "status-publish" : "status-draft"}`}>{isIndexed ? "VERIFIED GUIDE" : "NEEDS CONFIRMATION"}</div><p>{links.length || 0} source references checked.</p>{provenance?.last_checked_at ? <p className="rail-date">Checked {provenance.last_checked_at}</p> : null}<div className="rail-rule" /><span className="rail-note">Volatile details stay linked to live primary pages.</span></aside>;
+  return <aside className="evidence-rail" aria-label="Reference notes"><div className="section-kicker">REFERENCE NOTES</div><p>{links.length || 0} live reference links are available for checking.</p>{provenance?.last_checked_at ? <p className="rail-date">Last reviewed {provenance.last_checked_at}</p> : null}<div className="rail-rule" /><span className="rail-note">Volatile details stay linked to live primary pages.</span></aside>;
 }
