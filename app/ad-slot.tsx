@@ -24,17 +24,17 @@ export function AdSlot({ id, format }: { id: string; format?: AdFormat }) {
   }
 
   if (selected === "native") {
+    const nativeMarkup = `<script async="async" data-cfasync="false" src="${unit.script_src}"></script><div id="${unit.container_id}"></div>`;
     return <aside className={`ad-slot ad-slot--${selected}`} data-ad-slot={id} data-provider="adsterra" data-ad-unit-id={String(unit.id)} data-ad-state="reserved" aria-label="Advertisement">
-      <script async data-cfasync="false" src={unit.script_src}></script>
-      <div id={unit.container_id}></div>
+      <div className="ad-slot-code" dangerouslySetInnerHTML={{ __html: nativeMarkup }} />
       <AdSlotRuntime id={id} />
     </aside>;
   }
 
   const bannerOptions = `atOptions = { 'key' : '${unit.key}', 'format' : 'iframe', 'height' : ${unit.height}, 'width' : ${unit.width}, 'params' : {} };`;
+  const bannerMarkup = `<script>${bannerOptions}</script><script data-cfasync="false" src="${unit.script_src}"></script>`;
   return <aside className={`ad-slot ad-slot--${selected}`} data-ad-slot={id} data-provider="adsterra" data-ad-unit-id={String(unit.id)} data-ad-state="reserved" aria-label="Advertisement">
-    <script dangerouslySetInnerHTML={{ __html: bannerOptions }}></script>
-    <script data-cfasync="false" src={unit.script_src}></script>
+    <div className="ad-slot-code" dangerouslySetInnerHTML={{ __html: bannerMarkup }} />
     <AdSlotRuntime id={id} />
   </aside>;
 }
