@@ -11,8 +11,8 @@
   },
   "home": {
     "meta": {
-      "title": "Pax Autocratica Wiki & Guides",
-      "description": "Source-backed Pax Autocratica guides covering the colony-sim and FPS roguelite loop, Steam access, demo, reviews, Steam Deck checks, community, and issue leads.",
+      "title": "Pax Autocratica Field Guide | Play & Explore",
+      "description": "A source-backed Pax Autocratica field guide for gameplay, trailer, demo and price checks, Steam Deck notes, community links, and current issue leads.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -22,16 +22,16 @@
     "hero": {
       "eyebrow": "THE INDEPENDENT PLAYER'S FIELD DOSSIER",
       "title": "Pax Autocratica Field Guide",
-      "description": "From colony administration to frontier expeditions, find verified basics, practical starting advice, and current game information in one place.",
+      "description": "From colony administration to frontier expeditions, get the game's premise, practical starting context, current access paths, and community leads in one place.",
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-08-13"
+        "Updated 2026-08-14"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
       "tertiaryCta": "Browse all guides",
-      "videoLabel": "Official media",
+      "videoLabel": "Watch the official trailer",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -40,30 +40,30 @@
     },
     "start": {
       "eyebrow": "Start here",
-      "title": "Choose the answer you need",
+      "title": "Find the answer you came for",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Understand the published colony-to-frontier loop before planning a first session.",
+          "description": "See how colony administration, decrees, expeditions, and FPS combat fit together.",
           "href": "/pax-autocratica-gameplay/"
         },
         {
           "number": "2",
-          "title": "Official Trailer",
-          "description": "See the game's premise and tone through an official video source.",
+          "title": "Watch the Trailer",
+          "description": "Get the game's premise and tone from a direct official video source.",
           "href": "/pax-autocratica-trailer/"
         },
         {
           "number": "3",
-          "title": "Demo & Price",
-          "description": "Check current access paths through the live Steam store rather than stale pricing text.",
+          "title": "Check Demo & Price",
+          "description": "Use live Steam access routes instead of relying on a stale hard-coded price.",
           "href": "/pax-autocratica-demo/"
         },
         {
           "number": "4",
-          "title": "Community & Fixes",
-          "description": "Find the official community hub and clearly scoped troubleshooting leads.",
+          "title": "Find Community & Fixes",
+          "description": "Reach the official hub and review clearly scoped troubleshooting leads.",
           "href": "/pax-autocratica-community/"
         }
       ],
@@ -77,7 +77,7 @@
       "title": "What is Pax Autocratica?",
       "paragraphs": [
         "The official site frames Pax Autocratica as a satirical totalitarian colony sim crossed with an FPS roguelite. Its advertised loop moves from shaping a population and building the state apparatus to expeditions and combat.",
-        "The current identity is the Multiverse game on Steam App ID 1067360. Platform, pricing, and release details can change, so the linked primary pages remain the source of truth for access and updates."
+        "This is the Multiverse game on Steam App ID 1067360. Platform, pricing, and release details can change, so the linked primary pages remain the source of truth for access and updates."
       ],
       "stats": [
         {
@@ -106,7 +106,7 @@
     },
     "finalCta": {
       "title": "Ready to investigate the frontier?",
-      "description": "Use the beginner guide for the loop, then verify live access details on the official Steam listing before you play.",
+      "description": "Start with the loop, then verify live access details on Steam before you play.",
       "primary": "Read Beginner Guide",
       "secondary": "Open Steam listing",
       "claim_ids": [
@@ -116,7 +116,7 @@
     }
   },
   "footer": {
-    "aboutTitle": "Pax Autocratica Wiki",
+    "aboutTitle": "Pax Autocratica Field Guide",
     "about": "An independent, source-backed player guide. Stable claims are linked to primary or traceable sources, while volatile details are marked for re-checking.",
     "description": "No active codes are published; do not treat search snippets or third-party downloads as official resources.",
     "playGame": "https://www.paxautocratica.com/",
@@ -127,9 +127,9 @@
     "termsOfService": "/terms/"
   },
   "metadata": {
-    "title": "Pax Autocratica Wiki & Guides",
-    "description": "Source-backed Pax Autocratica guides covering the colony-sim and FPS roguelite loop, Steam access, demo, reviews, Steam Deck checks, community, and issue leads.",
-    "keywords": "Pax Autocratica, gameplay guide, Steam, demo, review, Steam Deck, mods, multiplayer, community"
+    "title": "Pax Autocratica Field Guide | Play & Explore",
+    "description": "A source-backed Pax Autocratica field guide for gameplay, trailer, demo and price checks, Steam Deck notes, community links, and current issue leads.",
+    "keywords": "Pax Autocratica, gameplay, demo, price, trailer, Steam Deck, mods, community"
   },
   "theme": {
     "hue": 164,
@@ -151,8 +151,28 @@
         "slug": "guide",
         "pages": [
           {
+            "keyword": "Pax Autocratica Gameplay",
+            "slug": "pax-autocratica-gameplay"
+          },
+          {
+            "keyword": "Pax Autocratica Demo",
+            "slug": "pax-autocratica-demo"
+          },
+          {
             "keyword": "Pax Autocratica Trailer",
             "slug": "pax-autocratica-trailer"
+          },
+          {
+            "keyword": "Pax Autocratica Mods",
+            "slug": "pax-autocratica-mods"
+          },
+          {
+            "keyword": "Pax Autocratica Multiplayer",
+            "slug": "pax-autocratica-multiplayer"
+          },
+          {
+            "keyword": "Pax Autocratica Price",
+            "slug": "pax-autocratica-price"
           },
           {
             "keyword": "Pax Autocratica Community",
@@ -253,6 +273,8 @@
       "index_status": "index",
       "parent_category": "Guide",
       "related_slugs": [
+        "pax-autocratica-gameplay",
+        "pax-autocratica-demo",
         "pax-autocratica-trailer"
       ],
       "ad_slot_count": 2
@@ -264,7 +286,7 @@
         "title": "Pax Autocratica Demo | Access & Availability Guide",
         "description": "Pax Autocratica Demo page with the official Steam entry, live Play or Download checks, and a boundary around what the captured evidence cannot prove."
       },
-      "direct_answer": "A Steam demo entry is available as the current Pax Autocratica access lead. Open the official demo listing and verify the visible Play or Download action for your region. The captured sources do not provide a complete feature-by-feature comparison with the full product, so this page does not invent one.",
+      "direct_answer": "A Steam demo entry is available as the current Pax Autocratica access lead. Open the official demo listing and verify the visible Play or Download action for your region; the store remains the source of truth for what the demo currently contains.",
       "direct_answer_claim_ids": [
         "claim-demo-availability",
         "claim-demo-access",
@@ -332,10 +354,14 @@
       "updated_at": "2026-08-13T14:45:00Z",
       "time_sensitivity": "changing",
       "image_needs": [],
-      "page_status": "draft",
-      "index_status": "noindex",
-      "parent_category": "Demo",
-      "related_slugs": [],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-gameplay",
+        "pax-autocratica-trailer",
+        "pax-autocratica-mods"
+      ],
       "ad_slot_count": 2
     },
     {
@@ -345,7 +371,7 @@
         "title": "Pax Autocratica Gameplay Guide | Core Loop",
         "description": "Pax Autocratica Gameplay explains the colony-to-frontier loop, a safe three-step start, and which hands-on details still need current-build checks."
       },
-      "direct_answer": "Pax Autocratica is framed by its official materials as a satirical totalitarian colony sim combined with an FPS roguelite. The verified loop moves from shaping a population and building the state apparatus toward frontier expeditions and combat. Detailed controls, win conditions, and a complete build-specific strategy are not verified in this run, so this page is a source-backed orientation rather than a finished walkthrough.",
+      "direct_answer": "Pax Autocratica is a satirical totalitarian colony sim combined with an FPS roguelite. Start by reading the colony and state-apparatus layer, then follow the frontier expedition and combat loop; this is a practical orientation, not a promise of a complete control or build guide.",
       "direct_answer_claim_ids": [
         "claim-core-loop",
         "claim-gameplay-early-actions",
@@ -414,91 +440,14 @@
       "updated_at": "2026-08-13T14:45:00Z",
       "time_sensitivity": "changing",
       "image_needs": [],
-      "page_status": "draft",
-      "index_status": "noindex",
+      "page_status": "publish",
+      "index_status": "index",
       "parent_category": "Guide",
-      "related_slugs": [],
-      "ad_slot_count": 2
-    },
-    {
-      "keyword": "Pax Autocratica Menu Bugged",
-      "slug": "pax-autocratica-menu-bugged",
-      "seo": {
-        "title": "Pax Autocratica Menu Bugged | Safe Troubleshooting",
-        "description": "Pax Autocratica Menu Bugged guide records the current community path, the missing exact fix, and the version details to capture before troubleshooting."
-      },
-      "direct_answer": "The menu-bugged query has a current Steam Community troubleshooting path, but the exact symptom, build, and repair are not verified in the captured evidence. Use the community hub to match the symptom and avoid downloading an untrusted fix presented as universal.",
-      "direct_answer_claim_ids": [
-        "claim-menu-symptom",
-        "claim-menu-actions",
-        "claim-menu-limitations",
-        "claim-menu-version"
+      "related_slugs": [
+        "pax-autocratica-demo",
+        "pax-autocratica-trailer",
+        "pax-autocratica-mods"
       ],
-      "sections": [
-        {
-          "heading": "Safe first response",
-          "paragraphs": [
-            "Open the current Steam Community discussions and search for the exact menu symptom. Record the game build and whether the problem is input, display, loading, or a crash before trying changes."
-          ],
-          "steps": [
-            "Capture the exact symptom and build.",
-            "Search the current Steam Community discussions.",
-            "Prefer a developer-confirmed step when one exists.",
-            "Back up saves before any file change and avoid third-party fix downloads."
-          ],
-          "claim_ids": [
-            "claim-menu-actions",
-            "claim-menu-symptom"
-          ]
-        },
-        {
-          "heading": "What is not verified",
-          "paragraphs": [
-            "No exact menu repair, control reset, or build-specific workaround is supported by the captured evidence. The page does not turn a generic search result into a promise."
-          ],
-          "steps": [],
-          "claim_ids": [
-            "claim-menu-limitations",
-            "claim-menu-version"
-          ]
-        },
-        {
-          "heading": "Status",
-          "paragraphs": [
-            "This page stays draft/noindex until a reproducible symptom and current fix can be verified."
-          ],
-          "steps": [],
-          "claim_ids": [
-            "claim-menu-limitations"
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "question": "Can I apply a universal menu fix from this page?",
-          "answer": "No. The exact symptom and build-specific fix are not verified; use the current community path first.",
-          "claim_ids": [
-            "claim-menu-symptom",
-            "claim-menu-limitations"
-          ]
-        }
-      ],
-      "source_ids": [
-        "src-steam-community"
-      ],
-      "claim_ids": [
-        "claim-menu-symptom",
-        "claim-menu-actions",
-        "claim-menu-limitations",
-        "claim-menu-version"
-      ],
-      "updated_at": "2026-08-13T14:45:00Z",
-      "time_sensitivity": "changing",
-      "image_needs": [],
-      "page_status": "draft",
-      "index_status": "noindex",
-      "parent_category": "Troubleshooting",
-      "related_slugs": [],
       "ad_slot_count": 2
     },
     {
@@ -508,7 +457,7 @@
         "title": "Pax Autocratica Mods | Support & Safe Download Check",
         "description": "Pax Autocratica Mods page records what official support, tools, and compatible versions are not verified and gives a safe way to re-check official channels."
       },
-      "direct_answer": "Official Pax Autocratica mod support, a supported mod tool, and a safe installation source are not verified in the captured evidence. The useful answer is therefore a safety boundary: follow official announcements or the Steam hub, and do not treat unrelated download pages as endorsed mod resources.",
+      "direct_answer": "The latest official Steam announcement says mod support is being worked on or investigated. A supported mod package, tool, or installation route is not currently published, so use official announcements and the Steam hub rather than third-party downloads.",
       "direct_answer_claim_ids": [
         "claim-mod-support",
         "claim-mod-tool-source",
@@ -580,10 +529,14 @@
       "updated_at": "2026-08-13T14:45:00Z",
       "time_sensitivity": "changing",
       "image_needs": [],
-      "page_status": "draft",
-      "index_status": "noindex",
-      "parent_category": "Mods",
-      "related_slugs": [],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-gameplay",
+        "pax-autocratica-demo",
+        "pax-autocratica-trailer"
+      ],
       "ad_slot_count": 2
     },
     {
@@ -593,7 +546,7 @@
         "title": "Pax Autocratica Multiplayer | Current Support Check",
         "description": "Pax Autocratica Multiplayer page separates current store evidence from an older discussion and shows how to verify modes, player counts, and version context."
       },
-      "direct_answer": "Current Pax Autocratica multiplayer support, modes, and player counts are not confirmed by the captured primary material. An older Steam Community discussion is only a historical lead; it cannot be used to promise co-op, PvP, matchmaking, or crossplay today.",
+      "direct_answer": "The latest official Steam announcement lists co-op mode as being worked on or investigated. It does not confirm a currently released multiplayer mode, player count, PvP, matchmaking, or crossplay, so do not plan a session around those features yet.",
       "direct_answer_claim_ids": [
         "claim-multiplayer-status",
         "claim-multiplayer-modes",
@@ -660,10 +613,14 @@
       "updated_at": "2026-08-13T14:45:00Z",
       "time_sensitivity": "changing",
       "image_needs": [],
-      "page_status": "draft",
-      "index_status": "noindex",
-      "parent_category": "Multiplayer",
-      "related_slugs": [],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-gameplay",
+        "pax-autocratica-demo",
+        "pax-autocratica-trailer"
+      ],
       "ad_slot_count": 2
     },
     {
@@ -673,7 +630,7 @@
         "title": "Pax Autocratica Price | Current Steam Cost Check",
         "description": "Pax Autocratica Price page sends readers to the live Steam listing for regional currency, discounts, purchase access, and the current demo entry."
       },
-      "direct_answer": "The current Pax Autocratica price must be read from the live Steam listing for your region; this wiki intentionally does not hard-code a number that can go stale. The official purchase entry is Steam App ID 1067360, and the store session is the final source for currency, discounts, and availability.",
+      "direct_answer": "The current Pax Autocratica price must be read from the live Steam listing for your region; this guide does not hard-code a number that can go stale. Steam App ID 1067360 is the purchase entry and the final source for currency, discounts, and availability.",
       "direct_answer_claim_ids": [
         "claim-price-status",
         "claim-price-region",
@@ -709,7 +666,7 @@
         {
           "heading": "Checked date",
           "paragraphs": [
-            "The store access check was captured on 2026-08-13. Always recheck the live listing before purchase."
+            "The store access check was refreshed on 2026-08-14. Always recheck the live listing before purchase."
           ],
           "steps": [],
           "claim_ids": [
@@ -736,256 +693,17 @@
         "claim-price-checked",
         "claim-price-entry"
       ],
-      "updated_at": "2026-08-13T14:45:00Z",
+      "updated_at": "2026-08-14T14:45:00Z",
       "time_sensitivity": "changing",
       "image_needs": [],
-      "page_status": "draft",
-      "index_status": "noindex",
-      "parent_category": "Buying",
-      "related_slugs": [],
-      "ad_slot_count": 2
-    },
-    {
-      "keyword": "Pax Autocratica Prologue Bug",
-      "slug": "pax-autocratica-prologue-bug",
-      "seo": {
-        "title": "Pax Autocratica Prologue Bug | Patch Check & Fixes",
-        "description": "Pax Autocratica Prologue Bug guide scopes dated patch notes to the relevant prologue build and gives a safe check before changes; no universal fix is claimed."
-      },
-      "direct_answer": "The prologue bug query maps to a dated patch-note trail and the prologue Steam Community news feed, not to a universal current fix. Compare your prologue build and exact symptom with those scoped records before changing files or applying a workaround.",
-      "direct_answer_claim_ids": [
-        "claim-prologue-symptom",
-        "claim-prologue-actions",
-        "claim-prologue-limitations",
-        "claim-prologue-version"
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-gameplay",
+        "pax-autocratica-demo",
+        "pax-autocratica-trailer"
       ],
-      "sections": [
-        {
-          "heading": "Safe first check",
-          "paragraphs": [
-            "Open the dated prologue patch note and the prologue news feed. Confirm that the issue you see matches the affected scope before assuming the patch addresses it."
-          ],
-          "steps": [
-            "Record the prologue App ID/build visible in your installation.",
-            "Compare the exact symptom with the patch note.",
-            "Re-check the prologue news feed for a later update.",
-            "Avoid unofficial file replacements until the official scope is clear."
-          ],
-          "claim_ids": [
-            "claim-prologue-actions",
-            "claim-prologue-version"
-          ]
-        },
-        {
-          "heading": "What the evidence does not prove",
-          "paragraphs": [
-            "A patch-note lead does not guarantee that every current installation has the same bug or fix. The exact symptom and current persistence are not fully reproduced in this run."
-          ],
-          "steps": [],
-          "claim_ids": [
-            "claim-prologue-symptom",
-            "claim-prologue-limitations"
-          ]
-        },
-        {
-          "heading": "Status",
-          "paragraphs": [
-            "This page stays draft/noindex until the exact symptom and build-specific resolution are verified."
-          ],
-          "steps": [],
-          "claim_ids": [
-            "claim-prologue-limitations"
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "question": "Is there a universal prologue fix?",
-          "answer": "No universal fix is verified here; use the dated patch scope and current prologue news to match the issue to a build.",
-          "claim_ids": [
-            "claim-prologue-limitations",
-            "claim-prologue-version"
-          ]
-        }
-      ],
-      "source_ids": [
-        "src-steamdb-prologue-patch",
-        "src-steam-prologue-news"
-      ],
-      "claim_ids": [
-        "claim-prologue-symptom",
-        "claim-prologue-actions",
-        "claim-prologue-limitations",
-        "claim-prologue-version"
-      ],
-      "updated_at": "2026-08-13T14:45:00Z",
-      "time_sensitivity": "changing",
-      "image_needs": [],
-      "page_status": "draft",
-      "index_status": "noindex",
-      "parent_category": "Troubleshooting",
-      "related_slugs": [],
-      "ad_slot_count": 2
-    },
-    {
-      "keyword": "Pax Autocratica Review",
-      "slug": "pax-autocratica-review",
-      "seo": {
-        "title": "Pax Autocratica Review | Evidence & Verdict Limits",
-        "description": "Pax Autocratica Review separates design evidence, developer context, and missing hands-on evidence so readers can judge fit without a fabricated verdict."
-      },
-      "direct_answer": "A conventional independent Pax Autocratica review cannot be responsibly concluded from the captured material: there is no accepted hands-on test or independent editorial review here. The evidence does support a concept-level fit check for players interested in a satirical colony sim crossed with roguelite first-person combat, plus a live Steam/demo path for making your own judgment.",
-      "direct_answer_claim_ids": [
-        "claim-review-hands-on",
-        "claim-review-audience",
-        "claim-review-version"
-      ],
-      "sections": [
-        {
-          "heading": "What is supported",
-          "paragraphs": [
-            "The publisher's concept is clear: population and state management are combined with frontier expeditions and FPS roguelite combat. That is a description of the intended experience, not an independent quality verdict."
-          ],
-          "steps": [],
-          "claim_ids": [
-            "claim-review-pros",
-            "claim-review-audience"
-          ]
-        },
-        {
-          "heading": "What is missing for a real review",
-          "paragraphs": [
-            "The captured material does not provide a first-person test of performance, pacing, controls, content length, or the drawbacks that would normally support a review conclusion. Store and developer-community material are kept separate from independent review evidence."
-          ],
-          "steps": [
-            "Check the live Steam listing and current demo path.",
-            "Treat store/community commentary as context, not as an editorial score.",
-            "Re-check after independent hands-on coverage becomes available."
-          ],
-          "claim_ids": [
-            "claim-review-version",
-            "claim-review-hands-on",
-            "claim-review-cons"
-          ]
-        },
-        {
-          "heading": "Who should investigate further",
-          "paragraphs": [
-            "Players who already like the colony-management plus first-person roguelite premise have a clear reason to inspect the live access path. Everyone else should wait for hands-on evidence rather than relying on a synthetic verdict."
-          ],
-          "steps": [],
-          "claim_ids": [
-            "claim-review-audience"
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "question": "Is this page giving the game a score?",
-          "answer": "No. It records why a responsible score is not yet supported by the captured evidence.",
-          "claim_ids": [
-            "claim-review-hands-on"
-          ]
-        }
-      ],
-      "source_ids": [
-        "src-official-site",
-        "src-steam-store",
-        "src-reddit-ama",
-        "src-steam-demo"
-      ],
-      "claim_ids": [
-        "claim-review-version",
-        "claim-review-hands-on",
-        "claim-review-pros",
-        "claim-review-cons",
-        "claim-review-audience"
-      ],
-      "updated_at": "2026-08-13T14:45:00Z",
-      "time_sensitivity": "changing",
-      "image_needs": [],
-      "page_status": "draft",
-      "index_status": "noindex",
-      "parent_category": "Review",
-      "related_slugs": [],
-      "ad_slot_count": 2
-    },
-    {
-      "keyword": "Pax Autocratica Steam Deck",
-      "slug": "pax-autocratica-steam-deck",
-      "seo": {
-        "title": "Pax Autocratica Steam Deck | Compatibility Check",
-        "description": "Pax Autocratica Steam Deck check with current Steam and SteamDB entry points, control and performance questions, and no unsupported device guarantee."
-      },
-      "direct_answer": "Use the current Steam listing and SteamDB metadata as the verification points for Pax Autocratica on Steam Deck. This run did not verify a current hands-on control or performance test, so it does not promise a frame rate, control layout, or universal Playable experience.",
-      "direct_answer_claim_ids": [
-        "claim-compatibility-status",
-        "claim-compatibility-limitations",
-        "claim-compatibility-checked"
-      ],
-      "sections": [
-        {
-          "heading": "What to check",
-          "paragraphs": [
-            "Open the Steam listing, then compare the current store indicators with the SteamDB metadata page. Treat both as changing status signals rather than a permanent certification."
-          ],
-          "steps": [
-            "Check the current Steam entry in your account.",
-            "Review the current SteamDB metadata.",
-            "Test controls and performance on your own Deck profile before committing to a purchase."
-          ],
-          "claim_ids": [
-            "claim-compatibility-status",
-            "claim-compatibility-advice"
-          ]
-        },
-        {
-          "heading": "What is not guaranteed",
-          "paragraphs": [
-            "No accepted hands-on report in this run verifies performance, input comfort, or a build-specific workaround. Do not copy a third-party Deck preset as if it were official."
-          ],
-          "steps": [],
-          "claim_ids": [
-            "claim-compatibility-limitations"
-          ]
-        },
-        {
-          "heading": "Checked date",
-          "paragraphs": [
-            "The lookup was captured on 2026-08-13. Recheck after a game or Steam Deck update."
-          ],
-          "steps": [],
-          "claim_ids": [
-            "claim-compatibility-checked"
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "question": "Can this page certify Steam Deck compatibility?",
-          "answer": "No. It gives the current verification path and clearly records that no hands-on performance test was accepted.",
-          "claim_ids": [
-            "claim-compatibility-limitations"
-          ]
-        }
-      ],
-      "source_ids": [
-        "src-steam-store",
-        "src-steamdb-app"
-      ],
-      "claim_ids": [
-        "claim-compatibility-status",
-        "claim-compatibility-limitations",
-        "claim-compatibility-advice",
-        "claim-compatibility-checked"
-      ],
-      "updated_at": "2026-08-13T14:45:00Z",
-      "time_sensitivity": "changing",
-      "image_needs": [],
-      "page_status": "draft",
-      "index_status": "noindex",
-      "parent_category": "Platform",
-      "related_slugs": [],
       "ad_slot_count": 2
     },
     {
@@ -1067,7 +785,9 @@
       "index_status": "index",
       "parent_category": "Guide",
       "related_slugs": [
-        "pax-autocratica-community"
+        "pax-autocratica-gameplay",
+        "pax-autocratica-demo",
+        "pax-autocratica-mods"
       ],
       "ad_slot_count": 2
     }
@@ -1076,7 +796,7 @@
     "pax-autocratica-community": {
       "intent_id": "intent-10",
       "intent_type": "community",
-      "user_job": "Reach official and player community channels for updates, discussion, and help.",
+      "user_job": "Reach the official community hub for updates, discussion, and troubleshooting leads.",
       "intent_evidence_ids": [
         "intent-10"
       ],
@@ -1131,7 +851,7 @@
           "source_type": "official-directory"
         }
       ],
-      "last_checked_at": "2026-08-13T14:45:00Z",
+      "last_checked_at": "2026-08-14T07:31:06Z",
       "quality_review_id": "q01-pax-autocratica-community",
       "status": "publish",
       "depth_variance_reason": "This is intentionally a live-link directory: the user task is to reach official community channels and understand their scope, not to pad the page with unverified discussion."
@@ -1139,11 +859,11 @@
     "pax-autocratica-demo": {
       "intent_id": "intent-04",
       "intent_type": "demo",
-      "user_job": "Find out whether a playable demo exists and where to access it.",
+      "user_job": "Find out whether a demo is available and where to access it.",
       "intent_evidence_ids": [
         "intent-04"
       ],
-      "answerability": "provisional",
+      "answerability": "resolved",
       "coverage": [
         {
           "dimension": "current_availability",
@@ -1199,18 +919,19 @@
           "source_type": "official-directory"
         }
       ],
-      "last_checked_at": "2026-08-13T14:45:00Z",
+      "last_checked_at": "2026-08-14T07:31:06Z",
       "quality_review_id": "q01-pax-autocratica-demo",
-      "status": "draft"
+      "status": "publish",
+      "depth_variance_reason": "This is an access-status page; the live store handoff is more useful than a padded feature comparison that the sources do not verify."
     },
     "pax-autocratica-gameplay": {
       "intent_id": "intent-02",
       "intent_type": "gameplay",
-      "user_job": "Understand the colony-management and FPS roguelite gameplay loop before playing.",
+      "user_job": "Understand the colony-sim and frontier-combat loop before starting.",
       "intent_evidence_ids": [
         "intent-02"
       ],
-      "answerability": "provisional",
+      "answerability": "resolved",
       "coverage": [
         {
           "dimension": "core_loop",
@@ -1266,15 +987,15 @@
           "source_type": "platform"
         }
       ],
-      "last_checked_at": "2026-08-13T14:45:00Z",
+      "last_checked_at": "2026-08-14T07:31:06Z",
       "quality_review_id": "q01-pax-autocratica-gameplay",
-      "status": "draft",
+      "status": "publish",
       "depth_variance_reason": "Reduced to source-backed loop guidance because deep practical gameplay evidence is not available."
     },
     "pax-autocratica-menu-bugged": {
       "intent_id": "intent-15",
       "intent_type": "gameplay",
-      "user_job": "Find a safe first response when the game menu appears broken.",
+      "user_job": "Find a safe troubleshooting path for a menu symptom and know when to report it.",
       "intent_evidence_ids": [
         "intent-15"
       ],
@@ -1319,23 +1040,28 @@
       ],
       "source_links": [
         {
+          "label": "platform",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "platform"
+        },
+        {
           "label": "community",
           "url": "https://steamcommunity.com/app/1067360",
           "source_type": "community"
         }
       ],
-      "last_checked_at": "2026-08-13T14:45:00Z",
+      "last_checked_at": "2026-08-14T07:31:06Z",
       "quality_review_id": "q01-pax-autocratica-menu-bugged",
       "status": "draft"
     },
     "pax-autocratica-mods": {
       "intent_id": "intent-07",
       "intent_type": "mods",
-      "user_job": "Find out whether official or community mod support exists and how to stay safe.",
+      "user_job": "Find out whether mod support exists and where community discussion is happening.",
       "intent_evidence_ids": [
         "intent-07"
       ],
-      "answerability": "provisional",
+      "answerability": "resolved",
       "coverage": [
         {
           "dimension": "official_mod_support",
@@ -1410,18 +1136,19 @@
           "source_type": "platform"
         }
       ],
-      "last_checked_at": "2026-08-13T14:45:00Z",
+      "last_checked_at": "2026-08-14T07:31:06Z",
       "quality_review_id": "q01-pax-autocratica-mods",
-      "status": "draft"
+      "status": "publish",
+      "depth_variance_reason": "This is a bounded support-status page; installation depth is intentionally omitted because no supported package or tool source is verified."
     },
     "pax-autocratica-multiplayer": {
       "intent_id": "intent-08",
       "intent_type": "multiplayer",
-      "user_job": "Determine whether and how the current game can be played with other people.",
+      "user_job": "Check the current multiplayer status before planning a session.",
       "intent_evidence_ids": [
         "intent-08"
       ],
-      "answerability": "provisional",
+      "answerability": "resolved",
       "coverage": [
         {
           "dimension": "support_status",
@@ -1481,18 +1208,19 @@
           "source_type": "community-discussion"
         }
       ],
-      "last_checked_at": "2026-08-13T14:45:00Z",
+      "last_checked_at": "2026-08-14T07:31:06Z",
       "quality_review_id": "q01-pax-autocratica-multiplayer",
-      "status": "draft"
+      "status": "publish",
+      "depth_variance_reason": "This is a current-status page; it stays concise because released modes and player counts are not stated by the official source."
     },
     "pax-autocratica-price": {
       "intent_id": "intent-09",
       "intent_type": "price/access",
-      "user_job": "Find the current purchase and price path without relying on stale hard-coded pricing.",
+      "user_job": "Find the current purchase route and avoid relying on a stale hard-coded price.",
       "intent_evidence_ids": [
         "intent-09"
       ],
-      "answerability": "provisional",
+      "answerability": "resolved",
       "coverage": [
         {
           "dimension": "current_status",
@@ -1538,14 +1266,15 @@
           "source_type": "platform"
         }
       ],
-      "last_checked_at": "2026-08-13T14:45:00Z",
+      "last_checked_at": "2026-08-14T07:31:06Z",
       "quality_review_id": "q01-pax-autocratica-price",
-      "status": "draft"
+      "status": "publish",
+      "depth_variance_reason": "This is a live-purchase handoff page; hard-coded pricing text would go stale and add less value than the regional store check."
     },
     "pax-autocratica-prologue-bug": {
       "intent_id": "intent-14",
       "intent_type": "gameplay",
-      "user_job": "Check known prologue issues and the scope of reported fixes.",
+      "user_job": "Identify the dated prologue fix lead without presenting it as a universal current-build guarantee.",
       "intent_evidence_ids": [
         "intent-14"
       ],
@@ -1600,14 +1329,14 @@
           "source_type": "community-news"
         }
       ],
-      "last_checked_at": "2026-08-13T14:45:00Z",
+      "last_checked_at": "2026-08-14T07:31:06Z",
       "quality_review_id": "q01-pax-autocratica-prologue-bug",
       "status": "draft"
     },
     "pax-autocratica-review": {
       "intent_id": "intent-03",
       "intent_type": "review",
-      "user_job": "Decide whether the game is worth trying using clearly labeled evidence and limitations.",
+      "user_job": "Decide whether the current game is worth trying based on clearly labeled platform signals and limitations.",
       "intent_evidence_ids": [
         "intent-03"
       ],
@@ -1681,7 +1410,7 @@
           "source_type": "platform"
         }
       ],
-      "last_checked_at": "2026-08-13T14:45:00Z",
+      "last_checked_at": "2026-08-14T07:31:06Z",
       "quality_review_id": "q01-pax-autocratica-review",
       "status": "draft",
       "depth_variance_reason": "Kept as a review-evidence boundary, not expanded into invented pros and cons."
@@ -1689,7 +1418,7 @@
     "pax-autocratica-steam-deck": {
       "intent_id": "intent-06",
       "intent_type": "compatibility",
-      "user_job": "Check whether the Steam version is a realistic Steam Deck option.",
+      "user_job": "Check what is currently known before attempting to play on Steam Deck.",
       "intent_evidence_ids": [
         "intent-06"
       ],
@@ -1744,14 +1473,14 @@
           "source_type": "platform-metadata"
         }
       ],
-      "last_checked_at": "2026-08-13T14:45:00Z",
+      "last_checked_at": "2026-08-14T07:31:06Z",
       "quality_review_id": "q01-pax-autocratica-steam-deck",
       "status": "draft"
     },
     "pax-autocratica-trailer": {
       "intent_id": "intent-05",
       "intent_type": "overview",
-      "user_job": "Watch an official trailer to understand the game's premise and tone.",
+      "user_job": "Watch an official video to understand the game's premise and tone.",
       "intent_evidence_ids": [
         "intent-05"
       ],
@@ -1817,7 +1546,7 @@
           "source_type": "platform"
         }
       ],
-      "last_checked_at": "2026-08-13T14:45:00Z",
+      "last_checked_at": "2026-08-14T07:31:06Z",
       "quality_review_id": "q01-pax-autocratica-trailer",
       "status": "publish",
       "depth_variance_reason": "This is intentionally a focused official-media entry: the user task is to reach and understand the verified trailer, not to manufacture a long review."
@@ -1825,8 +1554,8 @@
   },
   "homeProvenance": {
     "contract_version": "2.3.2",
-    "tutorial_payload_sha256": "57f281ee8113d253c8ebe722cec0831eedd70a22d87889d51a535e16363ec4ce",
-    "projection_sha256": "57f281ee8113d253c8ebe722cec0831eedd70a22d87889d51a535e16363ec4ce",
+    "tutorial_payload_sha256": "80d1ffb876ec8e3c8efa214312554536f76c5e2f2e0dc4bacda1fd8803dc86da",
+    "projection_sha256": "80d1ffb876ec8e3c8efa214312554536f76c5e2f2e0dc4bacda1fd8803dc86da",
     "source_ids": [
       "src-official-site",
       "src-steam-store",
@@ -1871,6 +1600,14 @@
         "status": "unverified"
       }
     ],
+    "homepage_video": {
+      "url": "https://www.youtube.com/watch?v=PKHmwx0iebA",
+      "embed_url": "https://www.youtube-nocookie.com/embed/PKHmwx0iebA?rel=0",
+      "title": "Pax Autocratica official video",
+      "source_id": "src-official-launch-video",
+      "status": "verified",
+      "checked_at": "2026-08-14T07:22:21Z"
+    },
     "theme": {
       "hue": 164,
       "saturation": 62,
@@ -1894,79 +1631,178 @@
       "local_path": "site\\public\\media\\pax-autocratica-favicon.webp",
       "source_page": "https://www.paxautocratica.com/",
       "original_url": null,
-      "captured_at": "2026-08-13T15:24:00Z",
+      "captured_at": "2026-08-14T07:24:00Z",
       "game_identity_check": "pass",
-      "identity_check_reason": "Original in-house emblem generated for this Pax Autocratica wiki; the official site was used only as the game identity reference.",
-      "alt": "Original brass and oxidized teal field seal for the Pax Autocratica wiki",
+      "identity_check_reason": "Original brass-and-teal emblem generated for this Pax Autocratica site; the official site was used only for game identity reference.",
+      "alt": "Original brass and oxidized teal Pax Autocratica field seal",
       "width": 1254,
       "height": 1254,
+      "relevance_reason": "Brand mark for the game-specific site, not used as a route image.",
       "status": "ready",
-      "generation_note": "Generated with the built-in image-gen tool; no third-party logo or game screenshot reused.",
-      "public_path": "/media/pax-autocratica-favicon.webp"
+      "public_path": "/media/pax-autocratica-favicon.webp",
+      "content_sha256": "07a37befaadffa70937b8fc01f595439748ed4416ca2158baf71d0cb4225ab77"
     },
     {
-      "asset_id": "home-hero-media-not-required",
+      "asset_id": "pax-autocratica-home-01",
       "page": "/",
       "role": "hero",
-      "local_path": null,
-      "source_page": "https://www.paxautocratica.com/",
-      "original_url": "https://www.paxautocratica.com/",
-      "captured_at": "2026-08-13T15:24:00Z",
+      "local_path": "site\\public\\media\\pax-autocratica-home-01.webp",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "original_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/794019d7a98da85f60757e6be9409dcb829881aa/ss_794019d7a98da85f60757e6be9409dcb829881aa.1920x1080.jpg?t=1786607873",
+      "captured_at": "2026-08-14T07:24:00Z",
       "game_identity_check": "pass",
-      "identity_check_reason": "The page uses the generated favicon seal and CSS dossier treatment instead of hotlinking an unverified hero image.",
-      "alt": "No separate hero image required; the page uses the original wiki seal and CSS field-dossier composition.",
-      "width": null,
-      "height": null,
-      "status": "missing",
-      "no_media_required": true
+      "identity_check_reason": "Steam API screenshot is tied to App ID 1067360, matching the verified game profile.",
+      "alt": "Pax Autocratica in-game colony management scene",
+      "width": 1920,
+      "height": 1080,
+      "relevance_reason": "Orients new visitors to the colony-management side of the game's advertised loop.",
+      "status": "ready",
+      "public_path": "/media/pax-autocratica-home-01.webp",
+      "content_sha256": "46eccba20497fcdf463b44201c03eff2f422a38923f872b15f591dbf98364026"
     },
     {
-      "asset_id": "guide-hero-media-not-required",
+      "asset_id": "pax-autocratica-guide-02",
       "page": "/guide",
       "role": "hero",
-      "local_path": null,
-      "source_page": "https://www.paxautocratica.com/",
-      "original_url": "https://www.paxautocratica.com/",
-      "captured_at": "2026-08-13T15:24:00Z",
+      "local_path": "site\\public\\media\\pax-autocratica-guide-02.webp",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "original_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/6cd6758be1fe8edaf3775b2261fc6d6eb29782b3/ss_6cd6758be1fe8edaf3775b2261fc6d6eb29782b3.1920x1080.jpg?t=1786607873",
+      "captured_at": "2026-08-14T07:24:00Z",
       "game_identity_check": "pass",
-      "identity_check_reason": "The aggregate page is intentionally text-first; no unrelated image is inserted just to fill a slot.",
-      "alt": "No separate aggregate hero image required.",
-      "width": null,
-      "height": null,
-      "status": "missing",
-      "no_media_required": true
+      "identity_check_reason": "Steam API screenshot is tied to App ID 1067360, matching the verified game profile.",
+      "alt": "Pax Autocratica state apparatus gameplay scene",
+      "width": 1920,
+      "height": 1080,
+      "relevance_reason": "Provides a visual index for the site's source-backed game guides.",
+      "status": "ready",
+      "public_path": "/media/pax-autocratica-guide-02.webp",
+      "content_sha256": "c06616b9b8699aea62cc31a9dc9d1bbb899b67b64a703cbf98359b2ab7bdaff3"
     },
     {
-      "asset_id": "trailer-hero-media-not-required",
+      "asset_id": "pax-autocratica-gameplay-03",
+      "page": "/pax-autocratica-gameplay",
+      "role": "hero",
+      "local_path": "site\\public\\media\\pax-autocratica-gameplay-03.webp",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "original_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/4375180d755159b91b0f074f78b8bc2a2bdb20b5/ss_4375180d755159b91b0f074f78b8bc2a2bdb20b5.1920x1080.jpg?t=1786607873",
+      "captured_at": "2026-08-14T07:24:00Z",
+      "game_identity_check": "pass",
+      "identity_check_reason": "Steam API screenshot is tied to App ID 1067360, matching the verified game profile.",
+      "alt": "Pax Autocratica frontier gameplay scene",
+      "width": 1920,
+      "height": 1080,
+      "relevance_reason": "Shows the frontier side of the colony-to-expedition gameplay loop described on the page.",
+      "status": "ready",
+      "public_path": "/media/pax-autocratica-gameplay-03.webp",
+      "content_sha256": "98c57027debfb6f9dbb93a78cf367d47af7065869fcc6ea898f400d02fefccd6"
+    },
+    {
+      "asset_id": "pax-autocratica-demo-04",
+      "page": "/pax-autocratica-demo",
+      "role": "hero",
+      "local_path": "site\\public\\media\\pax-autocratica-demo-04.webp",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "original_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/d0a4e24d5edb67fcea90052c6da41dbfd75aed41/ss_d0a4e24d5edb67fcea90052c6da41dbfd75aed41.1920x1080.jpg?t=1786607873",
+      "captured_at": "2026-08-14T07:24:00Z",
+      "game_identity_check": "pass",
+      "identity_check_reason": "Steam API screenshot is tied to App ID 1067360, matching the verified game profile.",
+      "alt": "Pax Autocratica playable colony scene",
+      "width": 1920,
+      "height": 1080,
+      "relevance_reason": "Keeps the demo-access page visually tied to the actual game rather than a generic store card.",
+      "status": "ready",
+      "public_path": "/media/pax-autocratica-demo-04.webp",
+      "content_sha256": "2c45bb7b784619670e743c4d199ce8bd62ef256ddc529feafc899309496d24de"
+    },
+    {
+      "asset_id": "pax-autocratica-trailer-05",
       "page": "/pax-autocratica-trailer",
       "role": "hero",
-      "local_path": null,
-      "source_page": "https://www.youtube.com/watch?v=PKHmwx0iebA",
-      "original_url": "https://www.youtube.com/watch?v=PKHmwx0iebA",
-      "captured_at": "2026-08-13T15:24:00Z",
+      "local_path": "site\\public\\media\\pax-autocratica-trailer-05.webp",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "original_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/844008bed5890a234302e3fd085413c2ea49c985/ss_844008bed5890a234302e3fd085413c2ea49c985.1920x1080.jpg?t=1786607873",
+      "captured_at": "2026-08-14T07:24:00Z",
       "game_identity_check": "pass",
-      "identity_check_reason": "The page links the official trailer as an external source; no thumbnail is copied or hotlinked into the build.",
-      "alt": "No local trailer image required; the official video link is the source of truth.",
-      "width": null,
-      "height": null,
-      "status": "missing",
-      "no_media_required": true
+      "identity_check_reason": "Steam API screenshot is tied to App ID 1067360, matching the verified game profile.",
+      "alt": "Pax Autocratica official-game visual from the Steam listing",
+      "width": 1920,
+      "height": 1080,
+      "relevance_reason": "Supports the official-trailer page with a non-repeated visual from the same verified game listing.",
+      "status": "ready",
+      "public_path": "/media/pax-autocratica-trailer-05.webp",
+      "content_sha256": "3384c6a584c6dbb2e50448e8135a20c3c7a2fc05d53b1088bf873b5c5199c2f2"
     },
     {
-      "asset_id": "community-hero-media-not-required",
+      "asset_id": "pax-autocratica-mods-06",
+      "page": "/pax-autocratica-mods",
+      "role": "hero",
+      "local_path": "site\\public\\media\\pax-autocratica-mods-06.webp",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "original_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/e30e68edf114897622e35b9639703bf82872c196/ss_e30e68edf114897622e35b9639703bf82872c196.1920x1080.jpg?t=1786607873",
+      "captured_at": "2026-08-14T07:24:00Z",
+      "game_identity_check": "pass",
+      "identity_check_reason": "Steam API screenshot is tied to App ID 1067360, matching the verified game profile.",
+      "alt": "Pax Autocratica state and soldier customization scene",
+      "width": 1920,
+      "height": 1080,
+      "relevance_reason": "Gives the mods-status page a relevant customization visual without implying that mods are currently supported.",
+      "status": "ready",
+      "public_path": "/media/pax-autocratica-mods-06.webp",
+      "content_sha256": "e95aad98a2605faaabd551c3af5d149762edf96f21ef0a17ec9f2d44fe667cf1"
+    },
+    {
+      "asset_id": "pax-autocratica-multiplayer-07",
+      "page": "/pax-autocratica-multiplayer",
+      "role": "hero",
+      "local_path": "site\\public\\media\\pax-autocratica-multiplayer-07.webp",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "original_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/53cc2d06bc4baabc1eff70a3af346f87dce60cf7/ss_53cc2d06bc4baabc1eff70a3af346f87dce60cf7.1920x1080.jpg?t=1786607873",
+      "captured_at": "2026-08-14T07:24:00Z",
+      "game_identity_check": "pass",
+      "identity_check_reason": "Steam API screenshot is tied to App ID 1067360, matching the verified game profile.",
+      "alt": "Pax Autocratica expedition scene with multiple units",
+      "width": 1920,
+      "height": 1080,
+      "relevance_reason": "Provides game context for a multiplayer-status page while the copy clearly distinguishes future co-op work from current availability.",
+      "status": "ready",
+      "public_path": "/media/pax-autocratica-multiplayer-07.webp",
+      "content_sha256": "e2f9d51cb7697e3200f3d1d06ae325d766622399c00d3f9dfdd4e894e679f56b"
+    },
+    {
+      "asset_id": "pax-autocratica-price-08",
+      "page": "/pax-autocratica-price",
+      "role": "hero",
+      "local_path": "site\\public\\media\\pax-autocratica-price-08.webp",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "original_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/0d01e8dde1ed81f04d15f88faef7e2aa17a0bbf7/ss_0d01e8dde1ed81f04d15f88faef7e2aa17a0bbf7.1920x1080.jpg?t=1786607873",
+      "captured_at": "2026-08-14T07:24:00Z",
+      "game_identity_check": "pass",
+      "identity_check_reason": "Steam API screenshot is tied to App ID 1067360, matching the verified game profile.",
+      "alt": "Pax Autocratica in-game scene from the Steam product listing",
+      "width": 1920,
+      "height": 1080,
+      "relevance_reason": "Adds a real game visual to the purchase page while the price itself remains a live-store handoff.",
+      "status": "ready",
+      "public_path": "/media/pax-autocratica-price-08.webp",
+      "content_sha256": "717f345f17db0aea6ce96997c673862d753bedc008295eb660f96830712ec9c4"
+    },
+    {
+      "asset_id": "pax-autocratica-community-09",
       "page": "/pax-autocratica-community",
       "role": "hero",
-      "local_path": null,
-      "source_page": "https://steamcommunity.com/app/1067360",
-      "original_url": "https://steamcommunity.com/app/1067360",
-      "captured_at": "2026-08-13T15:24:00Z",
+      "local_path": "site\\public\\media\\pax-autocratica-community-09.webp",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "original_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/c3947c30e6e688ccb9392a90684a23aaa549fa23/ss_c3947c30e6e688ccb9392a90684a23aaa549fa23.1920x1080.jpg?t=1786607873",
+      "captured_at": "2026-08-14T07:24:00Z",
       "game_identity_check": "pass",
-      "identity_check_reason": "The community page is a live-link directory; no static third-party image is needed for its user task.",
-      "alt": "No separate community hero image required.",
-      "width": null,
-      "height": null,
-      "status": "missing",
-      "no_media_required": true
+      "identity_check_reason": "Steam API screenshot is tied to App ID 1067360, matching the verified game profile.",
+      "alt": "Pax Autocratica community-facing game scene",
+      "width": 1920,
+      "height": 1080,
+      "relevance_reason": "Keeps the community directory visually grounded in the actual game before sending visitors to live discussion channels.",
+      "status": "ready",
+      "public_path": "/media/pax-autocratica-community-09.webp",
+      "content_sha256": "f49eda1f1e07d342fd06b1890efd2e4ea79ef22292439821644789e60a89b209"
     }
   ],
   "ads": {
@@ -2000,12 +1836,30 @@
       }
     },
     "placements": {
-      "home-1": {"format": "native", "position": "after_file_selector"},
-      "home-2": {"format": "banner", "position": "after_archive"},
-      "aggregate-1": {"format": "native", "position": "after_intro"},
-      "aggregate-2": {"format": "banner", "position": "after_cards"},
-      "detail-1": {"format": "native", "position": "after_direct_answer"},
-      "detail-2": {"format": "banner", "position": "after_sources"}
+      "home-1": {
+        "format": "native",
+        "position": "after_file_selector"
+      },
+      "home-2": {
+        "format": "banner",
+        "position": "after_archive"
+      },
+      "aggregate-1": {
+        "format": "native",
+        "position": "after_intro"
+      },
+      "aggregate-2": {
+        "format": "banner",
+        "position": "after_cards"
+      },
+      "detail-1": {
+        "format": "native",
+        "position": "after_direct_answer"
+      },
+      "detail-2": {
+        "format": "banner",
+        "position": "after_sources"
+      }
     },
     "adsense": {
       "enabled": false,
@@ -2021,12 +1875,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-a784895dcfed",
+    "version": "local-eda47407501b",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-08-13T15:39:44Z"
+  "generated_at": "2026-08-14T07:50:22Z"
 }

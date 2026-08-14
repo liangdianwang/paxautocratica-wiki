@@ -25,15 +25,28 @@ export function AdSlot({ id, format }: { id: string; format?: AdFormat }) {
 
     root.replaceChildren();
     root.dataset.adState = "loading";
-    const markReady = () => { root.dataset.adState = "ready"; };
+    const hasCreative = () => Boolean(root.querySelector("iframe, img, video, canvas, [data-ad], [data-adsterra]"));
+    const markFilled = () => {
+      if (hasCreative()) {
+        root.dataset.adState = "filled";
+        root.dispatchEvent(new CustomEvent("adsterra:filled", { bubbles: true }));
+      }
+    };
+    const markScriptLoaded = () => {
+      root.dataset.adState = "script_loaded";
+      window.setTimeout(markFilled, 250);
+    };
     const markEmpty = () => { root.dataset.adState = "empty"; };
+    const observer = new MutationObserver(markFilled);
+    observer.observe(root, { childList: true, subtree: true, attributes: true });
+    const emptyTimer = window.setTimeout(() => { markFilled(); if (root.dataset.adState !== "filled") markEmpty(); }, 8000);
 
     if (selected === "native") {
       const script = document.createElement("script");
       script.async = true;
       script.setAttribute("data-cfasync", "false");
       script.src = unit.script_src;
-      script.addEventListener("load", markReady, { once: true });
+      script.addEventListener("load", markScriptLoaded, { once: true });
       script.addEventListener("error", markEmpty, { once: true });
       const container = document.createElement("div");
       container.id = unit.container_id;
@@ -49,17 +62,17 @@ export function AdSlot({ id, format }: { id: string; format?: AdFormat }) {
       })};`;
       const script = document.createElement("script");
       script.src = unit.script_src;
-      script.addEventListener("load", markReady, { once: true });
+      script.addEventListener("load", markScriptLoaded, { once: true });
       script.addEventListener("error", markEmpty, { once: true });
       root.append(options, script);
     }
 
-    return () => { root.replaceChildren(); };
+    return () => { window.clearTimeout(emptyTimer); observer.disconnect(); root.replaceChildren(); };
   }, [isEnabled, selected, unit]);
 
   if (!isEnabled || !unit) return null;
   if (ads.test_mode === true) {
-    return <aside className="ad-slot ad-slot--test" data-ad-slot={id} data-provider="adsterra" data-test-mode="true" aria-label="Advertisement"><span>Adsterra test placeholder</span></aside>;
+    return <aside className="ad-slot ad-slot--test" data-ad-slot={id} data-provider="adsterra" data-test-mode="true" data-ad-state="test" aria-label="Advertisement"><span>Adsterra test placeholder</span></aside>;
   }
 
   return <aside ref={rootRef} className={`ad-slot ad-slot--${selected}`} data-ad-slot={id} data-provider="adsterra" data-ad-unit-id={String(unit.id)} data-ad-state="reserved" aria-label="Advertisement" />;

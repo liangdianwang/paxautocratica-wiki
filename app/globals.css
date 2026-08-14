@@ -96,6 +96,9 @@ h2 { margin: 0 0 14px; font-family: var(--display); font-size: clamp(31px, 4vw, 
 .file-selector { background: rgba(13, 26, 27, .84); }
 .cards { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .card, .archive-card, .evidence-rail, .sources, .ad-slot { border: 1px solid var(--border-soft); background: var(--surface); }
+.home-video-section { background: linear-gradient(90deg, rgba(88, 214, 173, .07), transparent 58%), var(--surface-soft); }
+.home-video-frame { width: min(920px, 100%); aspect-ratio: 16 / 9; margin: 0 auto; overflow: hidden; border: 1px solid var(--border); background: #050b0c; box-shadow: var(--shadow); }
+.home-video-frame iframe { display: block; width: 100%; height: 100%; border: 0; }
 .card { padding: 21px; }
 .file-card { position: relative; min-height: 190px; display: flex; flex-direction: column; transition: transform .18s ease, border-color .18s ease, background .18s ease; }
 .file-card:hover, .archive-card:hover { border-color: var(--brass); background: var(--surface-raised); transform: translateY(-4px); }
