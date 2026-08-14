@@ -163,20 +163,20 @@
             "slug": "pax-autocratica-trailer"
           },
           {
-            "keyword": "Pax Autocratica Mods",
-            "slug": "pax-autocratica-mods"
-          },
-          {
-            "keyword": "Pax Autocratica Multiplayer",
-            "slug": "pax-autocratica-multiplayer"
-          },
-          {
             "keyword": "Pax Autocratica Price",
             "slug": "pax-autocratica-price"
           },
           {
             "keyword": "Pax Autocratica Community",
             "slug": "pax-autocratica-community"
+          },
+          {
+            "keyword": "Pax Autocratica Mods",
+            "slug": "pax-autocratica-mods"
+          },
+          {
+            "keyword": "Pax Autocratica Multiplayer",
+            "slug": "pax-autocratica-multiplayer"
           }
         ]
       }
@@ -185,6 +185,28 @@
       {
         "name": "Guide",
         "slug": "guide"
+      }
+    ],
+    "primary_navigation": [
+      {
+        "name": "Gameplay",
+        "slug": "pax-autocratica-gameplay"
+      },
+      {
+        "name": "Demo",
+        "slug": "pax-autocratica-demo"
+      },
+      {
+        "name": "Trailer",
+        "slug": "pax-autocratica-trailer"
+      },
+      {
+        "name": "Price",
+        "slug": "pax-autocratica-price"
+      },
+      {
+        "name": "Community",
+        "slug": "pax-autocratica-community"
       }
     ],
     "home_modules": [
@@ -197,67 +219,122 @@
       "keyword": "Pax Autocratica Community",
       "slug": "pax-autocratica-community",
       "seo": {
-        "title": "Pax Autocratica Community | Official Links & Updates",
-        "description": "Pax Autocratica Community directory collects the official Steam hub, Linktree, announcements, discussions, and safe troubleshooting leads in one place."
+        "title": "Pax Autocratica Community: Official Hubs and Uses",
+        "description": "Pax Autocratica Community guide: use the Steam hub for updates and discussions, the official directory for links, and cross-check player claims safely."
       },
-      "direct_answer": "Start with the Pax Autocratica Steam Community hub for announcements, player discussions, and troubleshooting leads; use the official Linktree as the wider public directory for the publisher's media and community links. Activity changes, so these live links are the source of truth.",
+      "direct_answer": "Start with the Pax Autocratica Steam Community hub for announcements, player discussions and troubleshooting leads; use the publisher's official Linktree as the wider public directory for current media and community destinations. These links answer where to go, but community posts are not automatically official fixes. Activity and destinations change, so recheck the live links before relying on a claim.",
       "direct_answer_claim_ids": [
         "claim-community-entry",
         "claim-community-purpose",
+        "claim-community-scope",
         "claim-community-links"
       ],
       "sections": [
         {
-          "heading": "Official community entry",
+          "heading": "The two official starting points",
           "paragraphs": [
-            "The Steam Community hub is the clearest official public starting point. It is useful for announcements, discussion, and issue-reporting leads, but it is not a replacement for official patch notes."
+            "The Steam Community hub is the most useful first stop when you want game-specific announcements, player discussion or a place to trace a problem. It keeps the conversation close to the product and can expose update context that a general search result misses. The official Linktree is a wider directory: it helps locate the publisher's current public media and community destinations when individual links move.",
+            "Use both for different jobs. Steam is the working hub for game-specific activity; Linktree is the publisher-controlled map of public destinations. Neither should be treated as a substitute for reading the original official patch note when a post claims a fix or a new feature."
           ],
           "steps": [
-            "Open the Steam Community hub.",
-            "Use announcements for developer updates.",
-            "Use discussions for player context and troubleshooting leads."
+            "Open the Steam Community hub for game-specific updates and discussions.",
+            "Use the official Linktree when you need to find the publisher's current wider links.",
+            "Follow an outbound link only after checking that its destination still identifies Pax Autocratica."
           ],
           "claim_ids": [
             "claim-community-entry",
-            "claim-community-purpose"
-          ]
-        },
-        {
-          "heading": "Wider official links",
-          "paragraphs": [
-            "The official Linktree provides a second directory for current public media and community destinations. Treat its outbound links as changing and re-check them when needed."
-          ],
-          "steps": [],
-          "claim_ids": [
-            "claim-community-scope",
             "claim-community-links"
           ]
         },
         {
-          "heading": "Using community information safely",
+          "heading": "What each community surface is good for",
           "paragraphs": [
-            "A player discussion can identify a problem or question without proving a universal fix. Cross-check volatile claims against the store, official site, or official news feed."
+            "Announcements and update threads are useful for discovering what changed, but they still need a date and build context. Player discussions are useful for finding symptoms, questions and workarounds worth investigating. They are not a promise that every player has the same issue or that a suggested action works on the current build.",
+            "This distinction keeps the community page practical. If a reader wants to ask whether a feature exists, start from an official product statement. If a reader wants to compare a bug symptom or learn whether others saw it, read the discussion, then look for an official confirmation before changing files or making a purchase decision."
           ],
           "steps": [],
           "claim_ids": [
             "claim-community-purpose",
             "claim-community-scope"
           ]
+        },
+        {
+          "heading": "How to use a player post without overtrusting it",
+          "paragraphs": [
+            "A community post becomes more useful when it includes the game build, platform, reproducible symptom and exact source link. A post that only says 'it is broken' can be a lead, but it cannot establish a universal bug. The same applies to recommendations: a configuration that helps one machine or one Early Access build may not apply to another.",
+            "When a post points to a download, check whether the link is part of the official public directory or an independently maintained tool. Keep the question and the evidence separate: the community tells you what to investigate, while the official store, site or update record tells you what the game currently promises."
+          ],
+          "steps": [
+            "Record the post date, build and platform before repeating its claim.",
+            "Look for more than one independent player report when judging whether a symptom is widespread.",
+            "Cross-check fixes and feature claims against the official site, store or dated update source.",
+            "Do not upload passwords, account cookies or private logs into a public discussion."
+          ],
+          "claim_ids": [
+            "claim-community-purpose",
+            "claim-community-scope"
+          ]
+        },
+        {
+          "heading": "Freshness and link checks",
+          "paragraphs": [
+            "The community links were checked on 2026-08-14. Community activity, pinned threads, outbound destinations and update scope can change. If a link redirects, loses the game identity or no longer exposes the expected hub, return to the official site or Linktree and record the new destination rather than silently carrying forward an old URL."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-community-links",
+            "claim-community-scope"
+          ]
+        },
+        {
+          "heading": "A simple route for common questions",
+          "paragraphs": [
+            "For a quick question, use this order: official statement first, Steam Community discussion second, wider public directory third. That order makes the page useful for both new players looking for the right hub and existing players trying to separate a current update from a remembered rumor."
+          ],
+          "steps": [
+            "Start with the official site or Steam listing for the game's identity and current product facts.",
+            "Open the Steam hub to find announcements, discussions or troubleshooting leads.",
+            "Use Linktree to locate the publisher's other active channels.",
+            "Return to the primary source before treating a community claim as a confirmed mechanic or fix."
+          ],
+          "claim_ids": [
+            "claim-community-entry",
+            "claim-community-purpose",
+            "claim-community-links"
+          ]
         }
       ],
       "faq": [
         {
-          "question": "Where should I look for current updates?",
-          "answer": "Start with the Steam Community hub and the official Linktree, then cross-check important fixes against official news or patch records.",
+          "question": "Where is the official Pax Autocratica community?",
+          "answer": "Start with the Steam Community hub; use the official Linktree as the wider public directory.",
           "claim_ids": [
             "claim-community-entry",
+            "claim-community-links"
+          ]
+        },
+        {
+          "question": "Can I trust a Steam discussion as an official fix?",
+          "answer": "Treat it as a lead. Check the build and cross-check the claim against official announcements or store information.",
+          "claim_ids": [
+            "claim-community-purpose",
+            "claim-community-scope"
+          ]
+        },
+        {
+          "question": "Why does the community page need rechecking?",
+          "answer": "Activity, pinned threads and outbound links change, especially during Early Access.",
+          "claim_ids": [
+            "claim-community-scope",
             "claim-community-links"
           ]
         }
       ],
       "source_ids": [
         "src-steam-community",
-        "src-official-linktree"
+        "src-official-linktree",
+        "src-official-site",
+        "src-steam-store"
       ],
       "claim_ids": [
         "claim-community-entry",
@@ -265,17 +342,25 @@
         "claim-community-scope",
         "claim-community-links"
       ],
-      "updated_at": "2026-08-13T14:45:00Z",
+      "updated_at": "2026-08-14T08:10:00Z",
       "time_sensitivity": "changing",
-      "image_needs": [],
-      "depth_variance_reason": "This is intentionally a live-link directory: the user task is to reach official community channels and understand their scope, not to pad the page with unverified discussion.",
+      "image_needs": [
+        {
+          "purpose": "Give the community directory a game-specific visual anchor.",
+          "route": "/pax-autocratica-community",
+          "minimum": "one relevant unique ready image",
+          "source_id": "src-steam-store",
+          "alt": "Pax Autocratica community guide game scene",
+          "relevance_reason": "Keeps the resource-directory page recognizable as the game's hub rather than a generic forum listing."
+        }
+      ],
       "page_status": "publish",
       "index_status": "index",
       "parent_category": "Guide",
       "related_slugs": [
         "pax-autocratica-gameplay",
-        "pax-autocratica-demo",
-        "pax-autocratica-trailer"
+        "pax-autocratica-multiplayer",
+        "pax-autocratica-mods"
       ],
       "ad_slot_count": 2
     },
@@ -283,10 +368,10 @@
       "keyword": "Pax Autocratica Demo",
       "slug": "pax-autocratica-demo",
       "seo": {
-        "title": "Pax Autocratica Demo | Access & Availability Guide",
-        "description": "Pax Autocratica Demo page with the official Steam entry, live Play or Download checks, and a boundary around what the captured evidence cannot prove."
+        "title": "Pax Autocratica Demo: Access and What to Check",
+        "description": "Pax Autocratica Demo access guide: open the official Steam entry, verify the Play or Download action in your region, and understand the current evidence limits."
       },
-      "direct_answer": "A Steam demo entry is available as the current Pax Autocratica access lead. Open the official demo listing and verify the visible Play or Download action for your region; the store remains the source of truth for what the demo currently contains.",
+      "direct_answer": "A Steam demo listing is the current Pax Autocratica access lead. Open the official demo entry, confirm the visible Play or Download action for your account and region, and treat the live store as the source of truth for availability. The selected evidence does not support a complete feature-by-feature comparison with the full product, so this page focuses on getting in and checking what is actually offered.",
       "direct_answer_claim_ids": [
         "claim-demo-availability",
         "claim-demo-access",
@@ -295,14 +380,15 @@
       ],
       "sections": [
         {
-          "heading": "Where to access it",
+          "heading": "Where to get the Pax Autocratica demo",
           "paragraphs": [
-            "Use the official Steam demo entry linked in the sources. The official Linktree is a second traceable route for checking the publisher's current public links."
+            "The cleanest route is the Steam demo listing linked in the sources. It keeps the access decision attached to the user's own Steam account and region, which matters because store actions, pricing labels and availability can vary by location. The official Linktree is a second route for checking whether the publisher has changed its public destination, but it should lead you back to a first-party store page before you install anything.",
+            "A search snippet or a third-party download page is not enough to establish that the demo is safe or currently available. Use the publisher's public directory only as a way to locate the official entry, then make the final decision from the live Steam page."
           ],
           "steps": [
-            "Open the Steam demo entry.",
-            "Check the live region-specific Play or Download action.",
-            "If the entry is unavailable, re-check the official Linktree and Steam Community for a current announcement."
+            "Open the official Pax Autocratica Demo Steam entry.",
+            "Check that the page shows the expected game name and App ID context before selecting an action.",
+            "Use the visible Play, Download or equivalent action for your own region; if the action is absent, treat the demo as unavailable for that session."
           ],
           "claim_ids": [
             "claim-demo-availability",
@@ -310,19 +396,49 @@
           ]
         },
         {
-          "heading": "What is not yet documented",
+          "heading": "What the demo path tells you—and what it does not",
           "paragraphs": [
-            "The captured evidence does not establish every difference between the demo and the full product. Do not treat a trailer or a search snippet as a complete feature list."
+            "The official demo trailer is useful for understanding the intended flavor: base construction, policy choices, a battalion layer and faction pressure are presented as part of the experience. That makes the demo a sensible entry point for someone deciding whether the colony-management and first-person combat combination is interesting enough to try.",
+            "It does not, by itself, prove that every trailer feature is playable in the demo, nor does it establish a complete list of differences from the full product. A trailer is a discovery aid; the store page and the running build are the authority for access and included content."
           ],
           "steps": [],
           "claim_ids": [
-            "claim-demo-differences"
+            "claim-demo-differences",
+            "claim-demo-availability"
           ]
         },
         {
-          "heading": "Freshness",
+          "heading": "A three-minute access check",
           "paragraphs": [
-            "Demo access was checked on 2026-08-13. Availability and regional access can change, so the live store action is the final check."
+            "The most useful pre-install check is short and repeatable. It prevents a reader from treating a stale page, an old video or another region's store state as a promise. Record what the store shows before assuming a missing button is a game-wide problem: it may be an account, region or temporary availability difference."
+          ],
+          "steps": [
+            "Confirm the page title and developer/publisher context match Pax Autocratica.",
+            "Confirm the store displays a current access action rather than only a trailer or wishlist state.",
+            "After installation, open the demo from Steam instead of an unverified executable or mirror.",
+            "Note the build or visible update state if you plan to compare the experience with a later version."
+          ],
+          "claim_ids": [
+            "claim-demo-access",
+            "claim-demo-checked"
+          ]
+        },
+        {
+          "heading": "Demo versus full product: keep the boundary visible",
+          "paragraphs": [
+            "The captured sources do not provide a reliable feature-by-feature table, so this page does not invent one. The full Steam listing is the correct comparison surface for the product's advertised colony, combat, capture and roguelite systems, while the demo listing is the correct surface for what is currently downloadable. If the two pages change, update the comparison from those live entries rather than carrying forward a remembered checklist.",
+            "For a buying decision, the honest answer is therefore two-part: the demo is a traceable way to test the concept when Steam exposes the access action, but the exact scope and differences must be read in the current build and region."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-demo-differences",
+            "claim-demo-availability"
+          ]
+        },
+        {
+          "heading": "Freshness and recheck rule",
+          "paragraphs": [
+            "The demo access check was refreshed on 2026-08-14. Availability, regional action labels and the relationship between demo and full product are volatile. Before publishing a video, sharing a purchase recommendation or troubleshooting a missing action, open the live official entry again."
           ],
           "steps": [],
           "claim_ids": [
@@ -332,17 +448,32 @@
       ],
       "faq": [
         {
-          "question": "Does the demo guarantee access in every region?",
-          "answer": "No. Verify the current Play or Download action in your own Steam region.",
+          "question": "Is the demo guaranteed to appear in every region?",
+          "answer": "No. Steam's visible action for the reader's account and region is the final availability check.",
           "claim_ids": [
-            "claim-demo-access",
-            "claim-demo-checked"
+            "claim-demo-availability"
+          ]
+        },
+        {
+          "question": "Does the trailer prove every feature is in the demo?",
+          "answer": "No. The selected sources do not establish a complete demo/full feature comparison.",
+          "claim_ids": [
+            "claim-demo-differences"
+          ]
+        },
+        {
+          "question": "Where should I download it?",
+          "answer": "Use the official Steam demo entry, reached directly or through the publisher's official public directory.",
+          "claim_ids": [
+            "claim-demo-access"
           ]
         }
       ],
       "source_ids": [
         "src-steam-demo",
+        "src-steam-store",
         "src-official-demo-video",
+        "src-official-launch-video",
         "src-official-linktree"
       ],
       "claim_ids": [
@@ -351,16 +482,25 @@
         "claim-demo-differences",
         "claim-demo-checked"
       ],
-      "updated_at": "2026-08-13T14:45:00Z",
+      "updated_at": "2026-08-14T07:45:00Z",
       "time_sensitivity": "changing",
-      "image_needs": [],
+      "image_needs": [
+        {
+          "purpose": "Show the playable colony side of the demo entry.",
+          "route": "/pax-autocratica-demo",
+          "minimum": "one relevant unique ready image",
+          "source_id": "src-steam-store",
+          "alt": "Pax Autocratica playable colony scene",
+          "relevance_reason": "Orients the visitor to the type of experience the demo is meant to let them try."
+        }
+      ],
       "page_status": "publish",
       "index_status": "index",
       "parent_category": "Guide",
       "related_slugs": [
         "pax-autocratica-gameplay",
-        "pax-autocratica-trailer",
-        "pax-autocratica-mods"
+        "pax-autocratica-price",
+        "pax-autocratica-trailer"
       ],
       "ad_slot_count": 2
     },
@@ -368,78 +508,188 @@
       "keyword": "Pax Autocratica Gameplay",
       "slug": "pax-autocratica-gameplay",
       "seo": {
-        "title": "Pax Autocratica Gameplay Guide | Core Loop",
-        "description": "Pax Autocratica Gameplay explains the colony-to-frontier loop, a safe three-step start, and which hands-on details still need current-build checks."
+        "title": "Pax Autocratica Gameplay: Colony to Combat Guide",
+        "description": "Pax Autocratica Gameplay explained: follow the colony-to-combat loop, prepare expeditions, read captures and cores, and avoid unsupported build advice."
       },
-      "direct_answer": "Pax Autocratica is a satirical totalitarian colony sim combined with an FPS roguelite. Start by reading the colony and state-apparatus layer, then follow the frontier expedition and combat loop; this is a practical orientation, not a promise of a complete control or build guide.",
+      "direct_answer": "Pax Autocratica is a hybrid of totalitarian colony management and an FPS roguelite. The practical loop is to run the colony and state apparatus, assign labor and issue policies, prepare an expedition, lead the frontier battle in first person, then use the people, resources and cores you bring back to change the next decision. This page is a source-backed starting map for the loop; it does not invent keyboard controls or promise a universal build order.",
       "direct_answer_claim_ids": [
         "claim-core-loop",
-        "claim-gameplay-early-actions",
-        "claim-gameplay-limitations",
-        "claim-gameplay-version"
+        "claim-gameplay-colony-management",
+        "claim-gameplay-expedition-preparation",
+        "claim-gameplay-combat-progression",
+        "claim-gameplay-capture-choice"
       ],
       "sections": [
         {
-          "heading": "What the official sources establish",
+          "heading": "The gameplay loop: state first, frontier second",
           "paragraphs": [
-            "The official site presents population control and state-apparatus building as the management side of the game, then connects that state to expeditions and first-person combat. The launch video reinforces that colony-to-frontier framing."
+            "The game is not a conventional real-time strategy title where the whole experience stays in an overhead base view. Its identity comes from the handoff between two layers: a colony where the player manages production, citizens, policies and social pressure, and a frontier where the player personally leads troops through first-person combat. The Steam description, official videos and the developer AMA all point to that hybrid as the central reason to play.",
+            "That means a battle is not an isolated match. The state you build determines what you can take into an expedition, while the expedition returns with consequences and progression material. Read each outing as a decision about what the colony can afford to risk, what kind of force it can support, and which result will make the next cycle stronger."
           ],
           "steps": [],
           "claim_ids": [
             "claim-core-loop",
-            "claim-gameplay-early-actions"
+            "claim-gameplay-expedition-preparation"
           ]
         },
         {
-          "heading": "How to use this information",
+          "heading": "1. Stabilize the colony before you leave",
           "paragraphs": [
-            "Treat the loop as the reliable starting map: understand the colony and decree layer first, then look for the frontier expedition and combat layer. Check the official pages before relying on a third-party guide for controls or progression."
+            "The opening management job is to make the colony function rather than to chase the most dramatic combat option immediately. The official store page describes citizens being assigned to mining, gathering, hauling, research, manufacturing weapons and armor, and producing food or supplies. Those jobs are the practical foundation for any expedition: without a working flow of people and materials, the frontier layer has nothing reliable to draw on.",
+            "Policies are part of the same preparation, not a separate flavor screen. Official material and the developer's explanation describe fear, propaganda, surveillance, punishment, comfort, loyalty and relationships as tools that shape the population. The point is not that one policy is always best; it is that the colony's political condition is itself a resource and a risk."
           ],
           "steps": [
-            "Read the official gameplay framing.",
-            "Use the live Steam entry for current access.",
-            "Re-check build-specific mechanics before treating them as instructions."
+            "Give citizens jobs that keep basic resources and supplies moving before committing to a long expedition.",
+            "Check which research or manufacturing direction supports the force you intend to take out, instead of spending every early resource on unrelated upgrades.",
+            "Treat decrees and social pressure as part of the expedition plan: a policy that raises output can also change fear, loyalty or rebellion risk."
           ],
           "claim_ids": [
-            "claim-gameplay-early-actions",
-            "claim-gameplay-version"
+            "claim-gameplay-colony-management"
           ]
         },
         {
-          "heading": "Evidence boundary",
+          "heading": "2. Turn the colony into an expedition plan",
           "paragraphs": [
-            "No captured source supplies a complete control scheme, win-condition list, or current patch-specific strategy. Those gaps are intentional: the page stays draft/noindex until practical evidence can be verified."
+            "Once the colony is producing and the state apparatus has a direction, the next question is what kind of frontier problem the current force can handle. The game advertises infantry, tanks, mechs, missiles and bullet-hell pressure, while the official videos frame the player as a commander leading squads rather than only aiming a weapon alone. This makes preparation more meaningful than simply selecting the strongest-looking unit: you are matching the force and its resources to the threat you expect to face.",
+            "The developer AMA also clarifies an important boundary: the colony and battle are separate layers, and the colony continues while the player is away. A departure is therefore a commitment. Before leaving, finish the management decision that cannot safely wait, make sure the colony can continue without constant attention, and decide what information or reward would justify the time spent in the field."
+          ],
+          "steps": [
+            "Choose an expedition objective first, then select the troops, vehicles or equipment that answer that objective.",
+            "Leave enough production and social stability for the colony to keep operating while you are in the battle layer.",
+            "Do not treat a successful firefight as the only measure of progress; record what the outing returned to the colony and whether it improved the next cycle."
+          ],
+          "claim_ids": [
+            "claim-gameplay-expedition-preparation",
+            "claim-gameplay-session-boundary"
+          ]
+        },
+        {
+          "heading": "3. Read the battle layer as command plus FPS pressure",
+          "paragraphs": [
+            "The frontier side combines direct first-person movement and shooting with the responsibility of commanding troops. The store listing describes infantry, tanks and mechs alongside missiles and bullet-hell encounters, so the useful mental model is not a simple shooter checklist. You are reading space, protecting the force you brought, and deciding when the squad or vehicle layer should carry the pressure while you create an opening.",
+            "Exact button prompts and a complete encounter-by-encounter route are not established by the selected sources, so this guide deliberately stops short of pretending to know them. What is supported is the relationship between the layers: the battle is where the state apparatus is tested under pressure, and the result changes what can be built, researched or attempted next."
+          ],
+          "steps": [
+            "Before an engagement, identify the threat type and the part of your force that is meant to absorb or answer it.",
+            "During a fight, protect the expedition's ability to return rather than converting every encounter into an all-or-nothing push.",
+            "After the fight, connect the result back to the colony: note which resource, unit or core changed your next available option."
+          ],
+          "claim_ids": [
+            "claim-gameplay-combat-progression",
+            "claim-gameplay-expedition-preparation",
+            "claim-gameplay-limitations"
+          ]
+        },
+        {
+          "heading": "4. Captures and cores are the payoff decisions",
+          "paragraphs": [
+            "Capturing an enemy is more than a victory animation. The Steam page and developer discussion describe bringing captives back and choosing whether to imprison, convert, recruit or sacrifice them. That choice links the frontier to the political and production layer: the same capture can become labor, a new unit, a source of information or an ideological cost, depending on what the colony needs and what kind of state you are building.",
+            "The roguelite side adds another reason to inspect the result of an expedition. The store listing names weapon cores, combination cores and troop cores as progression material. Do not read these as a promise that one combination is optimal; read them as the game's way of making the next run a response to what the last run found."
+          ],
+          "steps": [
+            "Ask what the colony is short of before choosing a use for a capture; the most dramatic option is not automatically the most useful one.",
+            "Track which core or combination changed your force, so the next expedition is based on a real observed improvement rather than a generic tier list.",
+            "Keep prisoner, recruitment and sacrifice decisions labelled as political trade-offs; current balance can change the best choice."
+          ],
+          "claim_ids": [
+            "claim-gameplay-capture-choice",
+            "claim-gameplay-combat-progression"
+          ]
+        },
+        {
+          "heading": "A safe first-session route",
+          "paragraphs": [
+            "For a first session, the safest approach is to learn the handoff between layers before trying to optimize it. This route is intentionally a starting orientation, not a claim that every build or patch uses the same order. It gives a new player a way to ask the right questions while keeping unsupported control details out of the guide."
+          ],
+          "steps": [
+            "Read the colony as a production system: identify who gathers, hauls, researches, manufactures and supplies before changing several jobs at once.",
+            "Issue one clear policy direction and observe its effect on the population instead of stacking every available decree immediately.",
+            "Prepare a modest expedition whose objective and force are understandable; treat the first outing as reconnaissance for the loop.",
+            "In the frontier, pay attention to the relationship between your first-person actions and the troops or vehicles you command.",
+            "Return with a record of the reward, capture and core result, then use that evidence to choose the next colony adjustment.",
+            "Before relying on a control map, damage value or optimal build, re-check the current Steam and community sources for the build you are actually playing."
+          ],
+          "claim_ids": [
+            "claim-gameplay-colony-management",
+            "claim-gameplay-expedition-preparation",
+            "claim-gameplay-current-boundary"
+          ]
+        },
+        {
+          "heading": "What is version-sensitive",
+          "paragraphs": [
+            "Pax Autocratica is still changing, and the Steam Community update trail already records changes to the final-stage objective and default sensitivity. That is why this page treats the loop and system relationships as stable orientation, but avoids hard-coded controls, permanent balance rankings and guaranteed win conditions. Use the official store, official videos and current community hub as the check before turning this overview into a patch-specific route."
           ],
           "steps": [],
           "claim_ids": [
-            "claim-gameplay-limitations",
-            "claim-gameplay-version"
+            "claim-gameplay-current-boundary",
+            "claim-gameplay-limitations"
           ]
         }
       ],
       "faq": [
         {
-          "question": "Is this a complete walkthrough?",
-          "answer": "No. It is a verified loop overview; detailed controls and build-specific strategies remain unverified.",
+          "question": "Is Pax Autocratica just an FPS?",
+          "answer": "No. The first-person frontier battles are connected to a colony and state-management layer where citizens, production and policies shape what you can take into the field.",
           "claim_ids": [
-            "claim-gameplay-limitations"
+            "claim-core-loop",
+            "claim-gameplay-colony-management"
+          ]
+        },
+        {
+          "question": "What should I do before my first expedition?",
+          "answer": "Make basic labor and supply production work, choose a clear policy direction, and leave the colony able to continue while you are away. Then take a modest objective and use the result to plan the next cycle.",
+          "claim_ids": [
+            "claim-gameplay-colony-management",
+            "claim-gameplay-session-boundary"
+          ]
+        },
+        {
+          "question": "Are the controls and best builds covered here?",
+          "answer": "Not as fixed facts. The selected sources support the gameplay loop and its major systems, but exact controls and optimal patch-specific builds need current hands-on verification.",
+          "claim_ids": [
+            "claim-gameplay-limitations",
+            "claim-gameplay-current-boundary"
+          ]
+        },
+        {
+          "question": "What can happen to captured enemies?",
+          "answer": "The current source set describes prisoner, recruitment/conversion and sacrifice choices. Treat the best use as a context-dependent colony decision, not a universal ranking.",
+          "claim_ids": [
+            "claim-gameplay-capture-choice"
           ]
         }
       ],
       "source_ids": [
         "src-official-site",
+        "src-steam-store",
+        "src-steam-community",
         "src-official-launch-video",
-        "src-steam-store"
+        "src-official-demo-video",
+        "src-reddit-ama"
       ],
       "claim_ids": [
         "claim-core-loop",
-        "claim-gameplay-early-actions",
-        "claim-gameplay-limitations",
-        "claim-gameplay-version"
+        "claim-gameplay-colony-management",
+        "claim-gameplay-expedition-preparation",
+        "claim-gameplay-combat-progression",
+        "claim-gameplay-capture-choice",
+        "claim-gameplay-session-boundary",
+        "claim-gameplay-current-boundary",
+        "claim-gameplay-limitations"
       ],
-      "updated_at": "2026-08-13T14:45:00Z",
+      "updated_at": "2026-08-14T07:40:00Z",
       "time_sensitivity": "changing",
-      "image_needs": [],
+      "image_needs": [
+        {
+          "purpose": "Show the frontier side of the colony-to-combat loop.",
+          "route": "/pax-autocratica-gameplay",
+          "minimum": "one relevant unique ready image",
+          "source_id": "src-steam-store",
+          "alt": "Pax Autocratica frontier gameplay scene",
+          "relevance_reason": "The image gives a new visitor an immediate visual cue for the expedition and combat layer described by the guide."
+        }
+      ],
       "page_status": "publish",
       "index_status": "index",
       "parent_category": "Guide",
@@ -448,42 +698,47 @@
         "pax-autocratica-trailer",
         "pax-autocratica-mods"
       ],
-      "ad_slot_count": 2
+      "ad_slot_count": 3
     },
     {
       "keyword": "Pax Autocratica Mods",
       "slug": "pax-autocratica-mods",
       "seo": {
-        "title": "Pax Autocratica Mods | Support & Safe Download Check",
-        "description": "Pax Autocratica Mods page records what official support, tools, and compatible versions are not verified and gives a safe way to re-check official channels."
+        "title": "Pax Autocratica Mods: Support, Tools and Safe Checks",
+        "description": "Pax Autocratica Mods status guide: see what official sources confirm, why no install commands are published yet, and how to check downloads safely."
       },
-      "direct_answer": "The latest official Steam announcement says mod support is being worked on or investigated. A supported mod package, tool, or installation route is not currently published, so use official announcements and the Steam hub rather than third-party downloads.",
+      "direct_answer": "Pax Autocratica mod support is not currently backed by a verified official package, loader or installation route in the captured sources. The latest official discussion treats mod support as being worked on or investigated, so the useful answer is a safe status guide: check official announcements and the Steam hub, do not use an unverified download as if it were endorsed, and wait for a traceable tool/package source before installing.",
       "direct_answer_claim_ids": [
         "claim-mod-support",
         "claim-mod-tool-source",
-        "claim-mod-risk"
+        "claim-mod-installation",
+        "claim-mod-risk",
+        "claim-mod-version"
       ],
       "sections": [
         {
           "heading": "Current support status",
           "paragraphs": [
-            "A Steam Community discussion demonstrates that players ask about mods, but it does not establish official support, a supported loader, or a current compatible package."
+            "The current evidence does not show a supported Pax Autocratica mod package ready for readers to download. A Steam Community discussion demonstrates that players are asking about mods, while the official status language describes support as being worked on or investigated. That is meaningful progress information, but it is not the same as an official loader, a compatible package index or a tested installation method.",
+            "This distinction is important for a hot search query. A search result can look like a tutorial because it contains the word mod, but if it does not identify the game's official distribution path and current version, it may be a discussion, a wish, or instructions for another title."
           ],
           "steps": [],
           "claim_ids": [
             "claim-mod-support",
-            "claim-mod-version"
+            "claim-mod-tool-source"
           ]
         },
         {
-          "heading": "Why there are no installation steps",
+          "heading": "Why this page does not give install commands",
           "paragraphs": [
-            "Without a verified tool source and package source, publishing installation commands would push readers toward untrusted downloads. This page stays draft/noindex until a supported path can be checked."
+            "Installation commands are only useful when the tool source, package source, folder target and compatible game version are all known. The captured material does not verify those four pieces. Publishing a made-up loader name or a generic archive-extraction recipe would turn uncertainty into a real risk: a reader could break saves, install malware, or believe a third-party page is endorsed by the developer.",
+            "The correct current answer is therefore not an empty 'no mods found'. It is a boundary with a next action. The official site, Steam Community hub and the linked discussion are the places to recheck when the developer publishes a supported route."
           ],
           "steps": [
-            "Check the official site and Linktree for a developer announcement.",
-            "Use the Steam Community hub for current discussion context.",
-            "Do not download a file just because it ranks for the query."
+            "Do not download a file merely because its title contains Pax Autocratica and mod.",
+            "Look for an official announcement or a clearly identified community tool whose compatibility and source can be checked.",
+            "If no tool/package/version combination is named, stop before changing the game directory.",
+            "Recheck the Steam hub and official public links after a game update or a new mod-support announcement."
           ],
           "claim_ids": [
             "claim-mod-tool-source",
@@ -491,23 +746,68 @@
           ]
         },
         {
-          "heading": "Risk warning",
+          "heading": "Safe checks before any future install",
           "paragraphs": [
-            "Unverified downloads can introduce malware, broken saves, or version conflicts. If official support appears later, back up saves and match the package to the current build."
+            "When a supported mod path eventually appears, the first job is source verification, not speed. Confirm that the download comes from the announced or clearly traceable distribution source, that the package names the game version it supports, and that the instructions match the current Steam installation. Do not assume a popular archive is safe simply because other players mention it.",
+            "Backups matter because a colony sim can retain progress in save files that a mod changes indirectly. Keep a copy of saves outside the game directory, record the original build, and make one change at a time. If a mod changes the game's executable, asks for unrelated permissions, or provides no version/rollback information, treat that as a stop signal."
           ],
-          "steps": [],
+          "steps": [
+            "Back up saves before changing any game files.",
+            "Record the current Steam build and the exact tool/package version.",
+            "Read the complete installation and removal instructions before copying anything.",
+            "Test one package at a time and keep a clean rollback path."
+          ],
           "claim_ids": [
             "claim-mod-risk",
             "claim-mod-version"
+          ]
+        },
+        {
+          "heading": "How to tell a real mod source from a search trap",
+          "paragraphs": [
+            "A useful source should identify who maintains the tool, where the files are hosted, which game build is supported, how to remove the change, and where compatibility problems are reported. A page that offers only a download button, a generic 'DLL fix', or instructions copied from another game does not answer the installation intent safely.",
+            "The absence of a current YouTube mod tutorial is also a signal, not a reason to borrow one. The material search recorded no reliable game-specific installation video, so this page keeps the no-install answer explicit until a real source can be checked."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-mod-tool-source",
+            "claim-mod-installation"
+          ]
+        },
+        {
+          "heading": "Version boundary",
+          "paragraphs": [
+            "No compatible mod version was verified for the captured build. Recheck this page after an official announcement, a Steam update, or a new community tool release; a future package can change the answer, but it must be evaluated from its own source and version evidence."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-mod-version",
+            "claim-mod-support"
           ]
         }
       ],
       "faq": [
         {
-          "question": "Is there a verified mod download here?",
-          "answer": "No. No official tool, package, or compatible version was verified in this run.",
+          "question": "Can I install a Pax Autocratica mod today?",
+          "answer": "No supported package or loader is verified here. Check the official announcement and Steam hub before treating any download as legitimate.",
           "claim_ids": [
-            "claim-mod-tool-source",
+            "claim-mod-support",
+            "claim-mod-tool-source"
+          ]
+        },
+        {
+          "question": "Why not publish a generic mod installation guide?",
+          "answer": "Without a verified tool, package source and compatible version, generic commands could cause malware, save or version problems.",
+          "claim_ids": [
+            "claim-mod-installation",
+            "claim-mod-risk"
+          ]
+        },
+        {
+          "question": "What should I do when official support appears?",
+          "answer": "Verify the source and build, back up saves, make one change at a time and keep a rollback path.",
+          "claim_ids": [
+            "claim-mod-risk",
             "claim-mod-version"
           ]
         }
@@ -516,7 +816,6 @@
         "src-community-mod-thread",
         "src-steam-community",
         "src-official-site",
-        "src-official-linktree",
         "src-steam-store"
       ],
       "claim_ids": [
@@ -526,16 +825,25 @@
         "claim-mod-risk",
         "claim-mod-version"
       ],
-      "updated_at": "2026-08-13T14:45:00Z",
+      "updated_at": "2026-08-14T07:55:00Z",
       "time_sensitivity": "changing",
-      "image_needs": [],
+      "image_needs": [
+        {
+          "purpose": "Anchor the mod-status explanation to the real game.",
+          "route": "/pax-autocratica-mods",
+          "minimum": "one relevant unique ready image",
+          "source_id": "src-steam-store",
+          "alt": "Pax Autocratica state apparatus scene for the mods status guide",
+          "relevance_reason": "Keeps a no-download status page visually connected to the game instead of using a generic mod icon."
+        }
+      ],
       "page_status": "publish",
       "index_status": "index",
       "parent_category": "Guide",
       "related_slugs": [
         "pax-autocratica-gameplay",
-        "pax-autocratica-demo",
-        "pax-autocratica-trailer"
+        "pax-autocratica-community",
+        "pax-autocratica-steam-deck"
       ],
       "ad_slot_count": 2
     },
@@ -543,83 +851,140 @@
       "keyword": "Pax Autocratica Multiplayer",
       "slug": "pax-autocratica-multiplayer",
       "seo": {
-        "title": "Pax Autocratica Multiplayer | Current Support Check",
-        "description": "Pax Autocratica Multiplayer page separates current store evidence from an older discussion and shows how to verify modes, player counts, and version context."
+        "title": "Pax Autocratica Multiplayer: Current Co-op Status",
+        "description": "Pax Autocratica Multiplayer status: see what the current official sources confirm about co-op, player counts, PvP, matchmaking and future checks."
       },
-      "direct_answer": "The latest official Steam announcement lists co-op mode as being worked on or investigated. It does not confirm a currently released multiplayer mode, player count, PvP, matchmaking, or crossplay, so do not plan a session around those features yet.",
+      "direct_answer": "A currently released Pax Autocratica multiplayer mode is not confirmed by the captured current sources. An official Steam announcement treats co-op as being worked on or investigated, while the store and community discussion do not publish a released mode, player count, matchmaking or crossplay table. In practical terms, plan for the verified single-player colony-and-frontier loop unless the live official sources show a newer multiplayer announcement.",
       "direct_answer_claim_ids": [
-        "claim-multiplayer-status",
-        "claim-multiplayer-modes",
-        "claim-multiplayer-limitations"
-      ],
-      "sections": [
-        {
-          "heading": "What is known",
-          "paragraphs": [
-            "The query has a live store path and a historical community discussion. Neither source, as captured here, provides a current mode table or player-count statement."
-          ],
-          "steps": [],
-          "claim_ids": [
-            "claim-multiplayer-status",
-            "claim-multiplayer-modes"
-          ]
-        },
-        {
-          "heading": "What not to assume",
-          "paragraphs": [
-            "Do not turn an old discussion into a current multiplayer promise. Co-op, PvP, crossplay, matchmaking, and player counts remain unverified until a current official or store statement supplies them."
-          ],
-          "steps": [
-            "Check the current Steam feature list.",
-            "Check current official announcements.",
-            "Treat older discussion replies as historical context only."
-          ],
-          "claim_ids": [
-            "claim-multiplayer-limitations",
-            "claim-multiplayer-version"
-          ]
-        },
-        {
-          "heading": "Evidence boundary",
-          "paragraphs": [
-            "This page stays draft/noindex because the core answer needs current mode and player-count evidence."
-          ],
-          "steps": [],
-          "claim_ids": [
-            "claim-multiplayer-status",
-            "claim-multiplayer-version"
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "question": "Does the old Steam thread prove multiplayer is available now?",
-          "answer": "No. It is a historical lead without current mode, player-count, or build confirmation.",
-          "claim_ids": [
-            "claim-multiplayer-version"
-          ]
-        }
-      ],
-      "source_ids": [
-        "src-steam-store",
-        "src-community-multiplayer-thread"
-      ],
-      "claim_ids": [
         "claim-multiplayer-status",
         "claim-multiplayer-modes",
         "claim-multiplayer-limitations",
         "claim-multiplayer-version"
       ],
-      "updated_at": "2026-08-13T14:45:00Z",
+      "sections": [
+        {
+          "heading": "Current answer: do not plan a co-op session yet",
+          "paragraphs": [
+            "The safest answer to the multiplayer query is a current-status answer, not an enthusiastic maybe. The official lead says co-op is being worked on or investigated, but that language does not confirm that a released client can host a session today. The current Steam entry also does not provide a verified mode or player-count table in the captured material.",
+            "That still gives a player something useful to do. If you are deciding whether to buy or install for a group, use the live product page and current official announcements as a gate. Do not schedule around an older discussion, a trailer impression or a search snippet that does not show a current release state."
+          ],
+          "steps": [
+            "Assume the verified experience is the single-player colony and frontier loop unless a newer official source says otherwise.",
+            "Open the current Steam entry and official news surface before promising a co-op session.",
+            "If the source uses future or investigation language, treat the feature as not released rather than as a hidden mode."
+          ],
+          "claim_ids": [
+            "claim-multiplayer-status",
+            "claim-multiplayer-limitations"
+          ]
+        },
+        {
+          "heading": "What is not currently specified",
+          "paragraphs": [
+            "The captured primary material does not specify a released co-op mode, player count, PvP rules, matchmaking behavior or crossplay. These are separate facts, so an answer that only says 'multiplayer is planned' is incomplete for a player trying to make a purchase or organize friends. The missing table is itself part of the current answer.",
+            "Do not fill the gaps with assumptions from other colony sims or shooters. Pax Autocratica's verified core loop combines population/state management with first-person expeditions, but that does not tell us whether another player can join the colony, control a squad, share a battle or use cross-platform matchmaking."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-multiplayer-modes",
+            "claim-multiplayer-limitations"
+          ]
+        },
+        {
+          "heading": "How to recheck before buying for friends",
+          "paragraphs": [
+            "A reliable multiplayer check needs a current first-party statement with an actual mode, player-count or access detail. The Steam Community hub and product announcements are the useful places to look because they can change as development moves forward. A historical discussion can show that players asked for co-op, but it cannot become a present-day compatibility promise without a current build reference.",
+            "When the feature is eventually announced, check whether the statement describes availability in the same build you intend to play. Early Access language can describe a target, test, investigation or planned feature; those are different from a released button visible in the current client."
+          ],
+          "steps": [
+            "Look for a current official announcement that names the mode and availability, not only a roadmap wish.",
+            "Check whether the Steam page or update names player counts, invite flow and supported platforms.",
+            "Recheck the build date and patch notes before inviting friends after a major update.",
+            "Only call the page 'multiplayer available' after a visible current access path or equivalent first-party proof exists."
+          ],
+          "claim_ids": [
+            "claim-multiplayer-version",
+            "claim-multiplayer-status"
+          ]
+        },
+        {
+          "heading": "What this means for the verified gameplay loop",
+          "paragraphs": [
+            "The absence of a confirmed multiplayer mode does not erase the game's actual gameplay identity. The verified loop remains a colony and state-management layer connected to frontier expeditions and first-person combat. If you are evaluating the game with friends, judge that loop as a single-player experience first, then treat future co-op as an update-dependent possibility rather than a current feature.",
+            "This boundary also keeps related pages honest: the gameplay guide can explain how the colony and expedition layers connect, while this page answers whether another player can join. They are related questions, not interchangeable evidence."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-core-loop",
+            "claim-multiplayer-status"
+          ]
+        },
+        {
+          "heading": "Version boundary",
+          "paragraphs": [
+            "The older multiplayer discussion has no current build context that can be used as a guarantee. Recheck this page after a dated official update; until then, do not infer co-op, PvP, crossplay or matchmaking from the game's hybrid genre description."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-multiplayer-version",
+            "claim-multiplayer-limitations"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I play Pax Autocratica co-op right now?",
+          "answer": "A released co-op mode is not confirmed by the captured current sources; official language places it in work/investigation status.",
+          "claim_ids": [
+            "claim-multiplayer-status"
+          ]
+        },
+        {
+          "question": "How many players does it support?",
+          "answer": "No current player count is specified in the captured primary material.",
+          "claim_ids": [
+            "claim-multiplayer-modes"
+          ]
+        },
+        {
+          "question": "Does it have PvP or crossplay?",
+          "answer": "Those details are not confirmed; do not assume them until a current official source publishes the mode and platform rules.",
+          "claim_ids": [
+            "claim-multiplayer-limitations"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-store",
+        "src-community-multiplayer-thread",
+        "src-steam-community"
+      ],
+      "claim_ids": [
+        "claim-multiplayer-status",
+        "claim-multiplayer-modes",
+        "claim-multiplayer-limitations",
+        "claim-multiplayer-version",
+        "claim-core-loop"
+      ],
+      "updated_at": "2026-08-14T08:00:00Z",
       "time_sensitivity": "changing",
-      "image_needs": [],
+      "image_needs": [
+        {
+          "purpose": "Anchor the status answer to the real game loop.",
+          "route": "/pax-autocratica-multiplayer",
+          "minimum": "one relevant unique ready image",
+          "source_id": "src-steam-store",
+          "alt": "Pax Autocratica expedition scene for multiplayer status context",
+          "relevance_reason": "Shows the verified game experience while the page clearly separates it from unconfirmed co-op support."
+        }
+      ],
       "page_status": "publish",
       "index_status": "index",
       "parent_category": "Guide",
       "related_slugs": [
         "pax-autocratica-gameplay",
-        "pax-autocratica-demo",
-        "pax-autocratica-trailer"
+        "pax-autocratica-community",
+        "pax-autocratica-demo"
       ],
       "ad_slot_count": 2
     },
@@ -627,10 +992,10 @@
       "keyword": "Pax Autocratica Price",
       "slug": "pax-autocratica-price",
       "seo": {
-        "title": "Pax Autocratica Price | Current Steam Cost Check",
-        "description": "Pax Autocratica Price page sends readers to the live Steam listing for regional currency, discounts, purchase access, and the current demo entry."
+        "title": "Pax Autocratica Price: Live Steam Cost and Access",
+        "description": "Pax Autocratica Price guide: check the live Steam listing for your currency, discounts and purchase action instead of relying on a stale hard-coded number."
       },
-      "direct_answer": "The current Pax Autocratica price must be read from the live Steam listing for your region; this guide does not hard-code a number that can go stale. Steam App ID 1067360 is the purchase entry and the final source for currency, discounts, and availability.",
+      "direct_answer": "The current Pax Autocratica price must be read from the live Steam listing for your account region. Steam App ID 1067360 is the purchase entry; it controls the displayed currency, discount state, Early Access wording and purchase action. This page intentionally does not hard-code a number that can become wrong as soon as the store changes.",
       "direct_answer_claim_ids": [
         "claim-price-status",
         "claim-price-region",
@@ -641,12 +1006,42 @@
         {
           "heading": "Where to check the price",
           "paragraphs": [
-            "Open the official Steam listing for App ID 1067360. Steam will show the currency, regional price, discount state, and purchase action for the reader's account region."
+            "Open the official Steam listing for Pax Autocratica, App ID 1067360. It is the only source in this research set that can show the amount a particular reader will actually see at checkout. A search result or a metadata site can help locate the game, but neither should replace the live regional purchase page.",
+            "This is especially important for an Early Access game: the store can change a number, a discount, the access state or the wording around the product without changing the search query."
           ],
           "steps": [
-            "Open the live Steam listing.",
-            "Confirm the currency and current price in your region.",
-            "Check the purchase action and any visible discount conditions before buying."
+            "Open the direct Steam App ID 1067360 listing.",
+            "Check the currency and displayed price for your signed-in Steam region.",
+            "Check whether a discount or access-state label is active before purchasing.",
+            "Use the visible purchase action on Steam; do not send payment information through a third-party page."
+          ],
+          "claim_ids": [
+            "claim-price-status",
+            "claim-price-entry"
+          ]
+        },
+        {
+          "heading": "Why this page does not show one fixed number",
+          "paragraphs": [
+            "A single price copied into an evergreen page would answer only one market at one moment. Steam can display different currencies and regional availability, and discounts can expire. Keeping the live handoff visible is therefore a more accurate answer than presenting a number that looks authoritative but has no region or timestamp attached.",
+            "SteamDB is useful as secondary app metadata, but it is not the final checkout surface for this question. Use it to cross-check the app identity, then return to Steam for the amount and purchase decision."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-price-region",
+            "claim-price-status"
+          ]
+        },
+        {
+          "heading": "Quick purchase-safety check",
+          "paragraphs": [
+            "Before purchasing, compare the game's name, App ID context and developer/publisher information on the page. If a third-party result advertises a different number, do not assume it is a better deal: it may be an old currency snapshot, a separate demo entry or an unofficial offer. The live Steam action is the point where region, discount and ownership are resolved together."
+          ],
+          "steps": [
+            "Confirm the listing is Pax Autocratica and not the separate demo entry.",
+            "Confirm the currency matches the account or region you intend to use.",
+            "Read the current access wording and discount end time, if shown.",
+            "Reopen the listing if you are returning from an old bookmark or a price-comparison page."
           ],
           "claim_ids": [
             "claim-price-entry",
@@ -654,19 +1049,9 @@
           ]
         },
         {
-          "heading": "Why there is no number here",
+          "heading": "Checked date and freshness",
           "paragraphs": [
-            "Price and availability are volatile. A hard-coded value would create a false answer as soon as the store changes, so the page gives the correct live handoff instead."
-          ],
-          "steps": [],
-          "claim_ids": [
-            "claim-price-status"
-          ]
-        },
-        {
-          "heading": "Checked date",
-          "paragraphs": [
-            "The store access check was refreshed on 2026-08-14. Always recheck the live listing before purchase."
+            "The store access check was refreshed on 2026-08-14. Price, discount and availability are volatile fields, so this page should be rechecked daily during a launch or sale period and before a purchase recommendation is published."
           ],
           "steps": [],
           "claim_ids": [
@@ -676,8 +1061,23 @@
       ],
       "faq": [
         {
-          "question": "Why does the page not show a fixed price?",
-          "answer": "Steam prices, currency, discounts, and availability vary by region and change over time; the live listing is the reliable source.",
+          "question": "What is the current Pax Autocratica price?",
+          "answer": "Open the live Steam listing; the price depends on region and current discount state, so this page does not hard-code one number.",
+          "claim_ids": [
+            "claim-price-status",
+            "claim-price-region"
+          ]
+        },
+        {
+          "question": "Where do I buy it?",
+          "answer": "Use the official Steam App ID 1067360 listing.",
+          "claim_ids": [
+            "claim-price-entry"
+          ]
+        },
+        {
+          "question": "Can a price shown elsewhere be trusted?",
+          "answer": "Use other pages only as leads. Confirm the amount and purchase action on Steam for your own region.",
           "claim_ids": [
             "claim-price-status",
             "claim-price-region"
@@ -685,7 +1085,8 @@
         }
       ],
       "source_ids": [
-        "src-steam-store"
+        "src-steam-store",
+        "src-steamdb-app"
       ],
       "claim_ids": [
         "claim-price-status",
@@ -693,16 +1094,25 @@
         "claim-price-checked",
         "claim-price-entry"
       ],
-      "updated_at": "2026-08-14T14:45:00Z",
+      "updated_at": "2026-08-14T08:05:00Z",
       "time_sensitivity": "changing",
-      "image_needs": [],
+      "image_needs": [
+        {
+          "purpose": "Anchor the live price handoff to the actual game.",
+          "route": "/pax-autocratica-price",
+          "minimum": "one relevant unique ready image",
+          "source_id": "src-steam-store",
+          "alt": "Pax Autocratica game scene for the live price guide",
+          "relevance_reason": "Keeps the purchase page visually tied to the game while the price itself remains a live store value."
+        }
+      ],
       "page_status": "publish",
       "index_status": "index",
       "parent_category": "Guide",
       "related_slugs": [
-        "pax-autocratica-gameplay",
         "pax-autocratica-demo",
-        "pax-autocratica-trailer"
+        "pax-autocratica-gameplay",
+        "pax-autocratica-community"
       ],
       "ad_slot_count": 2
     },
@@ -710,58 +1120,106 @@
       "keyword": "Pax Autocratica Trailer",
       "slug": "pax-autocratica-trailer",
       "seo": {
-        "title": "Pax Autocratica Trailer | Official Video Guide",
-        "description": "Pax Autocratica Trailer guide links the official launch video and explains the colony-management and frontier-combat premise without overclaiming."
+        "title": "Pax Autocratica Trailer: Official Videos and Context",
+        "description": "Pax Autocratica Trailer guide: watch the official launch and demo videos, understand what each one shows, and keep trailer claims separate from mechanics."
       },
-      "direct_answer": "The official launch-date trailer is the primary media entry for Pax Autocratica. It presents the game's satirical colony-management premise alongside the frontier and roguelite FPS framing; use the linked official video for the full audiovisual context.",
+      "direct_answer": "The official launch-date trailer is the primary answer for Pax Autocratica Trailer. It introduces the satirical totalitarian colony-sim premise, the state-management layer, frontier expeditions and the roguelite FPS perspective. The official demo trailer is a useful companion when you want to see the base, policy, battalion and faction framing. Use both as audiovisual context, but do not treat trailer footage as a complete controls, balance or feature list.",
       "direct_answer_claim_ids": [
         "claim-trailer-entry",
-        "claim-genre",
-        "claim-core-loop"
+        "claim-core-loop",
+        "claim-genre"
       ],
       "sections": [
         {
-          "heading": "Watch the official source",
+          "heading": "Watch the official launch trailer first",
           "paragraphs": [
-            "The launch-date trailer is hosted on the publisher's official YouTube channel and is the cleanest answer to the trailer query. A separate official demo trailer is also recorded in the demo guide."
+            "The launch-date trailer is the cleanest entry for a visitor who wants to understand what kind of game Pax Autocratica is before opening the store page. It is hosted on the official YouTube channel and frames the game around a totalitarian colony, decrees or state control, squads, expeditions and first-person combat. That combination is the important takeaway: the trailer is selling a hybrid rather than a conventional single-view strategy game or a standalone shooter.",
+            "Open the direct video link from this page if you want the full audiovisual pacing, sound and scene transitions. The page keeps the direct source visible so a changed embed, unavailable caption or regional player issue does not turn a copied description into a false official statement."
           ],
           "steps": [
-            "Open the official launch-date trailer.",
-            "Use the official site for the written feature framing.",
-            "Use Steam for current access details."
+            "Open the official launch video in YouTube if the embedded player is challenged by the current browser session.",
+            "Read the Steam listing alongside the trailer when you need a written description of the advertised systems.",
+            "Treat the trailer as a premise and tone source, not as a patch-specific tutorial."
           ],
           "claim_ids": [
-            "claim-trailer-entry"
-          ]
-        },
-        {
-          "heading": "What the trailer communicates",
-          "paragraphs": [
-            "The official materials connect population and state management with frontier expeditions and first-person combat. This is a premise and loop framing, not a promise of every mechanic shown in a trailer."
-          ],
-          "steps": [],
-          "claim_ids": [
-            "claim-genre",
+            "claim-trailer-entry",
             "claim-core-loop"
           ]
         },
         {
-          "heading": "Primary links",
+          "heading": "What the launch video communicates",
           "paragraphs": [
-            "Keep the official video and official site as the reference pair; avoid unrelated SEO pages that reuse the title."
+            "The official material connects the population and state apparatus to the frontier. The player is not only choosing a policy or watching a colony grow; the state is also the preparation layer for an expedition in which troops and the player enter a dangerous combat space. That is why the launch trailer is useful for the gameplay question even though it is not a guide: it shows the relationship that makes the game's identity distinctive.",
+            "It also establishes the tone. The satire, authoritarian imagery and military presentation are part of the game's promise, but they should not be mistaken for numerical evidence about morale, damage, unit strength or win conditions. Those details belong to a current store, update or hands-on source."
           ],
           "steps": [],
           "claim_ids": [
-            "claim-trailer-entry"
+            "claim-core-loop",
+            "claim-genre"
+          ]
+        },
+        {
+          "heading": "Use the demo trailer as the companion view",
+          "paragraphs": [
+            "The official demo trailer answers a slightly different arrival question. It gives more emphasis to the base, policy choices, a battalion and faction pressure, which helps a new visitor picture the colony-facing side before deciding whether to try the demo. It is a relevant second video because it comes from the official channel and focuses on the same verified game, not because every shot should be read as a final feature promise.",
+            "Together, the two videos provide a better first impression than either one alone: the launch trailer establishes the full game's state-to-frontier identity, while the demo trailer helps a visitor understand the practical entry point. The live Steam demo page still decides whether the access action is available."
+          ],
+          "steps": [
+            "Watch the demo trailer when you want more colony and battalion context.",
+            "Follow its access language back to the official Steam demo entry rather than a third-party mirror.",
+            "Check the current store page before assuming every trailer scene is included in the downloadable demo."
+          ],
+          "claim_ids": [
+            "claim-trailer-entry",
+            "claim-demo-availability",
+            "claim-demo-differences"
+          ]
+        },
+        {
+          "heading": "Trailer evidence versus gameplay evidence",
+          "paragraphs": [
+            "A trailer can verify that the publisher presents a colony-to-frontier loop and a particular visual identity. It cannot, by itself, verify exact controls, the order of opening actions, a reliable difficulty curve, frame-rate behavior, current player counts or an optimal build. This distinction matters for searchers: someone asking for a trailer wants a direct watch path and a quick explanation, while someone asking for gameplay needs a separate, deeper page.",
+            "The official store listing and current Steam Community surface are the correct next checks when a scene raises a practical question. Use the trailer to decide what to investigate; use the current primary page or hands-on evidence to decide what to do."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-trailer-entry",
+            "claim-gameplay-limitations"
+          ]
+        },
+        {
+          "heading": "Source and freshness boundary",
+          "paragraphs": [
+            "The launch and demo videos were checked on 2026-08-14, alongside the official site and Steam listing. Video availability, descriptions and the relationship between a trailer and an Early Access build can change. If the video is unavailable or a new official trailer supersedes it, update the direct source rather than silently preserving a third-party reupload."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-trailer-entry",
+            "claim-identity"
           ]
         }
       ],
       "faq": [
         {
-          "question": "Is this a gameplay walkthrough?",
-          "answer": "No. It is the official trailer entry with a short explanation of the premise it presents.",
+          "question": "Which Pax Autocratica trailer should I watch first?",
+          "answer": "Start with the official launch-date trailer; use the official demo trailer for extra base, policy, battalion and faction context.",
           "claim_ids": [
             "claim-trailer-entry"
+          ]
+        },
+        {
+          "question": "Does the trailer explain the controls?",
+          "answer": "No. It communicates premise and tone, not a complete current control map or build guide.",
+          "claim_ids": [
+            "claim-gameplay-limitations"
+          ]
+        },
+        {
+          "question": "Is a trailer scene proof that a demo feature is available?",
+          "answer": "No. Confirm access and included content on the live Steam demo entry.",
+          "claim_ids": [
+            "claim-demo-availability",
+            "claim-demo-differences"
           ]
         }
       ],
@@ -769,25 +1227,37 @@
         "src-official-launch-video",
         "src-official-demo-video",
         "src-official-site",
-        "src-steam-store"
+        "src-steam-store",
+        "src-steam-demo"
       ],
       "claim_ids": [
         "claim-trailer-entry",
-        "claim-genre",
         "claim-core-loop",
+        "claim-genre",
+        "claim-demo-availability",
+        "claim-demo-differences",
+        "claim-gameplay-limitations",
         "claim-identity"
       ],
-      "updated_at": "2026-08-13T14:45:00Z",
-      "time_sensitivity": "stable",
-      "image_needs": [],
-      "depth_variance_reason": "This is intentionally a focused official-media entry: the user task is to reach and understand the verified trailer, not to manufacture a long review.",
+      "updated_at": "2026-08-14T07:50:00Z",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Give the trailer page a game-relevant visual cue for its media entry.",
+          "route": "/pax-autocratica-trailer",
+          "minimum": "one relevant unique ready image",
+          "source_id": "src-steam-store",
+          "alt": "Pax Autocratica trailer-related in-game scene",
+          "relevance_reason": "The visual anchors the official video explanation in the actual game rather than a generic video card."
+        }
+      ],
       "page_status": "publish",
       "index_status": "index",
       "parent_category": "Guide",
       "related_slugs": [
         "pax-autocratica-gameplay",
         "pax-autocratica-demo",
-        "pax-autocratica-mods"
+        "pax-autocratica-community"
       ],
       "ad_slot_count": 2
     }
@@ -851,7 +1321,7 @@
           "source_type": "official-directory"
         }
       ],
-      "last_checked_at": "2026-08-14T07:31:06Z",
+      "last_checked_at": "2026-08-14T08:10:00Z",
       "quality_review_id": "q01-pax-autocratica-community",
       "status": "publish",
       "depth_variance_reason": "This is intentionally a live-link directory: the user task is to reach official community channels and understand their scope, not to pad the page with unverified discussion."
@@ -919,15 +1389,15 @@
           "source_type": "official-directory"
         }
       ],
-      "last_checked_at": "2026-08-14T07:31:06Z",
+      "last_checked_at": "2026-08-14T07:45:00Z",
       "quality_review_id": "q01-pax-autocratica-demo",
       "status": "publish",
-      "depth_variance_reason": "This is an access-status page; the live store handoff is more useful than a padded feature comparison that the sources do not verify."
+      "depth_variance_reason": "This is an access/status intent. It supplies the official entry, concrete live-action check, demo/full boundary and freshness rule without inventing a feature table."
     },
     "pax-autocratica-gameplay": {
       "intent_id": "intent-02",
       "intent_type": "gameplay",
-      "user_job": "Understand the colony-sim and frontier-combat loop before starting.",
+      "user_job": "Understand the colony-to-frontier loop and make a sensible first expedition.",
       "intent_evidence_ids": [
         "intent-02"
       ],
@@ -937,60 +1407,79 @@
           "dimension": "core_loop",
           "status": "covered",
           "claim_ids": [
-            "claim-core-loop"
+            "claim-core-loop",
+            "claim-gameplay-expedition-preparation"
           ],
           "evidence_relation": "direct",
-          "notes": "Official site and launch video frame the colony/state loop and frontier combat."
+          "notes": "The store, official videos and developer AMA agree on the colony-management to first-person expedition loop."
         },
         {
           "dimension": "early_actions",
           "status": "covered",
           "claim_ids": [
-            "claim-gameplay-early-actions"
+            "claim-gameplay-colony-management",
+            "claim-gameplay-expedition-preparation"
           ],
           "evidence_relation": "direct",
-          "notes": "Only the source-backed opening sequence is stated; no invented controls are added."
+          "notes": "The first-session route uses supported labor, policy and expedition concepts without guessing controls."
         },
         {
           "dimension": "key_limitations",
           "status": "covered",
           "claim_ids": [
+            "claim-gameplay-capture-choice",
+            "claim-gameplay-session-boundary",
             "claim-gameplay-limitations"
           ],
-          "evidence_relation": "observed_absence",
-          "notes": "The guide explicitly marks missing hands-on mechanics as provisional."
+          "evidence_relation": "corroborating",
+          "notes": "The guide states what a capture and expedition mean while separating unsupported exact control/build advice."
         },
         {
           "dimension": "version_or_patch",
           "status": "covered",
           "claim_ids": [
-            "claim-gameplay-version"
+            "claim-gameplay-current-boundary"
           ],
-          "evidence_relation": "observed_absence",
-          "notes": "No build number is present in captured gameplay evidence."
+          "evidence_relation": "direct",
+          "notes": "The current update trail is used as a freshness boundary."
         }
       ],
       "source_links": [
         {
-          "label": "official",
+          "label": "official site",
           "url": "https://www.paxautocratica.com/",
           "source_type": "official"
         },
         {
-          "label": "official-video",
+          "label": "Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "platform"
+        },
+        {
+          "label": "official launch video",
           "url": "https://www.youtube.com/watch?v=PKHmwx0iebA",
           "source_type": "official-video"
         },
         {
-          "label": "platform",
-          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
-          "source_type": "platform"
+          "label": "official demo trailer",
+          "url": "https://www.youtube.com/watch?v=w9bREKlyMq4",
+          "source_type": "official-video"
+        },
+        {
+          "label": "developer AMA",
+          "url": "https://www.reddit.com/r/Games/comments/1vkcn3d/ama_developer_of_pax_autocratica_here_a/",
+          "source_type": "community"
+        },
+        {
+          "label": "Steam Community update surface",
+          "url": "https://steamcommunity.com/app/1067360",
+          "source_type": "official-community"
         }
       ],
-      "last_checked_at": "2026-08-14T07:31:06Z",
+      "last_checked_at": "2026-08-14T07:40:00Z",
       "quality_review_id": "q01-pax-autocratica-gameplay",
       "status": "publish",
-      "depth_variance_reason": "Reduced to source-backed loop guidance because deep practical gameplay evidence is not available."
+      "depth_variance_reason": "The page meets the gameplay quality floor and gives a concrete first-session route. Exact controls, damage values and optimal builds remain outside the source-backed evidence boundary and are explicitly not promised."
     },
     "pax-autocratica-menu-bugged": {
       "intent_id": "intent-15",
@@ -1136,10 +1625,10 @@
           "source_type": "platform"
         }
       ],
-      "last_checked_at": "2026-08-14T07:31:06Z",
+      "last_checked_at": "2026-08-14T07:55:00Z",
       "quality_review_id": "q01-pax-autocratica-mods",
       "status": "publish",
-      "depth_variance_reason": "This is a bounded support-status page; installation depth is intentionally omitted because no supported package or tool source is verified."
+      "depth_variance_reason": "The page gives the current support answer, a safe verification/backup procedure and an explicit version boundary. It does not invent install commands without a supported package source."
     },
     "pax-autocratica-multiplayer": {
       "intent_id": "intent-08",
@@ -1208,10 +1697,10 @@
           "source_type": "community-discussion"
         }
       ],
-      "last_checked_at": "2026-08-14T07:31:06Z",
+      "last_checked_at": "2026-08-14T08:00:00Z",
       "quality_review_id": "q01-pax-autocratica-multiplayer",
       "status": "publish",
-      "depth_variance_reason": "This is a current-status page; it stays concise because released modes and player counts are not stated by the official source."
+      "depth_variance_reason": "The page now gives a concrete current-status answer, explains each unconfirmed multiplayer dimension, and provides a dated recheck procedure without turning a roadmap statement into a feature promise."
     },
     "pax-autocratica-price": {
       "intent_id": "intent-09",
@@ -1266,7 +1755,7 @@
           "source_type": "platform"
         }
       ],
-      "last_checked_at": "2026-08-14T07:31:06Z",
+      "last_checked_at": "2026-08-14T08:05:00Z",
       "quality_review_id": "q01-pax-autocratica-price",
       "status": "publish",
       "depth_variance_reason": "This is a live-purchase handoff page; hard-coded pricing text would go stale and add less value than the regional store check."
@@ -1546,10 +2035,10 @@
           "source_type": "platform"
         }
       ],
-      "last_checked_at": "2026-08-14T07:31:06Z",
+      "last_checked_at": "2026-08-14T07:50:00Z",
       "quality_review_id": "q01-pax-autocratica-trailer",
       "status": "publish",
-      "depth_variance_reason": "This is intentionally a focused official-media entry: the user task is to reach and understand the verified trailer, not to manufacture a long review."
+      "depth_variance_reason": "This is a media-entry overview. It provides two official video routes, selection context, source limits and next checks rather than padding the route with unrelated mechanics."
     }
   },
   "homeProvenance": {
@@ -1640,7 +2129,26 @@
       "relevance_reason": "Brand mark for the game-specific site, not used as a route image.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-favicon.webp",
-      "content_sha256": "07a37befaadffa70937b8fc01f595439748ed4416ca2158baf71d0cb4225ab77"
+      "content_sha256": "b9723e40874ce73197a27f2d19e08813d3dbca944763dfab2be3136fa8091f09"
+    },
+    {
+      "asset_id": "pax-autocratica-hero-bg-v1",
+      "page": "/",
+      "role": "hero_background",
+      "local_path": "site\\public\\media\\pax-autocratica-hero-bg-v1.webp",
+      "source_page": "https://www.paxautocratica.com/",
+      "original_url": null,
+      "captured_at": "2026-08-14T17:05:58Z",
+      "game_identity_check": "pass",
+      "identity_check_reason": "Original image-generated sci-fi composition guided by the verified official site's red-black visual direction; no official artwork was copied.",
+      "alt": "Original red planet and armored commander hero background inspired by Pax Autocratica's industrial science-fiction tone",
+      "width": 1672,
+      "height": 941,
+      "relevance_reason": "Sets the game's red-black industrial frontier atmosphere while leaving the left side clear for the arrival message.",
+      "generated_prompt": "hero-prompt.md",
+      "status": "ready",
+      "public_path": "/media/pax-autocratica-hero-bg-v1.webp",
+      "content_sha256": "3a13447add32b7efe77d9af26ef689adb60cf7069c132e4afd5b319d500d5413"
     },
     {
       "asset_id": "pax-autocratica-home-01",
@@ -1658,7 +2166,7 @@
       "relevance_reason": "Orients new visitors to the colony-management side of the game's advertised loop.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-home-01.webp",
-      "content_sha256": "46eccba20497fcdf463b44201c03eff2f422a38923f872b15f591dbf98364026"
+      "content_sha256": "88f444717e955758383bd325ae4990a053ef792906771c5bf67e398058edb86a"
     },
     {
       "asset_id": "pax-autocratica-guide-02",
@@ -1676,7 +2184,7 @@
       "relevance_reason": "Provides a visual index for the site's source-backed game guides.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-guide-02.webp",
-      "content_sha256": "c06616b9b8699aea62cc31a9dc9d1bbb899b67b64a703cbf98359b2ab7bdaff3"
+      "content_sha256": "35bd513dba3d00a36380a7150cb760ab87baa076c9e62c0e500db17139340649"
     },
     {
       "asset_id": "pax-autocratica-gameplay-03",
@@ -1694,7 +2202,7 @@
       "relevance_reason": "Shows the frontier side of the colony-to-expedition gameplay loop described on the page.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-gameplay-03.webp",
-      "content_sha256": "98c57027debfb6f9dbb93a78cf367d47af7065869fcc6ea898f400d02fefccd6"
+      "content_sha256": "0b01f0f17f00ce9aa1cdd14348d640372680bfcfd0a7efe24c1a7851c5ac77d9"
     },
     {
       "asset_id": "pax-autocratica-demo-04",
@@ -1712,7 +2220,7 @@
       "relevance_reason": "Keeps the demo-access page visually tied to the actual game rather than a generic store card.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-demo-04.webp",
-      "content_sha256": "2c45bb7b784619670e743c4d199ce8bd62ef256ddc529feafc899309496d24de"
+      "content_sha256": "2a1da19a6541a8b32b56a138061c2421a6b7a692687f5619149b3dd9a92ea3cc"
     },
     {
       "asset_id": "pax-autocratica-trailer-05",
@@ -1730,7 +2238,7 @@
       "relevance_reason": "Supports the official-trailer page with a non-repeated visual from the same verified game listing.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-trailer-05.webp",
-      "content_sha256": "3384c6a584c6dbb2e50448e8135a20c3c7a2fc05d53b1088bf873b5c5199c2f2"
+      "content_sha256": "acb04893f4a54fe45f1184262499cd234b4bb2d3b63ca198ebdb4f13dc654fee"
     },
     {
       "asset_id": "pax-autocratica-mods-06",
@@ -1748,7 +2256,7 @@
       "relevance_reason": "Gives the mods-status page a relevant customization visual without implying that mods are currently supported.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-mods-06.webp",
-      "content_sha256": "e95aad98a2605faaabd551c3af5d149762edf96f21ef0a17ec9f2d44fe667cf1"
+      "content_sha256": "918b53187393ae419096a5aa38fb976f9a47e7577a2763534155f9fcb56be52e"
     },
     {
       "asset_id": "pax-autocratica-multiplayer-07",
@@ -1766,7 +2274,7 @@
       "relevance_reason": "Provides game context for a multiplayer-status page while the copy clearly distinguishes future co-op work from current availability.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-multiplayer-07.webp",
-      "content_sha256": "e2f9d51cb7697e3200f3d1d06ae325d766622399c00d3f9dfdd4e894e679f56b"
+      "content_sha256": "2c202072495ee4d6a8493e2aab663d0622bfb84ada0f40b9a9611205f82da76f"
     },
     {
       "asset_id": "pax-autocratica-price-08",
@@ -1784,7 +2292,7 @@
       "relevance_reason": "Adds a real game visual to the purchase page while the price itself remains a live-store handoff.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-price-08.webp",
-      "content_sha256": "717f345f17db0aea6ce96997c673862d753bedc008295eb660f96830712ec9c4"
+      "content_sha256": "373ce068241ba2ea0da65750c91c79b16844a644df764a9651bd622ea46b0119"
     },
     {
       "asset_id": "pax-autocratica-community-09",
@@ -1802,7 +2310,7 @@
       "relevance_reason": "Keeps the community directory visually grounded in the actual game before sending visitors to live discussion channels.",
       "status": "ready",
       "public_path": "/media/pax-autocratica-community-09.webp",
-      "content_sha256": "f49eda1f1e07d342fd06b1890efd2e4ea79ef22292439821644789e60a89b209"
+      "content_sha256": "483cada8fa7ead10ca46397b9333c105a9752bb2a113a535181fcb876b22fe71"
     }
   ],
   "ads": {
@@ -1875,12 +2383,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-eda47407501b",
+    "version": "local-e7c61045c906",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-08-14T07:50:22Z"
+  "generated_at": "2026-08-14T10:21:15Z"
 }

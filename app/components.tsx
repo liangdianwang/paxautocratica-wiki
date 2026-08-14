@@ -4,13 +4,30 @@ export { AdSlot } from "./ad-slot";
 
 export function Header() {
   const navigation = siteData.blueprint?.navigation || [];
+  const publicPages = (siteData.pages || []).filter((item: any) => item.page_status === "publish" && item.index_status === "index");
+  const aggregateSlugs = new Set(navigation.map((item: any) => String(item.slug)));
+  const declaredPrimary = Array.isArray((siteData.blueprint as any)?.primary_navigation) ? (siteData.blueprint as any).primary_navigation : [];
+  const primaryNavigation = (declaredPrimary.length ? declaredPrimary : publicPages.slice(0, 5).map((item: any) => ({ slug: item.slug, name: String(item.keyword || item.slug) })))
+    .filter((item: any) => item.slug && !aggregateSlugs.has(String(item.slug)));
+  const primarySlugs = new Set(primaryNavigation.map((item: any) => String(item.slug)));
+  const explorerPages = publicPages.filter((item: any) => !primarySlugs.has(String(item.slug)));
   const icon = siteData.site?.favicon_path || "/favicon.svg";
   return <nav className="nav" aria-label="Primary navigation"><div className="container nav-inner">
     <Link className="brand" href="/" aria-label={`${siteData.game?.name || "Game Wiki"} home`}>
       <span className="brand-mark"><img src={icon} alt="" aria-hidden="true" /></span>
       <span className="brand-copy"><strong>{siteData.game?.name || "Game Wiki"}</strong><small>FIELD DOSSIER / SOURCE-BACKED</small></span>
     </Link>
-    <div className="nav-right"><div className="nav-links">{navigation.map((item: any) => <Link key={item.slug} href={`/${item.slug}`}>{item.name}</Link>)}</div><span className="nav-status"><i aria-hidden="true" />EARLY ACCESS LOG</span></div>
+    <div className="nav-right"><div className="nav-links">
+      <Link href="/" aria-current="page">Home</Link>
+      {navigation.map((item: any) => <Link key={item.slug} href={`/${item.slug}`}>{item.name}</Link>)}
+      {primaryNavigation.map((item: any) => <Link key={item.slug} href={`/${item.slug}`}>{item.name}</Link>)}
+      {explorerPages.length ? <details className="nav-explorer">
+        <summary>Explore</summary>
+        <div className="nav-explorer-panel" aria-label="Explore published guides">
+          {explorerPages.map((item: any) => <Link key={item.slug} href={`/${item.slug}`}>{String(item.keyword || item.name || item.slug).replace(new RegExp(`^${siteData.game?.name || ""}\\s+`, "i"), "")}</Link>)}
+        </div>
+      </details> : null}
+    </div><span className="nav-status"><i aria-hidden="true" />EARLY ACCESS LOG</span></div>
   </div></nav>;
 }
 
@@ -20,7 +37,7 @@ function ExternalOrText({ value, label }: { value: string; label?: string }) {
 }
 
 export function MediaGallery({ route }: { route: string }) {
-  const items = (siteData.media || []).filter((item: any) => item.status === "ready" && item.role !== "favicon" && item.page === route && item.public_path);
+  const items = (siteData.media || []).filter((item: any) => item.status === "ready" && item.role !== "favicon" && item.role !== "hero_background" && item.page === route && item.public_path);
   if (!items.length) return null;
   return <div className="media-grid">{items.map((item: any) => <figure key={item.asset_id} className="media-card">
     <img data-asset-id={item.asset_id} src={item.public_path} alt={item.alt} width={item.width} height={item.height} loading={item.role === "hero" ? "eager" : "lazy"} />

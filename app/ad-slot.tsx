@@ -36,7 +36,14 @@ export function AdSlot({ id, format }: { id: string; format?: AdFormat }) {
       root.dataset.adState = "script_loaded";
       window.setTimeout(markFilled, 250);
     };
-    const markEmpty = () => { root.dataset.adState = "empty"; };
+    const markEmpty = () => {
+      root.dataset.adState = "empty";
+      root.replaceChildren();
+      const label = document.createElement("span");
+      label.className = "ad-slot-fallback";
+      label.textContent = "Advertisement space reserved";
+      root.append(label);
+    };
     const observer = new MutationObserver(markFilled);
     observer.observe(root, { childList: true, subtree: true, attributes: true });
     const emptyTimer = window.setTimeout(() => { markFilled(); if (root.dataset.adState !== "filled") markEmpty(); }, 8000);

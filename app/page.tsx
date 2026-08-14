@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { CSSProperties } from "react";
 import siteData from "../public/site-data.json";
 import { AdSlot, Footer, Header, MediaGallery } from "./components";
 
@@ -9,6 +10,7 @@ const visiblePages = pages.filter((page: any) => page.page_status === "publish" 
 const appId = siteData.game?.app_ids?.find((item: any) => item.provider === "steam")?.value || "";
 const favicon = siteData.site?.favicon_path || "/favicon.svg";
 const homepageVideo = homeProvenance.homepage_video;
+const heroBackground = (siteData.media || []).find((item: any) => item.page === "/" && item.role === "hero_background" && item.status === "ready" && item.public_path)?.public_path || "";
 const steamUrl = appId ? `https://store.steampowered.com/app/${appId}/` : "";
 
 function ctaHref(value: any, fallback: string) {
@@ -22,6 +24,7 @@ function ctaHref(value: any, fallback: string) {
 export default function Home() {
   const finalPrimary = home.finalCta.primary;
   const finalSecondary = home.finalCta.secondary;
+  const heroStyle = heroBackground ? ({ "--hero-image": `url("${heroBackground}")` } as CSSProperties) : undefined;
   const structuredData = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -32,7 +35,7 @@ export default function Home() {
   return <main className="shell home-shell">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: structuredData }} />
     <Header />
-    <section className="hero"><div className="hero-grid container"><div className="hero-copy-block">
+    <section className="hero" style={heroStyle} data-hero-background={heroBackground || undefined}><div className="hero-grid container"><div className="hero-copy-block">
       <div className="eyebrow"><span className="eyebrow-signal" aria-hidden="true" />{home.hero.eyebrow}</div><h1><span>{home.hero.title}</span><em>STATE / FRONTIER / RECORD</em></h1><p className="hero-lede">{home.hero.description}</p>
       <div className="actions"><Link className="button" href={home.start.cards?.[0]?.href || "/guide"}>{home.hero.primaryCta}</Link><a className="button secondary" href={ctaHref(home.hero.secondaryCta, siteData.game?.official_url || "#about")} target="_blank" rel="noreferrer">{home.hero.secondaryCta || "Play / official site"}</a><Link className="button ghost" href="/guide">{home.hero.tertiaryCta || "Browse guides"}</Link></div>
       <div className="hero-source-row"><span>PRIMARY RECORD</span><a href={siteData.game?.official_url || "#about"} target="_blank" rel="noreferrer">OFFICIAL SITE ↗</a>{appId ? <a href={steamUrl} target="_blank" rel="noreferrer">STEAM APP {appId} ↗</a> : null}</div>
