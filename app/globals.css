@@ -171,6 +171,7 @@ h2 { margin: 0 0 14px; font-family: var(--display); font-size: clamp(31px, 4vw, 
 .ad-slot--native { min-height: 112px; }
 .ad-slot--banner { min-height: 250px; }
 .ad-slot--banner iframe { max-width: 100%; border: 0; }
+.ad-slot[data-ad-state="empty"] { display: none; min-height: 0; height: 0; margin: 0; }
 .ad-slot--test { min-height: 100px; border: 1px dashed var(--border-soft); color: var(--muted); font-family: var(--utility); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
 .ad-slot--test span { opacity: .72; }
 
