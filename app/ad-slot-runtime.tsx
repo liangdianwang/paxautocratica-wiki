@@ -26,11 +26,16 @@ export function AdSlotRuntime({ id }: { id: string }) {
     const markEmpty = () => {
       if (root.dataset.adState === "filled") return;
       root.dataset.adState = "empty";
-      root.replaceChildren();
-      const label = document.createElement("span");
-      label.className = "ad-slot-fallback";
-      label.textContent = "Advertisement space reserved";
-      root.append(label);
+
+      // Never remove provider markup after a timeout/error. The ad network may
+      // respond later, and removing the scripts makes the live page impossible
+      // to inspect or recover without a full navigation.
+      if (!root.querySelector(".ad-slot-fallback")) {
+        const label = document.createElement("span");
+        label.className = "ad-slot-fallback";
+        label.textContent = "Advertisement space reserved";
+        root.append(label);
+      }
     };
 
     root.dataset.adState = hasCreative() ? "filled" : "loading";
