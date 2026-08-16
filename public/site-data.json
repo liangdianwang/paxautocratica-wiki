@@ -2348,7 +2348,7 @@
     "placements": {
       "home-1": {
         "format": "native",
-        "position": "after_file_selector"
+        "position": "after_hero"
       },
       "home-2": {
         "format": "banner",
