@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Field Guide | Play & Explore",
-      "description": "A source-backed Pax Autocratica field guide for gameplay, trailer, demo and price checks, Steam Deck notes, community links, and current issue leads.",
+      "description": "A source-backed Pax Autocratica field guide for gameplay, capture mechanics, trailer, demo and price checks, Steam Deck notes, community links, and current issue leads.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-08-14"
+        "Updated 2026-08-17"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -65,6 +65,12 @@
           "title": "Find Community & Fixes",
           "description": "Reach the official hub and review clearly scoped troubleshooting leads.",
           "href": "/pax-autocratica-community/"
+        },
+        {
+          "number": "5",
+          "title": "Understand Capture Mechanics",
+          "description": "Read the current capture loop, prisoner choices, and the evidence boundary around percentages.",
+          "href": "/pax-autocratica-capture-mechanics/"
         }
       ],
       "claim_ids": [
@@ -177,6 +183,10 @@
           {
             "keyword": "Pax Autocratica Multiplayer",
             "slug": "pax-autocratica-multiplayer"
+          },
+          {
+            "keyword": "Pax Autocratica Capture Mechanics",
+            "slug": "pax-autocratica-capture-mechanics"
           }
         ]
       }
@@ -696,7 +706,8 @@
       "related_slugs": [
         "pax-autocratica-demo",
         "pax-autocratica-trailer",
-        "pax-autocratica-mods"
+        "pax-autocratica-mods",
+        "pax-autocratica-capture-mechanics"
       ],
       "ad_slot_count": 2
     },
@@ -1260,6 +1271,195 @@
         "pax-autocratica-gameplay",
         "pax-autocratica-demo",
         "pax-autocratica-community"
+      ],
+      "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Capture Mechanics",
+      "slug": "pax-autocratica-capture-mechanics",
+      "seo": {
+        "title": "Pax Autocratica Capture Mechanics: Capture Chance, Prisoners, and Recruitment",
+        "description": "Pax Autocratica capture mechanics explained with official scope, a practical capture loop, community observations, prisoner choices, and Early Access limits."
+      },
+      "direct_answer": "The current official sources confirm that weakened foes can be captured and brought back to the colony, where the player can imprison, convert, recruit or sacrifice them. They do not publish a universal capture formula or a complete enemy eligibility list. The visible percentage and player reports are useful encounter evidence, but exact values for elites, chiefs and bosses remain build-sensitive.",
+      "direct_answer_claim_ids": [
+        "claim-capture-official",
+        "claim-capture-loop",
+        "claim-capture-state",
+        "claim-capture-community"
+      ],
+      "sections": [
+        {
+          "heading": "What the current official sources confirm",
+          "paragraphs": [
+            "The Steam store describes weakened foes being captured and dragged back to base. It then frames the prison as a decision point where a captive can be subjected to fear, indoctrination, execution or conversion. The developer's launch AMA gives the same boundary in plainer terms: a weakened enemy can return to the colony and become a prisoner, a citizen, a recruit or a sacrifice.",
+            "That is enough to answer the player's first question—capture is a real bridge between the frontier and the colony—but not enough to promise that every creature, boss or elite follows the same rule. Pax Autocratica is in Early Access, and the official State of the Frontline update says that capture and prisoner conversion still need more depth and are being worked on at high priority."
+          ],
+          "steps": [
+            "Treat the official store and dated developer updates as the authority for what the system is meant to do.",
+            "Treat the visible capture percentage as a live encounter signal, not as a published guarantee.",
+            "Recheck the current build before copying a percentage, timing claim or enemy list into a guide or video."
+          ],
+          "claim_ids": [
+            "claim-capture-official",
+            "claim-capture-state"
+          ]
+        },
+        {
+          "heading": "A practical capture loop",
+          "paragraphs": [
+            "The safest way to test the mechanic is to separate the combat decision from the colony decision. In the field, the immediate job is to create a weakened target and keep enough control of the encounter to finish the capture attempt. Back at the colony, the job is to decide what that captive is worth to the current run. A capture that costs too much attention in a crowded fight may be a poor choice even when the final reward is useful.",
+            "This route answers the player task without pretending that the mechanic is a single button. It also makes a useful distinction: the capture attempt happens under combat pressure, while the use of the captive is a colony-management decision."
+          ],
+          "steps": [
+            "Pick a target you can keep alive while the rest of the encounter remains manageable. Do not begin a long experiment in the middle of an uncontrolled spawn wave.",
+            "Weaken the target and use the capture ammunition or capture action available in your current build. The exact control prompt is not fixed by the sources used for this page.",
+            "Watch the capture indicator and the target's health rather than assuming that one shot completes the process.",
+            "Give the attempt enough time to show whether the percentage is moving. If the field becomes unsafe, finish the fight and record the target type and build instead of forcing a risky capture.",
+            "Once the target is captured, let the colony-side prison and conversion options determine the next decision. Do not assume that bringing it home automatically means it is ready for an expedition."
+          ],
+          "claim_ids": [
+            "claim-capture-loop"
+          ]
+        },
+        {
+          "heading": "How to read the capture percentage",
+          "paragraphs": [
+            "The current community discussion about capture mechanics is valuable because it describes the confusion players are actually having: a target can be stunned, a percentage can rise over time, and a player may not know whether the process is a one-off chance or a continuing action. One reply reports very high values at very low health and lower observations for elites and chiefs. Those are player observations from a live Early Access build, not an official table, and the discussion itself does not establish a formula that applies to every enemy.",
+            "The official store screenshot also shows a visible capture-rate indicator in combat. That image is useful evidence that the interface communicates a rate, but it is not proof that a displayed percentage is a guaranteed outcome or that the same number is used for every target.",
+            "The page intentionally does not publish claims such as “50% always means a coin flip,” “every health-bar enemy is capturable,” or “one tick at 1 HP always reaches 100%.” Those statements may be useful hypotheses to test, but the current evidence does not support turning them into rules."
+          ],
+          "steps": [
+            "Compare the target's health state and the displayed percentage before spending more time or ammunition.",
+            "If the percentage is low and the target is dangerous, decide whether the colony really needs this captive now.",
+            "If the percentage rises as the target weakens, treat that as an encounter observation and capture the target only when the battlefield remains safe.",
+            "Record elites and bosses separately. A community report that works for a normal target should not be silently generalized to a chief, boss or Sector Overlord."
+          ],
+          "claim_ids": [
+            "claim-capture-community"
+          ]
+        },
+        {
+          "heading": "What to do after bringing a captive back",
+          "paragraphs": [
+            "The official sources describe several colony-side outcomes: imprisonment, indoctrination or conversion, recruitment and sacrifice. The best choice depends on what the colony is short of and what the current expedition plan needs. There is no evidence in the current source set for a universal ranking that makes one outcome correct in every run.",
+            "A page or video that says only “capture enemies” leaves out the decision that makes the mechanic meaningful. The use of the captive is where the frontier action feeds back into colony production, social pressure and troop planning."
+          ],
+          "steps": [
+            "Use imprisonment when you need time to observe or prepare the captive rather than committing immediately.",
+            "Use conversion or indoctrination when the colony-side system makes another citizen more valuable than an immediate combat unit.",
+            "Recruit when the resulting unit fits the expedition plan and the current build shows that its slot or upkeep is affordable.",
+            "Sacrifice only when the current upgrade path makes that trade-off explicit. Community discussion suggests that captured units can feed progression or upgrades, but the exact value is balance-sensitive and not an official universal recommendation.",
+            "Note what happened after the decision. A future update or video should record the build and the result instead of presenting one outcome as permanent."
+          ],
+          "claim_ids": [
+            "claim-capture-choice",
+            "claim-capture-loop"
+          ]
+        },
+        {
+          "heading": "Elites, bosses, and current Early Access limits",
+          "paragraphs": [
+            "Community posts currently discuss capturing elites and chiefs, using capture ammunition, taking captured soldiers into upgrades, and the time cost of keeping an attempt alive. Other players disagree about which large creatures or bosses are eligible. That disagreement is not a defect in the evidence record; it is the reason this page separates official scope from community discovery.",
+            "The official State of the Frontline announcement is the stronger current signal for planning: capture and prisoner conversion are identified as high-priority work in progress. This means an exact route can age quickly even when the broad capture loop remains part of the product."
+          ],
+          "steps": [
+            "Start from weakened targets and the current in-game indicator.",
+            "Do not infer eligibility from size, faction or a single player's success.",
+            "Recheck the official update trail after a patch that mentions capture, prisoners, units or conversion.",
+            "Keep a build date with any percentage or timing observation you publish."
+          ],
+          "claim_ids": [
+            "claim-capture-state",
+            "claim-capture-community"
+          ]
+        },
+        {
+          "heading": "Freshness boundary",
+          "paragraphs": [
+            "The source set was rechecked on 2026-08-17. The official store and developer AMA support the broad capture-to-colony loop; the dated official update marks prisoner conversion and capture depth as active work; the current player discussion supplies discovery leads rather than fixed rules. Re-open the live sources before treating a percentage, capture time or enemy roster as current."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-capture-official",
+            "claim-capture-state",
+            "claim-capture-community"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can every enemy be captured?",
+          "answer": "The official copy says weakened foes can be captured, but the selected sources do not provide a complete eligibility list. Do not promise that every creature, elite or boss works the same way.",
+          "claim_ids": [
+            "claim-capture-official",
+            "claim-capture-community"
+          ]
+        },
+        {
+          "question": "Is the capture percentage an official fixed formula?",
+          "answer": "No. The interface exposes a percentage and players report how it changes, but the current official sources do not publish a formula or guaranteed outcome table.",
+          "claim_ids": [
+            "claim-capture-community"
+          ]
+        },
+        {
+          "question": "Should I always capture instead of killing?",
+          "answer": "No. Capture costs time, attention and ammunition during a fight. Choose it when the colony has a clear use for the captive and the battlefield is safe enough to finish the attempt.",
+          "claim_ids": [
+            "claim-capture-loop",
+            "claim-capture-choice"
+          ]
+        },
+        {
+          "question": "What happens after a successful capture?",
+          "answer": "The official store and developer AMA describe bringing the captive back to the colony, where the available choices include imprisonment, conversion, recruitment and sacrifice. The exact options and balance can change during Early Access.",
+          "claim_ids": [
+            "claim-capture-official",
+            "claim-capture-choice"
+          ]
+        },
+        {
+          "question": "Why does this page avoid exact percentages?",
+          "answer": "Because the strongest current percentage evidence is a community observation, while the official update trail says the capture and prisoner-conversion systems are still being improved. Publishing a single number as a rule would create a thin but misleading answer.",
+          "claim_ids": [
+            "claim-capture-state",
+            "claim-capture-community"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-store",
+        "src-reddit-ama",
+        "src-steam-frontline",
+        "src-steam-capture-discussion"
+      ],
+      "claim_ids": [
+        "claim-capture-official",
+        "claim-capture-loop",
+        "claim-capture-state",
+        "claim-capture-community",
+        "claim-capture-choice"
+      ],
+      "updated_at": "2026-08-17T09:16:16Z",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Show the live capture-rate indicator that makes the player question concrete.",
+          "route": "/pax-autocratica-capture-mechanics",
+          "minimum": "one relevant unique ready image",
+          "source_id": "src-steam-store",
+          "alt": "Pax Autocratica combat scene showing a visible capture rate indicator",
+          "relevance_reason": "The official Steam screenshot visibly anchors the guide in the capture interface without being used as a formula or guarantee."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-gameplay",
+        "pax-autocratica-community",
+        "pax-autocratica-mods"
       ],
       "ad_slot_count": 2
     }
@@ -2041,6 +2241,79 @@
       "quality_review_id": "q01-pax-autocratica-trailer",
       "status": "publish",
       "depth_variance_reason": "This is a media-entry overview. It provides two official video routes, selection context, source limits and next checks rather than padding the route with unrelated mechanics."
+    },
+    "pax-autocratica-capture-mechanics": {
+      "intent_id": "intent-17",
+      "intent_type": "gameplay",
+      "user_job": "Understand how to start a capture, read capture chance, and decide what to do with a captive.",
+      "intent_evidence_ids": [
+        "intent-17"
+      ],
+      "answerability": "resolved_with_active_balance_boundary",
+      "coverage": [
+        {
+          "dimension": "official_capture_scope",
+          "status": "covered",
+          "claim_ids": [
+            "claim-capture-official"
+          ],
+          "evidence_relation": "direct",
+          "notes": "Official store and developer AMA describe weakened foes returning to the colony and the available prisoner outcomes."
+        },
+        {
+          "dimension": "actionable_capture_loop",
+          "status": "covered",
+          "claim_ids": [
+            "claim-capture-loop"
+          ],
+          "evidence_relation": "derived",
+          "notes": "Steps are practical but avoid unsupported control prompts or fixed numbers."
+        },
+        {
+          "dimension": "percentage_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-capture-community"
+          ],
+          "evidence_relation": "corroborating",
+          "notes": "Current discussion is recorded as community observation, not an official formula."
+        },
+        {
+          "dimension": "current_state",
+          "status": "covered",
+          "claim_ids": [
+            "claim-capture-state"
+          ],
+          "evidence_relation": "direct",
+          "notes": "The dated State of the Frontline update marks capture and prisoner conversion as high-priority work in progress."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Developer launch AMA",
+          "url": "https://www.reddit.com/r/Games/comments/1vkcn3d/ama_developer_of_pax_autocratica_here_a/",
+          "source_type": "developer-ama"
+        },
+        {
+          "label": "State of the Frontline update",
+          "url": "https://steamcommunity.com/gid/103582791464469350/announcements/detail/680758587997292018",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Capture mechanics discussion",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/84032037661529718/",
+          "source_type": "community"
+        }
+      ],
+      "last_checked_at": "2026-08-17T09:16:16Z",
+      "quality_review_id": "q01-pax-autocratica-capture-mechanics",
+      "status": "publish",
+      "depth_variance_reason": "The page answers the independent capture-and-prisoner task with an actionable loop, current official scope, a separate community evidence boundary, FAQ coverage and a dated Early Access recheck rule. It deliberately withholds exact percentages and a universal enemy list."
     }
   },
   "homeProvenance": {
@@ -2313,6 +2586,19 @@
       "status": "ready",
       "public_path": "/media/pax-autocratica-community-09.webp",
       "content_sha256": "fc4f61473eb176e48619f25fb151c07ad2666675e5d31aa807b1de360399e710"
+    },
+    {
+      "asset_id": "pax-autocratica-capture-mechanics-10",
+      "page": "/pax-autocratica-capture-mechanics",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-capture-mechanics-10.jpg",
+      "alt": "Pax Autocratica combat scene showing a visible capture rate indicator",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/844008bed5890a234302e3fd085413c2ea49c985/ss_844008bed5890a234302e3fd085413c2ea49c985.1920x1080.jpg?t=1786694191",
+      "source_type": "official_store",
+      "sha256": "D78DEE053D3081C4E896A824467EF87E37BA2051146295A50D6A7B81AB20FA0C"
     }
   ],
   "ads": {
@@ -2392,5 +2678,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-08-14T11:31:38Z"
+  "generated_at": "2026-08-17T09:16:16Z"
 }
