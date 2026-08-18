@@ -1662,7 +1662,7 @@
         "claim-s2-ea-uncertainty",
         "claim-s2-freshness"
       ],
-      "updated_at": "2026-08-18T11:30:00Z",
+      "updated_at": "2026-08-18T03:17:10Z",
       "time_sensitivity": "changing",
       "image_needs": [
         {
@@ -2634,7 +2634,7 @@
           "source_type": "keyword_evidence"
         }
       ],
-      "last_checked_at": "2026-08-18T11:30:00Z",
+      "last_checked_at": "2026-08-18T03:17:10Z",
       "quality_review_id": "q01-pax-autocratica-sector-2-difficulty",
       "status": "publish",
       "depth_variance_reason": "The page answers the independent Sector 2 preparation task with a direct three-part answer, official current state from dated announcements, a clearly separated community evidence boundary, a testable preparation checklist, a retreat/upgrade/re-enter decision route, FAQ coverage and a dated Early Access recheck rule. It deliberately withholds any fixed threshold, drop rate or guaranteed loadout because no dated official or platform source publishes one."
@@ -3020,5 +3020,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-08-18T11:30:00Z"
+  "generated_at": "2026-08-18T03:17:10Z"
 }
