@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-08-18"
+        "Updated 2026-08-21"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -191,6 +191,10 @@
           {
             "keyword": "Pax Autocratica Sector 2 Difficulty",
             "slug": "pax-autocratica-sector-2-difficulty"
+          },
+          {
+            "keyword": "Pax Autocratica Best Troops",
+            "slug": "pax-autocratica-best-troops"
           }
         ]
       }
@@ -711,7 +715,8 @@
         "pax-autocratica-demo",
         "pax-autocratica-trailer",
         "pax-autocratica-mods",
-        "pax-autocratica-capture-mechanics"
+        "pax-autocratica-capture-mechanics",
+        "pax-autocratica-best-troops"
       ],
       "ad_slot_count": 2
     },
@@ -1463,7 +1468,8 @@
       "related_slugs": [
         "pax-autocratica-gameplay",
         "pax-autocratica-community",
-        "pax-autocratica-mods"
+        "pax-autocratica-mods",
+        "pax-autocratica-best-troops"
       ],
       "ad_slot_count": 2
     },
@@ -1680,9 +1686,195 @@
       "related_slugs": [
         "pax-autocratica-gameplay",
         "pax-autocratica-capture-mechanics",
-        "pax-autocratica-community"
+        "pax-autocratica-community",
+        "pax-autocratica-best-troops"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Best Troops",
+      "slug": "pax-autocratica-best-troops",
+      "seo": {
+        "title": "Pax Autocratica Best Troops: What to Upgrade First",
+        "description": "Pax Autocratica best troops guide: use official upgrade and capture changes, then decide what to train, capture, protect, and risk in Early Access."
+      },
+      "direct_answer": "The safest source-backed answer is not a fixed best-troop tier list. Build your best force by upgrading regular soldiers first, using current capture tools to recruit stronger enemies when the colony can support them, protecting valuable units from aging or wasted losses, and rechecking every recommendation against the latest Early Access patch. Official sources confirm soldier types, upgrades, capture, advanced Capture Rounds, Elite/Boss capture changes and ongoing balance work; they do not publish a universal best unit formula.",
+      "direct_answer_claim_ids": [
+        "claim-best-troops-no-fixed-tier",
+        "claim-best-troops-upgrade-first",
+        "claim-best-troops-capture-elites",
+        "claim-best-troops-protect-force",
+        "claim-best-troops-ea-boundary"
+      ],
+      "sections": [
+        {
+          "heading": "Start with the real answer: no official tier list exists",
+          "paragraphs": [
+            "Pax Autocratica's current official materials describe a colony-to-combat loop with soldiers, captured enemies, weapons, Cores, Elites, Bosses and Sector Overlords. They do not publish a dated table that ranks every troop, enemy recruit or upgrade path from best to worst. That means a public guide should not invent a universal tier list just because players are asking for one.",
+            "The useful answer is a decision route. A troop is best when it solves the next mission without costing the colony more than the reward is worth. Regular soldiers, Elite or Boss captures, and upgraded units can all be the right answer depending on what your base can sustain, what the next encounter demands, and which Early Access patch you are playing."
+          ],
+          "steps": [
+            "Check the latest official Steam news before trusting a troop ranking.",
+            "Treat any exact tier list or stat threshold as build-dated unless it cites a current source.",
+            "Use your next failed expedition to name the limiting layer: troop quality, ship capacity, research, capture gear or player loadout."
+          ],
+          "claim_ids": [
+            "claim-best-troops-no-fixed-tier",
+            "claim-best-troops-ea-boundary"
+          ]
+        },
+        {
+          "heading": "Upgrade regular soldiers before chasing rare captures",
+          "paragraphs": [
+            "Directive AG-12 reduced the points required to upgrade regular soldiers, Elites and Bosses. That patch fact matters because it makes upgrades part of the current best-troops path instead of a vague late-game luxury. If a run is failing because the whole force is underpowered, upgrading existing soldiers is the most controllable first move: it uses a system the official patch explicitly changed, and it does not depend on landing a specific capture.",
+            "This does not mean every resource should be spent on the same soldier. Upgrade the units you can repeatedly field, support and replace. If a unit sits idle, cannot travel with the ship, or dies faster than the colony can recover, more upgrade points may not solve the real bottleneck."
+          ],
+          "steps": [
+            "Upgrade the soldiers you actually deploy, not every idle body in the base.",
+            "After each upgrade batch, run one controlled expedition and record whether the limiting problem changed.",
+            "Stop upgrading that lane when ship capacity, research, weapons or capture gear becomes the new bottleneck."
+          ],
+          "claim_ids": [
+            "claim-best-troops-upgrade-first"
+          ]
+        },
+        {
+          "heading": "Use capture as a force-quality path, not a gamble",
+          "paragraphs": [
+            "The official store says weakened foes can be captured and brought back, then imprisoned, converted, recruited or otherwise folded into the colony. AG-14 is more specific: it added three advanced Capture Rounds with higher capture chances against Elites and Bosses, and changed the failed-capture state so a target cannot be killed briefly, while Leader melee can still bypass that limitation. These are direct reasons to treat capture gear as part of the best-troops question.",
+            "The boundary is just as important. AG-14 does not publish a percentage formula, a guaranteed target list or a universal Elite/Boss priority order. Bring capture gear when the colony can use the captive and the encounter reward is worth the risk. Do not turn every difficult enemy into a capture attempt if the failed attempt will cost the expedition."
+          ],
+          "steps": [
+            "Use advanced Capture Rounds when the target is valuable enough to justify the risk.",
+            "Do not start a capture chain if the colony cannot house, convert, upgrade or field the result.",
+            "After a failed capture, remember the target's temporary protected state and decide whether Leader melee should end the fight."
+          ],
+          "claim_ids": [
+            "claim-best-troops-capture-elites",
+            "claim-best-troops-ea-boundary"
+          ]
+        },
+        {
+          "heading": "Protect high-value troops from aging, overwork and bad trades",
+          "paragraphs": [
+            "The official update history makes troop quality a moving system, not a single number. The State of the Frontline update lists soldier behavior, combat controls, workforce management, balance and clarity as active work. AG-12 added a Soldier Aging toggle, and older demo updates had already introduced Aged status and Victory Square enlistment flow. Together, these sources support a practical rule: the best troops are also the ones you keep usable.",
+            "That is why today's Steam discussion list matters. The live board shows players asking how to get best troops, how to customize units and whether overworked status is excessive. Those are useful demand signals, but they are not official rules. Use them to decide what to test: whether your strongest units are being overworked, aged out, idled, sent into poor fights, or lost before the base can replace them."
+          ],
+          "steps": [
+            "Keep your strongest deployed soldiers out of low-value losses when the reward does not advance the colony.",
+            "Watch for status or fatigue problems before assuming the unit type is weak.",
+            "If aging or overwork is the pain point, change the management layer before chasing a rarer capture."
+          ],
+          "claim_ids": [
+            "claim-best-troops-protect-force",
+            "claim-best-troops-ea-boundary"
+          ]
+        },
+        {
+          "heading": "A practical best-troops checklist",
+          "paragraphs": [
+            "Use this checklist as a source-backed loop, not as a guaranteed build. First, stabilize the ordinary soldiers you can deploy and upgrade. Second, verify ship or deployment capacity so your strongest units can actually join the fight. Third, carry capture tools only when a stronger enemy recruit is worth the attempt. Fourth, re-enter the sector with one changed variable so you can tell whether the force improved.",
+            "If the same fight still fails, avoid changing everything at once. A failed expedition can point to different problems: the soldiers are under-upgraded, the player loadout is weak, the ship cannot bring enough support, the base economy cannot sustain replacements, or the patch simply changed the balance. Naming that cause matters more than copying a generic tier list."
+          ],
+          "steps": [
+            "Upgrade fielded regular soldiers until they stop being the obvious weak point.",
+            "Confirm ship/deployment capacity before assuming more troops are available.",
+            "Use advanced Capture Rounds on targets with enough value to justify the risk.",
+            "Protect upgraded or rare troops from fights that do not advance a clear objective.",
+            "Recheck official news after any patch mentioning soldiers, capture, balance, difficulty, workforce or controls."
+          ],
+          "claim_ids": [
+            "claim-best-troops-upgrade-first",
+            "claim-best-troops-capture-elites",
+            "claim-best-troops-protect-force"
+          ]
+        },
+        {
+          "heading": "Freshness boundary",
+          "paragraphs": [
+            "This page was rechecked from the 2026-08-21 source watch: the live Steam store, official Steam allnews feed, current Steam discussion list, current Reddit community questions, a Similarweb public check attempt, AITDK-compatible page checks, and the existing site evidence boundary. The Steam store currently shows Pax Autocratica as an Early Access Steam game with 1,279 English reviews at 92% positive and an introductory offer ending August 24; those store values are volatile and must be rechecked before reuse.",
+            "Web.Cafe was planned for the exact query 'Pax Autocratica best troops', but no reusable authenticated result was available in the current environment. The page is therefore allowed because the candidate has official/platform evidence and current player-demand signals, but the keyword difficulty and SERP evidence remain a deferred measurement item, not a made-up number."
+          ],
+          "steps": [
+            "Recheck Steam allnews when a new maintenance directive appears.",
+            "Recheck the Steam discussion board before turning player reports into advice.",
+            "Do not add exact troop rankings until a dated source supports the current build."
+          ],
+          "claim_ids": [
+            "claim-best-troops-ea-boundary"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What are the best troops in Pax Autocratica right now?",
+          "answer": "There is no official fixed tier list. Upgrade the soldiers you can consistently field, use capture tools for valuable enemies when the colony can support them, and recheck current patch notes before trusting exact rankings.",
+          "claim_ids": [
+            "claim-best-troops-no-fixed-tier",
+            "claim-best-troops-upgrade-first"
+          ]
+        },
+        {
+          "question": "Should I focus on regular soldiers or captured Elites and Bosses?",
+          "answer": "Start with controllable regular-soldier upgrades, then use advanced Capture Rounds on valuable Elite or Boss targets when the risk and colony support make sense.",
+          "claim_ids": [
+            "claim-best-troops-upgrade-first",
+            "claim-best-troops-capture-elites"
+          ]
+        },
+        {
+          "question": "Did AG-14 publish capture percentages for the best troops?",
+          "answer": "No. AG-14 added advanced Capture Rounds and changed failed-capture behavior, but it does not publish a universal capture formula or troop ranking.",
+          "claim_ids": [
+            "claim-best-troops-capture-elites",
+            "claim-best-troops-ea-boundary"
+          ]
+        },
+        {
+          "question": "Why does this guide mention overwork and aging?",
+          "answer": "A strong unit is only useful if it stays deployable. Official updates and current discussions show soldier aging, behavior, workforce and status issues are active Early Access concerns.",
+          "claim_ids": [
+            "claim-best-troops-protect-force",
+            "claim-best-troops-ea-boundary"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-store",
+        "src-steam-allnews",
+        "src-steam-discussions-20260819",
+        "src-webcafe-best-troops-planned"
+      ],
+      "claim_ids": [
+        "claim-best-troops-no-fixed-tier",
+        "claim-best-troops-upgrade-first",
+        "claim-best-troops-capture-elites",
+        "claim-best-troops-protect-force",
+        "claim-best-troops-ea-boundary"
+      ],
+      "updated_at": "2026-08-21T01:06:09.726Z",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Give the troop-quality guide a real game combat visual.",
+          "route": "/pax-autocratica-best-troops",
+          "minimum": "one ready game-specific image",
+          "source_id": "src-steam-store",
+          "alt": "Pax Autocratica combat scene used for the best troops guide",
+          "relevance_reason": "Shows the expedition side where troop quality and survival are tested."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-gameplay",
+        "pax-autocratica-capture-mechanics",
+        "pax-autocratica-sector-2-difficulty",
+        "pax-autocratica-community"
+      ],
+      "ad_slot_count": 2,
+      "last_checked_at": "2026-08-21T01:06:09.726Z"
     }
   ],
   "pageProvenance": {
@@ -2638,6 +2830,75 @@
       "quality_review_id": "q01-pax-autocratica-sector-2-difficulty",
       "status": "publish",
       "depth_variance_reason": "The page answers the independent Sector 2 preparation task with a direct three-part answer, official current state from dated announcements, a clearly separated community evidence boundary, a testable preparation checklist, a retreat/upgrade/re-enter decision route, FAQ coverage and a dated Early Access recheck rule. It deliberately withholds any fixed threshold, drop rate or guaranteed loadout because no dated official or platform source publishes one."
+    },
+    "pax-autocratica-best-troops": {
+      "intent_id": "intent-20260819-best-troops",
+      "intent_type": "gameplay",
+      "user_job": "Decide how to build a stronger troop force without trusting unsupported Early Access tier lists.",
+      "intent_evidence_ids": [
+        "steam-discussions-soldier-core-20260821",
+        "reddit-best-enemy-types-20260821",
+        "steam-ag12",
+        "steam-ag14",
+        "steam-100k-update-20260818"
+      ],
+      "answerability": "resolved_with_no_fixed_formula_boundary",
+      "coverage": [
+        {
+          "dimension": "official_upgrade_and_capture_changes",
+          "status": "covered",
+          "claim_ids": [
+            "claim-best-troops-upgrade-first",
+            "claim-best-troops-capture-elites"
+          ],
+          "evidence_relation": "direct",
+          "notes": "AG-12 changed soldier upgrade costs; AG-14 added advanced Capture Rounds and failed-capture behavior."
+        },
+        {
+          "dimension": "player_demand_signal",
+          "status": "covered",
+          "claim_ids": [
+            "claim-best-troops-no-fixed-tier"
+          ],
+          "evidence_relation": "corroborating",
+          "notes": "Steam discussions list showed today's active How to get best troops thread."
+        },
+        {
+          "dimension": "unsupported_exact_rankings",
+          "status": "blocked",
+          "claim_ids": [
+            "claim-best-troops-ea-boundary"
+          ],
+          "evidence_relation": "boundary",
+          "notes": "No dated official source publishes a complete current unit tier list, capture formula or exact troop ranking."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Official Steam news",
+          "url": "https://steamcommunity.com/app/1067360/allnews/",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Steam General Discussions",
+          "url": "https://steamcommunity.com/app/1067360/discussions/",
+          "source_type": "community"
+        },
+        {
+          "label": "Web.Cafe planned keyword snapshot",
+          "url": "https://seo.web.cafe/kd/?keyword=Pax+Autocratica+best+troops&gl=us",
+          "source_type": "keyword_evidence"
+        }
+      ],
+      "last_checked_at": "2026-08-21T01:06:09.726Z",
+      "quality_review_id": "q01-pax-autocratica-best-troops",
+      "status": "publish",
+      "depth_variance_reason": "The page answers an independent player task observed in today's Steam discussions. It uses official AG-12/AG-14 and store facts for upgrade/capture/current-state advice, separates community demand from official proof, and refuses unsupported troop rankings or capture formulas."
     }
   },
   "homeProvenance": {
@@ -2941,6 +3202,24 @@
       "identity_check": "pass",
       "identity_check_reason": "File bytes verified against the official Steam App ID 1067360 screenshot ss_794019d7... via SHA-256 match; approved by main profile visual review for the colony/frontier/sector context.",
       "relevance_reason": "Anchors the preparation guide in the colony-to-frontier loop players must strengthen before and during the harder sector; original .jpg capture of the same official screenshot family used by the site hero."
+    },
+    {
+      "asset_id": "pax-autocratica-best-troops-12",
+      "page": "/pax-autocratica-best-troops",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-best-troops-12.webp",
+      "alt": "Pax Autocratica combat scene used for the best troops guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/4375180d755159b91b0f074f78b8bc2a2bdb20b5/ss_4375180d755159b91b0f074f78b8bc2a2bdb20b5.1920x1080.jpg?t=1786607873",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-08-14T07:24:00Z",
+      "sha256": "3B450677226DCE9E53342DF7DAC37F6F742A3FAAE0C495D445AFC58AB804D8ED",
+      "identity_check": "pass",
+      "identity_check_reason": "Copied from the existing verified Steam App ID 1067360 gameplay screenshot asset already used by the site; no third-party artwork introduced.",
+      "relevance_reason": "Shows the expedition side where troop quality, capture decisions and survival are tested."
     }
   ],
   "ads": {
@@ -3013,12 +3292,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-476fb6047839",
+    "version": "local-7a99c14b4174",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-08-18T03:17:10Z"
+  "generated_at": "2026-08-21T01:06:09.726Z"
 }
