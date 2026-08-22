@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-08-21"
+        "Updated 2026-08-22"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -195,6 +195,10 @@
           {
             "keyword": "Pax Autocratica Best Troops",
             "slug": "pax-autocratica-best-troops"
+          },
+          {
+            "keyword": "Pax Autocratica Save During Expedition",
+            "slug": "pax-autocratica-save-during-expedition"
           }
         ]
       }
@@ -1875,6 +1879,160 @@
       ],
       "ad_slot_count": 2,
       "last_checked_at": "2026-08-21T01:06:09.726Z"
+    },
+    {
+      "keyword": "Pax Autocratica Save During Expedition",
+      "slug": "pax-autocratica-save-during-expedition",
+      "seo": {
+        "title": "Pax Autocratica Save During Expedition: What Is Safe",
+        "description": "Pax Autocratica save during expedition guide: read the current Save Anytime, Steam Cloud, backup and player-report boundary before relying on a mid-expedition save."
+      },
+      "direct_answer": "Pax Autocratica is currently listed on Steam with Save Anytime and Steam Cloud support, and official updates added automatic save backups after crash or interruption reports. A live Steam discussion from August 21 shows players still testing what happens when saving during the map-flight portion of an expedition, including reports of returning to base and reports of space-flight saves working. Treat expedition saves as build-sensitive: save manually before launching, watch for the in-game save icon during travel, and do not assume an active battle or map-flight save will restore to the exact moment unless the current build proves it.",
+      "direct_answer_claim_ids": [
+        "claim-save-anytime",
+        "claim-steam-cloud",
+        "claim-ag12-auto-backup",
+        "claim-expedition-save-discussion"
+      ],
+      "sections": [
+        {
+          "heading": "What the official sources prove",
+          "paragraphs": [
+            "The safest confirmed baseline is that the live Steam store lists Save Anytime and Steam Cloud for Pax Autocratica. That means the product advertises saving and cloud support at the feature-label level, but it does not publish a detailed matrix for every expedition state, encounter phase, crash condition or restore point.",
+            "The official update trail also matters. AG-12 added automatic save backups for unexpected interruptions such as crashes, freezes or blue screens, and the State of the Frontline post says save issues were among the areas changed after player reports. Those are strong signals that save protection is active work, not a reason to invent exact restore behavior."
+          ],
+          "steps": [
+            "Confirm the live Steam feature labels before making a purchase or troubleshooting decision.",
+            "Use official update notes for backup and crash-protection boundaries.",
+            "Do not treat Save Anytime as proof that every expedition sub-state restores identically."
+          ],
+          "claim_ids": [
+            "claim-save-anytime",
+            "claim-steam-cloud",
+            "claim-ag12-auto-backup"
+          ]
+        },
+        {
+          "heading": "What the August 21 discussion adds",
+          "paragraphs": [
+            "A current Steam discussion titled Save during expedition is useful because it narrows the player task. The original post says saving during active combat would make sense as restricted, but asks whether saving during the map-flying portion should restore there instead of back at base. Replies are mixed: one player reports a crash reloaded into battle at the start, another suggests a manual save may not have occurred between launch and exit, and another says they save during space flight and see the save icon.",
+            "That makes the page publishable as a caution guide, not as a fixed bug verdict. The discussion proves current demand and plausible behavior differences; it does not prove a universal bug, a guaranteed workaround or a hidden file-edit solution."
+          ],
+          "steps": [
+            "If you save during map flight, wait for the visible save indicator before exiting.",
+            "After reloading, record whether the game returns to base, map flight, the battle start or another checkpoint.",
+            "Include build date, save type and whether the game crashed or was exited normally when reporting the result."
+          ],
+          "claim_ids": [
+            "claim-expedition-save-discussion"
+          ]
+        },
+        {
+          "heading": "Practical save routine before an expedition",
+          "paragraphs": [
+            "The practical routine is conservative because it protects progress without claiming more than the sources prove. Make a stable base-side save before launching an expedition. During map flight, use the manual save action only when the current UI allows it and wait for a visible save confirmation. During active combat, assume the restore point may be constrained by the current build until you have personally tested it.",
+            "If the next load sends you back to base, do not immediately overwrite the evidence. Keep the last known good save if possible, note the exact phase where you saved, and compare it with AG-12's automatic-backup protection. That gives the developers or community enough context to separate a missed manual save, a crash backup, and a restore-boundary issue."
+          ],
+          "steps": [
+            "Save at base before launch.",
+            "During map flight, wait for the save icon or confirmation before quitting.",
+            "Avoid testing save behavior for the first time on a high-value run.",
+            "After any crash or unexpected reload, check whether an automatic backup preserved a safer point."
+          ],
+          "claim_ids": [
+            "claim-save-anytime",
+            "claim-ag12-auto-backup",
+            "claim-expedition-save-discussion"
+          ]
+        },
+        {
+          "heading": "What not to do",
+          "paragraphs": [
+            "Do not download a third-party save fixer, edit save files or move cloud files based only on a forum reply. The current source set supports cautious in-game testing and official bug reporting; it does not verify a save-file format, a safe editor, a restore-folder path or a universal workaround.",
+            "Also avoid treating one reload result as a permanent rule. Early Access save behavior can change quickly, and the official posts show that save and crash issues have already been patched. Recheck the live store labels and latest announcements before copying old advice."
+          ],
+          "steps": [
+            "Do not install unverified save tools.",
+            "Do not overwrite local or cloud saves while troubleshooting without a separate backup.",
+            "Do not present a player reply as an official expedition-save rule."
+          ],
+          "claim_ids": [
+            "claim-ag12-auto-backup",
+            "claim-expedition-save-discussion"
+          ]
+        },
+        {
+          "heading": "Evidence boundary",
+          "paragraphs": [
+            "This page was created from the 2026-08-22 source watch: the Steam store appdetails API, the official Steam news API, the current public Steam discussion list, the specific Save during expedition thread, a public YouTube search attempt, a Reddit access attempt that was blocked by network security, and the existing site evidence boundary.",
+            "Web.Cafe, GSC, Similarweb numeric traffic, AITDK extension output, analytics and ad revenue were not available as authenticated reusable metrics in this run. They remain measurement findings, not invented proof."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-save-anytime",
+            "claim-expedition-save-discussion"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can you save during a Pax Autocratica expedition?",
+          "answer": "Steam lists Save Anytime, and players report testing map-flight saves, but current public evidence does not prove every expedition phase restores to the exact same state.",
+          "claim_ids": [
+            "claim-save-anytime",
+            "claim-expedition-save-discussion"
+          ]
+        },
+        {
+          "question": "What should I do before a risky expedition?",
+          "answer": "Make a stable base-side save, then only rely on a map-flight save after the current build visibly confirms it.",
+          "claim_ids": [
+            "claim-save-anytime",
+            "claim-ag12-auto-backup"
+          ]
+        },
+        {
+          "question": "Should I use a save editor or third-party fix?",
+          "answer": "No. The current evidence supports in-game saves, official backups and bug reports, not unverified file editing.",
+          "claim_ids": [
+            "claim-ag12-auto-backup"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-store-20260822",
+        "src-steam-news-ag12-20260822",
+        "src-steam-news-frontline-20260822",
+        "src-steam-discussion-save-expedition-20260822"
+      ],
+      "claim_ids": [
+        "claim-save-anytime",
+        "claim-steam-cloud",
+        "claim-ag12-auto-backup",
+        "claim-expedition-save-discussion"
+      ],
+      "updated_at": "2026-08-22T01:08:35.968Z",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Show the expedition loop tied to the save-risk question.",
+          "route": "/pax-autocratica-save-during-expedition",
+          "minimum": "one relevant verified game image",
+          "source_id": "src-steam-store-20260822",
+          "alt": "Pax Autocratica expedition scene used for the save during expedition guide",
+          "relevance_reason": "The page is about preserving progress around expedition travel and battle transitions."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-gameplay",
+        "pax-autocratica-sector-2-difficulty",
+        "pax-autocratica-best-troops",
+        "pax-autocratica-community"
+      ],
+      "ad_slot_count": 2
     }
   ],
   "pageProvenance": {
@@ -2899,6 +3057,34 @@
       "quality_review_id": "q01-pax-autocratica-best-troops",
       "status": "publish",
       "depth_variance_reason": "The page answers an independent player task observed in today's Steam discussions. It uses official AG-12/AG-14 and store facts for upgrade/capture/current-state advice, separates community demand from official proof, and refuses unsupported troop rankings or capture formulas."
+    },
+    "pax-autocratica-save-during-expedition": {
+      "last_checked_at": "2026-08-22T01:08:35.968Z",
+      "quality_review_id": "q01-pax-autocratica-save-during-expedition",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a distinct player task from the August 21 Steam thread, while official store categories and AG-12/State of the Frontline updates provide the current save and backup boundary. It does not invent a universal restore rule or file-edit workaround.",
+      "source_links": [
+        {
+          "label": "Steam store appdetails",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Official Steam news",
+          "url": "https://steamcommunity.com/app/1067360/allnews/",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Save during expedition Steam thread",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/581680031271691049/",
+          "source_type": "community"
+        },
+        {
+          "label": "Steam General Discussions",
+          "url": "https://steamcommunity.com/app/1067360/discussions/",
+          "source_type": "community"
+        }
+      ]
     }
   },
   "homeProvenance": {
@@ -3220,6 +3406,23 @@
       "identity_check": "pass",
       "identity_check_reason": "Copied from the existing verified Steam App ID 1067360 gameplay screenshot asset already used by the site; no third-party artwork introduced.",
       "relevance_reason": "Shows the expedition side where troop quality, capture decisions and survival are tested."
+    },
+    {
+      "asset_id": "pax-autocratica-save-during-expedition-13",
+      "page": "/pax-autocratica-save-during-expedition",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-sector-2-difficulty-11.jpg",
+      "alt": "Pax Autocratica expedition scene used for the save during expedition guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/794019d7a98da85f60757e6be9409dcb829881aa/ss_794019d7a98da85f60757e6be9409dcb829881aa.1920x1080.jpg?t=1786607873",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-08-14T07:24:00Z",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media library.",
+      "relevance_reason": "Shows the colony-to-frontier context for a page about saving around expedition travel and battle transitions."
     }
   ],
   "ads": {
@@ -3292,12 +3495,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-7a99c14b4174",
+    "version": "local-ee50b206efac",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-08-21T01:06:09.726Z"
+  "generated_at": "2026-08-22T01:08:35.968Z"
 }
