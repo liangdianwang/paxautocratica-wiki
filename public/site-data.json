@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-08-22"
+        "Updated 2026-08-23"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -199,6 +199,10 @@
           {
             "keyword": "Pax Autocratica Save During Expedition",
             "slug": "pax-autocratica-save-during-expedition"
+          },
+          {
+            "keyword": "Pax Autocratica F1 Commands",
+            "slug": "pax-autocratica-f1-commands"
           }
         ]
       }
@@ -2033,6 +2037,161 @@
         "pax-autocratica-community"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica F1 Commands",
+      "slug": "pax-autocratica-f1-commands",
+      "seo": {
+        "title": "Pax Autocratica F1 Commands: Squad Order Basics",
+        "description": "Pax Autocratica F1 commands guide: learn the safe evidence boundary for squad orders, follow modes, hold behavior, and why controls may change during Early Access."
+      },
+      "direct_answer": "Use the F1 command question as a squad-order caution guide, not as a frozen keybind table. Current official and platform evidence proves that Pax Autocratica lets you order troops and that soldier behavior, following, positioning, target selection and overall controls are still high-priority Early Access work. A current Reddit player thread asks whether F1 can switch close follow, loose follow and hold-position style behavior. The safe routine is to verify the current in-game command prompt, test one order at a time in a low-risk battle, and avoid assuming old videos or forum comments describe the exact current build.",
+      "direct_answer_claim_ids": [
+        "claim-store-order-troops",
+        "claim-frontline-combat-controls-wip",
+        "claim-reddit-f1-current-demand",
+        "claim-official-command-troops-history"
+      ],
+      "sections": [
+        {
+          "heading": "What the official sources prove",
+          "paragraphs": [
+            "The live Steam store describes large-scale battles where the leader can order troops to secure victory, but it does not publish a complete current keybind matrix for F1, close follow, loose follow or hold position. That means the product-level promise is squad command support, not a guarantee that every community-named order works the same across builds.",
+            "The August State of the Frontline announcement is also important because the developer explicitly lists soldier behaviour and combat controls as a high-priority work-in-progress area. Following, positioning, target selection, control and overall behavior are called out as needing more polish. Treat any command advice as build-sensitive until you verify it in-game."
+          ],
+          "steps": [
+            "Use the live Steam page to confirm that squad orders are part of the game loop.",
+            "Use the official Frontline update as the current boundary: soldier behavior and controls are still being polished.",
+            "Do not present a Reddit or video reply as the final official command list."
+          ],
+          "claim_ids": [
+            "claim-store-order-troops",
+            "claim-frontline-combat-controls-wip"
+          ]
+        },
+        {
+          "heading": "Why F1 is a real player task",
+          "paragraphs": [
+            "A current Reddit thread asks whether F1 can be used to manage follow behavior such as close follow, loose follow and hold-position-like states. That is a clear player task: the player is trying to stop troops from behaving unpredictably in battle without wasting a high-value expedition.",
+            "This makes the page useful as a control checklist, but not as a definitive patch-note replacement. Reddit provides demand and vocabulary; official and platform sources define the safe facts."
+          ],
+          "steps": [
+            "Open the current in-game controls or command prompt before entering a dangerous fight.",
+            "Test one F1-related order at a time with a small squad.",
+            "Watch whether troops change distance, target selection or movement state before committing to the order in a boss or elite encounter.",
+            "If behavior differs from a video or comment, trust the current build and record the build date."
+          ],
+          "claim_ids": [
+            "claim-reddit-f1-current-demand",
+            "claim-frontline-combat-controls-wip"
+          ]
+        },
+        {
+          "heading": "A safe command test routine",
+          "paragraphs": [
+            "The safest routine is controlled and reversible. Start from a low-stakes encounter, issue one order, wait long enough to observe troop spacing, then issue the next order. Do not stack multiple command changes while the squad is already under heavy fire, because you will not know which input caused the behavior change.",
+            "If you are trying to keep troops alive, compare the result against your current goal: close formation can keep soldiers near you but may expose them to area damage, while wider spacing or a hold-style order may reduce clustering but can leave slower soldiers isolated. The current public sources do not verify exact numerical distances, so the page avoids inventing them."
+          ],
+          "steps": [
+            "Save before the expedition if the run matters.",
+            "Enter a low-risk battle with expendable or non-critical troops.",
+            "Press the current command input shown by the game and observe one behavior change at a time.",
+            "Write down the visible order label, troop spacing and whether target selection changes.",
+            "Only reuse the command in harder fights after it behaves consistently in your current build."
+          ],
+          "claim_ids": [
+            "claim-store-order-troops",
+            "claim-reddit-f1-current-demand"
+          ]
+        },
+        {
+          "heading": "What not to infer from old videos",
+          "paragraphs": [
+            "YouTube reviews and long-form play videos are helpful for seeing how the colony and FPS halves connect, but they are not always current control documentation. Unless a video shows the exact current build and the visible command prompt, use it as a discovery source rather than proof.",
+            "This matters because the official Frontline post says combat controls are still under active polish. A command that looked awkward in one video may have changed, and a command that looked clear in one session may not be enough to explain another player's build."
+          ],
+          "steps": [
+            "Use videos to discover what to test, not to replace the current in-game control prompt.",
+            "Avoid copying a command sequence from a video unless the build date is clear.",
+            "When reporting command issues, include the order label, battle type, troop count and build date."
+          ],
+          "claim_ids": [
+            "claim-frontline-combat-controls-wip"
+          ]
+        },
+        {
+          "heading": "Evidence boundary",
+          "paragraphs": [
+            "This page was created from the 2026-08-23 source watch: Steam appdetails and store description, official Steam news, Steam discussion index freshness, a current Reddit F1-command demand thread found through search, YouTube public discovery, and the prior Pax Autocratica growth backlog.",
+            "Reddit was blocked by direct JSON access in this environment, so it is used as a discovered public search result and not as a quoted primary fact. Web.Cafe, GSC, Similarweb numeric traffic, AITDK extension output, analytics and ad revenue were not available as authenticated reusable metrics in this run; they remain UNKNOWN or DEFERRED and did not trigger site-system changes."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-reddit-f1-current-demand",
+            "claim-frontline-combat-controls-wip"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does F1 have a fixed official Pax Autocratica command table?",
+          "answer": "Not in the public sources checked today. The safe public fact is that the game supports ordering troops, while detailed soldier behavior and controls remain Early Access work.",
+          "claim_ids": [
+            "claim-store-order-troops",
+            "claim-frontline-combat-controls-wip"
+          ]
+        },
+        {
+          "question": "Should I trust a Reddit F1 command answer?",
+          "answer": "Use it as a prompt for what to test, then verify the current in-game command behavior before using it in a high-value fight.",
+          "claim_ids": [
+            "claim-reddit-f1-current-demand"
+          ]
+        },
+        {
+          "question": "Why not list exact close-follow distances?",
+          "answer": "The checked sources do not verify exact distances or state names for the current build, so this page avoids inventing numbers.",
+          "claim_ids": [
+            "claim-frontline-combat-controls-wip"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-store-20260823",
+        "src-steam-news-frontline-20260823",
+        "src-steam-news-ag14-20260823",
+        "src-reddit-f1-search-20260823",
+        "src-steam-discussions-20260823",
+        "src-youtube-search-20260823"
+      ],
+      "claim_ids": [
+        "claim-store-order-troops",
+        "claim-frontline-combat-controls-wip",
+        "claim-reddit-f1-current-demand",
+        "claim-official-command-troops-history"
+      ],
+      "updated_at": "2026-08-23T01:09:01.692Z",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Show a combat/squad context for the F1 command guide.",
+          "route": "/pax-autocratica-f1-commands",
+          "minimum": "one relevant verified game image",
+          "source_id": "src-steam-store-20260823",
+          "alt": "Pax Autocratica squad command combat scene used for the F1 commands guide",
+          "relevance_reason": "The page is about troop command behavior during battles."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-best-troops",
+        "pax-autocratica-gameplay",
+        "pax-autocratica-sector-2-difficulty",
+        "pax-autocratica-save-during-expedition"
+      ],
+      "ad_slot_count": 2
     }
   ],
   "pageProvenance": {
@@ -3085,6 +3244,34 @@
           "source_type": "community"
         }
       ]
+    },
+    "pax-autocratica-f1-commands": {
+      "last_checked_at": "2026-08-23T01:09:01.692Z",
+      "quality_review_id": "q01-pax-autocratica-f1-commands",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a distinct control task from the current F1-command demand thread while using official store and Frontline-update language to avoid inventing a fixed keybind table.",
+      "source_links": [
+        {
+          "label": "Steam store appdetails",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Official Steam news",
+          "url": "https://steamcommunity.com/app/1067360/allnews/",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Pax Autocratica Reddit search result",
+          "url": "https://www.reddit.com/r/PaxAutocratica/",
+          "source_type": "community_discovery"
+        },
+        {
+          "label": "Steam General Discussions",
+          "url": "https://steamcommunity.com/app/1067360/discussions/",
+          "source_type": "community"
+        }
+      ]
     }
   },
   "homeProvenance": {
@@ -3423,6 +3610,23 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media library.",
       "relevance_reason": "Shows the colony-to-frontier context for a page about saving around expedition travel and battle transitions."
+    },
+    {
+      "asset_id": "pax-autocratica-f1-commands-14",
+      "page": "/pax-autocratica-f1-commands",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-best-troops-12.webp",
+      "alt": "Pax Autocratica squad command combat scene used for the F1 commands guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/4375180d755159b91b0f074f78b8bc2a2bdb20b5/ss_4375180d755159b91b0f074f78b8bc2a2bdb20b5.1920x1080.jpg?t=1786607873",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-08-14T07:24:00Z",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 combat screenshot already present in the site media library.",
+      "relevance_reason": "Shows the battle context where troop orders and formation behavior matter."
     }
   ],
   "ads": {
@@ -3495,12 +3699,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-ee50b206efac",
+    "version": "local-ba60596bcd67",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-08-22T01:08:35.968Z"
+  "generated_at": "2026-08-23T01:09:01.692Z"
 }
