@@ -1,5 +1,6 @@
 import Link from "next/link";
 import siteData from "../public/site-data.json";
+import { routeHref } from "./routes";
 export { AdSlot } from "./ad-slot";
 
 export function Header() {
@@ -22,21 +23,32 @@ export function Header() {
     </Link>
     <div className="nav-right"><div className="nav-links">
       <Link href="/" aria-current="page">Home</Link>
-      {primaryAggregate ? <Link href={`/${primaryAggregate.slug}`}>{primaryAggregate.name}</Link> : null}
-      {primaryNavigation.map((item: any) => <Link key={item.slug} href={`/${item.slug}`}>{item.name}</Link>)}
+      {primaryAggregate ? <Link href={routeHref(primaryAggregate.slug)}>{primaryAggregate.name}</Link> : null}
+      {primaryNavigation.map((item: any) => <Link key={item.slug} href={routeHref(item.slug)}>{item.name}</Link>)}
       {exploreItems.length ? <details className="nav-explorer">
         <summary>Explore</summary>
         <div className="nav-explorer-panel" aria-label="Explore published guides">
-          {exploreItems.map((item: any) => <Link key={`${item.kind}-${item.slug}`} href={`/${item.slug}`}>{String(item.keyword || item.name || item.slug).replace(new RegExp(`^${siteData.game?.name || ""}\\s+`, "i"), "")}</Link>)}
+          {exploreItems.map((item: any) => <Link key={`${item.kind}-${item.slug}`} href={routeHref(item.slug)}>{String(item.keyword || item.name || item.slug).replace(new RegExp(`^${siteData.game?.name || ""}\\s+`, "i"), "")}</Link>)}
         </div>
       </details> : null}
     </div><span className="nav-status"><i aria-hidden="true" />EARLY ACCESS LOG</span></div>
   </div></nav>;
 }
 
-function ExternalOrText({ value, label }: { value: string; label?: string }) {
+function destinationType(value: string) {
+  try {
+    const hostname = new URL(value).hostname;
+    if (hostname === "store.steampowered.com") return "steam";
+    if (hostname === "www.paxautocratica.com" || hostname === "paxautocratica.com") return "official";
+    if (hostname === "www.youtube.com" || hostname === "youtube.com" || hostname === "youtu.be") return "youtube";
+    if (hostname === "steamcommunity.com") return "community";
+  } catch {}
+  return "source";
+}
+
+function ExternalOrText({ value, label, placement }: { value: string; label?: string; placement: string }) {
   const text = label || value;
-  return /^https?:\/\//i.test(value) ? <a href={value} target="_blank" rel="noreferrer">{text}</a> : <span>{value}</span>;
+  return /^https?:\/\//i.test(value) ? <a href={value} target="_blank" rel="noreferrer" data-analytics-event="outbound_source_click" data-analytics-destination={destinationType(value)} data-analytics-placement={placement}>{text}</a> : <span>{value}</span>;
 }
 
 export function MediaGallery({ route }: { route: string }) {
@@ -49,7 +61,7 @@ export function MediaGallery({ route }: { route: string }) {
 
 export function Footer() {
   const footer = siteData.footer || {};
-  return <footer><div className="container footer-grid"><div><div className="footer-kicker">INDEPENDENT GUIDE / CHECK LIVE SOURCES</div><strong>{footer.aboutTitle || `${siteData.game?.name || "Game"} Guide`}</strong><p>{footer.about || "An independent, source-backed game guide."}</p><p>{(footer as any).description || ""}</p></div><div className="footer-links"><ExternalOrText value={footer.playGame || siteData.game?.official_url || "Official game"} label="Official site ↗" /><ExternalOrText value={footer.officialDiscord || "Official community"} label="Community links ↗" /><ExternalOrText value={footer.officialYoutube || "Official YouTube"} label="Official media ↗" /><ExternalOrText value={footer.communityTool || "Community resources"} label="Steam hub ↗" /><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link></div><div className="language-list" aria-label="Published languages">{(siteData.languages || []).map((item: any) => <span key={item.code} lang={item.code}>{item.label}</span>)}</div></div></footer>;
+  return <footer><div className="container footer-grid"><div><div className="footer-kicker">INDEPENDENT GUIDE / CHECK LIVE SOURCES</div><strong>{footer.aboutTitle || `${siteData.game?.name || "Game"} Guide`}</strong><p>{footer.about || "An independent, source-backed game guide."}</p><p>{(footer as any).description || ""}</p></div><div className="footer-links"><ExternalOrText value={footer.playGame || siteData.game?.official_url || "Official game"} label="Official site ↗" placement="footer" /><ExternalOrText value={footer.officialDiscord || "Official community"} label="Community links ↗" placement="footer" /><ExternalOrText value={footer.officialYoutube || "Official YouTube"} label="Official media ↗" placement="footer" /><ExternalOrText value={footer.communityTool || "Community resources"} label="Steam hub ↗" placement="footer" /><Link href={routeHref("privacy")}>Privacy</Link><Link href={routeHref("terms")}>Terms</Link></div><div className="language-list" aria-label="Published languages">{(siteData.languages || []).map((item: any) => <span key={item.code} lang={item.code}>{item.label}</span>)}</div></div></footer>;
 }
 
 function sourceTypeLabel(sourceType: string) {
@@ -68,7 +80,7 @@ export function Sources({ slug }: { slug: string }) {
   const provenance: any = ((siteData as any).pageProvenance || {})[slug];
   const links = provenance?.source_links || [];
   if (!links.length && !provenance?.last_checked_at) return null;
-  return <section className="sources" aria-label="Sources"><div className="section-kicker">SOURCES</div><h2>Check the live references</h2><ul>{links.map((item: any) => <li key={`${item.url}-${item.label}`}><a href={item.url} target="_blank" rel="noreferrer">{item.label || item.source_type || "Source"}</a> <span className="muted">({sourceTypeLabel(item.source_type || "")})</span></li>)}</ul>{provenance?.last_checked_at ? <p className="last-checked">Last checked: {provenance.last_checked_at}</p> : null}</section>;
+  return <section className="sources" aria-label="Sources"><div className="section-kicker">SOURCES</div><h2>Check the live references</h2><ul>{links.map((item: any) => <li key={`${item.url}-${item.label}`}><a href={item.url} target="_blank" rel="noreferrer" data-analytics-event="outbound_source_click" data-analytics-destination={destinationType(item.url)} data-analytics-placement="source_list">{item.label || item.source_type || "Source"}</a> <span className="muted">({sourceTypeLabel(item.source_type || "")})</span></li>)}</ul>{provenance?.last_checked_at ? <p className="last-checked">Last checked: {provenance.last_checked_at}</p> : null}</section>;
 }
 
 export function EvidenceRail({ slug }: { slug: string }) {

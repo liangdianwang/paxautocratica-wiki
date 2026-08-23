@@ -11,8 +11,8 @@
   },
   "home": {
     "meta": {
-      "title": "Pax Autocratica Field Guide | Play & Explore",
-      "description": "A source-backed Pax Autocratica field guide for gameplay, capture mechanics, trailer, demo and price checks, Steam Deck notes, community links, and current issue leads.",
+      "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, capture mechanics, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -21,8 +21,8 @@
     },
     "hero": {
       "eyebrow": "THE INDEPENDENT PLAYER'S FIELD DOSSIER",
-      "title": "Pax Autocratica Field Guide",
-      "description": "From colony administration to frontier expeditions, get the game's premise, practical starting context, current access paths, and community leads in one place.",
+      "title": "Pax Autocratica Wiki & Guides",
+      "description": "Use source-backed guides for colony administration, frontier expeditions, squad combat, capture mechanics, current access paths, and community leads.",
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
@@ -122,7 +122,7 @@
     }
   },
   "footer": {
-    "aboutTitle": "Pax Autocratica Field Guide",
+    "aboutTitle": "Pax Autocratica Wiki & Guides",
     "about": "An independent, source-backed player guide. Stable claims are linked to primary or traceable sources, while volatile details are marked for re-checking.",
     "description": "No active codes are published; do not treat search snippets or third-party downloads as official resources.",
     "playGame": "https://www.paxautocratica.com/",
@@ -133,9 +133,9 @@
     "termsOfService": "/terms/"
   },
   "metadata": {
-    "title": "Pax Autocratica Field Guide | Play & Explore",
-    "description": "A source-backed Pax Autocratica field guide for gameplay, trailer, demo and price checks, Steam Deck notes, community links, and current issue leads.",
-    "keywords": "Pax Autocratica, gameplay, demo, price, trailer, Steam Deck, mods, community"
+    "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
+    "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, capture mechanics, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
+    "keywords": "Pax Autocratica wiki, Pax Autocratica guides, gameplay, capture mechanics, expeditions, colony, demo, price, trailer, mods, community"
   },
   "theme": {
     "hue": 164,
@@ -154,7 +154,45 @@
     "categories": [
       {
         "name": "Guide",
+        "display_name": "Pax Autocratica Wiki Guides",
         "slug": "guide",
+        "seo": {
+          "title": "Pax Autocratica Wiki Guides | Systems and Fixes",
+          "description": "Browse source-backed Pax Autocratica wiki guides for the core loop, expeditions, capture mechanics, squad commands, access, videos, community links and current feature status."
+        },
+        "lede": "Choose the player task that matches what you are trying to do. Each guide separates confirmed facts, current community evidence, and build-sensitive details.",
+        "groups": [
+          {
+            "title": "Start with the core loop",
+            "description": "Understand how colony administration, decrees, expeditions and first-person combat connect.",
+            "slugs": [
+              "pax-autocratica-gameplay"
+            ]
+          },
+          {
+            "title": "Expeditions and squad combat",
+            "description": "Prepare for harder sectors, control soldiers, manage risk and understand the current capture loop.",
+            "slugs": [
+              "pax-autocratica-capture-mechanics",
+              "pax-autocratica-sector-2-difficulty",
+              "pax-autocratica-best-troops",
+              "pax-autocratica-save-during-expedition",
+              "pax-autocratica-f1-commands"
+            ]
+          },
+          {
+            "title": "Access, media and current status",
+            "description": "Check current access routes, official media, community hubs and the evidence boundary for requested features.",
+            "slugs": [
+              "pax-autocratica-demo",
+              "pax-autocratica-price",
+              "pax-autocratica-trailer",
+              "pax-autocratica-community",
+              "pax-autocratica-mods",
+              "pax-autocratica-multiplayer"
+            ]
+          }
+        ],
         "pages": [
           {
             "keyword": "Pax Autocratica Gameplay",
@@ -1295,7 +1333,7 @@
       "keyword": "Pax Autocratica Capture Mechanics",
       "slug": "pax-autocratica-capture-mechanics",
       "seo": {
-        "title": "Pax Autocratica Capture Mechanics: Capture Chance, Prisoners, and Recruitment",
+        "title": "Pax Autocratica Capture Guide: Chance and Prisoners",
         "description": "Pax Autocratica capture mechanics explained with official scope, a practical capture loop, community observations, prisoner choices, and Early Access limits."
       },
       "direct_answer": "The current official sources confirm that weakened foes can be captured and brought back to the colony, where the player can imprison, convert, recruit or sacrifice them. They do not publish a universal capture formula or a complete enemy eligibility list. The visible percentage and player reports are useful encounter evidence, but exact values for elites, chiefs and bosses remain build-sensitive.",
@@ -1485,7 +1523,7 @@
       "keyword": "Pax Autocratica Sector 2 Difficulty",
       "slug": "pax-autocratica-sector-2-difficulty",
       "seo": {
-        "title": "Pax Autocratica Sector 2 Difficulty: Preparation and Evidence Boundaries",
+        "title": "Pax Autocratica Sector 2 Guide: Prepare and Survive",
         "description": "Pax Autocratica Sector 2 difficulty guide: separate official update facts from community reports, prepare buildings, research, ships, soldiers and capture gear, and decide when to retreat, upgrade or re-enter."
       },
       "direct_answer": "There is no official fixed Sector 2 difficulty threshold. The official update trail (AG-12, AG-14, State of the Frontline) treats difficulty progression, balancing and grind as active Early Access work, and the store describes the sectors/cores/expeditions/soldiers/base loop without publishing a per-sector curve. Community reports describe a real difficulty step-up after Sector 1 and share preparation advice - upgrades and research, upgraded ships carrying more soldiers, capturing elites, extra capture ammunition, more ships, more base-management time - but players openly disagree about details. Prepare by strengthening base production and research before entering, bring a force and loadout you can afford to lose, treat every community number as a build-dated observation rather than a rule, and decide to retreat, upgrade or re-enter from the question: what can this run safely afford to risk?",

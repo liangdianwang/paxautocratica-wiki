@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import type { CSSProperties } from "react";
 import siteData from "../public/site-data.json";
 import { AnalyticsScripts } from "./analytics";
+import { AnalyticsEvents } from "./analytics-events";
 
 const firstGameImage = ((siteData as any).media || []).find((asset: any) => asset.status === "ready" && asset.role !== "favicon" && asset.public_path)?.public_path;
 const siteName = siteData.game?.name || "Game Guide";
@@ -27,5 +28,5 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     "--theme-saturation": `${theme.saturation}%`,
     "--theme-lightness": `${theme.lightness}%`
   } as CSSProperties;
-  return <html lang={siteData.site?.default_locale || "en"} data-theme={theme.mode || "light"} style={style}><body>{children}<AnalyticsScripts /></body></html>;
+  return <html lang={siteData.site?.default_locale || "en"} data-theme={theme.mode || "light"} style={style}><body>{children}<AnalyticsScripts /><AnalyticsEvents /></body></html>;
 }
