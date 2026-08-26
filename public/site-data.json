@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-08-25"
+        "Updated 2026-08-26"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -174,7 +174,8 @@
             "description": "Check changing colony-management questions without turning community reports into unsupported facts.",
             "slugs": [
               "pax-autocratica-resource-transport-station-warehouse",
-              "pax-autocratica-custom-colony-settings"
+              "pax-autocratica-custom-colony-settings",
+              "pax-autocratica-trade-port"
             ]
           },
           {
@@ -258,6 +259,10 @@
           {
             "keyword": "Pax Autocratica Resource Transport Station Warehouse",
             "slug": "pax-autocratica-resource-transport-station-warehouse"
+          },
+          {
+            "keyword": "Pax Autocratica Trade Port",
+            "slug": "pax-autocratica-trade-port"
           }
         ]
       }
@@ -2252,141 +2257,122 @@
       "keyword": "Pax Autocratica Custom Colony Settings",
       "slug": "pax-autocratica-custom-colony-settings",
       "seo": {
-        "title": "Pax Autocratica Custom Colony Settings: Roadmap Status",
-        "description": "Pax Autocratica custom colony settings guide: what Multiverse has officially teased, what is not available yet, and how to avoid treating roadmap work as a live feature."
+        "title": "Pax Autocratica Custom Colony Settings: AG-25 Status",
+        "description": "Pax Autocratica custom colony settings guide updated for AG-25: what the new screen changes, which toggles are confirmed, and what remains build-sensitive."
       },
-      "direct_answer": "Custom colony settings are officially teased, but the checked public sources do not prove that a player-facing settings panel is live yet. The August 18 Steam announcement says Multiverse is working on a custom colony settings panel intended to let players adjust a wide range of simulation parameters. Treat that as roadmap evidence, not a menu path, ETA, or confirmed list of toggles. Until a dated patch note ships the feature, use this page as a status check and keep current gameplay decisions tied to the live options menu and official update notes.",
+      "direct_answer": "AG-25 changed the custom colony settings answer: the feature is no longer only a teaser. The official AG-25 note says a new Colony Difficulty Customization screen was added, letting Leaders adjust overall base work efficiency, time progression, stamina consumption, conflict behavior, and more. Treat that as the confirmed high-level feature boundary, not as a complete list of every toggle or a promise that old videos match your current build.",
       "direct_answer_claim_ids": [
-        "claim-100k-custom-settings-teaser",
-        "claim-early-access-balancing",
-        "claim-frontline-customization-requests",
-        "claim-current-discussion-settings-demand"
+        "claim-ag25-custom-colony-live",
+        "claim-ag25-settings-boundary",
+        "claim-early-access-systems-change"
       ],
       "sections": [
         {
-          "heading": "What the latest official post says",
+          "heading": "What changed with AG-25",
           "paragraphs": [
-            "The latest official Steam Community item visible in today's source watch is the August 18 message celebrating 100,000 Early Access players and more than 500,000 Steam wishlists. Its practical news value is the small teaser: the team says it is working on a custom colony settings panel so players can shape the colony experience more closely around how they want to play.",
-            "That is enough to answer the current status question, but not enough to publish a settings guide with exact toggles. The post does not give an ETA, a final list of parameters, a screenshot of the menu, or a patch number where the feature became available."
+            "The August 18 announcement teased a custom colony settings panel. Directive AG-25 moves that from planned work to shipped update language by naming a new Colony Difficulty Customization screen.",
+            "The official note gives a high-level list: base work efficiency, time progression, stamina consumption, conflict behavior, and more. It does not publish a complete screen-by-screen option table, so this page should not invent one."
           ],
           "steps": [
-            "Use the August 18 Steam post as proof that custom colony settings are in development.",
-            "Do not tell players to open a specific menu until a dated patch note or live build confirms it.",
-            "Recheck Steam News before updating this page from roadmap status to live feature instructions."
+            "Use AG-25 as the current official source for the screen existing.",
+            "Open your current build and check the actual option labels before changing a save.",
+            "Record the build date if you compare settings across videos or old discussions."
           ],
           "claim_ids": [
-            "claim-100k-custom-settings-teaser"
+            "claim-ag25-custom-colony-live",
+            "claim-ag25-settings-boundary"
           ]
         },
         {
-          "heading": "Why players are asking for settings",
+          "heading": "What the settings are for",
           "paragraphs": [
-            "The request fits the current Early Access evidence. The Steam store explains that the game has many interacting systems and that balancing is part of why it entered Early Access. The State of the Frontline post also lists player pain points around capture, expeditions, soldier behaviour, guidance, mod support, co-op, customization and camera-related requests.",
-            "A fresh Steam discussion surfaced today asks for a hover toggle option, which is a concrete example of players wanting more control over how the game behaves. That discussion is useful demand evidence, but it is not proof that the custom colony settings panel already includes a hover toggle."
+            "The feature exists to let players shape the colony simulation experience more closely around their preferred pace and difficulty. That fits the official Early Access context: Pax Autocratica has many interacting systems, and balance is still being adjusted through feedback.",
+            "Use the screen for broad run setup and difficulty tuning, not as proof that every pain point has a dedicated toggle. AG-25 separately lists other active work such as Trade Port improvements, vehicle changes, DX12 preloading, combat repetition, capture/conversion, soldier AI, and progression."
           ],
           "steps": [
-            "Separate demand vocabulary from shipped facts: player requests explain why the feature matters.",
-            "Use official Early Access and Frontline statements to define the safe boundary.",
-            "Keep individual requested toggles in the backlog until they appear in an official shipped-change note."
+            "Decide whether you want to change colony pace, work efficiency, stamina pressure, or conflict behavior.",
+            "Change one major setting at a time so you can understand the effect.",
+            "Recheck patch notes after future updates because option names and effects may shift."
           ],
           "claim_ids": [
-            "claim-early-access-balancing",
-            "claim-frontline-customization-requests",
-            "claim-current-discussion-settings-demand"
+            "claim-ag25-custom-colony-live",
+            "claim-early-access-systems-change"
           ]
         },
         {
-          "heading": "How to check whether the panel is live",
+          "heading": "Do not overread the patch note",
           "paragraphs": [
-            "Before assuming the panel exists, check the live Steam News feed for a dated update that names custom colony settings or a similar feature. Then check the current in-game options and colony setup surfaces in your own build. If the feature is not visible, do not install third-party files or use an old video as proof.",
-            "This matters because Pax Autocratica is still changing quickly. A setting may be planned, renamed, split into multiple controls, or shipped in a limited form before the final Early Access version."
+            "AG-25 is enough to correct the old status page, but it is not enough to publish exact values, hidden caps, best presets, or a full build recommendation. Those need current-build testing or a more detailed official explanation.",
+            "If you are trying to solve a specific problem such as money pressure, soldier purchases, hauling, or combat grind, use the relevant dedicated page or official update line instead of assuming one custom settings toggle solves it."
           ],
           "steps": [
-            "Open the Steam store or Community hub and read the newest official announcements.",
-            "Look for a patch note that says the settings panel was added, not just teased.",
-            "Open the current game build and check the options and colony setup screens.",
-            "If you cannot find it, record the build date and treat the feature as not yet live for your copy."
+            "Use the settings screen for global colony tuning.",
+            "Use Trade Port notes for Trade Port questions.",
+            "Use logistics pages for Warehouse or hauling symptoms.",
+            "Use official patch notes for version-sensitive facts."
           ],
           "claim_ids": [
-            "claim-100k-custom-settings-teaser",
-            "claim-early-access-balancing"
+            "claim-ag25-settings-boundary",
+            "claim-early-access-systems-change"
           ]
         },
         {
-          "heading": "What not to infer",
+          "heading": "Freshness boundary",
           "paragraphs": [
-            "Do not infer exact settings such as population caps, loyalty sliders, aging toggles, difficulty presets, hover behavior or resource multipliers unless those appear in an official shipped-change source. The wording 'wide range of simulation parameters' is broad by design and should not be expanded into a fake feature list.",
-            "Community threads can still be useful. They show the kinds of friction players want solved: control behavior, grind, clarity, progression and customization. They should feed the watchlist, not become unsupported menu instructions."
-          ],
-          "steps": [
-            "Avoid writing a full settings table until official patch notes expose one.",
-            "Avoid using a single discussion request as proof of a shipped option.",
-            "Update this page only when the source changes from roadmap language to released-feature language."
-          ],
-          "claim_ids": [
-            "claim-frontline-customization-requests",
-            "claim-current-discussion-settings-demand"
-          ]
-        },
-        {
-          "heading": "Evidence boundary",
-          "paragraphs": [
-            "This page was created from the 2026-08-24 source watch: the Steam Community page, the August 18 official thank-you/teaser post, the August 13 State of the Frontline post, the Steam store Early Access explanation, and current Steam discussion snippets.",
-            "GSC and GA4 baselines were available from the authenticated same-day improvement artifact, but they did not drive this page. Similarweb, Web.Cafe, AITDK extension output and ad revenue did not have fresh authenticated numeric evidence for this exact candidate, so they remain deferred and did not trigger template, ad, DNS or measurement changes."
+            "This page was updated from the 2026-08-26 source watch after AG-25 became the latest official Steam News API item. Future patches can rename options, add new toggles, or change how the current settings affect saves.",
+            "When in doubt, trust the current in-game screen and the latest dated official update over older screenshots or third-party summaries."
           ],
           "steps": [],
           "claim_ids": [
-            "claim-100k-custom-settings-teaser",
-            "claim-early-access-balancing"
+            "claim-ag25-custom-colony-live",
+            "claim-ag25-settings-boundary"
           ]
         }
       ],
       "faq": [
         {
-          "question": "Is the custom colony settings panel available now?",
-          "answer": "Not proven by the public sources checked today. It is officially teased as work in progress, but no checked patch note confirms a live player-facing panel.",
+          "question": "Are custom colony settings live now?",
+          "answer": "Yes at the official patch-note level: AG-25 says a new Colony Difficulty Customization screen was added.",
           "claim_ids": [
-            "claim-100k-custom-settings-teaser"
+            "claim-ag25-custom-colony-live"
           ]
         },
         {
-          "question": "What settings will it include?",
-          "answer": "The official wording only says a wide range of simulation parameters. This page does not invent a final list of toggles.",
+          "question": "What can I adjust?",
+          "answer": "AG-25 names base work efficiency, time progression, stamina consumption, conflict behavior, and more. Check your current build for the exact labels.",
           "claim_ids": [
-            "claim-100k-custom-settings-teaser"
+            "claim-ag25-custom-colony-live",
+            "claim-ag25-settings-boundary"
           ]
         },
         {
-          "question": "Does the hover toggle discussion prove the panel includes hover options?",
-          "answer": "No. It proves player demand for more control, but not a shipped feature or final setting.",
+          "question": "Does this prove best presets?",
+          "answer": "No. The patch note confirms the feature, not a tested best preset or exact numeric table.",
           "claim_ids": [
-            "claim-current-discussion-settings-demand"
+            "claim-ag25-settings-boundary"
           ]
         }
       ],
       "source_ids": [
-        "src-steam-community-20260824",
-        "src-steam-news-100k-20260824",
-        "src-steam-news-frontline-20260824",
-        "src-steam-store-20260824",
-        "src-steam-discussion-hover-20260824"
+        "src-steam-news-api-ag25-20260826",
+        "src-steamdb-ag25-20260826",
+        "src-steam-store-20260826"
       ],
       "claim_ids": [
-        "claim-100k-custom-settings-teaser",
-        "claim-early-access-balancing",
-        "claim-frontline-customization-requests",
-        "claim-current-discussion-settings-demand"
+        "claim-ag25-custom-colony-live",
+        "claim-ag25-settings-boundary",
+        "claim-early-access-systems-change"
       ],
-      "updated_at": "2026-08-24T01:08:25.951Z",
+      "updated_at": "2026-08-26T01:08:52.675Z",
       "time_sensitivity": "changing",
       "image_needs": [
         {
-          "purpose": "Show the colony-management context for a settings roadmap page.",
+          "purpose": "Show the colony management context for the custom settings page.",
           "route": "/pax-autocratica-custom-colony-settings",
           "minimum": "one relevant verified game image",
-          "source_id": "src-steam-store-20260824",
-          "alt": "Pax Autocratica colony management scene used for the custom colony settings status guide",
-          "relevance_reason": "The page is about colony-level simulation controls and settings."
+          "source_id": "src-steam-store-20260826",
+          "alt": "Pax Autocratica colony management scene used for the custom colony settings guide",
+          "relevance_reason": "The page is about colony simulation tuning."
         }
       ],
       "page_status": "publish",
@@ -2394,8 +2380,8 @@
       "parent_category": "Guide",
       "related_slugs": [
         "pax-autocratica-gameplay",
-        "pax-autocratica-mods",
-        "pax-autocratica-multiplayer",
+        "pax-autocratica-trade-port",
+        "pax-autocratica-resource-transport-station-warehouse",
         "pax-autocratica-community"
       ],
       "ad_slot_count": 2
@@ -2532,6 +2518,142 @@
         "pax-autocratica-custom-colony-settings",
         "pax-autocratica-community",
         "pax-autocratica-sector-2-difficulty"
+      ],
+      "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Trade Port",
+      "slug": "pax-autocratica-trade-port",
+      "seo": {
+        "title": "Pax Autocratica Trade Port: Current Risks and Roadmap",
+        "description": "Pax Autocratica Trade Port guide for AG-25: what is confirmed, why players are cautious, and what to check before relying on selling or soldier purchases."
+      },
+      "direct_answer": "After AG-25, treat the Trade Port as a useful but still changing base system, not a solved passive-income machine. The official AG-25 note says a broader Trade Port update is already in progress, specifically around risky items sold to soldiers and requests to let Leaders sell items directly. Current player discussions also connect the building to money pressure and unwanted soldier effects. Use it carefully, check soldier logs, and do not assume a direct sell-from-Warehouse feature exists until a dated patch note confirms it.",
+      "direct_answer_claim_ids": [
+        "claim-ag25-trade-port-roadmap",
+        "claim-trade-port-money-demand",
+        "claim-trade-port-risk-boundary"
+      ],
+      "sections": [
+        {
+          "heading": "What AG-25 confirms",
+          "paragraphs": [
+            "Directive AG-25 is the current official update boundary for this page. It confirms many base and quality-of-life changes, including better production scheduling, improved soldier hauling, automatic returns for some harvested outputs, and a new Colony Difficulty Customization screen.",
+            "For the Trade Port, the important line is not a completed fix. The update says the team is aware of current Trade Port issues, including questionable items being sold to soldiers, and that a broader Trade Port update is already being worked on. That means the topic is real, but the final design is not yet documented."
+          ],
+          "steps": [
+            "Use AG-25 as proof that Trade Port issues are on the official radar.",
+            "Do not treat the planned broader update as already shipped.",
+            "Separate Trade Port questions from unrelated hauling or Warehouse problems."
+          ],
+          "claim_ids": [
+            "claim-ag25-trade-port-roadmap"
+          ]
+        },
+        {
+          "heading": "Why players are asking about it",
+          "paragraphs": [
+            "One active Steam discussion asks how to handle daily money pressure and whether the Trade Port can sell a player's own ores. Replies suggest expedition income and item selling routes, but the thread does not establish an official passive-income rule.",
+            "Another large discussion connects Trade Port purchases to sudden negative traits and asks for ways to restrict or blacklist items. A separate current hub discussion asks the developers to preserve some of the Trade Port's chaotic story value while improving the system."
+          ],
+          "steps": [
+            "If your problem is money, test expedition rewards and current trader interactions before assuming passive sales exist.",
+            "If your problem is soldier behavior, inspect the soldier log before blaming aging, morale, or a hidden random event.",
+            "Keep one note with the build date, Trade Port status, soldier log entry, and any item involved."
+          ],
+          "claim_ids": [
+            "claim-trade-port-money-demand",
+            "claim-trade-port-risk-boundary"
+          ]
+        },
+        {
+          "heading": "A safe checklist before building around it",
+          "paragraphs": [
+            "The safest planning stance is conservative: the Trade Port may help your run, but it is still under active Early Access revision. A page that promises a universal money route or a complete item blacklist would be too strong for today's evidence.",
+            "Use the building when you can tolerate some uncertainty, and keep your economy from depending on an unconfirmed future update. If a soldier suddenly changes state, look for purchase history or other direct evidence before deleting buildings, changing colony settings, or assuming your save is broken."
+          ],
+          "steps": [
+            "Check AG-25 or a newer official update before relying on any Trade Port guide.",
+            "Read the building text and soldier logs in your current build.",
+            "Avoid making the Trade Port your only money plan until direct selling is officially documented.",
+            "Use the official Steam discussion or Discord route for reproducible reports."
+          ],
+          "claim_ids": [
+            "claim-ag25-trade-port-roadmap",
+            "claim-trade-port-risk-boundary"
+          ]
+        },
+        {
+          "heading": "What this page will not claim",
+          "paragraphs": [
+            "This page does not publish a complete Trade Port item table, a guaranteed way to sell every ore from storage, or a fixed list of soldier-purchase side effects. The current evidence supports a caution page and a reporting checklist, not a full mechanics database.",
+            "The next useful update to this page should come from a dated official patch note that names Trade Port changes, or from repeatable current-build tests with enough detail to separate intended behavior from bugs."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-ag25-trade-port-roadmap",
+            "claim-trade-port-risk-boundary"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can the Trade Port sell my own ores automatically?",
+          "answer": "Not as a confirmed AG-25 rule. Players are asking about direct selling, and AG-25 says a broader Trade Port update is in progress, but it does not document a finished direct-sell feature.",
+          "claim_ids": [
+            "claim-ag25-trade-port-roadmap",
+            "claim-trade-port-money-demand"
+          ]
+        },
+        {
+          "question": "Can Trade Port purchases affect soldiers?",
+          "answer": "Player reports connect Trade Port purchases to unwanted effects, and AG-25 names risky soldier purchases as an area under review. Check the soldier log in your current build before drawing a conclusion.",
+          "claim_ids": [
+            "claim-trade-port-risk-boundary"
+          ]
+        },
+        {
+          "question": "Should I delete the Trade Port?",
+          "answer": "Do not treat deletion as a universal fix. First confirm your current issue, check logs, and compare against the latest official update because the system is actively being revised.",
+          "claim_ids": [
+            "claim-ag25-trade-port-roadmap",
+            "claim-trade-port-risk-boundary"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-news-api-ag25-20260826",
+        "src-steamdb-ag25-20260826",
+        "src-steam-hub-trade-port-20260826",
+        "src-steam-money-thread-20260826",
+        "src-steam-traits-thread-20260826",
+        "src-steam-store-20260826"
+      ],
+      "claim_ids": [
+        "claim-ag25-trade-port-roadmap",
+        "claim-trade-port-money-demand",
+        "claim-trade-port-risk-boundary"
+      ],
+      "updated_at": "2026-08-26T01:08:52.675Z",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Show the colony base context for a Trade Port planning page.",
+          "route": "/pax-autocratica-trade-port",
+          "minimum": "one relevant verified game image",
+          "source_id": "src-steam-store-20260826",
+          "alt": "Pax Autocratica colony management scene used for the Trade Port guide",
+          "relevance_reason": "The page is about a base economy and soldier-behavior system."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-custom-colony-settings",
+        "pax-autocratica-resource-transport-station-warehouse",
+        "pax-autocratica-gameplay",
+        "pax-autocratica-community"
       ],
       "ad_slot_count": 2
     }
@@ -3616,25 +3738,25 @@
       ]
     },
     "pax-autocratica-custom-colony-settings": {
-      "last_checked_at": "2026-08-24T01:08:25.951Z",
-      "quality_review_id": "q01-pax-autocratica-custom-colony-settings",
+      "last_checked_at": "2026-08-26T01:08:52.675Z",
+      "quality_review_id": "q01-pax-autocratica-custom-colony-settings-ag25-update",
       "status": "publish",
-      "depth_variance_reason": "The page answers a distinct current-status task from the official August 18 teaser and player settings demand, while explicitly refusing to invent a shipped settings table, menu path or ETA.",
+      "depth_variance_reason": "AG-25 directly changes the previous status answer from planned to shipped, but the page still refuses to invent exact settings values or presets.",
       "source_links": [
         {
-          "label": "Steam Community latest hub",
-          "url": "https://steamcommunity.com/app/1067360",
-          "source_type": "official_community"
+          "label": "Steam News API: AG-25 latest item",
+          "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1067360&count=10&maxlength=4000&format=json",
+          "source_type": "official_update_api"
+        },
+        {
+          "label": "SteamDB mirror: Directive AG-25",
+          "url": "https://steamdb.info/patchnotes/24928845/",
+          "source_type": "official_update_mirror"
         },
         {
           "label": "Pax Autocratica Steam store",
           "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
           "source_type": "official_store"
-        },
-        {
-          "label": "Official Pax Autocratica site",
-          "url": "https://www.paxautocratica.com/",
-          "source_type": "official_website"
         }
       ]
     },
@@ -3663,6 +3785,44 @@
           "label": "Steam news API for App 1067360",
           "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1067360&count=10&maxlength=1000&format=json",
           "source_type": "official_community"
+        }
+      ]
+    },
+    "pax-autocratica-trade-port": {
+      "last_checked_at": "2026-08-26T01:08:52.675Z",
+      "quality_review_id": "q01-pax-autocratica-trade-port",
+      "status": "publish",
+      "depth_variance_reason": "The page solves a distinct Trade Port planning and risk task using one current official update and multiple Steam community demand signals; it avoids publishing unverified item tables or direct-selling claims.",
+      "source_links": [
+        {
+          "label": "Steam News API: AG-25 latest item",
+          "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1067360&count=10&maxlength=4000&format=json",
+          "source_type": "official_update_api"
+        },
+        {
+          "label": "SteamDB mirror: Directive AG-25",
+          "url": "https://steamdb.info/patchnotes/24928845/",
+          "source_type": "official_update_mirror"
+        },
+        {
+          "label": "Steam Community hub: Trade Port discussion surfaced",
+          "url": "https://steamcommunity.com/app/1067360/",
+          "source_type": "platform_community"
+        },
+        {
+          "label": "Steam discussion: money and selling question",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/84032037661565297/",
+          "source_type": "community"
+        },
+        {
+          "label": "Steam discussion: soldier negative traits and Trade Port",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/84031737849657323/",
+          "source_type": "community"
+        },
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
         }
       ]
     }
@@ -4054,6 +4214,23 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 colony-management screenshot already present in the site media library.",
       "relevance_reason": "Shows the colony logistics context for a transport station and Warehouse troubleshooting page."
+    },
+    {
+      "asset_id": "pax-autocratica-trade-port-17",
+      "page": "/pax-autocratica-trade-port",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-home-01.webp",
+      "alt": "Pax Autocratica colony management scene used for the Trade Port guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/794019d7a98da85f60757e6be9409dcb829881aa/ss_794019d7a98da85f60757e6be9409dcb829881aa.1920x1080.jpg?t=1786607873",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-08-14T07:24:00Z",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 colony-management screenshot already present in the site media library.",
+      "relevance_reason": "Shows the base-management context for a Trade Port planning guide."
     }
   ],
   "ads": {
@@ -4126,12 +4303,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-935c881b1374",
+    "version": "local-6ef738e5941b",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-08-25T01:07:36.232Z"
+  "generated_at": "2026-08-26T01:08:52.675Z"
 }
