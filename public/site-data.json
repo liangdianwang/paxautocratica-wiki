@@ -185,6 +185,7 @@
               "pax-autocratica-capture-mechanics",
               "pax-autocratica-sector-2-difficulty",
               "pax-autocratica-best-troops",
+              "pax-autocratica-sacrifice-units",
               "pax-autocratica-save-during-expedition",
               "pax-autocratica-f1-commands"
             ]
@@ -263,6 +264,10 @@
           {
             "keyword": "Pax Autocratica Trade Port",
             "slug": "pax-autocratica-trade-port"
+          },
+          {
+            "keyword": "Pax Autocratica How to Sacrifice Units",
+            "slug": "pax-autocratica-sacrifice-units"
           }
         ]
       }
@@ -2656,6 +2661,150 @@
         "pax-autocratica-community"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica How to Sacrifice Units",
+      "slug": "pax-autocratica-sacrifice-units",
+      "seo": {
+        "title": "Pax Autocratica How to Sacrifice Units: Upgrade Slot Checks",
+        "description": "A source-backed Pax Autocratica sacrifice units checklist: what to check when marked soldiers will not enter upgrade sacrifice slots."
+      },
+      "direct_answer": "If Pax Autocratica will not let you drag a marked unit into a sacrifice slot, treat it as an upgrade-material check first, not a gallows or execution problem. The official sources confirm sacrifice, capture and soldier upgrade exist, but they do not publish a complete dated slot rule. The best current community answer says the upgrade route uses soldiers of the same race as sacrifice material. Check the target soldier, material soldier race, tier, building/interface, and current build before assuming the save is broken.",
+      "direct_answer_claim_ids": [
+        "claim-sacrifice-current-question",
+        "claim-sacrifice-official-boundary",
+        "claim-sacrifice-community-same-race"
+      ],
+      "sections": [
+        {
+          "heading": "What is confirmed",
+          "paragraphs": [
+            "The current store page frames sacrifice as part of the colony-and-combat loop: players can capture enemies, convert them, recruit them, or sacrifice them. Official update notes also confirm that Soldier Upgrade progression has been adjusted during Early Access.",
+            "That official boundary is useful but narrow. It proves the system exists and is being tuned, but it does not prove every sacrifice-slot condition, drag target, race rule, tier cost or future UI state."
+          ],
+          "steps": [
+            "Use the live Steam store and all-news feed to confirm the current Early Access boundary.",
+            "Do not rely on a fixed old tutorial if AG-25 or a newer update changed the interface.",
+            "Separate three actions: capture and convert prisoners, upgrade soldiers, and execute or remove units."
+          ],
+          "claim_ids": [
+            "claim-sacrifice-official-boundary"
+          ]
+        },
+        {
+          "heading": "Why the slot may reject a unit",
+          "paragraphs": [
+            "The current player problem is specific: a marked unit will not enter the sacrifice slots. A separate answered Steam thread says the upgrade use of sacrifice is for upgrading another soldier's tier, and describes the material as a useless soldier of the same race. Because that is community evidence, this page treats it as a troubleshooting clue rather than a universal official rule.",
+            "The practical consequence is simple: if you are dragging a prisoner, a different-race soldier, a unit still assigned elsewhere, or a unit into the wrong execution-style surface, the upgrade slot may not accept it. Check those conditions before deleting buildings or assuming the upgrade screen is bugged."
+          ],
+          "steps": [
+            "Open the soldier upgrade interface, not a gallows or generic punishment surface.",
+            "Pick the soldier you want to upgrade first.",
+            "Use a low-value soldier as material, and first test a same-race material unit because that is the current answered community clue.",
+            "Make sure the material unit is not deployed, locked into expedition duty, or needed by another active interface.",
+            "If the slot still rejects the material, take a screenshot with the build date, target race, material race, target tier, material tier and the exact interface."
+          ],
+          "claim_ids": [
+            "claim-sacrifice-current-question",
+            "claim-sacrifice-community-same-race",
+            "claim-sacrifice-report-boundary"
+          ]
+        },
+        {
+          "heading": "What not to infer",
+          "paragraphs": [
+            "Do not infer that gallows are required for upgrade sacrifice. The current question mentions building gallows, but the available evidence does not show that gallows are the route for filling the upgrade sacrifice slots.",
+            "Do not publish or trust a full tier-cost table from this evidence alone. The store, AG-12 and AG-25 establish the system and its volatility, while the answered community thread gives a useful rule-of-thumb check. That is enough for a slot checklist, not enough for a complete upgrade database."
+          ],
+          "steps": [
+            "Do not sacrifice rare units until you understand ship-slot and tier consequences.",
+            "Do not use unofficial mods or save edits to force a slot state.",
+            "Recheck after each official patch because upgrade, prisoner and soldier systems are still changing."
+          ],
+          "claim_ids": [
+            "claim-sacrifice-official-boundary",
+            "claim-sacrifice-community-same-race"
+          ]
+        },
+        {
+          "heading": "Bug report checklist",
+          "paragraphs": [
+            "If the same-race check and interface check both fail, the report should be narrow enough for the developers or community to reproduce. A vague 'sacrifice does not work' post is harder to act on than a dated build, target, material and interface description.",
+            "This page will need a follow-up once an official patch note documents the exact sacrifice-slot rules or a reliable current-build test records every valid and invalid material condition."
+          ],
+          "steps": [
+            "Record the date and whether AG-25 or a newer update is installed.",
+            "Record the target soldier race and tier.",
+            "Record the sacrifice material race, tier and current assignment state.",
+            "Record the exact UI screen and whether the material was marked before opening it.",
+            "Post the evidence to the Steam discussion or official community route."
+          ],
+          "claim_ids": [
+            "claim-sacrifice-report-boundary"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Are gallows required to fill sacrifice slots?",
+          "answer": "Not from the evidence used here. The current problem report says the player tried gallows, but the useful upgrade clue points to the soldier upgrade system instead.",
+          "claim_ids": [
+            "claim-sacrifice-current-question",
+            "claim-sacrifice-community-same-race"
+          ]
+        },
+        {
+          "question": "Do sacrifice materials need to be the same race?",
+          "answer": "A marked answered Steam thread says same-race soldiers are used for tier upgrades. Treat that as a current community troubleshooting clue until an official patch note documents the rule.",
+          "claim_ids": [
+            "claim-sacrifice-community-same-race"
+          ]
+        },
+        {
+          "question": "Should I sacrifice captured prisoners or regular soldiers?",
+          "answer": "This evidence does not justify a universal answer. Use low-value material first, avoid sacrificing rare units blindly, and check the latest build because upgrade balance is still changing.",
+          "claim_ids": [
+            "claim-sacrifice-official-boundary",
+            "claim-sacrifice-community-same-race"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-app-hub-sacrifice-question-20260827",
+        "src-steam-help-capture-prison-upgrade-20260827",
+        "src-steam-store-sacrifice-boundary-20260827",
+        "src-steam-news-ag12-upgrade-20260827",
+        "src-steam-news-ag25-progression-20260827",
+        "src-youtube-advanced-tips-sacrifice-discovery-20260827"
+      ],
+      "claim_ids": [
+        "claim-sacrifice-current-question",
+        "claim-sacrifice-official-boundary",
+        "claim-sacrifice-community-same-race",
+        "claim-sacrifice-report-boundary"
+      ],
+      "updated_at": "2026-08-27T01:10:11.711Z",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Show expedition and troop context for a sacrifice and soldier upgrade troubleshooting page.",
+          "route": "/pax-autocratica-sacrifice-units",
+          "minimum": "one relevant verified game image",
+          "source_id": "src-steam-store-sacrifice-boundary-20260827",
+          "alt": "Pax Autocratica combat and troop scene used for the sacrifice units checklist",
+          "relevance_reason": "The page is about soldier upgrade material and troop-management consequences."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-capture-mechanics",
+        "pax-autocratica-best-troops",
+        "pax-autocratica-gameplay",
+        "pax-autocratica-sector-2-difficulty"
+      ],
+      "ad_slot_count": 2
     }
   ],
   "pageProvenance": {
@@ -3825,6 +3974,78 @@
           "source_type": "official_store"
         }
       ]
+    },
+    "pax-autocratica-sacrifice-units": {
+      "intent_id": "intent-20260827-sacrifice-units",
+      "intent_type": "gameplay_troubleshooting",
+      "user_job": "Fix the soldier upgrade sacrifice slot when marked units will not drag into it.",
+      "intent_evidence_ids": [
+        "src-steam-app-hub-sacrifice-question-20260827",
+        "src-steam-help-capture-prison-upgrade-20260827",
+        "src-steam-store-sacrifice-boundary-20260827",
+        "src-steam-news-ag12-upgrade-20260827"
+      ],
+      "answerability": "resolved_with_community_rule_boundary",
+      "coverage": [
+        {
+          "dimension": "current_player_demand",
+          "status": "covered",
+          "claim_ids": [
+            "claim-sacrifice-current-question"
+          ],
+          "evidence_relation": "direct",
+          "notes": "The current Steam app hub displays the exact sacrifice-slot problem and comment count."
+        },
+        {
+          "dimension": "official_system_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-sacrifice-official-boundary"
+          ],
+          "evidence_relation": "direct",
+          "notes": "Official store/news confirm sacrifice and upgrade systems but not every slot rule."
+        },
+        {
+          "dimension": "exact_slot_rule",
+          "status": "partial",
+          "claim_ids": [
+            "claim-sacrifice-community-same-race"
+          ],
+          "evidence_relation": "community_answer",
+          "notes": "Same-race material is treated as a player-reported checklist clue, not official documentation."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam Community app hub: current sacrifice question",
+          "url": "https://steamcommunity.com/app/1067360",
+          "source_type": "platform_community"
+        },
+        {
+          "label": "Steam discussion: capture, prison and upgrade answer",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/585056462065328982/",
+          "source_type": "community"
+        },
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Official Steam news feed",
+          "url": "https://steamcommunity.com/app/1067360/allnews/",
+          "source_type": "official_community"
+        },
+        {
+          "label": "YouTube discovery: advanced tips",
+          "url": "https://www.youtube.com/watch?v=7vAaxZ9xkDY",
+          "source_type": "video_discovery"
+        }
+      ],
+      "last_checked_at": "2026-08-27T01:10:11.711Z",
+      "quality_review_id": "q01-pax-autocratica-sacrifice-units",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a distinct current player task without duplicating the capture mechanics or best troops pages. It gives an upgrade-slot troubleshooting path, distinguishes official facts from community clues, and avoids an unsupported full tier-cost or UI rule table."
     }
   },
   "homeProvenance": {
@@ -4231,6 +4452,24 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 colony-management screenshot already present in the site media library.",
       "relevance_reason": "Shows the base-management context for a Trade Port planning guide."
+    },
+    {
+      "asset_id": "pax-autocratica-sacrifice-units-12",
+      "page": "/pax-autocratica-sacrifice-units",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-best-troops-12.webp",
+      "alt": "Pax Autocratica combat scene used for the sacrifice units checklist",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/4375180d755159b91b0f074f78b8bc2a2bdb20b5/ss_4375180d755159b91b0f074f78b8bc2a2bdb20b5.1920x1080.jpg?t=1786607873",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-08-27T01:10:11.711Z",
+      "sha256": "3B450677226DCE9E53342DF7DAC37F6F742A3FAAE0C495D445AFC58AB804D8ED",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 gameplay screenshot asset already in the site media registry.",
+      "relevance_reason": "Shows combat and troop context for a page about soldier upgrade and sacrifice consequences."
     }
   ],
   "ads": {
