@@ -175,7 +175,8 @@
             "slugs": [
               "pax-autocratica-resource-transport-station-warehouse",
               "pax-autocratica-custom-colony-settings",
-              "pax-autocratica-trade-port"
+              "pax-autocratica-trade-port",
+              "pax-autocratica-sell-unwanted-items"
             ]
           },
           {
@@ -268,6 +269,10 @@
           {
             "keyword": "Pax Autocratica How to Sacrifice Units",
             "slug": "pax-autocratica-sacrifice-units"
+          },
+          {
+            "keyword": "Pax Autocratica How to Sell Unwanted Items",
+            "slug": "pax-autocratica-sell-unwanted-items"
           }
         ]
       }
@@ -2530,116 +2535,120 @@
       "keyword": "Pax Autocratica Trade Port",
       "slug": "pax-autocratica-trade-port",
       "seo": {
-        "title": "Pax Autocratica Trade Port: Current Risks and Roadmap",
-        "description": "Pax Autocratica Trade Port guide for AG-25: what is confirmed, why players are cautious, and what to check before relying on selling or soldier purchases."
+        "title": "Pax Autocratica Trade Port: AG-27 Selling and Current Risks",
+        "description": "Pax Autocratica Trade Port guide updated for AG-27: item selling is live, but prices, automation and soldier purchase risks still need current-build checks."
       },
-      "direct_answer": "After AG-25, treat the Trade Port as a useful but still changing base system, not a solved passive-income machine. The official AG-25 note says a broader Trade Port update is already in progress, specifically around risky items sold to soldiers and requests to let Leaders sell items directly. Current player discussions also connect the building to money pressure and unwanted soldier effects. Use it carefully, check soldier logs, and do not assume a direct sell-from-Warehouse feature exists until a dated patch note confirms it.",
+      "direct_answer": "After AG-27, the Trade Port can now sell unwanted or excess items to visiting merchant ships. That means the old AG-25 answer, which treated direct selling as only planned, is outdated. Use the Trade Port as a current selling route, but do not assume every item has the same value, that Warehouse stock sells automatically, or that soldier purchase risks are solved unless the current build and logs confirm it.",
       "direct_answer_claim_ids": [
-        "claim-ag25-trade-port-roadmap",
-        "claim-trade-port-money-demand",
-        "claim-trade-port-risk-boundary"
+        "claim-ag27-trading-post-selling",
+        "claim-ag27-not-full-price-table",
+        "claim-trade-port-risk-separation"
       ],
       "sections": [
         {
-          "heading": "What AG-25 confirms",
+          "heading": "What AG-27 changed",
           "paragraphs": [
-            "Directive AG-25 is the current official update boundary for this page. It confirms many base and quality-of-life changes, including better production scheduling, improved soldier hauling, automatic returns for some harvested outputs, and a new Colony Difficulty Customization screen.",
-            "For the Trade Port, the important line is not a completed fix. The update says the team is aware of current Trade Port issues, including questionable items being sold to soldiers, and that a broader Trade Port update is already being worked on. That means the topic is real, but the final design is not yet documented."
+            "Directive AG-27 is now the current official update boundary for this page. Its important Trade Port change is direct: Leaders can sell unwanted or excess items to visiting merchant ships through the Trading Post.",
+            "This changes the practical answer for money-pressure players. The feature is no longer only a roadmap request from AG-25; it is a dated shipped patch note. The page still keeps the boundary tight because the patch note does not publish a complete price table or every storage interaction."
           ],
           "steps": [
-            "Use AG-25 as proof that Trade Port issues are on the official radar.",
-            "Do not treat the planned broader update as already shipped.",
-            "Separate Trade Port questions from unrelated hauling or Warehouse problems."
+            "Use AG-27 or a newer official update as the current Trade Port boundary.",
+            "Treat selling unwanted items as shipped in AG-27.",
+            "Keep price, item eligibility and automation claims tied to your current build."
           ],
           "claim_ids": [
-            "claim-ag25-trade-port-roadmap"
+            "claim-ag27-trading-post-selling",
+            "claim-ag27-not-full-price-table"
           ]
         },
         {
-          "heading": "Why players are asking about it",
+          "heading": "How the older money problem fits",
           "paragraphs": [
-            "One active Steam discussion asks how to handle daily money pressure and whether the Trade Port can sell a player's own ores. Replies suggest expedition income and item selling routes, but the thread does not establish an official passive-income rule.",
-            "Another large discussion connects Trade Port purchases to sudden negative traits and asks for ways to restrict or blacklist items. A separate current hub discussion asks the developers to preserve some of the Trade Port's chaotic story value while improving the system."
+            "The earlier money-pressure thread asked whether the Trade Port ever sells a player's own ores and how to automate money. Before AG-27, replies pointed players toward expeditions, traders and manually carried goods. AG-27 now gives that demand a clearer base-side route.",
+            "The safe interpretation is narrow: selling is now supported at the Trading Post when visiting merchant ships are involved. It is not proof that every Warehouse item is sold passively, that every ore has a good return, or that this replaces expedition income in every run."
           ],
           "steps": [
-            "If your problem is money, test expedition rewards and current trader interactions before assuming passive sales exist.",
-            "If your problem is soldier behavior, inspect the soldier log before blaming aging, morale, or a hidden random event.",
-            "Keep one note with the build date, Trade Port status, soldier log entry, and any item involved."
+            "Use selling to unload surplus or low-priority inventory first.",
+            "Check the merchant interaction rather than assuming passive income is running in the background.",
+            "Compare the return against expedition rewards before reorganizing the whole economy around it."
           ],
           "claim_ids": [
-            "claim-trade-port-money-demand",
-            "claim-trade-port-risk-boundary"
+            "claim-trade-port-money-demand-current",
+            "claim-ag27-trading-post-selling"
           ]
         },
         {
-          "heading": "A safe checklist before building around it",
+          "heading": "Keep selling separate from soldier purchase risk",
           "paragraphs": [
-            "The safest planning stance is conservative: the Trade Port may help your run, but it is still under active Early Access revision. A page that promises a universal money route or a complete item blacklist would be too strong for today's evidence.",
-            "Use the building when you can tolerate some uncertainty, and keep your economy from depending on an unconfirmed future update. If a soldier suddenly changes state, look for purchase history or other direct evidence before deleting buildings, changing colony settings, or assuming your save is broken."
+            "A separate cluster of player reports connected Trade Port purchases to unwanted soldier trait outcomes. AG-27 names item selling, UI and stability improvements, but it does not provide a full soldier-purchase restriction system or a resolved blacklist table.",
+            "For players, the practical consequence is that selling extra items and diagnosing soldier purchase side effects are different tasks. Selling can help inventory and cash pressure; soldier behavior still deserves log checks and current-build evidence before deleting buildings or blaming a hidden rule."
           ],
           "steps": [
-            "Check AG-25 or a newer official update before relying on any Trade Port guide.",
-            "Read the building text and soldier logs in your current build.",
-            "Avoid making the Trade Port your only money plan until direct selling is officially documented.",
-            "Use the official Steam discussion or Discord route for reproducible reports."
+            "If the issue is excess inventory, use the selling route and record the item/value you saw.",
+            "If the issue is soldier traits, inspect soldier logs and Trade Port purchase history separately.",
+            "Do not use one AG-27 selling line as proof that every Trade Port risk is solved."
           ],
           "claim_ids": [
-            "claim-ag25-trade-port-roadmap",
-            "claim-trade-port-risk-boundary"
+            "claim-trade-port-risk-separation",
+            "claim-ag27-not-full-price-table"
           ]
         },
         {
-          "heading": "What this page will not claim",
+          "heading": "What this page still will not claim",
           "paragraphs": [
-            "This page does not publish a complete Trade Port item table, a guaranteed way to sell every ore from storage, or a fixed list of soldier-purchase side effects. The current evidence supports a caution page and a reporting checklist, not a full mechanics database.",
-            "The next useful update to this page should come from a dated official patch note that names Trade Port changes, or from repeatable current-build tests with enough detail to separate intended behavior from bugs."
+            "This page does not publish a universal sell-price list, a guaranteed best item to craft for money, or an automatic sell-from-Warehouse rule. The official patch note is enough to update the status, but not enough to invent tables the source does not contain.",
+            "The next useful update should come from a newer official patch, repeatable current-build testing, or a player report with the build date, item name, merchant context and observed sale value."
           ],
-          "steps": [],
+          "steps": [
+            "Record build date before relying on a specific price.",
+            "Record whether the item came from carried inventory, storage or another interface.",
+            "Recheck the Steam news feed after each maintenance directive."
+          ],
           "claim_ids": [
-            "claim-ag25-trade-port-roadmap",
-            "claim-trade-port-risk-boundary"
+            "claim-ag27-not-full-price-table"
           ]
         }
       ],
       "faq": [
         {
-          "question": "Can the Trade Port sell my own ores automatically?",
-          "answer": "Not as a confirmed AG-25 rule. Players are asking about direct selling, and AG-25 says a broader Trade Port update is in progress, but it does not document a finished direct-sell feature.",
+          "question": "Can the Trade Port sell my own items now?",
+          "answer": "Yes, AG-27 says Leaders can sell unwanted or excess items to visiting merchant ships at the Trading Post. The patch note does not prove every storage or automation detail.",
           "claim_ids": [
-            "claim-ag25-trade-port-roadmap",
-            "claim-trade-port-money-demand"
+            "claim-ag27-trading-post-selling",
+            "claim-ag27-not-full-price-table"
           ]
         },
         {
-          "question": "Can Trade Port purchases affect soldiers?",
-          "answer": "Player reports connect Trade Port purchases to unwanted effects, and AG-25 names risky soldier purchases as an area under review. Check the soldier log in your current build before drawing a conclusion.",
+          "question": "Does this solve passive income?",
+          "answer": "Not by itself. It gives a selling route, but it does not publish a passive-income rule or prove that Warehouse stock sells automatically.",
           "claim_ids": [
-            "claim-trade-port-risk-boundary"
+            "claim-trade-port-money-demand-current",
+            "claim-ag27-not-full-price-table"
           ]
         },
         {
-          "question": "Should I delete the Trade Port?",
-          "answer": "Do not treat deletion as a universal fix. First confirm your current issue, check logs, and compare against the latest official update because the system is actively being revised.",
+          "question": "Are soldier purchase side effects fixed?",
+          "answer": "AG-27 confirms item selling, not a complete soldier purchase blacklist. Use soldier logs and the latest patch notes before calling a trait change fixed.",
           "claim_ids": [
-            "claim-ag25-trade-port-roadmap",
-            "claim-trade-port-risk-boundary"
+            "claim-trade-port-risk-separation"
           ]
         }
       ],
       "source_ids": [
-        "src-steam-news-api-ag25-20260826",
-        "src-steamdb-ag25-20260826",
-        "src-steam-hub-trade-port-20260826",
+        "src-steam-news-ag27-item-selling-20260828",
+        "src-steamdb-ag27-mirror-20260828",
+        "src-steam-community-hub-ag27-20260828",
         "src-steam-money-thread-20260826",
-        "src-steam-traits-thread-20260826",
-        "src-steam-store-20260826"
+        "src-steam-trait-thread-20260826",
+        "src-steam-store-current-20260828"
       ],
       "claim_ids": [
-        "claim-ag25-trade-port-roadmap",
-        "claim-trade-port-money-demand",
-        "claim-trade-port-risk-boundary"
+        "claim-ag27-trading-post-selling",
+        "claim-trade-port-money-demand-current",
+        "claim-trade-port-risk-separation",
+        "claim-ag27-not-full-price-table"
       ],
-      "updated_at": "2026-08-26T01:08:52.675Z",
+      "updated_at": "2026-08-28T09:04:22.7627779+08:00",
       "time_sensitivity": "changing",
       "image_needs": [
         {
@@ -2803,6 +2812,149 @@
         "pax-autocratica-best-troops",
         "pax-autocratica-gameplay",
         "pax-autocratica-sector-2-difficulty"
+      ],
+      "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica How to Sell Unwanted Items",
+      "slug": "pax-autocratica-sell-unwanted-items",
+      "seo": {
+        "title": "Pax Autocratica How to Sell Unwanted Items at the Trading Post",
+        "description": "A source-backed AG-27 guide to selling unwanted or excess items at the Pax Autocratica Trading Post without inventing prices or automation rules."
+      },
+      "direct_answer": "In AG-27, Pax Autocratica added item selling to the Trading Post: use the Trading Post when visiting merchant ships are present, then sell unwanted or excess items there. The official note confirms the feature, but not a full price table, automatic Warehouse selling, or every item eligibility rule. Treat this as a current-build selling checklist, not a complete economy exploit.",
+      "direct_answer_claim_ids": [
+        "claim-ag27-trading-post-selling",
+        "claim-ag27-not-full-price-table",
+        "claim-current-early-access-boundary"
+      ],
+      "sections": [
+        {
+          "heading": "What you can rely on",
+          "paragraphs": [
+            "The dated official AG-27 patch note is the strongest source for this page. It says item selling has been added to the Trading Post and frames the buyer as visiting merchant ships.",
+            "This answers a narrower player task than the broad Trade Port page. If your inventory is clogged or wages are creating cash pressure, you now have a live official selling route to test before relying only on expedition rewards."
+          ],
+          "steps": [
+            "Confirm your build includes AG-27 or a newer maintenance directive.",
+            "Go to the Trading Post rather than an unrelated storage, production or punishment interface.",
+            "Wait for or interact with visiting merchant ships, because the official wording ties selling to them.",
+            "Choose unwanted or excess items first; do not risk scarce crafting materials until you know the value."
+          ],
+          "claim_ids": [
+            "claim-ag27-trading-post-selling",
+            "claim-trade-port-money-demand-current"
+          ]
+        },
+        {
+          "heading": "A safe first selling pass",
+          "paragraphs": [
+            "The purpose of the first pass is to verify the feature in your own save without damaging progression. AG-27 confirms the route, but it does not say which item is best, whether a given resource should be kept, or how prices compare across sectors.",
+            "Use a small batch, record the result and only then decide whether the Trade Port belongs in your regular economy. This prevents an outdated money guide or a single comment from turning into a bad colony-wide plan."
+          ],
+          "steps": [
+            "Sort inventory into keep, test-sell and safe-surplus groups.",
+            "Sell one low-priority stack first and record the observed return.",
+            "Avoid selling crystals, rare gear or build-critical parts until you know your next research and crafting needs.",
+            "Compare the money gained with expedition payouts and wage pressure before scaling up."
+          ],
+          "claim_ids": [
+            "claim-ag27-trading-post-selling",
+            "claim-ag27-not-full-price-table"
+          ]
+        },
+        {
+          "heading": "What not to assume yet",
+          "paragraphs": [
+            "Do not assume AG-27 created automatic passive income. The wording says Leaders can sell items to visiting merchant ships; it does not say the Warehouse empties itself, that all ores auto-sell, or that every merchant pays the same.",
+            "Do not merge this with the soldier-purchase issue. Players reported Trade Port purchases affecting soldier traits before AG-27, and that remains a separate risk check unless a newer official note documents a full fix."
+          ],
+          "steps": [
+            "Do not publish a price table from memory or one unverified screenshot.",
+            "Do not call the economy solved after one sale.",
+            "Do not delete the Trade Port for trait issues until you inspect soldier logs and current patch notes."
+          ],
+          "claim_ids": [
+            "claim-ag27-not-full-price-table",
+            "claim-trade-port-risk-separation"
+          ]
+        },
+        {
+          "heading": "What to record for a better answer",
+          "paragraphs": [
+            "The next stronger version of this guide needs current-build sale observations. A useful report names the item, quantity, build date, merchant context, storage source and observed money return.",
+            "Until those details exist, this page deliberately stays at the checklist level. That keeps it useful for players without pretending the economy has already been fully mapped."
+          ],
+          "steps": [
+            "Write down the exact AG directive or build date.",
+            "Record item name, rarity, quantity and sale value.",
+            "Record whether the item came from carried inventory or base storage.",
+            "Record whether a visiting merchant ship was required.",
+            "Share repeatable findings in a Steam discussion or official community route."
+          ],
+          "claim_ids": [
+            "claim-ag27-not-full-price-table",
+            "claim-current-early-access-boundary"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Where do I sell unwanted items?",
+          "answer": "Use the Trading Post in AG-27 or newer builds. The official note says Leaders can sell unwanted or excess items to visiting merchant ships.",
+          "claim_ids": [
+            "claim-ag27-trading-post-selling"
+          ]
+        },
+        {
+          "question": "Can I automate selling ores from the Warehouse?",
+          "answer": "Not from the AG-27 evidence alone. The feature is confirmed, but automatic Warehouse selling and full item eligibility are not documented by the sources used here.",
+          "claim_ids": [
+            "claim-ag27-not-full-price-table",
+            "claim-trade-port-money-demand-current"
+          ]
+        },
+        {
+          "question": "What should I sell first?",
+          "answer": "Start with surplus or low-priority items and record the value. Do not sell rare crafting materials or progression-critical gear until your current build makes their value clear.",
+          "claim_ids": [
+            "claim-ag27-not-full-price-table"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-news-ag27-item-selling-20260828",
+        "src-steamdb-ag27-mirror-20260828",
+        "src-steam-community-hub-ag27-20260828",
+        "src-steam-money-thread-20260826",
+        "src-steam-store-current-20260828"
+      ],
+      "claim_ids": [
+        "claim-ag27-trading-post-selling",
+        "claim-trade-port-money-demand-current",
+        "claim-ag27-not-full-price-table",
+        "claim-current-early-access-boundary"
+      ],
+      "updated_at": "2026-08-28T09:04:22.7627779+08:00",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Show the base-management context for a Trading Post item-selling checklist.",
+          "route": "/pax-autocratica-sell-unwanted-items",
+          "minimum": "one relevant verified game image",
+          "source_id": "src-steam-store-current-20260828",
+          "alt": "Pax Autocratica base management scene used for the item selling guide",
+          "relevance_reason": "The page is about a colony-side Trading Post action."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-trade-port",
+        "pax-autocratica-resource-transport-station-warehouse",
+        "pax-autocratica-custom-colony-settings",
+        "pax-autocratica-gameplay"
       ],
       "ad_slot_count": 2
     }
@@ -3938,24 +4090,24 @@
       ]
     },
     "pax-autocratica-trade-port": {
-      "last_checked_at": "2026-08-26T01:08:52.675Z",
+      "last_checked_at": "2026-08-28T09:04:22.7627779+08:00",
       "quality_review_id": "q01-pax-autocratica-trade-port",
       "status": "publish",
-      "depth_variance_reason": "The page solves a distinct Trade Port planning and risk task using one current official update and multiple Steam community demand signals; it avoids publishing unverified item tables or direct-selling claims.",
+      "depth_variance_reason": "AG-27 directly changes the Trade Port answer from planned selling to shipped item selling, while the page still avoids unverified price tables, passive Warehouse automation and soldier-purchase conclusions.",
       "source_links": [
         {
-          "label": "Steam News API: AG-25 latest item",
-          "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1067360&count=10&maxlength=4000&format=json",
+          "label": "Steam News API: AG-27 item selling",
+          "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1067360&count=10&maxlength=8000&format=json",
           "source_type": "official_update_api"
         },
         {
-          "label": "SteamDB mirror: Directive AG-25",
-          "url": "https://steamdb.info/patchnotes/24928845/",
+          "label": "SteamDB mirror: Directive AG-27",
+          "url": "https://steamdb.info/patchnotes/24971139/",
           "source_type": "official_update_mirror"
         },
         {
-          "label": "Steam Community hub: Trade Port discussion surfaced",
-          "url": "https://steamcommunity.com/app/1067360/",
+          "label": "Steam Community hub: AG-27 surface",
+          "url": "https://steamcommunity.com/app/1067360",
           "source_type": "platform_community"
         },
         {
@@ -4046,6 +4198,78 @@
       "quality_review_id": "q01-pax-autocratica-sacrifice-units",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct current player task without duplicating the capture mechanics or best troops pages. It gives an upgrade-slot troubleshooting path, distinguishes official facts from community clues, and avoids an unsupported full tier-cost or UI rule table."
+    },
+    "pax-autocratica-sell-unwanted-items": {
+      "intent_id": "intent-20260828-sell-unwanted-items",
+      "intent_type": "gameplay_how_to",
+      "user_job": "Sell unwanted or excess items after AG-27 without relying on outdated money advice.",
+      "intent_evidence_ids": [
+        "src-steam-news-ag27-item-selling-20260828",
+        "src-steamdb-ag27-mirror-20260828",
+        "src-steam-money-thread-20260826",
+        "src-steam-store-current-20260828"
+      ],
+      "answerability": "resolved_with_official_patch_boundary",
+      "coverage": [
+        {
+          "dimension": "official_feature_status",
+          "status": "covered",
+          "claim_ids": [
+            "claim-ag27-trading-post-selling"
+          ],
+          "evidence_relation": "direct",
+          "notes": "AG-27 says item selling has been added at the Trading Post."
+        },
+        {
+          "dimension": "player_demand",
+          "status": "covered",
+          "claim_ids": [
+            "claim-trade-port-money-demand-current"
+          ],
+          "evidence_relation": "community_question",
+          "notes": "Existing player discussion asked whether the Trade Port can sell own ores and how to handle money pressure."
+        },
+        {
+          "dimension": "limits",
+          "status": "covered",
+          "claim_ids": [
+            "claim-ag27-not-full-price-table"
+          ],
+          "evidence_relation": "negative_scope",
+          "notes": "No source provides a complete price table or automation rule."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam News API: AG-27 item selling",
+          "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1067360&count=10&maxlength=8000&format=json",
+          "source_type": "official_update_api"
+        },
+        {
+          "label": "SteamDB mirror: Directive AG-27",
+          "url": "https://steamdb.info/patchnotes/24971139/",
+          "source_type": "official_update_mirror"
+        },
+        {
+          "label": "Steam Community hub",
+          "url": "https://steamcommunity.com/app/1067360",
+          "source_type": "platform_community"
+        },
+        {
+          "label": "Steam discussion: money and selling question",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/84032037661565297/",
+          "source_type": "community"
+        },
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        }
+      ],
+      "last_checked_at": "2026-08-28T09:04:22.7627779+08:00",
+      "quality_review_id": "q01-pax-autocratica-sell-unwanted-items",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a distinct AG-27 how-to task using a same-day official patch note plus prior player demand, while refusing unsupported sell-price, passive automation and all-item claims."
     }
   },
   "homeProvenance": {
@@ -4470,6 +4694,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 gameplay screenshot asset already in the site media registry.",
       "relevance_reason": "Shows combat and troop context for a page about soldier upgrade and sacrifice consequences."
+    },
+    {
+      "asset_id": "pax-autocratica-sell-unwanted-items-12",
+      "page": "/pax-autocratica-sell-unwanted-items",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-home-01.webp",
+      "alt": "Pax Autocratica base management scene used for the item selling guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-08-28T09:04:22.7627779+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 gameplay screenshot asset already in the site media registry.",
+      "relevance_reason": "Shows base-management context for a Trading Post selling checklist."
     }
   ],
   "ads": {
