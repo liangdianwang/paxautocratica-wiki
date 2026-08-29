@@ -176,7 +176,8 @@
               "pax-autocratica-resource-transport-station-warehouse",
               "pax-autocratica-custom-colony-settings",
               "pax-autocratica-trade-port",
-              "pax-autocratica-sell-unwanted-items"
+              "pax-autocratica-sell-unwanted-items",
+              "pax-autocratica-reproductive-allocation-facility"
             ]
           },
           {
@@ -273,6 +274,10 @@
           {
             "keyword": "Pax Autocratica How to Sell Unwanted Items",
             "slug": "pax-autocratica-sell-unwanted-items"
+          },
+          {
+            "keyword": "Pax Autocratica Reproductive Allocation Facility Fix",
+            "slug": "pax-autocratica-reproductive-allocation-facility"
           }
         ]
       }
@@ -2957,6 +2962,152 @@
         "pax-autocratica-gameplay"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Reproductive Allocation Facility Fix",
+      "slug": "pax-autocratica-reproductive-allocation-facility",
+      "seo": {
+        "title": "Pax Autocratica Reproductive Allocation Facility Fix",
+        "description": "Current source-backed Pax Autocratica guide for the Reproductive Allocation Facility occupied bug, soldier kids questions, and what the latest patch actually confirms."
+      },
+      "direct_answer": "The current official fix is narrow: the latest State Maintenance Directive says the Reproductive Allocation Facility could become incorrectly occupied, and affected saves can restore it by initiating a reproduction interaction with any soldier once. The note also says no actual reproduction assignment is required. It does not confirm a universal pregnancy-off switch, inheritance formula, best pairing table, or guaranteed way to stop every soldier-kids outcome.",
+      "direct_answer_claim_ids": [
+        "claim-state-maintenance-repro-facility-fix",
+        "claim-state-maintenance-repro-recovery",
+        "claim-repro-formula-not-confirmed"
+      ],
+      "sections": [
+        {
+          "heading": "What the latest patch actually fixes",
+          "paragraphs": [
+            "The strongest source for this page is the latest official State Maintenance Directive. It identifies a specific bug: under some circumstances, the Reproductive Allocation Facility could become incorrectly occupied.",
+            "The important practical detail is the recovery path for saves already affected by that bug. The official wording says to initiate one reproduction interaction with any soldier to restore the facility, and it explicitly says a real reproduction assignment is not required."
+          ],
+          "steps": [
+            "Confirm your build includes the latest State Maintenance Directive or a newer patch.",
+            "If the facility looks incorrectly occupied, initiate one reproduction interaction with any soldier.",
+            "Exit the interaction without making an actual reproduction assignment if you only need the facility restored.",
+            "Recheck whether the facility occupancy state is cleared before changing broader colony settings."
+          ],
+          "claim_ids": [
+            "claim-state-maintenance-repro-facility-fix",
+            "claim-state-maintenance-repro-recovery"
+          ]
+        },
+        {
+          "heading": "How this relates to soldier kids",
+          "paragraphs": [
+            "The current Steam discussion list shows active player demand around soldier children and pregnancy control. That makes this worth a focused page, because a facility bug and a population-control question can look related when they appear at the same time.",
+            "Keep the two tasks separate. If the facility is stuck or occupied, use the official recovery check. If the question is how to prevent pregnancy or manage children, the checked sources do not provide a complete official rule table, so the page should not invent one."
+          ],
+          "steps": [
+            "First decide whether you are seeing a facility-state bug or a normal population outcome.",
+            "Use the official one-interaction recovery only for the incorrectly occupied facility symptom.",
+            "Treat forum answers about breeding, traits, and children as leads unless they match your current build.",
+            "Record build date, policy state, facility state, involved soldiers and the visible outcome before reporting a reproduction issue."
+          ],
+          "claim_ids": [
+            "claim-soldier-kids-current-demand",
+            "claim-repro-formula-not-confirmed"
+          ]
+        },
+        {
+          "heading": "What not to assume from this fix",
+          "paragraphs": [
+            "Do not read this patch as proof that every pregnancy or offspring issue is solved. Earlier official updates also touched abnormal pregnancy states and offspring data, which shows the system has been changing through Early Access.",
+            "Do not publish a best-breeding build, inheritance probability, exact pregnancy timer, or prevention toggle from memory. The current official evidence supports a bug fix and a recovery action, not a full population simulator reference."
+          ],
+          "steps": [
+            "Do not use one forum reply as a complete breeding guide.",
+            "Do not delete saves or dismantle buildings before testing the official recovery path.",
+            "Do not assume a child, trait, or relationship result is a bug without a repeatable current-build path."
+          ],
+          "claim_ids": [
+            "claim-repro-formula-not-confirmed",
+            "claim-current-early-access-boundary-20260829"
+          ]
+        },
+        {
+          "heading": "Evidence to collect if the problem continues",
+          "paragraphs": [
+            "A useful report needs the same details a maintainer or another player can verify. The minimum record is the patch boundary, whether the facility was occupied, which interaction you initiated, and what changed afterward.",
+            "Because this is an Early Access system, future directives can change the rules. Recheck Steam News before treating an older reproduction workaround as permanent."
+          ],
+          "steps": [
+            "Record the directive or build date shown by the current install.",
+            "Screenshot the facility state before and after the recovery interaction.",
+            "Note whether an actual reproduction assignment was made or avoided.",
+            "List any active policies or colony settings that could affect relationships, population or time progression.",
+            "Post the repeatable path in Steam Discussions or the official community route if the facility remains stuck."
+          ],
+          "claim_ids": [
+            "claim-state-maintenance-repro-recovery",
+            "claim-current-early-access-boundary-20260829"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "How do I fix a Reproductive Allocation Facility that looks occupied?",
+          "answer": "Use the current official recovery path: initiate one reproduction interaction with any soldier, then recheck the facility. The patch says no actual reproduction assignment is required.",
+          "claim_ids": [
+            "claim-state-maintenance-repro-recovery"
+          ]
+        },
+        {
+          "question": "Does the latest patch tell me how to prevent all pregnancy?",
+          "answer": "No. The checked official evidence fixes one facility occupancy problem; it does not publish a universal pregnancy-off rule or full breeding formula.",
+          "claim_ids": [
+            "claim-repro-formula-not-confirmed",
+            "claim-soldier-kids-current-demand"
+          ]
+        },
+        {
+          "question": "Should I trust old breeding advice?",
+          "answer": "Only as a lead. Reproduction, offspring and pregnancy states have changed during Early Access, so use the latest Steam News and your current build first.",
+          "claim_ids": [
+            "claim-current-early-access-boundary-20260829",
+            "claim-repro-formula-not-confirmed"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-news-state-maintenance-20260829",
+        "src-steamdb-state-maintenance-20260829",
+        "src-steam-community-hub-current-20260829",
+        "src-steam-discussion-soldiers-kids-20260829",
+        "src-steam-discussion-breeding-works-20260829",
+        "src-steam-store-current-20260829"
+      ],
+      "claim_ids": [
+        "claim-state-maintenance-repro-facility-fix",
+        "claim-state-maintenance-repro-recovery",
+        "claim-soldier-kids-current-demand",
+        "claim-repro-formula-not-confirmed",
+        "claim-current-early-access-boundary-20260829"
+      ],
+      "updated_at": "2026-08-29T09:19:38+08:00",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Show colony-management context for a Reproductive Allocation Facility troubleshooting guide.",
+          "route": "/pax-autocratica-reproductive-allocation-facility",
+          "minimum": "one relevant verified game image",
+          "source_id": "src-steam-store-current-20260829",
+          "alt": "Pax Autocratica colony management scene used for the Reproductive Allocation Facility guide",
+          "relevance_reason": "The page is about a colony-side facility state and population-management question."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-custom-colony-settings",
+        "pax-autocratica-best-troops",
+        "pax-autocratica-sacrifice-units",
+        "pax-autocratica-community"
+      ],
+      "ad_slot_count": 2
     }
   ],
   "pageProvenance": {
@@ -4270,6 +4421,88 @@
       "quality_review_id": "q01-pax-autocratica-sell-unwanted-items",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct AG-27 how-to task using a same-day official patch note plus prior player demand, while refusing unsupported sell-price, passive automation and all-item claims."
+    },
+    "pax-autocratica-reproductive-allocation-facility": {
+      "intent_id": "intent-20260829-reproductive-allocation-facility",
+      "intent_type": "gameplay_troubleshooting",
+      "user_job": "Restore an incorrectly occupied Reproductive Allocation Facility and avoid unsupported pregnancy or breeding claims.",
+      "intent_evidence_ids": [
+        "src-steam-news-state-maintenance-20260829",
+        "src-steamdb-state-maintenance-20260829",
+        "src-steam-discussion-soldiers-kids-20260829",
+        "src-steam-discussion-breeding-works-20260829",
+        "src-steam-store-current-20260829"
+      ],
+      "answerability": "resolved_for_facility_occupancy_fix_with_official_patch_boundary",
+      "coverage": [
+        {
+          "dimension": "official_bug_fix",
+          "status": "covered",
+          "claim_ids": [
+            "claim-state-maintenance-repro-facility-fix"
+          ],
+          "evidence_relation": "direct",
+          "notes": "The latest official maintenance directive names the Reproductive Allocation Facility occupancy bug."
+        },
+        {
+          "dimension": "recovery_action",
+          "status": "covered",
+          "claim_ids": [
+            "claim-state-maintenance-repro-recovery"
+          ],
+          "evidence_relation": "direct",
+          "notes": "The same directive gives a one-interaction recovery path and says no actual assignment is required."
+        },
+        {
+          "dimension": "player_demand",
+          "status": "covered",
+          "claim_ids": [
+            "claim-soldier-kids-current-demand"
+          ],
+          "evidence_relation": "community_question",
+          "notes": "Current Steam discussion activity includes soldier kids and breeding questions."
+        },
+        {
+          "dimension": "limits",
+          "status": "covered",
+          "claim_ids": [
+            "claim-repro-formula-not-confirmed"
+          ],
+          "evidence_relation": "negative_scope",
+          "notes": "No checked source supports a complete prevention toggle, timing table or inheritance formula."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam News API: latest maintenance directive",
+          "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1067360&count=20&maxlength=16000&format=json",
+          "source_type": "official_update_api"
+        },
+        {
+          "label": "SteamDB mirror: State Maintenance Directive",
+          "url": "https://steamdb.info/patchnotes/24995054/",
+          "source_type": "official_update_mirror"
+        },
+        {
+          "label": "Steam Community current discussion list",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/",
+          "source_type": "community"
+        },
+        {
+          "label": "Steam discussion: how breeding works",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/84032037661454347/",
+          "source_type": "community"
+        },
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        }
+      ],
+      "last_checked_at": "2026-08-29T09:19:38+08:00",
+      "quality_review_id": "q01-pax-autocratica-reproductive-allocation-facility",
+      "status": "publish",
+      "depth_variance_reason": "The page is a current-build troubleshooting answer backed by the latest official patch, a SteamDB mirror, and active player demand; it refuses unsupported breeding formulas."
     }
   },
   "homeProvenance": {
@@ -4710,6 +4943,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 gameplay screenshot asset already in the site media registry.",
       "relevance_reason": "Shows base-management context for a Trading Post selling checklist."
+    },
+    {
+      "asset_id": "pax-autocratica-reproductive-allocation-facility-12",
+      "page": "/pax-autocratica-reproductive-allocation-facility",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-home-01.webp",
+      "alt": "Pax Autocratica colony management scene used for the Reproductive Allocation Facility guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-08-29T09:19:38+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 colony-management screenshot already present in the site media registry.",
+      "relevance_reason": "Shows colony-management context for a page about a base facility and population system."
     }
   ],
   "ads": {
@@ -4789,5 +5038,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-08-26T01:08:52.675Z"
+  "generated_at": "2026-08-29T09:19:38+08:00"
 }
