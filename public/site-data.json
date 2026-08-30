@@ -185,6 +185,7 @@
             "description": "Prepare for harder sectors, control soldiers, manage risk and understand the current capture loop.",
             "slugs": [
               "pax-autocratica-capture-mechanics",
+              "pax-autocratica-capture-lock",
               "pax-autocratica-sector-2-difficulty",
               "pax-autocratica-best-troops",
               "pax-autocratica-sacrifice-units",
@@ -278,6 +279,10 @@
           {
             "keyword": "Pax Autocratica Reproductive Allocation Facility Fix",
             "slug": "pax-autocratica-reproductive-allocation-facility"
+          },
+          {
+            "keyword": "Pax Autocratica Capture Lock",
+            "slug": "pax-autocratica-capture-lock"
           }
         ]
       }
@@ -1552,7 +1557,8 @@
         "pax-autocratica-gameplay",
         "pax-autocratica-community",
         "pax-autocratica-mods",
-        "pax-autocratica-best-troops"
+        "pax-autocratica-best-troops",
+        "pax-autocratica-capture-lock"
       ],
       "ad_slot_count": 2
     },
@@ -3108,6 +3114,162 @@
         "pax-autocratica-community"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Capture Lock",
+      "slug": "pax-autocratica-capture-lock",
+      "seo": {
+        "title": "Pax Autocratica Capture Lock: Prevent Accidental Kills",
+        "description": "Source-backed Pax Autocratica Capture Lock guide: use the official active skill boundary to avoid killing enemies you want to capture, without inventing exact values."
+      },
+      "direct_answer": "Capture Lock is the best supported answer when you are trying to capture an enemy without accidentally killing it. The official Prologue update says Capture Lock is an active skill that safely weakens enemies before capture and reduces the risk of accidental kills. Use it as a capture-safety step, then verify the current keybind, cooldown and enemy behavior in your own build because the checked public sources do not publish exact current numbers.",
+      "direct_answer_claim_ids": [
+        "claim-capture-lock-official-purpose-20260830",
+        "claim-capture-safety-current-demand-20260830",
+        "claim-capture-lock-limits-20260830"
+      ],
+      "sections": [
+        {
+          "heading": "What Capture Lock is for",
+          "paragraphs": [
+            "Capture Lock is not a generic damage boost. The official update language ties it to capture safety: weaken an enemy before the capture action and reduce the chance that your final hit kills the target you wanted alive.",
+            "That makes it a distinct player task from the broader capture guide. The broader question is whether to capture, convert, recruit or sacrifice. This page is narrower: how to avoid losing a wanted captive during the fight."
+          ],
+          "steps": [
+            "Confirm your current build still exposes Capture Lock or the equivalent capture-safety active skill.",
+            "Bind or locate the current Capture Lock input before entering a high-value fight.",
+            "Use it after the target is controlled or isolated, not while uncontrolled damage is still hitting the target.",
+            "Follow with the normal capture action only after the target is safely weakened."
+          ],
+          "claim_ids": [
+            "claim-capture-lock-official-purpose-20260830",
+            "claim-capture-loop-current-boundary-20260830"
+          ]
+        },
+        {
+          "heading": "A safe capture sequence",
+          "paragraphs": [
+            "The safest public sequence is control first, Capture Lock second, capture action third. If missiles, grenades, drones, squad fire or environmental effects are still landing, wait or reposition before using the capture step.",
+            "This matters because the current community demand is specifically about preventing a kill shot. Capture Lock lowers that risk, but the checked sources do not prove it cancels every other source of damage or guarantees every enemy can be captured."
+          ],
+          "steps": [
+            "Stop firing high-damage or area weapons at the target.",
+            "Create a short control window with distance, cover, squad positioning or crowd control.",
+            "Use Capture Lock on the target you want alive.",
+            "Avoid extra damage while the lock resolves.",
+            "Trigger the capture action and abandon the attempt if the battlefield is still too chaotic."
+          ],
+          "claim_ids": [
+            "claim-capture-lock-official-purpose-20260830",
+            "claim-capture-safety-current-demand-20260830",
+            "claim-capture-lock-limits-20260830"
+          ]
+        },
+        {
+          "heading": "When Capture Lock may not solve it",
+          "paragraphs": [
+            "Do not assume Capture Lock is a universal one-health item or a full enemy-eligibility table. The official source confirms purpose, not exact mechanics for every enemy class, boss phase, weapon build or later Early Access patch.",
+            "If you are still killing wanted targets, the cause may be over-time damage, ally fire, explosive splash, drone pressure, a boss immunity state or simply an enemy that is not worth attempting under current conditions."
+          ],
+          "steps": [
+            "Avoid testing Capture Lock with a damage-over-time or explosive build first.",
+            "Try it on a low-value enemy before risking an elite or boss.",
+            "Record weapon, core, squad and difficulty setup if the target dies unexpectedly.",
+            "Check the latest Steam News before treating an old video or third-party guide as current."
+          ],
+          "claim_ids": [
+            "claim-capture-lock-limits-20260830",
+            "claim-capture-loop-current-boundary-20260830"
+          ]
+        },
+        {
+          "heading": "How this fits the capture loop",
+          "paragraphs": [
+            "The Steam store still describes the capture path as part of the colony loop: weaken enemies, bring them back, then imprison, convert, recruit or sacrifice. Capture Lock belongs at the battlefield edge of that loop, before the colony-side decision.",
+            "Use the broader capture mechanics page for prisoner handling and evidence limits. Use this Capture Lock page when the immediate problem is the last hit, not what to do with the captive afterward."
+          ],
+          "steps": [
+            "Use Capture Lock for valuable targets you want alive.",
+            "Use the capture mechanics guide for prisoner and conversion decisions after the fight.",
+            "Use the sacrifice guide only after you have already secured or recruited the unit."
+          ],
+          "claim_ids": [
+            "claim-capture-loop-current-boundary-20260830",
+            "claim-capture-lock-official-purpose-20260830"
+          ]
+        },
+        {
+          "heading": "Evidence boundary",
+          "paragraphs": [
+            "This page was created in the 2026-08-30 growth run from a qualified official Prologue update, today's Steam Community demand surface, the current Steam store, SteamDB metadata and the existing site capture coverage.",
+            "The page intentionally does not publish a cooldown, exact keybind, success formula, boss list or one-health guarantee because those facts were not present in the checked public sources."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-capture-lock-official-purpose-20260830",
+            "claim-capture-safety-current-demand-20260830",
+            "claim-capture-lock-limits-20260830"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What should I use to avoid killing an enemy I want to capture?",
+          "answer": "Use Capture Lock if your current build exposes it. The official update describes it as the capture-safety active skill for weakening enemies before capture.",
+          "claim_ids": [
+            "claim-capture-lock-official-purpose-20260830"
+          ]
+        },
+        {
+          "question": "Does Capture Lock guarantee a target survives at one health?",
+          "answer": "The checked sources do not prove a one-health guarantee or publish exact values, so verify it in your current build before using it on a valuable target.",
+          "claim_ids": [
+            "claim-capture-lock-limits-20260830"
+          ]
+        },
+        {
+          "question": "Is this the same as the full capture guide?",
+          "answer": "No. This page focuses on the last-hit safety step. Use the capture mechanics page for prisoner handling, conversion and sacrifice decisions.",
+          "claim_ids": [
+            "claim-capture-loop-current-boundary-20260830"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-news-prologue-capture-lock-20260830",
+        "src-steam-community-current-hub-20260830",
+        "src-steam-community-item-prevent-kill-shot-20260830",
+        "src-steam-store-current-20260830",
+        "src-steamdb-current-20260830"
+      ],
+      "claim_ids": [
+        "claim-capture-lock-official-purpose-20260830",
+        "claim-capture-safety-current-demand-20260830",
+        "claim-capture-loop-current-boundary-20260830",
+        "claim-capture-lock-limits-20260830"
+      ],
+      "updated_at": "2026-08-30T13:45:00+08:00",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Show combat context for a capture-safety active skill guide.",
+          "route": "/pax-autocratica-capture-lock",
+          "minimum": "one relevant verified game image",
+          "source_id": "src-steam-store-current-20260830",
+          "alt": "Pax Autocratica combat scene used for the Capture Lock guide",
+          "relevance_reason": "The page is about avoiding accidental kills during combat capture attempts."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-capture-mechanics",
+        "pax-autocratica-best-troops",
+        "pax-autocratica-sacrifice-units",
+        "pax-autocratica-sector-2-difficulty"
+      ],
+      "ad_slot_count": 2
     }
   ],
   "pageProvenance": {
@@ -4503,6 +4665,74 @@
       "quality_review_id": "q01-pax-autocratica-reproductive-allocation-facility",
       "status": "publish",
       "depth_variance_reason": "The page is a current-build troubleshooting answer backed by the latest official patch, a SteamDB mirror, and active player demand; it refuses unsupported breeding formulas."
+    },
+    "pax-autocratica-capture-lock": {
+      "intent_id": "intent-20260830-capture-lock",
+      "intent_type": "gameplay_how_to",
+      "user_job": "Avoid accidentally killing an enemy the player wants to capture.",
+      "intent_evidence_ids": [
+        "src-steam-news-prologue-capture-lock-20260830",
+        "src-steam-community-current-hub-20260830",
+        "src-steam-community-item-prevent-kill-shot-20260830",
+        "src-steam-store-current-20260830",
+        "src-steamdb-current-20260830"
+      ],
+      "answerability": "resolved_for_capture_safety_purpose_with_official_feature_boundary",
+      "coverage": [
+        {
+          "dimension": "official_feature_purpose",
+          "status": "covered",
+          "claim_ids": [
+            "claim-capture-lock-official-purpose-20260830"
+          ],
+          "evidence_relation": "direct",
+          "notes": "Official Prologue update names Capture Lock and its capture-safety purpose."
+        },
+        {
+          "dimension": "current_player_demand",
+          "status": "covered",
+          "claim_ids": [
+            "claim-capture-safety-current-demand-20260830"
+          ],
+          "evidence_relation": "community_question",
+          "notes": "Current Steam Community surface includes a fresh capture-safety question."
+        },
+        {
+          "dimension": "limits",
+          "status": "covered",
+          "claim_ids": [
+            "claim-capture-lock-limits-20260830"
+          ],
+          "evidence_relation": "negative_scope",
+          "notes": "No checked source publishes exact current values, enemy list or guaranteed one-health behavior."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Official Steam News: Prologue update with Capture Lock",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721191232",
+          "source_type": "official_update"
+        },
+        {
+          "label": "Steam Community current hub",
+          "url": "https://steamcommunity.com/app/1067360",
+          "source_type": "platform_community"
+        },
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "SteamDB current app and patch surface",
+          "url": "https://steamdb.info/app/1067360/patchnotes/",
+          "source_type": "platform_mirror"
+        }
+      ],
+      "last_checked_at": "2026-08-30T13:45:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-capture-lock",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a current narrow capture-safety task with direct official feature evidence and a same-day community demand surface while refusing unsupported numeric mechanics."
     }
   },
   "homeProvenance": {
@@ -4959,6 +5189,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 colony-management screenshot already present in the site media registry.",
       "relevance_reason": "Shows colony-management context for a page about a base facility and population system."
+    },
+    {
+      "asset_id": "pax-autocratica-capture-lock-12",
+      "page": "/pax-autocratica-capture-lock",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-best-troops-12.webp",
+      "alt": "Pax Autocratica combat scene used for the Capture Lock guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-08-30T13:45:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 combat screenshot already present in the site media registry.",
+      "relevance_reason": "Shows the combat context where Capture Lock and capture attempts occur."
     }
   ],
   "ads": {
@@ -5038,5 +5284,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-08-29T09:19:38+08:00"
+  "generated_at": "2026-08-30T13:45:00+08:00"
 }
