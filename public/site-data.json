@@ -190,7 +190,8 @@
               "pax-autocratica-best-troops",
               "pax-autocratica-sacrifice-units",
               "pax-autocratica-save-during-expedition",
-              "pax-autocratica-f1-commands"
+              "pax-autocratica-f1-commands",
+              "pax-autocratica-code-puzzles"
             ]
           },
           {
@@ -283,6 +284,10 @@
           {
             "keyword": "Pax Autocratica Capture Lock",
             "slug": "pax-autocratica-capture-lock"
+          },
+          {
+            "keyword": "Pax Autocratica Code Puzzles",
+            "slug": "pax-autocratica-code-puzzles"
           }
         ]
       }
@@ -3270,6 +3275,155 @@
         "pax-autocratica-sector-2-difficulty"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Code Puzzles",
+      "slug": "pax-autocratica-code-puzzles",
+      "seo": {
+        "title": "Pax Autocratica Code Puzzles: Broken or Dead-End?",
+        "description": "Source-backed Pax Autocratica code puzzle guide: check look-ahead glyph paths, distinguish dead ends from possible bugs, and report useful evidence."
+      },
+      "direct_answer": "If a Pax Autocratica code puzzle looks broken, do not assume the code is wrong immediately. The latest Steam discussion is split: one player reported missing required symbols, while several replies say some puzzles have more than one matching symbol and only one path leads to the next required glyph. Check the next glyph before choosing a duplicate symbol; if no valid route exists, capture the screen before the failure state clears and report the build, sector and screenshot in the Steam thread or official support route.",
+      "direct_answer_claim_ids": [
+        "claim-code-puzzle-current-demand-20260831",
+        "claim-code-puzzle-lookahead-community-answer-20260831",
+        "claim-code-puzzle-reporting-boundary-20260831"
+      ],
+      "sections": [
+        {
+          "heading": "First check whether it is a look-ahead trap",
+          "paragraphs": [
+            "The useful community pattern is not to pick the first matching symbol. When two or more matching symbols appear, one can lead into a dead end while another keeps the next glyph reachable.",
+            "Before selecting a duplicate symbol, look at the immediately next required glyph and confirm that it can be reached from the candidate you are about to choose. This does not prove every puzzle is valid, but it explains why a puzzle can look broken when the current symbol alone appears correct."
+          ],
+          "steps": [
+            "Read the current required glyph.",
+            "If more than one matching symbol is available, pause before choosing.",
+            "Check whether the next required glyph exists from each possible current choice.",
+            "Choose the path that preserves the next glyph route, not just the first match."
+          ],
+          "claim_ids": [
+            "claim-code-puzzle-lookahead-community-answer-20260831"
+          ]
+        },
+        {
+          "heading": "When to treat it as a possible bug",
+          "paragraphs": [
+            "A possible bug starts when you have checked the look-ahead path and still cannot find a valid next symbol. The current discussion contains both a broken-puzzle report and replies saying puzzles worked for them, so the safest conclusion is case-by-case verification rather than a global bug claim.",
+            "The moderator response asked players to share screenshots for review. That means the page should help players preserve the exact evidence instead of publishing an unverified universal fix."
+          ],
+          "steps": [
+            "Check every duplicate-symbol branch before calling the puzzle broken.",
+            "Take a screenshot while the full puzzle is still visible.",
+            "Record the sector, current build, language, and whether it is the first puzzle in that sector.",
+            "Post the screenshot and details in the Steam thread or submit support files through the official route."
+          ],
+          "claim_ids": [
+            "claim-code-puzzle-current-demand-20260831",
+            "claim-code-puzzle-reporting-boundary-20260831"
+          ]
+        },
+        {
+          "heading": "What not to do",
+          "paragraphs": [
+            "Do not download a trainer, external code tool or save editor just because a puzzle failed. The checked discussion does not establish that third-party tools are needed, and the site has no evidence that they are safe or current.",
+            "Do not rely on a fixed answer list either. The useful task is reading the current board and preserving evidence if the board itself appears impossible."
+          ],
+          "steps": [
+            "Avoid unverified downloads that promise puzzle bypasses.",
+            "Do not overwrite saves before collecting a screenshot.",
+            "Do not report only that the code is wrong; include the board and the next-glyph route you checked."
+          ],
+          "claim_ids": [
+            "claim-code-puzzle-reporting-boundary-20260831"
+          ]
+        },
+        {
+          "heading": "How this fits the rest of the guide",
+          "paragraphs": [
+            "Use this page when the immediate task is a glyph or code puzzle. Use the F1 commands guide for squad orders, the save guide for expedition safety, and the community page for broader bug-report routes.",
+            "Because Pax Autocratica is still in Early Access, puzzle behavior and support guidance can change. Recheck the current Steam discussion and latest patch notes before treating an older comment as final."
+          ],
+          "steps": [
+            "Try the look-ahead route first.",
+            "Use the save guide before testing risky expedition actions.",
+            "Use the community page when you need official hubs and support paths."
+          ],
+          "claim_ids": [
+            "claim-code-puzzle-current-demand-20260831",
+            "claim-code-puzzle-reporting-boundary-20260831"
+          ]
+        },
+        {
+          "heading": "Evidence boundary",
+          "paragraphs": [
+            "This page was created from a same-day Steam Community discussion visible on the Pax Autocratica hub, the current official Steam store page, and the latest official patch surface. It does not claim that every code puzzle is broken.",
+            "No checked official source published a full code-puzzle formula, a universal workaround, or a patch note specifically fixing this thread at the time of the run."
+          ],
+          "steps": [],
+          "claim_ids": [
+            "claim-code-puzzle-current-demand-20260831",
+            "claim-code-puzzle-reporting-boundary-20260831"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Are Pax Autocratica code puzzles broken?",
+          "answer": "Not as a global confirmed issue from the checked evidence. A fresh thread reports broken puzzles, but multiple replies say the player may need to choose the matching symbol that also leads to the next glyph.",
+          "claim_ids": [
+            "claim-code-puzzle-current-demand-20260831",
+            "claim-code-puzzle-lookahead-community-answer-20260831"
+          ]
+        },
+        {
+          "question": "What should I do when two symbols both match?",
+          "answer": "Check the next required glyph before choosing. Pick the branch that keeps the next glyph reachable.",
+          "claim_ids": [
+            "claim-code-puzzle-lookahead-community-answer-20260831"
+          ]
+        },
+        {
+          "question": "What evidence should I report?",
+          "answer": "Report a screenshot before the failure state clears, plus sector, build, language, and whether you checked every duplicate-symbol path.",
+          "claim_ids": [
+            "claim-code-puzzle-reporting-boundary-20260831"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-discussion-broken-code-puzzles-20260831",
+        "src-steam-community-current-hub-20260831",
+        "src-steam-news-state-maintenance-20260831",
+        "src-steam-store-current-20260831"
+      ],
+      "claim_ids": [
+        "claim-code-puzzle-current-demand-20260831",
+        "claim-code-puzzle-lookahead-community-answer-20260831",
+        "claim-code-puzzle-reporting-boundary-20260831"
+      ],
+      "updated_at": "2026-08-31T09:10:00+08:00",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Show expedition context for a code-puzzle troubleshooting page.",
+          "route": "/pax-autocratica-code-puzzles",
+          "minimum": "one relevant verified game image",
+          "source_id": "src-steam-store-current-20260831",
+          "alt": "Pax Autocratica expedition scene used for the Code Puzzles guide",
+          "relevance_reason": "Code puzzles are an in-game task encountered during the current Early Access play loop."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-f1-commands",
+        "pax-autocratica-save-during-expedition",
+        "pax-autocratica-community",
+        "pax-autocratica-gameplay"
+      ],
+      "ad_slot_count": 2
     }
   ],
   "pageProvenance": {
@@ -4733,6 +4887,73 @@
       "quality_review_id": "q01-pax-autocratica-capture-lock",
       "status": "publish",
       "depth_variance_reason": "The page answers a current narrow capture-safety task with direct official feature evidence and a same-day community demand surface while refusing unsupported numeric mechanics."
+    },
+    "pax-autocratica-code-puzzles": {
+      "intent_id": "intent-20260831-code-puzzles",
+      "intent_type": "gameplay_troubleshooting",
+      "user_job": "Determine whether a code puzzle is truly broken or whether a duplicate-symbol route dead-ended.",
+      "intent_evidence_ids": [
+        "src-steam-discussion-broken-code-puzzles-20260831",
+        "src-steam-community-current-hub-20260831",
+        "src-steam-news-state-maintenance-20260831",
+        "src-steam-store-current-20260831"
+      ],
+      "answerability": "resolved_for_triage_and_reporting_with_current_community_boundary",
+      "coverage": [
+        {
+          "dimension": "current_player_demand",
+          "status": "covered",
+          "claim_ids": [
+            "claim-code-puzzle-current-demand-20260831"
+          ],
+          "evidence_relation": "same_day_community_thread",
+          "notes": "The current Steam Community hub surfaced a Code Puzzles thread with 9 replies and same-day activity."
+        },
+        {
+          "dimension": "community_answer_pattern",
+          "status": "covered",
+          "claim_ids": [
+            "claim-code-puzzle-lookahead-community-answer-20260831"
+          ],
+          "evidence_relation": "multi_reply_community_guidance",
+          "notes": "Multiple replies describe duplicate matching symbols where only one path keeps the next required glyph reachable."
+        },
+        {
+          "dimension": "official_fix_boundary",
+          "status": "covered_negative_scope",
+          "claim_ids": [
+            "claim-code-puzzle-reporting-boundary-20260831"
+          ],
+          "evidence_relation": "negative_scope",
+          "notes": "The checked official patch surface did not publish a code-puzzle fix or universal workaround during this run."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam Community discussion: Broken Code Puzzles",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/582806854239852917/",
+          "source_type": "same_day_community_thread"
+        },
+        {
+          "label": "Steam Community current hub",
+          "url": "https://steamcommunity.com/app/1067360",
+          "source_type": "platform_community"
+        },
+        {
+          "label": "SteamDB patch surface: 28 August 2026 State Maintenance Directive",
+          "url": "https://steamdb.info/patchnotes/24995054/",
+          "source_type": "platform_mirror"
+        },
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        }
+      ],
+      "last_checked_at": "2026-08-31T09:10:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-code-puzzles",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a fresh, narrow puzzle-triage task with same-day discussion evidence while refusing unsupported fixed answers or universal bug claims."
     }
   },
   "homeProvenance": {
@@ -5205,6 +5426,23 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 combat screenshot already present in the site media registry.",
       "relevance_reason": "Shows the combat context where Capture Lock and capture attempts occur."
+    },
+    {
+      "asset_id": "pax-autocratica-code-puzzles-13",
+      "page": "/pax-autocratica-code-puzzles",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-sector-2-difficulty-11.jpg",
+      "alt": "Pax Autocratica expedition scene used for the Code Puzzles guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/794019d7a98da85f60757e6be9409dcb829881aa/ss_794019d7a98da85f60757e6be9409dcb829881aa.1920x1080.jpg?t=1786607873",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-08-31T09:10:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 expedition screenshot already present in the site media registry.",
+      "relevance_reason": "Shows the exploration and expedition context where code puzzle troubleshooting belongs."
     }
   ],
   "ads": {
@@ -5284,5 +5522,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-08-30T13:45:00+08:00"
+  "generated_at": "2026-08-31T09:10:00+08:00"
 }
