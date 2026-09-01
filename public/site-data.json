@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-08-26"
+        "Updated 2026-09-01"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -188,6 +188,7 @@
               "pax-autocratica-capture-lock",
               "pax-autocratica-sector-2-difficulty",
               "pax-autocratica-best-troops",
+              "pax-autocratica-soldier-gear",
               "pax-autocratica-sacrifice-units",
               "pax-autocratica-save-during-expedition",
               "pax-autocratica-f1-commands",
@@ -288,6 +289,10 @@
           {
             "keyword": "Pax Autocratica Code Puzzles",
             "slug": "pax-autocratica-code-puzzles"
+          },
+          {
+            "keyword": "Pax Autocratica Soldier Gear",
+            "slug": "pax-autocratica-soldier-gear"
           }
         ]
       }
@@ -3424,6 +3429,166 @@
         "pax-autocratica-gameplay"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Soldier Gear",
+      "slug": "pax-autocratica-soldier-gear",
+      "seo": {
+        "title": "Pax Autocratica Soldier Gear: Armor and Weapons",
+        "description": "A source-backed Pax Autocratica soldier gear guide: whether crafted armor equips to soldiers, what affects troops, and what to upgrade instead."
+      },
+      "direct_answer": "Current evidence does not support a separate per-soldier equipment screen for crafted armor or weapons. The active Steam thread says crafted gear is for the Leader, while some gear text can still affect soldier damage when the Leader equips it. Treat soldier strength as a mix of Leader gear effects, soldier upgrades, capture/recruitment choices and expedition preparation until an official update adds direct unit loadouts.",
+      "direct_answer_claim_ids": [
+        "claim-soldier-gear-no-direct-equip",
+        "claim-leader-gear-can-affect-soldiers",
+        "claim-official-soldier-upgrade-boundary"
+      ],
+      "sections": [
+        {
+          "heading": "Answer the equipment question first",
+          "paragraphs": [
+            "The current player task is narrow: a player crafted armor, expected to put it on soldiers, then saw a soldier run around without using the expected gear. The Steam thread answer says the crafted gear is not handed to individual soldiers and is instead equipped by the Leader.",
+            "That answer should not be inflated into a permanent rule for every future build. Pax Autocratica is in Early Access, and official updates are still changing soldier management, combat behavior, UI sorting and progression. Use this page as a current-build checklist, then recheck patch notes when a directive mentions soldier equipment or loadouts."
+          ],
+          "steps": [
+            "Do not look for a separate soldier armor slot unless a current build or official note shows one.",
+            "Equip the relevant crafted gear on the Leader first.",
+            "Read the perk wording carefully: some effects may describe soldier damage without creating a soldier inventory screen.",
+            "If a soldier is only using melee, separate the gear question from command, stance, ammo and behavior questions."
+          ],
+          "claim_ids": [
+            "claim-soldier-gear-no-direct-equip",
+            "claim-leader-gear-can-affect-soldiers"
+          ]
+        },
+        {
+          "heading": "What to improve instead of handing out armor",
+          "paragraphs": [
+            "For squad power, the safer confirmed route is still broader than gear. Existing official updates mention soldier upgrades, advanced Capture Rounds, special-soldier usefulness, soldier management sorting and ongoing soldier-behavior work. Those are better-supported levers than inventing a hidden personal loadout system.",
+            "Use one change at a time. If the squad is weak, upgrade the units you actually deploy. If the squad is low quality, consider capture and recruitment only when the colony can support the result. If the soldier is not shooting, test orders, ammo and combat behavior before assuming armor failed."
+          ],
+          "steps": [
+            "Upgrade fielded soldiers before spending resources on gear you cannot assign to them.",
+            "Use capture paths for stronger recruits only when housing, conversion and risk make sense.",
+            "Check F1 commands, follow/aggressive stance, ammo state and target behavior when a soldier refuses to fight as expected.",
+            "Keep the best-troops question separate from the soldier-gear UI question."
+          ],
+          "claim_ids": [
+            "claim-official-soldier-upgrade-boundary",
+            "claim-official-capture-and-troop-loop",
+            "claim-soldier-behavior-active-work"
+          ]
+        },
+        {
+          "heading": "How to test gear wording safely",
+          "paragraphs": [
+            "A confusing line such as increased soldier damage is worth testing, but one test should not risk a full economy plan. Equip the item on the Leader, run a small controlled expedition, and compare the squad result with the same orders and similar encounter pressure.",
+            "If the result changes, record the item name, perk text, build date and mission context. If it does not, keep the gear as a Leader item or a selling/crafting economy item rather than assuming every soldier can use it."
+          ],
+          "steps": [
+            "Save or note the build/date before the test.",
+            "Equip the item on the Leader, not an individual soldier.",
+            "Run one repeatable fight with the same troop group and command style.",
+            "Record whether the change was damage, survivability, behavior or only player stats."
+          ],
+          "claim_ids": [
+            "claim-leader-gear-can-affect-soldiers",
+            "claim-current-early-access-boundary"
+          ]
+        },
+        {
+          "heading": "Where this overlaps other guides",
+          "paragraphs": [
+            "If your goal is money, the item-selling page is the better route because AG-27 explicitly added Trading Post selling. If your goal is one stronger unit, the sacrifice and best-troops pages cover upgrade consequences and capture choices. If your goal is direct battlefield control, the F1 commands page is a better match.",
+            "Keeping those tasks separate helps avoid thin pages. Soldier gear is about whether crafted equipment can be assigned to units; best troops is about which force-improvement path to choose; selling is about converting spare items to money."
+          ],
+          "steps": [
+            "Use the item-selling page when the question is what to do with spare crafted armor.",
+            "Use best troops when the question is how to build a stronger force.",
+            "Use F1 commands when the soldier is present but not behaving as expected."
+          ],
+          "claim_ids": [
+            "claim-ag27-trading-post-selling",
+            "claim-official-soldier-upgrade-boundary"
+          ]
+        },
+        {
+          "heading": "Evidence boundary",
+          "paragraphs": [
+            "The strongest direct evidence for the no-direct-equip answer is the Steam thread itself, not an official patch note. Official sources support the surrounding boundaries: the Steam store describes Leader-led battles with troops and crafting, while official directives document soldier upgrades, capture changes and soldier-management improvements.",
+            "Because no official source in this run published a complete soldier equipment table, this page refuses exact stat claims, best armor rankings and future-feature promises. Recheck Steam news when a directive mentions soldier loadouts, soldier inventory, combat AI or armor UI."
+          ],
+          "steps": [
+            "Do not publish a full soldier armor tier list from this evidence.",
+            "Do not claim a future direct-equip feature until an official source says so.",
+            "Do not treat one expedition test as a universal damage formula."
+          ],
+          "claim_ids": [
+            "claim-soldier-gear-no-direct-equip",
+            "claim-current-early-access-boundary"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I equip crafted armor directly on soldiers?",
+          "answer": "Current evidence says no separate direct soldier equipment path is confirmed. Equip gear on the Leader and treat soldier-related perk text as a Leader gear effect unless a newer official update says otherwise.",
+          "claim_ids": [
+            "claim-soldier-gear-no-direct-equip",
+            "claim-leader-gear-can-affect-soldiers"
+          ]
+        },
+        {
+          "question": "Why does gear text mention soldier damage?",
+          "answer": "The active Steam discussion says some gear worn by the Leader can increase soldier damage. That does not prove a separate soldier loadout screen.",
+          "claim_ids": [
+            "claim-leader-gear-can-affect-soldiers"
+          ]
+        },
+        {
+          "question": "What should I do if my soldier only melees?",
+          "answer": "Check commands, stance, ammo and soldier behavior before blaming armor. Official updates still list soldier behavior and controls as active Early Access work.",
+          "claim_ids": [
+            "claim-soldier-behavior-active-work"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-discussion-gear-soldiers-20260901",
+        "src-steam-news-latest-state-maintenance-20260901",
+        "src-steam-news-ag25-soldier-management-20260901",
+        "src-steam-store-current-20260901",
+        "src-webcafe-soldier-gear-20260901"
+      ],
+      "claim_ids": [
+        "claim-soldier-gear-no-direct-equip",
+        "claim-leader-gear-can-affect-soldiers",
+        "claim-official-soldier-upgrade-boundary",
+        "claim-soldier-behavior-active-work",
+        "claim-current-early-access-boundary"
+      ],
+      "updated_at": "2026-09-01T09:22:00+08:00",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Show the expedition and troop context for a soldier gear guide.",
+          "route": "/pax-autocratica-soldier-gear",
+          "minimum": "one relevant verified game image",
+          "source_id": "src-steam-store-current-20260901",
+          "alt": "Pax Autocratica combat scene used for the soldier gear guide",
+          "relevance_reason": "The page is about troop equipment expectations and expedition behavior."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-best-troops",
+        "pax-autocratica-sacrifice-units",
+        "pax-autocratica-f1-commands",
+        "pax-autocratica-sell-unwanted-items"
+      ],
+      "ad_slot_count": 2
     }
   ],
   "pageProvenance": {
@@ -4954,6 +5119,75 @@
       "quality_review_id": "q01-pax-autocratica-code-puzzles",
       "status": "publish",
       "depth_variance_reason": "The page answers a fresh, narrow puzzle-triage task with same-day discussion evidence while refusing unsupported fixed answers or universal bug claims."
+    },
+    "pax-autocratica-soldier-gear": {
+      "intent_id": "intent-20260901-soldier-gear",
+      "intent_type": "gameplay_how_to",
+      "user_job": "Understand whether crafted gear can be equipped to soldiers and what to improve instead.",
+      "intent_evidence_ids": [
+        "src-steam-discussion-gear-soldiers-20260901",
+        "src-steam-news-latest-state-maintenance-20260901",
+        "src-steam-news-ag25-soldier-management-20260901",
+        "src-steam-store-current-20260901",
+        "src-webcafe-soldier-gear-20260901"
+      ],
+      "answerability": "resolved_with_community_answer_and_official_boundary",
+      "coverage": [
+        {
+          "dimension": "player_demand",
+          "status": "covered",
+          "claim_ids": [
+            "claim-soldier-gear-no-direct-equip"
+          ],
+          "evidence_relation": "active_thread",
+          "notes": "The Steam thread had 12 replies and was active on 2026-08-31 PDT / 2026-09-01 Asia-Shanghai."
+        },
+        {
+          "dimension": "official_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-official-soldier-upgrade-boundary",
+            "claim-soldier-behavior-active-work"
+          ],
+          "evidence_relation": "official_updates",
+          "notes": "Official updates document soldier upgrades, sorting, capture and behavior work, but not a per-soldier equipment table."
+        },
+        {
+          "dimension": "rankability",
+          "status": "covered",
+          "claim_ids": [
+            "claim-webcafe-soldier-gear-kd"
+          ],
+          "evidence_relation": "webcafe_direct_query",
+          "notes": "Web.Cafe returned KD 31.4 and a SERP where the live Steam thread is the first result."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam discussion: how do I gear my soldiers?",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/726902998784271289/",
+          "source_type": "community"
+        },
+        {
+          "label": "Steam News API: latest directives",
+          "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1067360&count=20&maxlength=20000&format=json",
+          "source_type": "official_update_api"
+        },
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Web.Cafe query: Pax Autocratica soldier gear",
+          "url": "https://seo.web.cafe/kd/?keyword=Pax+Autocratica+soldier+gear&gl=us",
+          "source_type": "keyword_validation"
+        }
+      ],
+      "last_checked_at": "2026-09-01T09:22:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-soldier-gear",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a distinct direct-equipment question using an active Steam thread, official update boundaries and a Web.Cafe SERP/KD check, while refusing unsupported future loadout or stat-table claims."
     }
   },
   "homeProvenance": {
@@ -5443,6 +5677,24 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 expedition screenshot already present in the site media registry.",
       "relevance_reason": "Shows the exploration and expedition context where code puzzle troubleshooting belongs."
+    },
+    {
+      "asset_id": "pax-autocratica-soldier-gear-12",
+      "page": "/pax-autocratica-soldier-gear",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-best-troops-12.webp",
+      "alt": "Pax Autocratica combat scene used for the soldier gear guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/4375180d755159b91b0f074f78b8bc2a2bdb20b5/ss_4375180d755159b91b0f074f78b8bc2a2bdb20b5.1920x1080.jpg?t=1786607873",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-01T09:22:00+08:00",
+      "sha256": "3B450677226DCE9E53342DF7DAC37F6F742A3FAAE0C495D445AFC58AB804D8ED",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 combat screenshot already present in the site media registry.",
+      "relevance_reason": "Shows the expedition and troop context where gear expectations and soldier behavior are tested."
     }
   ],
   "ads": {
@@ -5522,5 +5774,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-08-31T09:10:00+08:00"
+  "generated_at": "2026-09-01T09:22:00+08:00"
 }
