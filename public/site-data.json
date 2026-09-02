@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-01"
+        "Updated 2026-09-02"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -189,6 +189,7 @@
               "pax-autocratica-sector-2-difficulty",
               "pax-autocratica-best-troops",
               "pax-autocratica-soldier-gear",
+              "pax-autocratica-red-gear",
               "pax-autocratica-sacrifice-units",
               "pax-autocratica-save-during-expedition",
               "pax-autocratica-f1-commands",
@@ -293,6 +294,10 @@
           {
             "keyword": "Pax Autocratica Soldier Gear",
             "slug": "pax-autocratica-soldier-gear"
+          },
+          {
+            "keyword": "Pax Autocratica Red Gear",
+            "slug": "pax-autocratica-red-gear"
           }
         ]
       }
@@ -3589,6 +3594,167 @@
         "pax-autocratica-sell-unwanted-items"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Red Gear",
+      "slug": "pax-autocratica-red-gear",
+      "seo": {
+        "title": "Pax Autocratica Red Gear: Rare Gear and Farming",
+        "description": "A source-backed Pax Autocratica red gear guide: what current players mean by red tier gear, what official updates confirm, and how to farm without trusting fake drop tables."
+      },
+      "direct_answer": "Red gear is best treated as a rare, community-reported tier above yellow, not as an official drop table. Current Steam and Reddit discussions show players asking where it comes from and reporting rare red drops from harder farming, while official updates only confirm high-tier items, blueprint drop changes, and Early Access balance work. Farm late fights and blueprint/material rewards only after your build can clear them reliably, but do not trust exact red-gear percentages, guaranteed boss lists, or visual-skin claims unless a dated official note confirms them.",
+      "direct_answer_claim_ids": [
+        "claim-red-gear-community-tier-20260902",
+        "claim-red-gear-official-boundary-20260902",
+        "claim-red-gear-webcafe-serp-20260902"
+      ],
+      "sections": [
+        {
+          "heading": "What red gear means right now",
+          "paragraphs": [
+            "The useful answer is narrow: players are not just asking whether soldiers can equip items. They are asking whether there is a quality tier above yellow and what to do when endgame farming feels stuck. Current community evidence points to a red tier, but the official sources checked today do not publish a complete red-gear table.",
+            "That means this page should not pretend to know every drop rate. Use red gear as a late-game farming target and evidence boundary: player reports can show that the question exists and what players are seeing, while official patch notes define what has actually changed in blueprints, high-tier item feedback, and Early Access balance."
+          ],
+          "steps": [
+            "Treat red gear as a rare community-reported tier unless a newer official note says more.",
+            "Separate red gear from the separate soldier-equipment question.",
+            "Do not follow a fixed percentage or guaranteed boss route without dated evidence."
+          ],
+          "claim_ids": [
+            "claim-red-gear-community-tier-20260902",
+            "claim-red-gear-official-boundary-20260902"
+          ]
+        },
+        {
+          "heading": "Where the evidence points",
+          "paragraphs": [
+            "A Steam thread about the Giant Ape boss contains direct player discussion of gear colors, including one reply that describes red tier as rare and tied to continued farming after lower rewards. A separate Steam endgame thread discusses blueprint walls, late decisive battles, red gear, and whether lower-tier farming is still worth the time. A current Reddit thread adds fresh player observations that some players did not know a quality tier existed above yellow, while others describe red drops as rare.",
+            "These sources agree that the topic is real, but they are still community observations. The safer official boundary comes from Steam store and update records: the game contains weapons, armor, cores, soldiers, bosses and ongoing Early Access balancing; AG-25 mentions higher-tier blueprint fixes and increased drop rates for newly unlocked weapon blueprints in sectors 2 and 3. None of that becomes a precise red-gear drop table."
+          ],
+          "steps": [
+            "Use Steam and Reddit reports to identify the current player question.",
+            "Use official Steam store/news records to limit what can be stated as fact.",
+            "When two player reports disagree, keep the disagreement visible instead of averaging it into a fake rule."
+          ],
+          "claim_ids": [
+            "claim-red-gear-steam-sources-20260902",
+            "claim-red-gear-reddit-source-20260902",
+            "claim-red-gear-official-boundary-20260902"
+          ]
+        },
+        {
+          "heading": "A practical farming route",
+          "paragraphs": [
+            "If your goal is red gear, first make the farm repeatable. The endgame thread shows the real bottleneck: players can hit a wall where gear, blueprints and decisive battles all compete. Before forcing a red drop chase, stabilize the expedition setup, bring the strongest gear you already have, and only farm fights you can repeat without burning the colony down.",
+            "Use one farming question at a time. If you cannot clear the fight, this is a Sector 2 or endgame preparation problem. If you can clear the fight but see only lower-quality items, this is a patience and source-quality problem, not proof that the tier is impossible. If a guide gives exact red drop odds, ask what build and source it used."
+          ],
+          "steps": [
+            "Clear the target fight reliably before farming it for rarity.",
+            "Farm material and blueprint reward loops rather than one-off guesses.",
+            "Record the sector, boss, item type and build date when you see a red drop.",
+            "Stop and upgrade the base, ship, troops or player loadout if the farm is not repeatable."
+          ],
+          "claim_ids": [
+            "claim-red-gear-steam-sources-20260902",
+            "claim-current-early-access-boundary-20260902"
+          ]
+        },
+        {
+          "heading": "What not to overclaim",
+          "paragraphs": [
+            "Do not claim that every boss has a fixed red-gear pool. Do not claim that a screenshot proves the full tier system. Do not claim armor visuals always change with gear; the Reddit thread includes player discussion about skins and appearance, but that is not the same as a confirmed equipment-visual system for all players.",
+            "Also avoid mixing red gear with red-quality Core Fragments. Older official update text mentions red-quality Core Fragments, while player threads talk about weapons, armor and gear. Those may be related in a player's build plan, but they are not the same claim."
+          ],
+          "steps": [
+            "Keep red gear, red Core Fragments and soldier equipment screens as separate topics.",
+            "Do not publish a boss-by-boss loot table from community comments alone.",
+            "Do not promise visual changes from gear without official or directly verified evidence."
+          ],
+          "claim_ids": [
+            "claim-red-gear-official-boundary-20260902",
+            "claim-red-gear-reddit-source-20260902"
+          ]
+        },
+        {
+          "heading": "When to recheck this page",
+          "paragraphs": [
+            "Recheck whenever a State Maintenance Directive mentions loot, blueprints, rarity, bosses, sectors, item visuals, crafting or high-tier rewards. Pax Autocratica is in Early Access, and the Steam store explicitly frames the current build as still subject to changes from player feedback.",
+            "Today's official Steam News capture still shows the 2026-08-28 State Maintenance Directive as the latest item. No newer official 2026-09-02 patch was captured during this run, so this page stays careful: it answers the current player task without pretending a new official red-gear table exists."
+          ],
+          "steps": [
+            "Check Steam News before repeating any drop table.",
+            "Check the Steam discussion date and whether commenters own the game.",
+            "Prefer a dated official patch over a search snippet when facts conflict."
+          ],
+          "claim_ids": [
+            "claim-current-early-access-boundary-20260902",
+            "claim-red-gear-latest-news-boundary-20260902"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is red gear confirmed in Pax Autocratica?",
+          "answer": "Current community evidence says players are finding and discussing red tier gear, but the official sources checked today do not publish a complete red-gear table.",
+          "claim_ids": [
+            "claim-red-gear-community-tier-20260902",
+            "claim-red-gear-official-boundary-20260902"
+          ]
+        },
+        {
+          "question": "Where should I farm for red gear?",
+          "answer": "Farm fights and blueprint/material rewards you can repeat safely. Player reports point toward harder farming and boss/endgame contexts, but no official source in this run confirms exact red drop odds.",
+          "claim_ids": [
+            "claim-red-gear-steam-sources-20260902"
+          ]
+        },
+        {
+          "question": "Is red gear the same as red Core Fragments?",
+          "answer": "No. Treat them as separate claims unless a dated official source links them. Some official notes mention red-quality Core Fragments, while player gear threads discuss weapons and armor.",
+          "claim_ids": [
+            "claim-red-gear-official-boundary-20260902"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-discussion-giant-ape-red-tier-20260902",
+        "src-steam-discussion-endgame-red-gear-20260902",
+        "src-reddit-red-tier-20260902",
+        "src-steam-news-latest-20260902",
+        "src-steam-store-current-20260902",
+        "src-webcafe-red-gear-20260902"
+      ],
+      "claim_ids": [
+        "claim-red-gear-community-tier-20260902",
+        "claim-red-gear-steam-sources-20260902",
+        "claim-red-gear-reddit-source-20260902",
+        "claim-red-gear-official-boundary-20260902",
+        "claim-red-gear-webcafe-serp-20260902",
+        "claim-current-early-access-boundary-20260902",
+        "claim-red-gear-latest-news-boundary-20260902"
+      ],
+      "updated_at": "2026-09-02T09:00:00+08:00",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Show the combat and loot-farming context for the red gear guide.",
+          "route": "/pax-autocratica-red-gear",
+          "minimum": "one relevant verified game image",
+          "source_id": "src-steam-store-current-20260902",
+          "alt": "Pax Autocratica combat scene used for the red gear guide",
+          "relevance_reason": "The page is about late-game combat rewards and rare gear farming."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-soldier-gear",
+        "pax-autocratica-best-troops",
+        "pax-autocratica-sector-2-difficulty",
+        "pax-autocratica-capture-lock"
+      ],
+      "ad_slot_count": 2
     }
   ],
   "pageProvenance": {
@@ -5188,6 +5354,86 @@
       "quality_review_id": "q01-pax-autocratica-soldier-gear",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct direct-equipment question using an active Steam thread, official update boundaries and a Web.Cafe SERP/KD check, while refusing unsupported future loadout or stat-table claims."
+    },
+    "pax-autocratica-red-gear": {
+      "intent_id": "intent-20260902-red-gear",
+      "intent_type": "gameplay_how_to",
+      "user_job": "Understand what red gear is, whether it is confirmed, and how to farm without trusting fake drop tables.",
+      "intent_evidence_ids": [
+        "src-steam-discussion-giant-ape-red-tier-20260902",
+        "src-steam-discussion-endgame-red-gear-20260902",
+        "src-reddit-red-tier-20260902",
+        "src-steam-news-latest-20260902",
+        "src-steam-store-current-20260902",
+        "src-webcafe-red-gear-20260902"
+      ],
+      "answerability": "resolved_with_multi_community_evidence_and_official_boundary",
+      "coverage": [
+        {
+          "dimension": "player_demand",
+          "status": "covered",
+          "claim_ids": [
+            "claim-red-gear-community-tier-20260902"
+          ],
+          "evidence_relation": "reddit_and_steam_threads",
+          "notes": "Steam, Reddit and Web.Cafe all surfaced red gear or red tier intent; the selected page is distinct from Soldier Gear."
+        },
+        {
+          "dimension": "official_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-red-gear-official-boundary-20260902",
+            "claim-current-early-access-boundary-20260902"
+          ],
+          "evidence_relation": "official_store_and_steam_news",
+          "notes": "Official sources confirm high-tier item and blueprint boundaries, but no complete red-gear table."
+        },
+        {
+          "dimension": "rankability",
+          "status": "covered",
+          "claim_ids": [
+            "claim-red-gear-webcafe-serp-20260902"
+          ],
+          "evidence_relation": "webcafe_direct_query",
+          "notes": "Web.Cafe returned KD 38.8 and a SERP led by Reddit and Steam discussion pages."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Reddit discussion: Maybe ready for Auryto now",
+          "url": "https://www.reddit.com/r/PaxAutocratica/comments/1vnj2p6/maybe_ready_for_auryto_now/",
+          "source_type": "community"
+        },
+        {
+          "label": "Steam discussion: Giant Ape boss",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/84031737849479861/",
+          "source_type": "community"
+        },
+        {
+          "label": "Steam discussion: Whats up with endgame?",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/581680338186559723/",
+          "source_type": "community"
+        },
+        {
+          "label": "Steam News API: latest Pax Autocratica directives",
+          "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1067360&count=20&maxlength=20000&format=json",
+          "source_type": "official_update_api"
+        },
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Web.Cafe query: Pax Autocratica red gear",
+          "url": "https://seo.web.cafe/kd/?keyword=Pax+Autocratica+red+gear&gl=us",
+          "source_type": "keyword_validation"
+        }
+      ],
+      "last_checked_at": "2026-09-02T09:00:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-red-gear",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a distinct rare-gear farming and evidence-boundary task with Steam, Reddit, official-source and Web.Cafe support while refusing exact drop-rate tables."
     }
   },
   "homeProvenance": {
@@ -5695,6 +5941,24 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 combat screenshot already present in the site media registry.",
       "relevance_reason": "Shows the expedition and troop context where gear expectations and soldier behavior are tested."
+    },
+    {
+      "asset_id": "pax-autocratica-red-gear-12",
+      "page": "/pax-autocratica-red-gear",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-best-troops-12.webp",
+      "alt": "Pax Autocratica combat scene used for the red gear guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/4375180d755159b91b0f074f78b8bc2a2bdb20b5/ss_4375180d755159b91b0f074f78b8bc2a2bdb20b5.1920x1080.jpg?t=1786607873",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-02T09:00:00+08:00",
+      "sha256": "3B450677226DCE9E53342DF7DAC37F6F742A3FAAE0C495D445AFC58AB804D8ED",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 combat screenshot already present in the site media registry.",
+      "relevance_reason": "Shows combat and loot-farming context for a page about rare late-game gear."
     }
   ],
   "ads": {
@@ -5767,12 +6031,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-6ef738e5941b",
+    "version": "local-71e2ba49e21f",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-01T09:22:00+08:00"
+  "generated_at": "2026-09-02T09:00:00+08:00"
 }
