@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, capture mechanics, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-02"
+        "Updated 2026-09-07"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -134,8 +134,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, capture mechanics, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
-    "keywords": "Pax Autocratica wiki, Pax Autocratica guides, gameplay, capture mechanics, expeditions, colony, demo, price, trailer, mods, community"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
+    "keywords": "Pax Autocratica wiki, Pax Autocratica guides, roadmap, Early Access, gameplay, capture mechanics, expeditions, colony, demo, price, trailer, mods, community"
   },
   "theme": {
     "hue": 164,
@@ -206,7 +206,8 @@
               "pax-autocratica-community",
               "pax-autocratica-mods",
               "pax-autocratica-multiplayer",
-              "pax-autocratica-custom-colony-settings"
+              "pax-autocratica-custom-colony-settings",
+              "pax-autocratica-roadmap"
             ]
           }
         ],
@@ -298,6 +299,10 @@
           {
             "keyword": "Pax Autocratica Red Gear",
             "slug": "pax-autocratica-red-gear"
+          },
+          {
+            "keyword": "Pax Autocratica Roadmap",
+            "slug": "pax-autocratica-roadmap"
           }
         ]
       }
@@ -3755,6 +3760,171 @@
         "pax-autocratica-capture-lock"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Roadmap",
+      "slug": "pax-autocratica-roadmap",
+      "seo": {
+        "title": "Pax Autocratica Roadmap: Early Access Plans",
+        "description": "A source-backed Pax Autocratica roadmap guide: what is planned, what is playable now, what has no date, and how to follow Early Access updates."
+      },
+      "direct_answer": "Pax Autocratica has an Early Access roadmap, but it is not a dated release calendar. The Steam store says Early Access is expected to last about two years, more colony and combat content is planned, co-op is a major feature the team hopes to develop, and the price is planned to rise at full release. The current public Steam feature list still shows single-player, and the Roadmap Dates discussion confirms players are asking for timing while Multiverse is avoiding overcommitted dates. Treat every roadmap item as planned until a dated official update says it is playable.",
+      "direct_answer_claim_ids": [
+        "claim-roadmap-ea-two-years-20260907",
+        "claim-roadmap-no-dated-milestones-20260907",
+        "claim-roadmap-content-coop-20260907",
+        "claim-roadmap-current-single-player-20260907"
+      ],
+      "sections": [
+        {
+          "heading": "What the roadmap answer means today",
+          "paragraphs": [
+            "The practical answer is that the roadmap should guide expectations, not buying promises. Steam's current Early Access wording gives a broad development direction and a rough two-year frame, but it does not give a dated patch calendar, a 1.0 launch date, or a sequence for major features.",
+            "That distinction matters because the game is live now. A player deciding whether to buy today should separate the current build from planned work: the store describes the released product and feature list, while the roadmap describes what Multiverse wants to improve during Early Access."
+          ],
+          "steps": [
+            "Use the Steam store page for what exists in the current product.",
+            "Use official news and developer replies for what is planned next.",
+            "Ignore any date chart unless it links to a dated official source."
+          ],
+          "claim_ids": [
+            "claim-roadmap-ea-two-years-20260907",
+            "claim-roadmap-no-dated-milestones-20260907"
+          ]
+        },
+        {
+          "heading": "What is confirmed as planned",
+          "paragraphs": [
+            "The text-confirmed commitments are narrow but useful. Multiverse says it plans more content across both the colony and combat sides of the game, and co-op is one of the major features it hopes to develop during Early Access. The same Early Access answer says player feedback will influence what receives the most attention.",
+            "The launch announcement also surfaced a roadmap image, but this page keeps image-only and third-party transcribed lists below direct text evidence. If a future Steam post turns a roadmap item into a patch note, the patch note should override older roadmap wording."
+          ],
+          "steps": [
+            "File more colony and combat content as planned.",
+            "File co-op as planned, not available.",
+            "File feedback-driven priority changes as normal for Early Access."
+          ],
+          "claim_ids": [
+            "claim-roadmap-content-coop-20260907",
+            "claim-roadmap-no-dated-milestones-20260907"
+          ]
+        },
+        {
+          "heading": "Co-op and multiplayer boundary",
+          "paragraphs": [
+            "Co-op is the roadmap item most likely to confuse players because the word appears in future-facing statements while the current Steam feature list still shows a single-player product. That means a group should not schedule a co-op session from the roadmap alone.",
+            "A Steam community answer gives the public discussion boundary as four-player co-op with specifics to be announced later. That helps explain the direction, but it still does not create a current matchmaking, shared-colony, crossplay or PvP claim."
+          ],
+          "steps": [
+            "Treat co-op as future-facing until Steam or an official update says it is live.",
+            "Do not infer local co-op, PvP, crossplay or shared-base rules from the roadmap.",
+            "Before buying for a group, recheck the current Steam feature list and latest official news."
+          ],
+          "claim_ids": [
+            "claim-roadmap-current-single-player-20260907",
+            "claim-roadmap-content-coop-20260907"
+          ]
+        },
+        {
+          "heading": "Timing and 1.0 expectations",
+          "paragraphs": [
+            "The best available time frame is approximate: about two years in Early Access, with the developer explicitly allowing that the frame can change. The Roadmap Dates discussion reinforces why this should be treated carefully: players want quarter-level plans, while the developer says it wants to avoid overcommitting.",
+            "So the honest 1.0 answer is not a date. Full release happens when Multiverse considers the game ready, and the only price-related roadmap fact in the current text is that the developer plans to raise the price at full release."
+          ],
+          "steps": [
+            "Use about two years as planning context, not a countdown.",
+            "Call the full-release date unannounced until a dated official source publishes one.",
+            "Recheck the Steam price page before treating waiting as cheaper or more expensive."
+          ],
+          "claim_ids": [
+            "claim-roadmap-ea-two-years-20260907",
+            "claim-roadmap-price-rise-20260907"
+          ]
+        },
+        {
+          "heading": "How to follow progress without stale claims",
+          "paragraphs": [
+            "Follow the roadmap by comparing each new State Maintenance Directive or Steam news post against the current page. A patch can ship one quality-of-life item without completing an entire roadmap category, and a developer reply can clarify intent without shipping a feature.",
+            "This page should be rechecked whenever a new official update mentions co-op, achievements, sectors, colony relationships, prisoner conversion, crisis events, combat depth, Trade Port, custom settings or full release. Until then, it keeps planned work and playable work separate."
+          ],
+          "steps": [
+            "Read the latest official Steam news before updating a roadmap item.",
+            "Mark a feature as shipped only when an official update says players can use it.",
+            "Keep community threads as demand signals unless they contain a developer or moderator answer."
+          ],
+          "claim_ids": [
+            "claim-roadmap-no-dated-milestones-20260907",
+            "claim-roadmap-serp-demand-20260907"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Pax Autocratica have a roadmap?",
+          "answer": "Yes, but the useful verified answer is that it is an Early Access direction, not a dated release calendar.",
+          "claim_ids": [
+            "claim-roadmap-no-dated-milestones-20260907"
+          ]
+        },
+        {
+          "question": "When will Pax Autocratica leave Early Access?",
+          "answer": "Steam's current developer answer estimates about two years, while warning that timing may change. No fixed 1.0 date is published.",
+          "claim_ids": [
+            "claim-roadmap-ea-two-years-20260907"
+          ]
+        },
+        {
+          "question": "Is co-op playable now?",
+          "answer": "No current live co-op mode is confirmed by the public Steam feature list. Co-op is planned, with details still to be announced.",
+          "claim_ids": [
+            "claim-roadmap-current-single-player-20260907"
+          ]
+        },
+        {
+          "question": "Will the price change at full release?",
+          "answer": "The Steam Early Access answer says the developer plans to raise the price when the game reaches full release.",
+          "claim_ids": [
+            "claim-roadmap-price-rise-20260907"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-store-roadmap-20260907",
+        "src-steam-launch-roadmap-20260907",
+        "src-steam-discussion-roadmap-dates-20260907",
+        "src-steam-discussion-coop-roadmap-20260907",
+        "src-steam-community-general-20260907",
+        "src-serp-roadmap-20260907"
+      ],
+      "claim_ids": [
+        "claim-roadmap-ea-two-years-20260907",
+        "claim-roadmap-no-dated-milestones-20260907",
+        "claim-roadmap-content-coop-20260907",
+        "claim-roadmap-current-single-player-20260907",
+        "claim-roadmap-price-rise-20260907",
+        "claim-roadmap-serp-demand-20260907"
+      ],
+      "updated_at": "2026-09-07T09:41:06.9998682+08:00",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Show the current Early Access game context for the roadmap guide.",
+          "route": "/pax-autocratica-roadmap",
+          "minimum": "one relevant verified game image",
+          "source_id": "src-steam-store-roadmap-20260907",
+          "alt": "Pax Autocratica gameplay scene used for the roadmap guide",
+          "relevance_reason": "The page separates current playable systems from future Early Access roadmap items."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-multiplayer",
+        "pax-autocratica-custom-colony-settings",
+        "pax-autocratica-trade-port",
+        "pax-autocratica-gameplay"
+      ],
+      "ad_slot_count": 2
     }
   ],
   "pageProvenance": {
@@ -5434,6 +5604,82 @@
       "quality_review_id": "q01-pax-autocratica-red-gear",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct rare-gear farming and evidence-boundary task with Steam, Reddit, official-source and Web.Cafe support while refusing exact drop-rate tables."
+    },
+    "pax-autocratica-roadmap": {
+      "intent_id": "intent-20260907-roadmap",
+      "intent_type": "current_status_guide",
+      "user_job": "Understand what the Pax Autocratica roadmap actually promises, what is playable now, and what still has no date.",
+      "intent_evidence_ids": [
+        "src-steam-store-roadmap-20260907",
+        "src-steam-launch-roadmap-20260907",
+        "src-steam-discussion-roadmap-dates-20260907",
+        "src-steam-discussion-coop-roadmap-20260907",
+        "src-steam-community-general-20260907",
+        "src-serp-roadmap-20260907"
+      ],
+      "answerability": "resolved_with_official_early_access_text_and_current_community_timing_thread",
+      "coverage": [
+        {
+          "dimension": "player_demand",
+          "status": "covered",
+          "claim_ids": [
+            "claim-roadmap-serp-demand-20260907"
+          ],
+          "evidence_relation": "serp_and_steam_discussion",
+          "notes": "Exact-match roadmap SERP pages and an active Roadmap Dates thread show a distinct player question."
+        },
+        {
+          "dimension": "official_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-roadmap-ea-two-years-20260907",
+            "claim-roadmap-content-coop-20260907",
+            "claim-roadmap-current-single-player-20260907"
+          ],
+          "evidence_relation": "steam_store_and_developer_discussion",
+          "notes": "Official Steam text and developer/moderator replies define what is planned and what remains undated."
+        },
+        {
+          "dimension": "rankability",
+          "status": "partial",
+          "claim_ids": [
+            "claim-roadmap-serp-demand-20260907"
+          ],
+          "evidence_relation": "public_serp_only",
+          "notes": "Web.Cafe numeric KD was unavailable; the page uses public SERP evidence and records the downgrade."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Steam launch roadmap announcement",
+          "url": "https://store.steampowered.com/news/app/1067360/view/689765153413006340",
+          "source_type": "official_announcement"
+        },
+        {
+          "label": "Steam discussion: Roadmap Dates",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/581680338186751210/",
+          "source_type": "community_developer_reply"
+        },
+        {
+          "label": "Steam discussion: Roadmap says Co-Op",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/585056462065199860/",
+          "source_type": "community_moderator_answer"
+        },
+        {
+          "label": "Steam discussion index",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/",
+          "source_type": "community_index"
+        }
+      ],
+      "last_checked_at": "2026-09-07T09:41:06.9998682+08:00",
+      "quality_review_id": "q01-pax-autocratica-roadmap",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a distinct roadmap timing and expectation task while refusing unsupported date charts, current co-op claims or image-only overclaims."
     }
   },
   "homeProvenance": {
@@ -5959,6 +6205,24 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 combat screenshot already present in the site media registry.",
       "relevance_reason": "Shows combat and loot-farming context for a page about rare late-game gear."
+    },
+    {
+      "asset_id": "pax-autocratica-roadmap-20260907",
+      "page": "/pax-autocratica-roadmap",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-guide-02.webp",
+      "alt": "Pax Autocratica gameplay scene used for the roadmap guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/6cd6758be1fe8edaf3775b2261fc6d6eb29782b3/ss_6cd6758be1fe8edaf3775b2261fc6d6eb29782b3.1920x1080.jpg?t=1786607873",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-07T09:41:06.9998682+08:00",
+      "sha256": "5b5e4a35a805b2f6c31ca48448aaeebdedac6292af2025576df0e74db0bd7e57",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "Shows the current game context for an Early Access roadmap status page."
     }
   ],
   "ads": {
@@ -6038,5 +6302,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-02T09:00:00+08:00"
+  "generated_at": "2026-09-07T09:41:06.9998682+08:00"
 }
