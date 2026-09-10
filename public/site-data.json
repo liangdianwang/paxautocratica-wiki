@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-07"
+        "Updated 2026-09-10"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -207,7 +207,8 @@
               "pax-autocratica-mods",
               "pax-autocratica-multiplayer",
               "pax-autocratica-custom-colony-settings",
-              "pax-autocratica-roadmap"
+              "pax-autocratica-roadmap",
+              "pax-autocratica-language-patches"
             ]
           }
         ],
@@ -303,6 +304,10 @@
           {
             "keyword": "Pax Autocratica Roadmap",
             "slug": "pax-autocratica-roadmap"
+          },
+          {
+            "keyword": "Pax Autocratica Language Patches",
+            "slug": "pax-autocratica-language-patches"
           }
         ]
       }
@@ -3925,6 +3930,168 @@
         "pax-autocratica-gameplay"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Language Patches",
+      "slug": "pax-autocratica-language-patches",
+      "seo": {
+        "title": "Pax Autocratica Language Patches: Official vs Community",
+        "description": "Check Pax Autocratica language support, unofficial translation patches, and safer download checks before installing Japanese, Russian, Portuguese or Korean community files."
+      },
+      "direct_answer": "Pax Autocratica's official Steam language list currently covers Simplified Chinese, English with full audio, French, German and Traditional Chinese. Steam community pages show unofficial translation patches for Japanese, Russian, Portuguese and Korean, but those are community tools, not official language support. Treat every patch as a separate download risk: read the Steam guide or discussion, check the current build, avoid suspicious executables, back up saves, and do not assume Multiverse supports a language until the Steam store or an official update lists it.",
+      "direct_answer_claim_ids": [
+        "claim-language-official-list-20260910",
+        "claim-language-community-guides-20260910",
+        "claim-language-ptbr-boundary-20260910",
+        "claim-language-download-risk-20260910"
+      ],
+      "sections": [
+        {
+          "heading": "Official language support comes from Steam first",
+          "paragraphs": [
+            "Use the Steam store language list as the boundary for official support. The current store data lists Simplified Chinese, English, French, German and Traditional Chinese, with English marked for full audio. If a language is missing there, do not describe it as officially supported just because a community guide or file exists.",
+            "This distinction matters because translation patches can change faster than the game. A patch may work for one build, break after an update, or require files the developer does not maintain."
+          ],
+          "steps": [
+            "Open the live Steam store page before installing or recommending a language option.",
+            "Treat unsupported languages as community-maintained unless a dated official source says otherwise.",
+            "Recheck the language list after major State Maintenance updates."
+          ],
+          "claim_ids": [
+            "claim-language-official-list-20260910"
+          ]
+        },
+        {
+          "heading": "Where the community translation demand is visible",
+          "paragraphs": [
+            "Steam Guides currently surface multiple unofficial translation guides, including Japanese, Russian, Portuguese and Korean entries. That is enough to show a real player task: players are looking for local-language ways to play, and they need a page that separates official support from community files.",
+            "A Portuguese discussion also records a moderator answer relaying that a developer would not present an AI-made translation as official support, while allowing community sharing through community tools, websites or forums. That is a useful boundary, not a blanket approval of every download."
+          ],
+          "steps": [
+            "Use Steam Guides and Steam Discussions to find the exact patch author and update date.",
+            "Prefer guides that mention the current build or a recent update date.",
+            "Do not assume one language patch says anything about another language patch."
+          ],
+          "claim_ids": [
+            "claim-language-community-guides-20260910",
+            "claim-language-ptbr-boundary-20260910"
+          ]
+        },
+        {
+          "heading": "Safer checks before installing a patch",
+          "paragraphs": [
+            "The practical risk is not that every community patch is bad; the risk is that the site cannot verify each download, archive, installer, mirror or future update. A guide can explain what to check without hosting files or telling players a third-party executable is safe.",
+            "A safe page should keep the answer conservative: identify the official language list, point readers back to the Steam community source, and ask them to verify files on their own machine before changing the game folder."
+          ],
+          "steps": [
+            "Back up saves and note the current game build before changing files.",
+            "Read recent comments for breakage reports after the latest patch.",
+            "Avoid installers or archives that are not explained by the guide author.",
+            "Scan files locally and remove the patch if the game crashes or Steam verifies changed files.",
+            "Never enter account passwords, Steam cookies or private tokens into a translation tool."
+          ],
+          "claim_ids": [
+            "claim-language-download-risk-20260910"
+          ]
+        },
+        {
+          "heading": "How to ask for official language support",
+          "paragraphs": [
+            "The cleanest request path is still official community feedback. Ask for a language through Steam Discussions or the publisher's community routes, and include what you need: interface text, mission text, subtitles, voice, or font support. That gives Multiverse a clearer demand signal than reposting a download link.",
+            "If a community patch author is doing useful work, keep the credit attached to that author and guide. Do not mirror files on another site unless the author explicitly allows it."
+          ],
+          "steps": [
+            "State the language and the parts of the game that need translation.",
+            "Link the Steam store language list so the request is tied to the current official state.",
+            "Avoid pressuring community authors to provide support for every game update."
+          ],
+          "claim_ids": [
+            "claim-language-official-list-20260910",
+            "claim-language-community-guides-20260910"
+          ]
+        },
+        {
+          "heading": "When this page should change",
+          "paragraphs": [
+            "Update this page if Steam adds a new official language, if Multiverse posts a dated language statement, or if a major community patch becomes unavailable or unsafe according to its own Steam thread. Do not update only because a search result changed wording.",
+            "The page should not become a download mirror. Its job is to help players verify status and risk before leaving the official store and Steam community surfaces."
+          ],
+          "steps": [
+            "Promote a language to official only after Steam or an official update lists it.",
+            "Mark a patch as stale only with dated breakage or abandonment evidence.",
+            "Keep outbound links pointed at original Steam community pages where possible."
+          ],
+          "claim_ids": [
+            "claim-language-official-list-20260910",
+            "claim-language-download-risk-20260910"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Pax Autocratica officially support Japanese, Russian, Portuguese or Korean?",
+          "answer": "Not according to the current Steam language list. Those languages appear through community patches and guides, so treat them as unofficial unless Steam or Multiverse says otherwise.",
+          "claim_ids": [
+            "claim-language-official-list-20260910",
+            "claim-language-community-guides-20260910"
+          ]
+        },
+        {
+          "question": "Are community translation patches safe to install?",
+          "answer": "This site cannot verify every download. Use the original Steam guide or discussion, check build compatibility, back up saves, scan files and avoid unexplained installers.",
+          "claim_ids": [
+            "claim-language-download-risk-20260910"
+          ]
+        },
+        {
+          "question": "Can a moderator comment make a translation official?",
+          "answer": "No. A moderator or developer boundary can clarify community sharing, but official support should come from the Steam language list or a dated official announcement.",
+          "claim_ids": [
+            "claim-language-ptbr-boundary-20260910"
+          ]
+        },
+        {
+          "question": "Should this site mirror translation files?",
+          "answer": "No. The safer role is to link the original Steam community context and explain verification steps, not host or repackage third-party files.",
+          "claim_ids": [
+            "claim-language-download-risk-20260910"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-store-languages-20260910",
+        "src-steam-guides-languages-20260910",
+        "src-steam-discussion-ptbr-20260910",
+        "src-serp-language-demand-20260910"
+      ],
+      "claim_ids": [
+        "claim-language-official-list-20260910",
+        "claim-language-community-guides-20260910",
+        "claim-language-ptbr-boundary-20260910",
+        "claim-language-download-risk-20260910"
+      ],
+      "updated_at": "2026-09-10T09:23:00+08:00",
+      "time_sensitivity": "changing",
+      "image_needs": [
+        {
+          "purpose": "Ground the language-status page in the current Pax Autocratica community and support context.",
+          "route": "/pax-autocratica-language-patches",
+          "minimum": "one verified game or community-context image",
+          "source_id": "src-steam-store-languages-20260910",
+          "alt": "Pax Autocratica community-facing game scene used for the language patches guide",
+          "relevance_reason": "The page explains how players should treat community translation patches without implying official support."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-community",
+        "pax-autocratica-mods",
+        "pax-autocratica-demo",
+        "pax-autocratica-roadmap"
+      ],
+      "ad_slot_count": 2
     }
   ],
   "pageProvenance": {
@@ -5680,6 +5847,74 @@
       "quality_review_id": "q01-pax-autocratica-roadmap",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct roadmap timing and expectation task while refusing unsupported date charts, current co-op claims or image-only overclaims."
+    },
+    "pax-autocratica-language-patches": {
+      "intent_id": "intent-20260910-language-patches",
+      "intent_type": "current_status_guide",
+      "user_job": "Understand which Pax Autocratica languages are official, which translation patches are community-maintained, and how to reduce download risk.",
+      "intent_evidence_ids": [
+        "src-steam-store-languages-20260910",
+        "src-steam-guides-languages-20260910",
+        "src-steam-discussion-ptbr-20260910",
+        "src-serp-language-demand-20260910"
+      ],
+      "answerability": "resolved_with_official_steam_language_list_and_current_steam_community_translation_evidence",
+      "coverage": [
+        {
+          "dimension": "official_language_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-language-official-list-20260910"
+          ],
+          "evidence_relation": "steam_store_appdetails",
+          "notes": "Steam's current appdetails language field is the official product boundary."
+        },
+        {
+          "dimension": "community_translation_demand",
+          "status": "covered",
+          "claim_ids": [
+            "claim-language-community-guides-20260910",
+            "claim-language-ptbr-boundary-20260910"
+          ],
+          "evidence_relation": "steam_guides_and_discussion",
+          "notes": "Steam Guides and a Portuguese discussion show multiple translation patch intents and a community-sharing boundary."
+        },
+        {
+          "dimension": "safety_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-language-download-risk-20260910"
+          ],
+          "evidence_relation": "policy_and_download_context",
+          "notes": "The page does not host, mirror or endorse third-party files; it gives verification steps."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Steam Guides language patch entries",
+          "url": "https://steamcommunity.com/app/1067360/guides/",
+          "source_type": "community_guides"
+        },
+        {
+          "label": "Steam discussion: Tradução PT-BR",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/582805296104171805/",
+          "source_type": "community_moderator_answer"
+        },
+        {
+          "label": "Steam discussion index",
+          "url": "https://steamcommunity.com/app/1067360/discussions/",
+          "source_type": "community_index"
+        }
+      ],
+      "last_checked_at": "2026-09-10T09:23:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-language-patches",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a distinct current language-support task while refusing to mirror files, endorse third-party downloads, or call community patches official."
     }
   },
   "homeProvenance": {
@@ -6223,6 +6458,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "Shows the current game context for an Early Access roadmap status page."
+    },
+    {
+      "asset_id": "pax-autocratica-language-patches-20260910",
+      "page": "/pax-autocratica-language-patches",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-community-09.webp",
+      "alt": "Pax Autocratica community-facing game scene used for the language patches guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-10T09:23:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "Provides a game-specific visual for a page about Steam community translation patches and official language support boundaries."
     }
   ],
   "ads": {
@@ -6302,5 +6553,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-07T09:41:06.9998682+08:00"
+  "generated_at": "2026-09-10T09:23:00+08:00"
 }
