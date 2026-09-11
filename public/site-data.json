@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-10"
+        "Updated 2026-09-11"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -208,7 +208,8 @@
               "pax-autocratica-multiplayer",
               "pax-autocratica-custom-colony-settings",
               "pax-autocratica-roadmap",
-              "pax-autocratica-language-patches"
+              "pax-autocratica-language-patches",
+              "pax-autocratica-auroria-day-reward"
             ]
           }
         ],
@@ -308,6 +309,10 @@
           {
             "keyword": "Pax Autocratica Language Patches",
             "slug": "pax-autocratica-language-patches"
+          },
+          {
+            "keyword": "Pax Autocratica Auroria Day Reward",
+            "slug": "pax-autocratica-auroria-day-reward"
           }
         ]
       }
@@ -4092,6 +4097,164 @@
         "pax-autocratica-roadmap"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Auroria Day Reward",
+      "slug": "pax-autocratica-auroria-day-reward",
+      "seo": {
+        "title": "Pax Autocratica Auroria Day Reward: Skin, Form and Safety",
+        "description": "How to claim the Pax Autocratica Auroria Day #1 reward, what the Nebula Assault Rifle skin is, and what to check before submitting the official form."
+      },
+      "direct_answer": "Pax Autocratica's Auroria Day #1 is an official first-month event announced by Multiverse on Steam on September 10, 2026. The announcement says players can complete the Official State Loyalty Examination to receive the Nebula Assault Rifle - Aurorian Ceremonial Series skin and enter a three-winner Steam-key giveaway. The linked Google Form says the email is used for reward delivery and winner contact, and its completion page says the skin is not permanently exclusive to this event. No public deadline was visible in the captured announcement or form, so treat availability as live-but-volatile and verify the Steam announcement before submitting personal information.",
+      "direct_answer_claim_ids": [
+        "claim-auroria-official-announcement-20260911",
+        "claim-auroria-reward-form-20260911",
+        "claim-auroria-reward-boundary-20260911",
+        "claim-auroria-data-safety-20260911"
+      ],
+      "sections": [
+        {
+          "heading": "What Auroria Day #1 is",
+          "paragraphs": [
+            "Auroria Day #1 is not a normal patch note or a hidden gameplay system. It is an official community event posted by Multiverse in the Steam announcement feed one month after Early Access release. The post frames it as the start of a monthly tradition and points players to a short loyalty examination.",
+            "That matters for players because event rewards can move faster than evergreen guide pages. Use the Steam announcement as the current source of truth, not a search snippet or reposted form link."
+          ],
+          "steps": [
+            "Open the Steam announcement titled Auroria Day #1.",
+            "Confirm the form link still comes from that announcement.",
+            "Check whether the announcement or form has gained a deadline, closure notice, or updated instructions."
+          ],
+          "claim_ids": [
+            "claim-auroria-official-announcement-20260911"
+          ]
+        },
+        {
+          "heading": "What you can claim",
+          "paragraphs": [
+            "The official post names the guaranteed event reward as the Nebula Assault Rifle - Aurorian Ceremonial Series skin. It also says three participants will be randomly selected to receive a Pax Autocratica Steam Key that they can give to someone else.",
+            "The captured form completion text adds one useful boundary: the Aurorian Ceremonial Series is not permanently exclusive to this event, and players who miss this Auroria Day should have future chances during later State festivities. That means the event is still worth claiming if you want the skin now, but the page should not pressure players by calling it forever-exclusive."
+          ],
+          "steps": [
+            "Use the same email you want associated with reward delivery.",
+            "After completing the form, register or log in through the game's main menu as the form instructs.",
+            "Do not assume the Steam-key giveaway is guaranteed; only the skin is described as the participant reward."
+          ],
+          "claim_ids": [
+            "claim-auroria-reward-form-20260911",
+            "claim-auroria-reward-boundary-20260911"
+          ]
+        },
+        {
+          "heading": "Form safety checklist",
+          "paragraphs": [
+            "The captured Google Form page says it was created inside Multiverse and asks for an email address for delivery and giveaway contact. It does not need a Steam password, Steam cookie, payment detail, or private account token. If any copied link asks for those, stop and return to the official Steam announcement.",
+            "Because event forms are easy to imitate, the safest route is source-first: Steam announcement, then linked form, then game login after submission. Do not submit the form from a social repost unless it matches the official announcement link."
+          ],
+          "steps": [
+            "Start from the Steam announcement, not a reposted short link.",
+            "Expect email only; never enter a Steam password or account token.",
+            "Check the browser destination before submitting.",
+            "Keep a screenshot or note of the completion message until the reward appears."
+          ],
+          "claim_ids": [
+            "claim-auroria-data-safety-20260911"
+          ]
+        },
+        {
+          "heading": "Do not confuse it with patch content",
+          "paragraphs": [
+            "Auroria Day #1 also links to a separate Steam discussion asking players what additional powers, policies, interactions, buildings, traits or other systems they would like to see. That discussion is an official feedback prompt, not confirmation that those ideas are already in the game.",
+            "Keep the two parts separate. The reward form is an action players can take now; the petition thread is a place to suggest future mechanics. Suggestions in that thread should not become guide claims until Multiverse ships or announces them."
+          ],
+          "steps": [
+            "Use the form for the Auroria Day reward.",
+            "Use the linked Steam discussion only for feature suggestions.",
+            "Do not describe player suggestions as roadmap commitments."
+          ],
+          "claim_ids": [
+            "claim-auroria-official-announcement-20260911"
+          ]
+        },
+        {
+          "heading": "When to recheck this page",
+          "paragraphs": [
+            "Recheck this page when the form closes, when Multiverse posts Auroria Day #2, when the reward delivery instructions change, or when an official patch turns the skin into an in-game store or account item with different access rules.",
+            "Until then, the page should stay narrow: official event status, claim path, giveaway boundary, and personal-information safety. It should not speculate about drop rates, hidden rewards, or future event dates."
+          ],
+          "steps": [
+            "Update the page only from an official Steam post or the official form.",
+            "Remove or revise the form link if the form closes.",
+            "Keep any future Auroria Day pages separate if the reward or rules change."
+          ],
+          "claim_ids": [
+            "claim-auroria-reward-boundary-20260911",
+            "claim-auroria-data-safety-20260911"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Auroria Day #1 official?",
+          "answer": "Yes. It appears in the official Pax Autocratica Steam announcement feed from Multiverse on September 10, 2026.",
+          "claim_ids": [
+            "claim-auroria-official-announcement-20260911"
+          ]
+        },
+        {
+          "question": "What reward does the Auroria Day form give?",
+          "answer": "The announcement names the Nebula Assault Rifle - Aurorian Ceremonial Series skin for participants, plus a random Steam-key giveaway for three participants.",
+          "claim_ids": [
+            "claim-auroria-reward-form-20260911"
+          ]
+        },
+        {
+          "question": "Is the Aurorian Ceremonial Series permanently exclusive?",
+          "answer": "The captured completion text says it is not permanently exclusive and may return in future State festivities.",
+          "claim_ids": [
+            "claim-auroria-reward-boundary-20260911"
+          ]
+        },
+        {
+          "question": "What information should the form ask for?",
+          "answer": "The captured form asks for an email for reward delivery and winner contact. Do not enter Steam passwords, cookies, payment details or private tokens.",
+          "claim_ids": [
+            "claim-auroria-data-safety-20260911"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-news-auroria-day-20260911",
+        "src-google-form-auroria-day-20260911",
+        "src-steam-discussion-additional-powers-20260911"
+      ],
+      "claim_ids": [
+        "claim-auroria-official-announcement-20260911",
+        "claim-auroria-reward-form-20260911",
+        "claim-auroria-reward-boundary-20260911",
+        "claim-auroria-data-safety-20260911"
+      ],
+      "updated_at": "2026-09-11T09:18:00+08:00",
+      "time_sensitivity": "volatile_event",
+      "image_needs": [
+        {
+          "purpose": "Ground the time-sensitive Auroria Day reward page in the current Pax Autocratica community context.",
+          "route": "/pax-autocratica-auroria-day-reward",
+          "minimum": "one verified game or community-context image",
+          "source_id": "src-steam-news-auroria-day-20260911",
+          "alt": "Pax Autocratica community-facing game scene used for the Auroria Day reward guide",
+          "relevance_reason": "The page explains a current official event and reward claim path without using or redistributing the event artwork."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-community",
+        "pax-autocratica-trailer",
+        "pax-autocratica-roadmap",
+        "pax-autocratica-language-patches"
+      ],
+      "ad_slot_count": 2
     }
   ],
   "pageProvenance": {
@@ -5915,6 +6078,73 @@
       "quality_review_id": "q01-pax-autocratica-language-patches",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct current language-support task while refusing to mirror files, endorse third-party downloads, or call community patches official."
+    },
+    "pax-autocratica-auroria-day-reward": {
+      "intent_id": "intent-20260911-auroria-day-reward",
+      "intent_type": "official_event_status_guide",
+      "user_job": "Claim the current Auroria Day reward safely and separate the event from unshipped feature suggestions.",
+      "intent_evidence_ids": [
+        "src-steam-news-auroria-day-20260911",
+        "src-google-form-auroria-day-20260911",
+        "src-steam-discussion-additional-powers-20260911"
+      ],
+      "answerability": "resolved_with_official_steam_announcement_and_linked_multiverse_google_form",
+      "coverage": [
+        {
+          "dimension": "official_event_identity",
+          "status": "covered",
+          "claim_ids": [
+            "claim-auroria-official-announcement-20260911"
+          ],
+          "evidence_relation": "steam_news_api_and_announcement_html",
+          "notes": "Steam news item is authored by Multiverse and dated 2026-09-10."
+        },
+        {
+          "dimension": "reward_claim_path",
+          "status": "covered",
+          "claim_ids": [
+            "claim-auroria-reward-form-20260911"
+          ],
+          "evidence_relation": "linked_google_form",
+          "notes": "The captured form title and body match Auroria Day #1 and describe email use for reward delivery."
+        },
+        {
+          "dimension": "exclusivity_and_safety_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-auroria-reward-boundary-20260911",
+            "claim-auroria-data-safety-20260911"
+          ],
+          "evidence_relation": "form_completion_text_and_policy",
+          "notes": "The page does not collect data, mirror the form, or claim unannounced rewards."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam announcement: Auroria Day #1",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262692522",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Official State Loyalty Examination",
+          "url": "https://forms.gle/JFSJ3N1CdgDjP48h6",
+          "source_type": "official_form"
+        },
+        {
+          "label": "Steam discussion: Petition for Additional Supreme Powers",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/500617242799544257/",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        }
+      ],
+      "last_checked_at": "2026-09-11T09:18:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-auroria-day-reward",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a distinct, time-sensitive reward-claim task and avoids treating event feedback prompts as shipped features."
     }
   },
   "homeProvenance": {
@@ -6474,6 +6704,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "Provides a game-specific visual for a page about Steam community translation patches and official language support boundaries."
+    },
+    {
+      "asset_id": "pax-autocratica-auroria-day-reward-20260911",
+      "page": "/pax-autocratica-auroria-day-reward",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-community-09.webp",
+      "alt": "Pax Autocratica community-facing game scene used for the Auroria Day reward guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-11T09:18:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "Provides a game-specific visual for a current official community event without redistributing form or event art."
     }
   ],
   "ads": {
@@ -6553,5 +6799,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-10T09:23:00+08:00"
+  "generated_at": "2026-09-11T09:18:00+08:00"
 }
