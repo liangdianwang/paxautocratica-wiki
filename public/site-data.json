@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, ST-11 patch changes, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-11"
+        "Updated 2026-09-12"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -134,7 +134,7 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
+    "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, ST-11 patch changes, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
     "keywords": "Pax Autocratica wiki, Pax Autocratica guides, roadmap, Early Access, gameplay, capture mechanics, expeditions, colony, demo, price, trailer, mods, community"
   },
   "theme": {
@@ -209,7 +209,8 @@
               "pax-autocratica-custom-colony-settings",
               "pax-autocratica-roadmap",
               "pax-autocratica-language-patches",
-              "pax-autocratica-auroria-day-reward"
+              "pax-autocratica-auroria-day-reward",
+              "pax-autocratica-st11-patch-notes"
             ]
           }
         ],
@@ -313,6 +314,10 @@
           {
             "keyword": "Pax Autocratica Auroria Day Reward",
             "slug": "pax-autocratica-auroria-day-reward"
+          },
+          {
+            "keyword": "Pax Autocratica ST-11 Patch Notes",
+            "slug": "pax-autocratica-st11-patch-notes"
           }
         ]
       }
@@ -4255,6 +4260,165 @@
         "pax-autocratica-language-patches"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica ST-11 Patch Notes",
+      "slug": "pax-autocratica-st11-patch-notes",
+      "seo": {
+        "title": "Pax Autocratica ST-11 Patch Notes: What Changed",
+        "description": "A source-backed guide to Pax Autocratica Directive ST-11: loading fixes, Resource Transfer Station drones, Sector 3 changes, capture behavior, Warehouse reminders and controller updates."
+      },
+      "direct_answer": "Directive ST-11 is the September 11, 2026 official Pax Autocratica maintenance update. The most player-visible changes are loading stability fixes, Resource Transfer Station Level 2 drones, Ore Refinery and Wood Processing Plant resources joining the transfer system, batch dismantling for foundations and decorative buildings, less player-blocking soldier collision, a shorter failed-capture invulnerability window, one extra Shattered Core chest in Sector 3 battles, a Warehouse Center reminder for Second Chances, crafted-item markers, Steam Deck input fixes, lower VRAM use and several crash fixes. Treat the official announcement as the source of truth; community posts can explain why a change matters, but they do not prove that every save or fight is fixed.",
+      "direct_answer_claim_ids": [
+        "claim-st11-official-announcement-20260912",
+        "claim-st11-loading-and-performance-20260912",
+        "claim-st11-colony-logistics-20260912",
+        "claim-st11-combat-and-capture-20260912"
+      ],
+      "sections": [
+        {
+          "heading": "What ST-11 fixes first",
+          "paragraphs": [
+            "ST-11 should be read as a stability and usability update, not a content expansion. Multiverse says the update prioritizes severe stability issues and urgent community problems before the team shifts toward larger Early Access goals such as deeper colony simulation, co-op, major systems and new content.",
+            "For players, the practical first check is whether the game starts, loads saves and transitions scenes more reliably. The announcement specifically mentions loading becoming stuck, game-start failures, crashes while exiting, loading failures under some circumstances, scene-transition crashes in The Terminal Bastion: Descent, reduced VRAM use and a new default framerate limit based on the current display refresh rate."
+          ],
+          "steps": [
+            "Update the game through Steam before judging whether an older loading issue still exists.",
+            "If a save still hangs, verify Steam files and report through the official bug-report path instead of assuming ST-11 fixed every case.",
+            "On Steam Deck or controller, recheck input fields, fullscreen keyboard behavior and controller navigation after the patch."
+          ],
+          "claim_ids": [
+            "claim-st11-official-announcement-20260912",
+            "claim-st11-loading-and-performance-20260912"
+          ]
+        },
+        {
+          "heading": "Colony logistics changes to recheck",
+          "paragraphs": [
+            "The biggest base-management change is that upgrading the Resource Transfer Station to Level 2 now unlocks drones that assist with hauling. The announcement also says resources produced by the Ore Refinery and Wood Processing Plant are now included in the transfer system.",
+            "That means older advice about manually babysitting those production chains may need a fresh in-game check. ST-11 also adds batch dismantling for foundations and decorative buildings, guidance text inside crafting interfaces, crafted weapon and armor markers, Trade Port interface improvements and button prompts in Building Details."
+          ],
+          "steps": [
+            "Open an existing base and confirm whether the Resource Transfer Station is Level 2 before expecting drones.",
+            "Check Ore Refinery and Wood Processing Plant output routes after the update.",
+            "Use batch dismantling only on foundations and decorative buildings; the announcement does not say every building type can be bulk removed.",
+            "Use crafted-item markers to avoid rebuilding weapons or armor you already made."
+          ],
+          "claim_ids": [
+            "claim-st11-colony-logistics-20260912"
+          ]
+        },
+        {
+          "heading": "Combat and capture changes",
+          "paragraphs": [
+            "ST-11 changes several combat details. It reduces the invulnerability after a failed capture attempt from 10 seconds to 5 seconds, fixes cases where non-capturable targets gained temporary invulnerability after Capture Rounds, removes unsuitable enemy leader affixes from Infested Nest battles, improves victory chest locations and adds one extra Shattered Core chest to Sector 3 battles.",
+            "It also improves soldier collision so friendly units block the Leader less while enemies are harder to push through. Several named allied soldiers get increased combat strength, allied affix shared cooldown drops from 15 seconds to 5 seconds, and the Soldier Details interface now shows class details when hovering over a soldier class."
+          ],
+          "steps": [
+            "Do not reuse pre-ST-11 capture timing notes without checking the new 5-second failed-capture window.",
+            "For Sector 3, expect one additional Shattered Core chest in battles, but do not read that as a full boss nerf.",
+            "If friendly soldiers used to trap your movement, retest pathing after the collision change.",
+            "Use the Soldier Details class hover when comparing soldier roles instead of relying only on old community summaries."
+          ],
+          "claim_ids": [
+            "claim-st11-combat-and-capture-20260912"
+          ]
+        },
+        {
+          "heading": "Inventory, Warehouse and Second Chances",
+          "paragraphs": [
+            "A useful quality-of-life change is the new reminder before departure when Second Chances is available in the Warehouse Center but has not been brought along. This is a pre-expedition safeguard, not a guarantee that a difficult run becomes safe.",
+            "The update also combines repeated pickup messages in chat, improves Account Inventory display for soldier and skin models, separates Star Map and Base interactions by Sector and improves several Shattered Core interface animations."
+          ],
+          "steps": [
+            "Before an expedition, watch for the Warehouse Center reminder if Second Chances is available.",
+            "Use the reminder as a checklist item, then still prepare gear and soldiers normally.",
+            "If chat pickup spam confused older runs, retest repeated item pickup after ST-11."
+          ],
+          "claim_ids": [
+            "claim-st11-colony-logistics-20260912",
+            "claim-st11-combat-and-capture-20260912"
+          ]
+        },
+        {
+          "heading": "What ST-11 does not prove",
+          "paragraphs": [
+            "The announcement does not say co-op is live, does not give a dated roadmap for the next major content update and does not guarantee that every reported soft lock, boss complaint or UI bug is resolved. It says critical fixes will continue when needed, while the team avoids shipping frequent small patches just to look busy.",
+            "Community discussions remain useful for spotting pain points. A soft-lock thread and a final-boss thread show why loading stability and Sector 3 balance matter, but those posts should stay as supporting context unless Multiverse confirms a specific fix."
+          ],
+          "steps": [
+            "Use ST-11 to update affected guide assumptions, not to create unsupported roadmap promises.",
+            "Treat remaining community issues as reportable cases with build, save and logs.",
+            "Recheck this page when Multiverse posts the next State Maintenance Directive or a major Early Access update."
+          ],
+          "claim_ids": [
+            "claim-st11-official-announcement-20260912"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is ST-11 an official Pax Autocratica update?",
+          "answer": "Yes. It appears in the official Steam news feed for Pax Autocratica, authored by Multiverse on September 11, 2026.",
+          "claim_ids": [
+            "claim-st11-official-announcement-20260912"
+          ]
+        },
+        {
+          "question": "Does ST-11 fix loading problems?",
+          "answer": "It targets loading stability, stuck loading and some start or scene-transition failures, but players with continuing issues should still verify files and report logs.",
+          "claim_ids": [
+            "claim-st11-loading-and-performance-20260912"
+          ]
+        },
+        {
+          "question": "What changed for Resource Transfer Station?",
+          "answer": "At Level 2 it now unlocks drones to assist hauling, and Ore Refinery plus Wood Processing Plant resources are included in the transfer system.",
+          "claim_ids": [
+            "claim-st11-colony-logistics-20260912"
+          ]
+        },
+        {
+          "question": "Did ST-11 make Sector 3 easy?",
+          "answer": "No. The official note says Sector 3 battles get one additional Shattered Core chest; it does not claim a full boss or difficulty nerf.",
+          "claim_ids": [
+            "claim-st11-combat-and-capture-20260912"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-news-st11-20260912",
+        "src-steam-appdetails-20260912",
+        "src-steam-discussion-soft-lock-20260912",
+        "src-steam-discussion-final-boss-20260912"
+      ],
+      "claim_ids": [
+        "claim-st11-official-announcement-20260912",
+        "claim-st11-loading-and-performance-20260912",
+        "claim-st11-colony-logistics-20260912",
+        "claim-st11-combat-and-capture-20260912"
+      ],
+      "updated_at": "2026-09-12T09:15:00+08:00",
+      "time_sensitivity": "official_patch_notes",
+      "image_needs": [
+        {
+          "route": "/pax-autocratica-st11-patch-notes",
+          "minimum": "one verified game-context image",
+          "source_id": "src-steam-news-st11-20260912",
+          "alt": "Pax Autocratica combat and colony scene used for the ST-11 patch notes guide",
+          "relevance_reason": "The page summarizes a current official maintenance update that touches loading, colony logistics, combat and inventory workflows."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-resource-transport-station-warehouse",
+        "pax-autocratica-capture-mechanics",
+        "pax-autocratica-sector-2-difficulty",
+        "pax-autocratica-roadmap"
+      ],
+      "ad_slot_count": 2
     }
   ],
   "pageProvenance": {
@@ -6145,6 +6309,66 @@
       "quality_review_id": "q01-pax-autocratica-auroria-day-reward",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct, time-sensitive reward-claim task and avoids treating event feedback prompts as shipped features."
+    },
+    "pax-autocratica-st11-patch-notes": {
+      "intent_id": "intent-20260912-st11-patch-notes",
+      "intent_type": "official_patch_notes_status_guide",
+      "user_job": "Understand what the ST-11 maintenance update changed and what affected players should recheck after updating.",
+      "intent_evidence_ids": [
+        "src-steam-news-st11-20260912",
+        "src-steam-appdetails-20260912",
+        "src-steam-discussion-soft-lock-20260912",
+        "src-steam-discussion-final-boss-20260912"
+      ],
+      "answerability": "resolved_with_official_steam_news_and_current_community_context",
+      "coverage": [
+        {
+          "dimension": "official_update_identity",
+          "status": "covered",
+          "claim_ids": [
+            "claim-st11-official-announcement-20260912"
+          ],
+          "evidence_relation": "steam_news_api_and_announcement_html",
+          "notes": "Steam news item 1843481262695415 is authored by Multiverse, dated 2026-09-11T14:10:59Z, and source body hash is 6f58422631e9774329c1440d6e7961bb548e7cb263ccff718e4fc2f82b0cf087."
+        },
+        {
+          "dimension": "player_impact_mapping",
+          "status": "covered",
+          "claim_ids": [
+            "claim-st11-loading-and-performance-20260912",
+            "claim-st11-colony-logistics-20260912",
+            "claim-st11-combat-and-capture-20260912"
+          ],
+          "evidence_relation": "official_patch_bullets_plus_current_steam_discussions",
+          "notes": "The page maps official fixes to loading, logistics, combat, inventory and controller recheck tasks without claiming every community issue is resolved."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam announcement: Directive ST-11",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262695415",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Steam discussion: probably soft-locked myself",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/500617242799661697/",
+          "source_type": "community_context"
+        },
+        {
+          "label": "Steam discussion: final boss fight",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/582807520276528314/",
+          "source_type": "community_context"
+        }
+      ],
+      "last_checked_at": "2026-09-12T09:15:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-st11-patch-notes",
+      "status": "publish",
+      "depth_variance_reason": "The page turns a broad official patch note into a player recheck guide for loading, logistics, capture, Sector 3, Warehouse and controller changes while avoiding unsupported roadmap or universal-fix claims."
     }
   },
   "homeProvenance": {
@@ -6720,6 +6944,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "Provides a game-specific visual for a current official community event without redistributing form or event art."
+    },
+    {
+      "asset_id": "pax-autocratica-st11-patch-notes-20260912",
+      "page": "/pax-autocratica-st11-patch-notes",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-sector-2-difficulty-11.jpg",
+      "alt": "Pax Autocratica combat and colony scene used for the ST-11 patch notes guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-12T09:15:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "Shows the colony-to-frontier context for an official maintenance page touching loading, combat, logistics and Sector 3 battles."
     }
   ],
   "ads": {
@@ -6792,12 +7032,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-71e2ba49e21f",
+    "version": "local-pending-st11",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-11T09:18:00+08:00"
+  "generated_at": "2026-09-12T09:15:00+08:00"
 }
