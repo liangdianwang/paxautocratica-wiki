@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, ST-11 patch changes, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, ST-11 patch changes, Sector 3 final boss prep, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-12"
+        "Updated 2026-09-13"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -134,8 +134,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, ST-11 patch changes, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
-    "keywords": "Pax Autocratica wiki, Pax Autocratica guides, roadmap, Early Access, gameplay, capture mechanics, expeditions, colony, demo, price, trailer, mods, community"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, ST-11 patch changes, Sector 3 final boss prep, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
+    "keywords": "Pax Autocratica wiki, Pax Autocratica guides, Sector 3 final boss, roadmap, Early Access, gameplay, capture mechanics, expeditions, colony, demo, price, trailer, mods, community"
   },
   "theme": {
     "hue": 164,
@@ -187,6 +187,7 @@
               "pax-autocratica-capture-mechanics",
               "pax-autocratica-capture-lock",
               "pax-autocratica-sector-2-difficulty",
+              "pax-autocratica-sector-3-final-boss",
               "pax-autocratica-best-troops",
               "pax-autocratica-soldier-gear",
               "pax-autocratica-red-gear",
@@ -318,6 +319,10 @@
           {
             "keyword": "Pax Autocratica ST-11 Patch Notes",
             "slug": "pax-autocratica-st11-patch-notes"
+          },
+          {
+            "keyword": "Pax Autocratica Sector 3 Final Boss",
+            "slug": "pax-autocratica-sector-3-final-boss"
           }
         ]
       }
@@ -4110,7 +4115,7 @@
         "title": "Pax Autocratica Auroria Day Reward: Skin, Form and Safety",
         "description": "How to claim the Pax Autocratica Auroria Day #1 reward, what the Nebula Assault Rifle skin is, and what to check before submitting the official form."
       },
-      "direct_answer": "Pax Autocratica's Auroria Day #1 is an official first-month event announced by Multiverse on Steam on September 10, 2026. The announcement says players can complete the Official State Loyalty Examination to receive the Nebula Assault Rifle - Aurorian Ceremonial Series skin and enter a three-winner Steam-key giveaway. The linked Google Form says the email is used for reward delivery and winner contact, and its completion page says the skin is not permanently exclusive to this event. No public deadline was visible in the captured announcement or form, so treat availability as live-but-volatile and verify the Steam announcement before submitting personal information.",
+      "direct_answer": "Pax Autocratica's Auroria Day #1 is an official first-month event announced by Multiverse on Steam on September 10, 2026. The announcement says players can complete the Official State Loyalty Examination to receive the Nebula Assault Rifle - Aurorian Ceremonial Series skin and enter a three-winner Steam-key giveaway. A September 13 Steam discussion reply from Gurttron says Auroria Day is expected on the 10th of every month, lasts one day unless noted otherwise, and points missed players toward the next Auroria Day on October 10, 2026. The linked form uses email for reward delivery and winner contact; do not enter Steam passwords, cookies, payment details or private account tokens.",
       "direct_answer_claim_ids": [
         "claim-auroria-official-announcement-20260911",
         "claim-auroria-reward-form-20260911",
@@ -4181,6 +4186,22 @@
           ]
         },
         {
+          "heading": "What if you missed Auroria Day?",
+          "paragraphs": [
+            "A current Steam discussion about missing the event received a Gurttron reply saying the State provides to punctual players and pointing to the next Auroria Day on October 10, 2026. Another reply clarifies the expected rhythm: Auroria Day occurs on the 10th of every month and lasts for one day only unless the official post says otherwise.",
+            "That makes the practical answer simple: do not use unofficial links after the fact, do not assume a late claim will work, and watch the official Steam feed before the next monthly event."
+          ],
+          "steps": [
+            "If the form is no longer accepting responses, wait for the next official Auroria Day post.",
+            "Mark October 10, 2026 as the next date mentioned in the Steam discussion, but recheck the official feed that day.",
+            "Do not submit personal information through reposted or shortened links."
+          ],
+          "claim_ids": [
+            "claim-auroria-next-date-20260913",
+            "claim-auroria-data-safety-20260911"
+          ]
+        },
+        {
           "heading": "When to recheck this page",
           "paragraphs": [
             "Recheck this page when the form closes, when Multiverse posts Auroria Day #2, when the reward delivery instructions change, or when an official patch turns the skin into an in-game store or account item with different access rules.",
@@ -4225,12 +4246,20 @@
           "claim_ids": [
             "claim-auroria-data-safety-20260911"
           ]
+        },
+        {
+          "question": "What happens if I missed Auroria Day #1?",
+          "answer": "A current Steam discussion reply says the next Auroria Day is expected on October 10, 2026, and that the monthly event lasts one day unless noted otherwise. Recheck the official Steam feed before submitting anything.",
+          "claim_ids": [
+            "claim-auroria-next-date-20260913"
+          ]
         }
       ],
       "source_ids": [
         "src-steam-news-auroria-day-20260911",
         "src-google-form-auroria-day-20260911",
-        "src-steam-discussion-additional-powers-20260911"
+        "src-steam-discussion-additional-powers-20260911",
+        "src-steam-discussion-missed-auroria-day-20260913"
       ],
       "claim_ids": [
         "claim-auroria-official-announcement-20260911",
@@ -4238,7 +4267,7 @@
         "claim-auroria-reward-boundary-20260911",
         "claim-auroria-data-safety-20260911"
       ],
-      "updated_at": "2026-09-11T09:18:00+08:00",
+      "updated_at": "2026-09-13T09:18:00+08:00",
       "time_sensitivity": "volatile_event",
       "image_needs": [
         {
@@ -4419,6 +4448,166 @@
         "pax-autocratica-roadmap"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Sector 3 Final Boss",
+      "slug": "pax-autocratica-sector-3-final-boss",
+      "seo": {
+        "title": "Pax Autocratica Sector 3 Final Boss: Prepare and Read the Fight",
+        "description": "A source-backed Pax Autocratica Sector 3 final boss guide: what ST-11 confirms, how current players describe the fight, and what to prepare without relying on fake HP tables."
+      },
+      "direct_answer": "The safest current answer for the Pax Autocratica Sector 3 final boss is to prepare for a long, messy attrition fight rather than chase a single guaranteed build. The official Steam store confirms the game has boss and Sector Overlord battles, and Directive ST-11 specifically added one extra Shattered Core chest to Sector 3 battles; it does not say the final boss was nerfed or solved. A current Steam discussion shows players converging on three practical checks: bring enough damage to make progress yourself, use soldiers mainly to clear pressure and survive hazards, and learn the phase where shields or vulnerable sections rotate instead of shooting only into immune text.",
+      "direct_answer_claim_ids": [
+        "claim-sector3-official-boss-context-20260913",
+        "claim-sector3-st11-chest-boundary-20260913",
+        "claim-sector3-community-patterns-20260913"
+      ],
+      "sections": [
+        {
+          "heading": "What the official sources support",
+          "paragraphs": [
+            "The official Steam store describes Pax Autocratica combat as first-person roguelite battles beside troops, with elite enemies, bosses and Sector Overlords filling the field with bullets, lasers, missiles, drones, artillery and overlapping patterns. That supports treating Sector 3 as a boss-preparation problem, but it does not publish boss HP, exact phase timers or a universal build.",
+            "Directive ST-11 adds a narrower current fact: Sector 3 battles now include one additional Shattered Core chest. Use that as a reason to recheck your post-ST-11 reward and build routing. Do not read it as proof that the final boss itself became easy."
+          ],
+          "steps": [
+            "Update the game before comparing your attempt with older Sector 3 advice.",
+            "Expect boss-scale projectile pressure and soldier-management friction, but do not rely on uncited HP or damage tables.",
+            "After each failed attempt, separate official facts from player-tested suggestions."
+          ],
+          "claim_ids": [
+            "claim-sector3-official-boss-context-20260913",
+            "claim-sector3-st11-chest-boundary-20260913"
+          ]
+        },
+        {
+          "heading": "Why players are getting stuck",
+          "paragraphs": [
+            "The active Steam discussion around the final boss is useful because it shows repeated pain in the same place: players report heavy visual clutter, troops failing to move out of danger quickly, immune damage text, phase confusion and a sudden late-fight wipe when pressure stacks up. Those reports are community evidence, not official mechanics documentation.",
+            "The common pattern is not simply low gear. Some players report winning with toxic or missile-focused damage, some with troop-heavy setups, and others by carrying more of the damage themselves. That means the useful page answer is a decision checklist, not a single best build claim."
+          ],
+          "steps": [
+            "If you see immune text, stop treating that moment as a pure DPS check and look for the currently vulnerable section or phase opening.",
+            "If your soldiers wipe during large warning attacks, practice moving them before committing your best roster.",
+            "If visual clutter is the problem, prioritize survival, spacing and hazard readability over another small damage upgrade."
+          ],
+          "claim_ids": [
+            "claim-sector3-community-patterns-20260913"
+          ]
+        },
+        {
+          "heading": "Pre-fight readiness checklist",
+          "paragraphs": [
+            "Before you commit a strong roster, make the attempt answer four questions: can you damage the boss when soldiers are busy, can your group clear spawned pressure fast enough, can you reposition away from major warnings, and can the colony afford the loss if the attempt fails. This keeps preparation practical without pretending the live build has one permanent meta.",
+            "ST-11 also changed related combat context: it reduced failed-capture invulnerability, adjusted some allied-affix cooldowns, boosted several named soldiers and improved map zoom. Those changes can affect how readable and survivable the fight feels, so old comments should be treated as pre- or post-ST-11 accordingly."
+          ],
+          "steps": [
+            "Bring a weapon/core setup that lets the Leader contribute steady damage, not only watch soldiers fight.",
+            "Use soldiers to control adds and keep pressure off you; do not assume their pathing will dodge every hazard.",
+            "Bring enough survivability or recovery to survive a long second phase.",
+            "Treat the extra Sector 3 Shattered Core chest as a routing bonus, not a boss-kill guarantee."
+          ],
+          "claim_ids": [
+            "claim-sector3-st11-chest-boundary-20260913",
+            "claim-sector3-community-patterns-20260913"
+          ]
+        },
+        {
+          "heading": "What to do during the confusing phase",
+          "paragraphs": [
+            "The most useful player explanation in the thread describes the second phase as a readability test: vulnerable areas rotate, reinforcements keep arriving, mines or large effects can block sightlines, and the fight gives short breathing windows when the fortress-like target stops taking normal pressure. Because this is community language, treat it as a route to test, not as official terminology.",
+            "Your immediate job is to keep the field from becoming unreadable. Clear enough spawned enemies to regain sight, move before the large area attack resolves, and resume boss damage only when the target is actually vulnerable."
+          ],
+          "steps": [
+            "When attacks appear to do nothing, look for a different exposed section before spending more resources.",
+            "Clear nearby spawns if they stop you from reading the boss or moving your squad.",
+            "Move first during broad danger zones, then call soldiers toward you instead of hoping they infer the safe path.",
+            "Use any brief downtime to reset the field, reload and prepare for the next vulnerable window."
+          ],
+          "claim_ids": [
+            "claim-sector3-community-patterns-20260913"
+          ]
+        },
+        {
+          "heading": "After a wipe: diagnose the limiting layer",
+          "paragraphs": [
+            "A failed attempt is still useful if you name the actual limiting layer. A damage failure means you cannot make progress before pressure wins. A command failure means soldiers are dying because positioning and rally timing break down. A visibility failure means you are losing the read, not necessarily the build. A colony failure means the roster or gear loss costs more than the run can recover.",
+            "Do not grind randomly after every loss. Pick one layer, change one thing, and test again on the current build. That is more reliable than copying a thread build whose gear, difficulty and patch state may not match yours."
+          ],
+          "steps": [
+            "Damage failure: change weapon/core plan before replacing the whole army.",
+            "Command failure: practice rally timing and safe spacing on a lower-risk attempt.",
+            "Visibility failure: tune graphics/readability settings and slow down phase decisions.",
+            "Colony failure: bank resources, rebuild troops and come back when a wipe is affordable."
+          ],
+          "claim_ids": [
+            "claim-sector3-community-patterns-20260913"
+          ]
+        },
+        {
+          "heading": "Evidence boundary",
+          "paragraphs": [
+            "This page does not claim a universal best build, boss HP table, fixed shield timer, named final-boss identity or guaranteed cheese route. The official sources establish the game's boss/Sector Overlord context and the ST-11 Sector 3 chest change. The Steam discussion establishes current player pain and several observed solution patterns.",
+            "Recheck this page when Multiverse publishes a newer directive that names Sector 3, final boss behavior, Shattered Core rewards, soldier pathing, combat visibility or balance."
+          ],
+          "steps": [
+            "Use official announcements for what changed.",
+            "Use current player threads to decide what to test.",
+            "Avoid treating any one player's build as permanent balance truth."
+          ],
+          "claim_ids": [
+            "claim-sector3-official-boss-context-20260913",
+            "claim-sector3-st11-chest-boundary-20260913",
+            "claim-sector3-community-patterns-20260913"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Did ST-11 nerf the Sector 3 final boss?",
+          "answer": "No official note says that. ST-11 confirms one additional Shattered Core chest in Sector 3 battles and several combat, UI and performance improvements, but it does not publish a final-boss nerf.",
+          "claim_ids": [
+            "claim-sector3-st11-chest-boundary-20260913"
+          ]
+        },
+        {
+          "question": "Why do my shots show immune or seem useless?",
+          "answer": "Current player reports suggest parts of the fight have rotating vulnerable windows or sections. Treat immune text as a signal to re-read the phase before spending more damage.",
+          "claim_ids": [
+            "claim-sector3-community-patterns-20260913"
+          ]
+        },
+        {
+          "question": "Should soldiers carry the Sector 3 final boss fight?",
+          "answer": "Use soldiers to help clear pressure and add damage, but plan for the Leader to contribute. Player reports disagree on troop-heavy versus Leader-heavy setups, and AI movement can struggle during large hazards.",
+          "claim_ids": [
+            "claim-sector3-community-patterns-20260913"
+          ]
+        },
+        {
+          "question": "What should I upgrade before trying again?",
+          "answer": "Upgrade the layer that actually failed: Leader damage, soldier survival, rally timing, field readability or colony recovery. Changing one layer at a time is safer than copying an uncited build list.",
+          "claim_ids": [
+            "claim-sector3-community-patterns-20260913"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-store-20260913",
+        "src-steam-news-st11-20260913",
+        "src-steam-discussion-final-boss-20260913",
+        "src-steam-discussions-general-20260913"
+      ],
+      "related_slugs": [
+        "pax-autocratica-st11-patch-notes",
+        "pax-autocratica-sector-2-difficulty",
+        "pax-autocratica-best-troops",
+        "pax-autocratica-capture-mechanics"
+      ],
+      "parent_category": "Guide",
+      "updated_at": "2026-09-13T09:18:00+08:00",
+      "time_sensitivity": "changing",
+      "page_status": "publish",
+      "index_status": "index"
     }
   ],
   "pageProvenance": {
@@ -6250,7 +6439,8 @@
       "intent_evidence_ids": [
         "src-steam-news-auroria-day-20260911",
         "src-google-form-auroria-day-20260911",
-        "src-steam-discussion-additional-powers-20260911"
+        "src-steam-discussion-additional-powers-20260911",
+        "src-steam-discussion-missed-auroria-day-20260913"
       ],
       "answerability": "resolved_with_official_steam_announcement_and_linked_multiverse_google_form",
       "coverage": [
@@ -6303,9 +6493,14 @@
           "label": "Pax Autocratica Steam store",
           "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
           "source_type": "official_store"
+        },
+        {
+          "label": "Steam discussion: missed Auroria Day",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/500617242799635833/",
+          "source_type": "community_context"
         }
       ],
-      "last_checked_at": "2026-09-11T09:18:00+08:00",
+      "last_checked_at": "2026-09-13T09:18:00+08:00",
       "quality_review_id": "q01-pax-autocratica-auroria-day-reward",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct, time-sensitive reward-claim task and avoids treating event feedback prompts as shipped features."
@@ -6369,6 +6564,60 @@
       "quality_review_id": "q01-pax-autocratica-st11-patch-notes",
       "status": "publish",
       "depth_variance_reason": "The page turns a broad official patch note into a player recheck guide for loading, logistics, capture, Sector 3, Warehouse and controller changes while avoiding unsupported roadmap or universal-fix claims."
+    },
+    "pax-autocratica-sector-3-final-boss": {
+      "intent_id": "intent-20260913-sector-3-final-boss",
+      "intent_type": "boss_preparation_guide",
+      "user_job": "Prepare for the current Sector 3 final boss fight and understand what ST-11 does and does not prove.",
+      "intent_evidence_ids": [
+        "src-steam-store-20260913",
+        "src-steam-news-st11-20260913",
+        "src-steam-discussion-final-boss-20260913",
+        "src-steam-discussions-general-20260913"
+      ],
+      "answerability": "resolved_with_official_store_patch_context_and_current_steam_discussion",
+      "coverage": [
+        {
+          "dimension": "official_scope",
+          "status": "covered",
+          "claim_ids": [
+            "claim-sector3-official-boss-context-20260913",
+            "claim-sector3-st11-chest-boundary-20260913"
+          ],
+          "evidence_relation": "steam_store_plus_st11_announcement",
+          "notes": "Official sources support boss-scale combat context and one additional Shattered Core chest in Sector 3 battles, but not a full boss nerf or exact stat table."
+        },
+        {
+          "dimension": "player_task",
+          "status": "covered",
+          "claim_ids": [
+            "claim-sector3-community-patterns-20260913"
+          ],
+          "evidence_relation": "current_steam_discussion",
+          "notes": "The active thread has 20 comments and multiple reports about visual clutter, phase confusion, troop movement, immune text and successful build patterns."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Steam announcement: Directive ST-11",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262695415",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Steam discussion: Final boss fight",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/582807520276528314/",
+          "source_type": "community_context"
+        }
+      ],
+      "last_checked_at": "2026-09-13T09:18:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-sector-3-final-boss",
+      "status": "publish",
+      "depth_variance_reason": "The page solves a distinct boss-preparation task using official Sector 3 context and current community reports while avoiding fake numbers, boss HP tables or unsupported nerf claims."
     }
   },
   "homeProvenance": {
@@ -6960,6 +7209,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "Shows the colony-to-frontier context for an official maintenance page touching loading, combat, logistics and Sector 3 battles."
+    },
+    {
+      "asset_id": "pax-autocratica-sector-3-final-boss-20260913",
+      "page": "/pax-autocratica-sector-3-final-boss",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-sector-2-difficulty-11.jpg",
+      "alt": "Pax Autocratica expedition scene used for the Sector 3 final boss guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-13T09:18:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 expedition screenshot already present in the site media registry.",
+      "relevance_reason": "Shows the expedition combat context for a page about preparing for the Sector 3 final boss."
     }
   ],
   "ads": {
@@ -7032,12 +7297,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-pending-st11",
+    "version": "local-pending-sector3-final-boss",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-12T09:15:00+08:00"
+  "generated_at": "2026-09-13T09:18:00+08:00"
 }
