@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, ST-11 patch changes, Sector 3 final boss prep, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, ST-11 patch changes, save wipe and 1.0 progress, Sector 3 final boss prep, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-13"
+        "Updated 2026-09-14"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -134,8 +134,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, ST-11 patch changes, Sector 3 final boss prep, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
-    "keywords": "Pax Autocratica wiki, Pax Autocratica guides, Sector 3 final boss, roadmap, Early Access, gameplay, capture mechanics, expeditions, colony, demo, price, trailer, mods, community"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, ST-11 patch changes, save wipe and 1.0 progress, Sector 3 final boss prep, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
+    "keywords": "Pax Autocratica wiki, Pax Autocratica guides, save wipe, 1.0 progress, Sector 3 final boss, roadmap, Early Access, gameplay, capture mechanics, expeditions, colony, demo, price, trailer, mods, community"
   },
   "theme": {
     "hue": 164,
@@ -211,7 +211,8 @@
               "pax-autocratica-roadmap",
               "pax-autocratica-language-patches",
               "pax-autocratica-auroria-day-reward",
-              "pax-autocratica-st11-patch-notes"
+              "pax-autocratica-st11-patch-notes",
+              "pax-autocratica-save-wipe"
             ]
           }
         ],
@@ -323,6 +324,10 @@
           {
             "keyword": "Pax Autocratica Sector 3 Final Boss",
             "slug": "pax-autocratica-sector-3-final-boss"
+          },
+          {
+            "keyword": "Pax Autocratica Save Wipe",
+            "slug": "pax-autocratica-save-wipe"
           }
         ]
       }
@@ -2155,7 +2160,8 @@
         "pax-autocratica-gameplay",
         "pax-autocratica-sector-2-difficulty",
         "pax-autocratica-best-troops",
-        "pax-autocratica-community"
+        "pax-autocratica-community",
+        "pax-autocratica-save-wipe"
       ],
       "ad_slot_count": 2
     },
@@ -4608,6 +4614,146 @@
       "time_sensitivity": "changing",
       "page_status": "publish",
       "index_status": "index"
+    },
+    {
+      "keyword": "Pax Autocratica Save Wipe",
+      "slug": "pax-autocratica-save-wipe",
+      "seo": {
+        "title": "Pax Autocratica Save Wipe: Early Access and 1.0 Progress",
+        "description": "A source-backed Pax Autocratica save wipe guide: what the current Steam discussion says about 1.0 saves, what the store page supports, and what not to assume."
+      },
+      "direct_answer": "As of September 14, 2026, the clearest public answer is that Pax Autocratica Early Access saves should not be treated as guaranteed 1.0 saves. In the current Steam discussion titled Progress, Gurttron says saves are planned not to work on full release and points to the Steam store's Early Access timing note. That does not prove every normal Early Access patch will wipe progress, and it does not replace future official patch notes.",
+      "direct_answer_claim_ids": [
+        "claim-save-wipe-progress-thread-20260914",
+        "claim-save-wipe-store-ea-boundary-20260914"
+      ],
+      "sections": [
+        {
+          "heading": "The current public answer",
+          "paragraphs": [
+            "A September Steam discussion asks whether major updates or the 1.0 release are planned to reset progress. The clearest moderator-style response in that thread says saves are planned not to work upon full release, while also framing full release as at least two years away according to the Steam store notes.",
+            "This is useful because it gives players a practical planning boundary: treat the current Early Access save as a live-build save, not a permanent account-wide investment guaranteed to survive into 1.0."
+          ],
+          "steps": [
+            "Keep playing if you are comfortable testing an Early Access build that may not carry into 1.0.",
+            "Do not promise friends that today's colony will survive full release.",
+            "Recheck Steam announcements before major updates or before returning after a long break."
+          ],
+          "claim_ids": [
+            "claim-save-wipe-progress-thread-20260914",
+            "claim-save-wipe-store-ea-boundary-20260914"
+          ]
+        },
+        {
+          "heading": "What this does not prove",
+          "paragraphs": [
+            "The thread does not prove that every minor patch, hotfix or maintenance directive wipes saves. It also does not publish a technical migration policy, a final 1.0 date, or a promise that no compatibility plan can change before release.",
+            "That matters because players often collapse three different questions into one: whether a normal patch keeps working, whether a future major update changes systems enough to break old saves, and whether the 1.0 launch intentionally starts everyone fresh. Only the full-release boundary has a current public answer strong enough to record here."
+          ],
+          "steps": [
+            "For normal patches, read the exact patch note before deleting or restarting anything.",
+            "For 1.0 planning, assume the current public direction is no save carryover unless a newer official source says otherwise.",
+            "Do not use community replies as proof of an exact release date."
+          ],
+          "claim_ids": [
+            "claim-save-wipe-progress-thread-20260914"
+          ]
+        },
+        {
+          "heading": "How to protect your current progress",
+          "paragraphs": [
+            "Even if a future full-release wipe is planned, your current save can still be valuable for learning systems, testing builds, and understanding what questions to ask before 1.0. The practical move is to separate long-term ownership expectations from current build experimentation.",
+            "Before a major update, make a simple note of what build you are on, what you were testing, and whether the official patch note mentions save compatibility. If you hit a loading or save-reading problem, follow official support routes instead of downloading third-party repair tools."
+          ],
+          "steps": [
+            "Record your current build and colony goal before installing a major update.",
+            "Use Steam's normal file verification if the game fails to load after an update.",
+            "Report save failures through the in-game K key or official support routes when requested.",
+            "Avoid unofficial save editors or miracle migration tools unless Multiverse explicitly endorses them."
+          ],
+          "claim_ids": [
+            "claim-save-wipe-progress-thread-20260914",
+            "claim-save-wipe-issue-support-boundary-20260914"
+          ]
+        },
+        {
+          "heading": "Should you stop playing now?",
+          "paragraphs": [
+            "That depends on what you want from Early Access. If your goal is a forever colony, the current public answer is a warning sign. If your goal is to learn the game, test systems and enjoy the live build, the current save still has value even if 1.0 starts fresh.",
+            "A good buying or playtime decision should use this save boundary alongside the normal Early Access tradeoff: the game is still changing, current balance and systems can move, and official notes remain the source of truth when a patch changes compatibility."
+          ],
+          "steps": [
+            "Play now for learning, experimentation and current-build enjoyment.",
+            "Wait if you only want a permanent 1.0 run.",
+            "Recheck the store page and Steam announcements before making a long-term progress commitment."
+          ],
+          "claim_ids": [
+            "claim-save-wipe-store-ea-boundary-20260914"
+          ]
+        },
+        {
+          "heading": "Evidence boundary",
+          "paragraphs": [
+            "This page is intentionally narrow. It records a current Steam discussion answer and the Steam store Early Access boundary; it does not claim to know Multiverse's final migration implementation, every future patch behavior or a specific 1.0 launch date.",
+            "Update this page when Multiverse publishes a newer directive about save compatibility, 1.0 migration, major-system resets or Early Access-to-1.0 progress."
+          ],
+          "steps": [
+            "Use the Steam discussion for the current public answer.",
+            "Use the Steam store for the Early Access timing boundary.",
+            "Use future official patch notes for actual patch-by-patch compatibility decisions."
+          ],
+          "claim_ids": [
+            "claim-save-wipe-progress-thread-20260914",
+            "claim-save-wipe-store-ea-boundary-20260914"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Will Pax Autocratica saves carry into 1.0?",
+          "answer": "The current Steam discussion answer says saves are planned not to work on full release. Treat that as the public planning boundary unless a newer official source changes it.",
+          "claim_ids": [
+            "claim-save-wipe-progress-thread-20260914"
+          ]
+        },
+        {
+          "question": "Does every update wipe my save?",
+          "answer": "No public evidence captured today says every normal update wipes saves. Check each official patch note before assuming a minor update resets progress.",
+          "claim_ids": [
+            "claim-save-wipe-progress-thread-20260914"
+          ]
+        },
+        {
+          "question": "Should I wait for 1.0?",
+          "answer": "Wait if you only care about a permanent long-term save. Play now if you are comfortable learning and testing an Early Access build that may not carry into full release.",
+          "claim_ids": [
+            "claim-save-wipe-store-ea-boundary-20260914"
+          ]
+        },
+        {
+          "question": "What should I do if a save will not load?",
+          "answer": "Use official support paths: verify Steam files, restart, report through the in-game K key or the official bug-report route when requested. Avoid unofficial save-repair downloads.",
+          "claim_ids": [
+            "claim-save-wipe-issue-support-boundary-20260914"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-store-20260914",
+        "src-steam-discussion-progress-20260914",
+        "src-steam-discussion-armor-crash-20260914"
+      ],
+      "related_slugs": [
+        "pax-autocratica-save-during-expedition",
+        "pax-autocratica-st11-patch-notes",
+        "pax-autocratica-price",
+        "pax-autocratica-roadmap"
+      ],
+      "parent_category": "Guide",
+      "updated_at": "2026-09-14T10:35:00+08:00",
+      "time_sensitivity": "changing",
+      "page_status": "publish",
+      "index_status": "index"
     }
   ],
   "pageProvenance": {
@@ -6618,6 +6764,67 @@
       "quality_review_id": "q01-pax-autocratica-sector-3-final-boss",
       "status": "publish",
       "depth_variance_reason": "The page solves a distinct boss-preparation task using official Sector 3 context and current community reports while avoiding fake numbers, boss HP tables or unsupported nerf claims."
+    },
+    "pax-autocratica-save-wipe": {
+      "intent_id": "intent-20260914-save-wipe",
+      "intent_type": "early_access_save_compatibility",
+      "user_job": "Decide whether Pax Autocratica Early Access progress is safe to treat as permanent before investing more time.",
+      "intent_evidence_ids": [
+        "src-steam-store-20260914",
+        "src-steam-discussion-progress-20260914",
+        "src-steam-discussion-armor-crash-20260914"
+      ],
+      "answerability": "resolved_with_current_steam_discussion_and_store_early_access_boundary",
+      "coverage": [
+        {
+          "dimension": "current_public_answer",
+          "status": "covered",
+          "claim_ids": [
+            "claim-save-wipe-progress-thread-20260914"
+          ],
+          "evidence_relation": "steam_discussion_progress_thread",
+          "notes": "The current Progress thread contains a Gurttron reply saying full-release saves are planned not to work."
+        },
+        {
+          "dimension": "official_store_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-save-wipe-store-ea-boundary-20260914"
+          ],
+          "evidence_relation": "steam_store_early_access_notes",
+          "notes": "The Steam store provides the Early Access and long-development context referenced by the discussion reply."
+        },
+        {
+          "dimension": "support_safety",
+          "status": "covered",
+          "claim_ids": [
+            "claim-save-wipe-issue-support-boundary-20260914"
+          ],
+          "evidence_relation": "current_steam_support_reply",
+          "notes": "A same-day armor crash support reply records official-style troubleshooting paths and log/save-file request boundaries."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Steam discussion: Progress",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/84031737849573298/",
+          "source_type": "community_context"
+        },
+        {
+          "label": "Steam discussion: armor workshop crash support reply",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/500617547938279747/",
+          "source_type": "community_support_context"
+        }
+      ],
+      "last_checked_at": "2026-09-14T10:35:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-save-wipe",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a distinct Early Access progress-risk question with a current Steam discussion and store boundary, while avoiding unsupported claims about every patch or an exact 1.0 date."
     }
   },
   "homeProvenance": {
@@ -7225,6 +7432,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 expedition screenshot already present in the site media registry.",
       "relevance_reason": "Shows the expedition combat context for a page about preparing for the Sector 3 final boss."
+    },
+    {
+      "asset_id": "pax-autocratica-save-wipe-20260914",
+      "page": "/pax-autocratica-save-wipe",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-home-01.webp",
+      "alt": "Pax Autocratica colony management scene used for the save wipe and 1.0 progress guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-14T10:35:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 colony-management screenshot already present in the site media registry.",
+      "relevance_reason": "Shows the current colony-progress context for a page about save compatibility and full-release planning."
     }
   ],
   "ads": {
@@ -7297,12 +7520,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-pending-sector3-final-boss",
+    "version": "local-pending-save-wipe",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-13T09:18:00+08:00"
+  "generated_at": "2026-09-14T10:35:00+08:00"
 }
