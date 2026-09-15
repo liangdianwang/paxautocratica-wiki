@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, ST-11 patch changes, save wipe and 1.0 progress, Sector 3 final boss prep, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, ST-11 patch changes, ultrawide blurry visuals, save wipe and 1.0 progress, Sector 3 final boss prep, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-14"
+        "Updated 2026-09-15"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -134,8 +134,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, ST-11 patch changes, save wipe and 1.0 progress, Sector 3 final boss prep, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
-    "keywords": "Pax Autocratica wiki, Pax Autocratica guides, save wipe, 1.0 progress, Sector 3 final boss, roadmap, Early Access, gameplay, capture mechanics, expeditions, colony, demo, price, trailer, mods, community"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, ST-11 patch changes, ultrawide blurry visuals, save wipe and 1.0 progress, Sector 3 final boss prep, capture mechanics, roadmap status, expeditions, demo access, price checks, videos, community links, and current Early Access questions.",
+    "keywords": "Pax Autocratica wiki, Pax Autocratica guides, ultrawide blurry, 32:9, FOV issue, save wipe, 1.0 progress, Sector 3 final boss, roadmap, Early Access, gameplay, capture mechanics, expeditions, colony, demo, price, trailer, mods, community"
   },
   "theme": {
     "hue": 164,
@@ -212,7 +212,8 @@
               "pax-autocratica-language-patches",
               "pax-autocratica-auroria-day-reward",
               "pax-autocratica-st11-patch-notes",
-              "pax-autocratica-save-wipe"
+              "pax-autocratica-save-wipe",
+              "pax-autocratica-ultrawide-blurry"
             ]
           }
         ],
@@ -328,6 +329,10 @@
           {
             "keyword": "Pax Autocratica Save Wipe",
             "slug": "pax-autocratica-save-wipe"
+          },
+          {
+            "keyword": "Pax Autocratica Ultrawide Blurry",
+            "slug": "pax-autocratica-ultrawide-blurry"
           }
         ]
       }
@@ -4754,6 +4759,151 @@
       "time_sensitivity": "changing",
       "page_status": "publish",
       "index_status": "index"
+    },
+    {
+      "keyword": "Pax Autocratica Ultrawide Blurry",
+      "slug": "pax-autocratica-ultrawide-blurry",
+      "seo": {
+        "title": "Pax Autocratica Ultrawide Blurry: 32:9 and FOV Checks",
+        "description": "A source-backed Pax Autocratica ultrawide blurry guide: what the Steam discussion says about 32:9 blur, FOV, ST-11 ultrawide visuals and safe checks."
+      },
+      "direct_answer": "If Pax Autocratica looks blurry on 32:9 or super ultrawide, treat it as a current display issue rather than a generic PC failure. A Steam discussion records a moderator reply that the blurry ultrawide problem is a known issue caused by raised FOV settings and is being looked into. Directive ST-11 also says base visuals on ultrawide displays were improved, but a later player screenshot report says the issue can still look worse for some setups. Start by lowering FOV or returning to a standard aspect/resolution, then recheck after official updates instead of deleting saves or downloading third-party fixes.",
+      "direct_answer_claim_ids": [
+        "claim-ultrawide-fov-known-issue-20260915",
+        "claim-st11-ultrawide-visuals-20260915",
+        "claim-ultrawide-current-report-20260915"
+      ],
+      "sections": [
+        {
+          "heading": "What the current evidence says",
+          "paragraphs": [
+            "The strongest direct thread is Graphic Visuals Blurry? Ultrawide? A player describes super ultrawide blur after the game briefly switches window state while loading, and Gurttron answers that this is a known issue caused by raised FOV settings and is being looked into.",
+            "That answer gives a practical first boundary: do not treat the symptom as proof that your save, GPU, monitor or Steam install is broken. The captured issue is tied to ultrawide/FOV behavior, so the first checks should stay in display settings."
+          ],
+          "steps": [
+            "Lower FOV from a raised value and restart the game.",
+            "Temporarily test a 16:9 or 21:9 resolution before judging whether the whole install is broken.",
+            "Record your resolution, aspect ratio, FOV setting and whether the blur starts after loading or immediately on launch."
+          ],
+          "claim_ids": [
+            "claim-ultrawide-fov-known-issue-20260915"
+          ]
+        },
+        {
+          "heading": "How ST-11 changes the check",
+          "paragraphs": [
+            "Directive ST-11 is relevant because it lists an official improvement to base visuals on ultrawide displays, plus wider performance and display-adjacent changes such as lower VRAM use and a display-refresh-based default framerate limit.",
+            "It does not prove every 32:9 case is fixed. A later Steam screenshot reply in the same ultrawide thread says the problem looked worse for that player, so the safe reading is: update first, then verify your own FOV and resolution state."
+          ],
+          "steps": [
+            "Make sure Steam has applied the current build before testing.",
+            "Check the blur inside the base and after loading into the world, because the captured report mentions the loading transition.",
+            "If ST-11 did not fix your setup, keep the report narrow: include build, resolution, FOV and screenshot."
+          ],
+          "claim_ids": [
+            "claim-st11-ultrawide-visuals-20260915",
+            "claim-ultrawide-current-report-20260915"
+          ]
+        },
+        {
+          "heading": "Safe troubleshooting order",
+          "paragraphs": [
+            "Use reversible display checks before heavy repair steps. The evidence supports testing FOV, fullscreen/windowed state and resolution; it does not support registry edits, third-party injectors or unofficial configuration packs.",
+            "If you are already using a 5120 x 1440 or 32:9 display, a temporary standard resolution test can tell you whether the blur is tied to the ultrawide layout. Keep the test short and change only one variable at a time."
+          ],
+          "steps": [
+            "Update the game through Steam.",
+            "Lower FOV or restore default camera/display settings.",
+            "Toggle fullscreen/windowed once, then restart rather than repeatedly switching during a session.",
+            "Test a standard aspect ratio as a comparison.",
+            "Verify Steam files only after the simple display checks fail."
+          ],
+          "claim_ids": [
+            "claim-ultrawide-fov-known-issue-20260915",
+            "claim-st11-ultrawide-visuals-20260915"
+          ]
+        },
+        {
+          "heading": "When to report it",
+          "paragraphs": [
+            "Report the issue when blur survives current updates and a clean FOV/resolution check. The useful report is not just 'graphics are broken'; it should show the exact monitor mode, game resolution, FOV value, when the blur appears and whether standard aspect ratios behave differently.",
+            "This keeps the report aligned with the known issue instead of burying it under unrelated performance or save-loading complaints."
+          ],
+          "steps": [
+            "Attach a screenshot if possible.",
+            "Mention 32:9, 5120 x 1440 or your exact ultrawide resolution.",
+            "Mention whether lowering FOV changed anything.",
+            "Post through Steam Discussions or the official support route."
+          ],
+          "claim_ids": [
+            "claim-ultrawide-current-report-20260915"
+          ]
+        },
+        {
+          "heading": "Evidence boundary",
+          "paragraphs": [
+            "This page records a display-specific troubleshooting path. It does not claim that every ultrawide monitor is affected, that all blur comes from FOV, or that ST-11 fully resolved the issue for every player.",
+            "Update this page when Multiverse publishes a newer display directive, replies with a different root cause, or when the active discussion shows a confirmed workaround beyond FOV and resolution checks."
+          ],
+          "steps": [
+            "Use the Steam discussion for the current FOV-linked issue report.",
+            "Use Directive ST-11 for the official ultrawide visual improvement note.",
+            "Use future patch notes for fix status."
+          ],
+          "claim_ids": [
+            "claim-ultrawide-fov-known-issue-20260915",
+            "claim-st11-ultrawide-visuals-20260915",
+            "claim-ultrawide-current-report-20260915"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Why is Pax Autocratica blurry on 32:9?",
+          "answer": "The best captured public explanation says a known blurry ultrawide issue is caused by raised FOV settings and is being looked into.",
+          "claim_ids": [
+            "claim-ultrawide-fov-known-issue-20260915"
+          ]
+        },
+        {
+          "question": "Did ST-11 fix ultrawide visuals?",
+          "answer": "ST-11 says base visuals on ultrawide displays were improved, but later player evidence still reports blur on a super ultrawide setup. Verify on your own build.",
+          "claim_ids": [
+            "claim-st11-ultrawide-visuals-20260915",
+            "claim-ultrawide-current-report-20260915"
+          ]
+        },
+        {
+          "question": "Should I reinstall the game first?",
+          "answer": "No. Start with reversible display checks: update, lower FOV, restart, and compare against a standard aspect ratio. Verify files only after those fail.",
+          "claim_ids": [
+            "claim-ultrawide-fov-known-issue-20260915"
+          ]
+        },
+        {
+          "question": "What should I include in a bug report?",
+          "answer": "Include resolution, aspect ratio, FOV value, fullscreen/windowed state, when blur starts, and a screenshot if available.",
+          "claim_ids": [
+            "claim-ultrawide-current-report-20260915"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-discussion-ultrawide-blurry-20260915",
+        "src-steam-news-st11-20260915",
+        "src-steam-discussions-index-20260915"
+      ],
+      "related_slugs": [
+        "pax-autocratica-st11-patch-notes",
+        "pax-autocratica-gameplay",
+        "pax-autocratica-community",
+        "pax-autocratica-roadmap"
+      ],
+      "parent_category": "Guide",
+      "updated_at": "2026-09-15T09:18:00+08:00",
+      "time_sensitivity": "changing",
+      "page_status": "publish",
+      "index_status": "index"
     }
   ],
   "pageProvenance": {
@@ -6825,6 +6975,72 @@
       "quality_review_id": "q01-pax-autocratica-save-wipe",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct Early Access progress-risk question with a current Steam discussion and store boundary, while avoiding unsupported claims about every patch or an exact 1.0 date."
+    },
+    "pax-autocratica-ultrawide-blurry": {
+      "intent_id": "intent-20260915-ultrawide-blurry",
+      "intent_type": "display_troubleshooting",
+      "user_job": "Fix or safely report blurry Pax Autocratica visuals on 32:9 and super ultrawide displays.",
+      "intent_evidence_ids": [
+        "src-steam-discussion-ultrawide-blurry-20260915",
+        "src-steam-news-st11-20260915",
+        "src-steam-discussions-index-20260915"
+      ],
+      "answerability": "resolved_with_current_thread_and_official_patch_boundary",
+      "coverage": [
+        {
+          "dimension": "known_issue_cause",
+          "status": "covered",
+          "claim_ids": [
+            "claim-ultrawide-fov-known-issue-20260915"
+          ],
+          "evidence_relation": "steam_discussion_moderator_reply",
+          "notes": "Gurttron identifies the blurry ultrawide issue as known and caused by raised FOV settings."
+        },
+        {
+          "dimension": "official_patch_context",
+          "status": "covered",
+          "claim_ids": [
+            "claim-st11-ultrawide-visuals-20260915"
+          ],
+          "evidence_relation": "official_steam_news",
+          "notes": "Directive ST-11 says base visuals on ultrawide displays were improved."
+        },
+        {
+          "dimension": "current_player_recheck",
+          "status": "covered",
+          "claim_ids": [
+            "claim-ultrawide-current-report-20260915"
+          ],
+          "evidence_relation": "steam_discussion_screenshot_reply",
+          "notes": "A later reply in the same discussion links a screenshot and says the blur looked worse."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam discussion: Graphic Visuals Blurry? Ultrawide?",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/585057002719317774/",
+          "source_type": "community_support_context"
+        },
+        {
+          "label": "Steam News API: Directive ST-11",
+          "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1067360&count=10&maxlength=0&format=json",
+          "source_type": "official_patch_notes"
+        },
+        {
+          "label": "Steam discussions index",
+          "url": "https://steamcommunity.com/app/1067360/discussions/",
+          "source_type": "community_context"
+        },
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        }
+      ],
+      "last_checked_at": "2026-09-15T09:18:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-ultrawide-blurry",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a display-specific troubleshooting task with current Steam discussion evidence plus official ST-11 context, while avoiding unsupported universal fix claims."
     }
   },
   "homeProvenance": {
@@ -7448,6 +7664,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 colony-management screenshot already present in the site media registry.",
       "relevance_reason": "Shows the current colony-progress context for a page about save compatibility and full-release planning."
+    },
+    {
+      "asset_id": "pax-autocratica-ultrawide-blurry-20260915",
+      "page": "/pax-autocratica-ultrawide-blurry",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-sector-2-difficulty-11.jpg",
+      "alt": "Pax Autocratica ultrawide visual troubleshooting guide game scene",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-15T09:18:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "Shows the game context for a display troubleshooting page without implying a specific monitor screenshot is official proof."
     }
   ],
   "ads": {
@@ -7520,12 +7752,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-pending-save-wipe",
+    "version": "local-pending-ultrawide-blurry",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-14T10:35:00+08:00"
+  "generated_at": "2026-09-15T09:18:00+08:00"
 }
