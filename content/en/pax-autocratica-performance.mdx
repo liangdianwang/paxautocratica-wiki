@@ -1,0 +1,85 @@
+# Pax Autocratica Performance
+
+If Pax Autocratica runs hot, drops frames, hangs on loading or crashes, start with the official baseline before chasing random fixes: compare your PC with the Steam requirements, verify game files, test Super Resolution and Frame Generation off, cap the frame rate or use VSync, then report persistent issues in-game with the K key or the official bug form. The latest captured official patch notes say ST-11 reduced VRAM usage, improved overall performance, adjusted default frame-rate behavior and fixed some crashes/loading failures, but they do not promise a universal FPS target for every GPU or base size.
+
+## First check the hardware baseline
+
+Steam lists Pax Autocratica as a Windows 10 64-bit Early Access game with 16 GB RAM required. The minimum graphics baseline is a GTX 1060 6 GB or RX 480 for 1080p, and a GTX 1070 8 GB or Radeon RX Vega 56 for 1440p. The recommended graphics baseline is a GTX 2060 Super or RX 5700 XT with 8 GB or more of VRAM.
+
+That matters because a current Steam discussion describes high GPU temperatures and frame drops even while using Low settings and DLSS on a 2070 Super. Treat that as a real player-demand signal, not proof that every 2070 Super system will behave the same way.
+
+1. Confirm the target resolution first: 1080p and 1440p have different official GPU expectations.
+1. Check whether the GPU has the VRAM level Steam lists for your target resolution.
+1. If your system is below or near the baseline, lower resolution before assuming the save is broken.
+
+## Use the official troubleshooting order
+
+The pinned Steam troubleshooting post gives a safe order for stuck, crashing or save-read problems. It points players to Steam file verification, turning off Super Resolution if enabled, turning off Frame Generation if enabled, using VSync or an in-game maximum frame rate, restarting the PC and reinstalling only as a last resort.
+
+Use those steps because they are reversible and evidence-led. They do not require editing game files, downloading third-party tools or applying advice from unrelated Unity games.
+
+1. Verify integrity of game files in Steam.
+1. Disable Super Resolution or DLSS for one test run.
+1. Disable Frame Generation for one test run.
+1. Turn VSync on or set a maximum frame rate in-game.
+1. Restart and retest the same save or same expedition scene.
+1. Only reinstall after the smaller checks fail.
+
+## What ST-11 already changed
+
+Directive ST-11 is still the latest official Steam News item captured today. It says the team optimized loading to prevent stuck or failed starts under certain circumstances, reduced VRAM usage, improved overall performance, made the first launch use the current display refresh rate as the default frame-rate limit, and gave loading screens a separate frame-rate limit.
+
+Earlier official notes also mention improved Low graphics behavior, base performance, smoke and fire effects, model rendering and scene loading efficiency. Those notes are useful context, but they are not a promise that every hot GPU, large base or expedition firefight is fully solved.
+
+1. Update to the current Steam build before testing old performance advice.
+1. Retest loading, base view and end-of-expedition firefights separately.
+1. Record whether the problem is heat, frame time spikes, loading, a crash or a save-read failure.
+
+## When to report instead of tweaking
+
+A moderator reply in the current Performance discussion says ongoing performance updates are planned and asks affected players to report performance issues in-game with the K key. The pinned bug-reporting post also says detailed form reports need player logs and save files.
+
+That is the turning point: if a repeatable scene still overheats, drops frames or crashes after the safe checks, stop changing settings and send the developers the build, save, logs and scene context. A vague forum complaint is weaker than a reproducible report with files.
+
+1. Open the problem save and note the exact place: main base, expedition, loading screen or final firefight.
+1. Use the K key in-game for the first report.
+1. Use the official bug form for persistent issues and attach logs plus save files when requested.
+1. Mention GPU model, resolution, Low/Medium/High setting, Super Resolution state, Frame Generation state and frame cap.
+
+## What this guide will not claim
+
+This page does not publish an FPS chart, a safe GPU-temperature target, a launch option list or a registry edit. The captured evidence supports official requirements, official patch context, official-style troubleshooting and a current player report, but it does not support a universal performance recipe.
+
+Keep ultrawide blur, Steam Deck keyboard behavior and individual crash cases separate. Use the performance page for heat, frame drops, loading and general stability; use more specific pages when the symptom has its own evidence.
+
+1. Do not copy settings from a different GPU generation without testing.
+1. Do not treat one volunteer test comment as an official benchmark.
+1. Do not install third-party fix tools from community comments.
+
+## FAQ
+
+### Does Pax Autocratica have official system requirements?
+
+Yes. Steam lists Windows 10 64-bit, 16 GB RAM, DirectX 11, 40 GB storage, and GPU baselines for 1080p, 1440p and recommended play.
+
+### Did ST-11 fix all performance problems?
+
+No. ST-11 lists loading, VRAM, frame-rate and crash improvements, but the current Performance discussion still shows players reporting hot GPU and frame-drop issues.
+
+### What should I try first for crashes or stuck loading?
+
+Use Steam file verification, disable Super Resolution and Frame Generation for testing, cap the frame rate or turn VSync on, then report persistent issues with logs and saves.
+
+### Should I edit config files or install a third-party performance fix?
+
+Not from the captured evidence. Start with reversible official troubleshooting and avoid untrusted downloads unless Multiverse or Steam confirms them.
+
+## Sources
+
+- [Pax Autocratica Steam store](https://store.steampowered.com/app/1067360/Pax_Autocratica/)
+- [Steam News API: Directive ST-11](https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1067360&count=20&maxlength=0&format=json)
+- [Steam discussion: Help My Game Is Bugged/Glitched/Broken](https://steamcommunity.com/app/1067360/discussions/0/585056732983840454/)
+- [Steam discussion: Performance](https://steamcommunity.com/app/1067360/discussions/0/564794139169858415/)
+- [Steam General Discussions](https://steamcommunity.com/app/1067360/discussions/)
+
+Last checked: 2026-09-18T09:18:00+08:00
