@@ -1149,7 +1149,7 @@
         "claim-multiplayer-version",
         "claim-core-loop"
       ],
-      "updated_at": "2026-09-19T09:18:00+08:00",
+      "updated_at": "2026-09-19T09:11:00+08:00",
       "time_sensitivity": "changing",
       "image_needs": [
         {
@@ -5102,7 +5102,7 @@
         "pax-autocratica-revive-player"
       ],
       "parent_category": "Guide",
-      "updated_at": "2026-09-19T09:18:00+08:00",
+      "updated_at": "2026-09-19T09:11:00+08:00",
       "time_sensitivity": "changing",
       "page_status": "publish",
       "index_status": "index"
@@ -5549,7 +5549,7 @@
         "pax-autocratica-community"
       ],
       "parent_category": "Guide",
-      "updated_at": "2026-09-19T09:18:00+08:00",
+      "updated_at": "2026-09-19T09:11:00+08:00",
       "time_sensitivity": "changing",
       "page_status": "publish",
       "index_status": "index"
@@ -6000,7 +6000,7 @@
           "source_type": "developer_reply_current_context"
         }
       ],
-      "last_checked_at": "2026-09-19T09:18:00+08:00",
+      "last_checked_at": "2026-09-19T09:11:00+08:00",
       "quality_review_id": "q01-pax-autocratica-multiplayer",
       "status": "publish",
       "depth_variance_reason": "The page now gives a concrete current-status answer, explains each unconfirmed multiplayer dimension, and provides a dated recheck procedure without turning a roadmap statement into a feature promise."
@@ -7777,7 +7777,7 @@
           "source_type": "developer_reply_current_status"
         }
       ],
-      "last_checked_at": "2026-09-19T09:18:00+08:00",
+      "last_checked_at": "2026-09-19T09:11:00+08:00",
       "quality_review_id": "q01-pax-autocratica-overworked-soldiers",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct colony-status troubleshooting task with current Steam evidence and Reddit demand while refusing unsupported stamina formulas or combat-penalty claims."
@@ -8014,7 +8014,7 @@
           "source_type": "official_store"
         }
       ],
-      "last_checked_at": "2026-09-19T09:18:00+08:00",
+      "last_checked_at": "2026-09-19T09:11:00+08:00",
       "quality_review_id": "q01-pax-autocratica-revive-player",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct downed-player revive troubleshooting task with a current developer reply, reporting route and co-op design boundary, while refusing unsupported revive formulas or current co-op claims."
