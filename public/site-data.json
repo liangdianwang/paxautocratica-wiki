@@ -552,14 +552,33 @@
         "title": "Pax Autocratica Demo: Access and What to Check",
         "description": "Pax Autocratica Demo access guide: open the official Steam entry, verify the Play or Download action in your region, and understand the current evidence limits."
       },
-      "direct_answer": "A Steam demo listing is the current Pax Autocratica access lead. Open the official demo entry, confirm the visible Play or Download action for your account and region, and treat the live store as the source of truth for availability. The selected evidence does not support a complete feature-by-feature comparison with the full product, so this page focuses on getting in and checking what is actually offered.",
+      "direct_answer": "The captured current Steam discussion evidence says the Pax Autocratica demo disappeared when Early Access released and was not available at that moment. A later Multiverse reply says the team heard the request about keeping the demo up and that bringing it back is not out of the table, but no current source captured today confirms a live demo button, return date or permanent demo build. Use the live Steam store as the final availability check; if there is no Play Demo action on your account, treat the full Early Access purchase/refund route and videos as the current alternatives.",
       "direct_answer_claim_ids": [
         "claim-demo-availability",
         "claim-demo-access",
         "claim-demo-differences",
-        "claim-demo-checked"
+        "claim-demo-checked",
+        "claim-demo-gone-after-ea-20260920",
+        "claim-demo-return-discussed-no-date-20260920"
       ],
       "sections": [
+        {
+          "heading": "Current demo availability boundary",
+          "paragraphs": [
+            "The current Steam thread Where's the Demo?? says the demo vanished when Early Access released. A later Multiverse reply says the team heard requests about keeping the demo up and that it is not out of the table, but this is not the same as a published return date.",
+            "This changes the page from an access walkthrough into a live-check boundary: if your Steam account does not show a demo action today, do not assume a hidden demo link still works."
+          ],
+          "steps": [
+            "Open the live Steam store page while logged into the account and region you will use.",
+            "Look for an explicit Play Demo or Download Demo action before telling another player the demo is available.",
+            "If the demo action is absent, use current videos, reviews, Steam discussions and Steam's purchase/refund policy instead of old demo links.",
+            "Recheck the same Steam thread or official news if Multiverse announces the demo has returned."
+          ],
+          "claim_ids": [
+            "claim-demo-gone-after-ea-20260920",
+            "claim-demo-return-discussed-no-date-20260920"
+          ]
+        },
         {
           "heading": "Where to get the Pax Autocratica demo",
           "paragraphs": [
@@ -655,7 +674,9 @@
         "src-steam-store",
         "src-official-demo-video",
         "src-official-launch-video",
-        "src-official-linktree"
+        "src-official-linktree",
+        "src-steam-discussion-demo-20260920",
+        "src-steam-store-20260920"
       ],
       "claim_ids": [
         "claim-demo-availability",
@@ -663,7 +684,7 @@
         "claim-demo-differences",
         "claim-demo-checked"
       ],
-      "updated_at": "2026-08-14T07:45:00Z",
+      "updated_at": "2026-09-20T09:18:00+08:00",
       "time_sensitivity": "changing",
       "image_needs": [
         {
@@ -681,7 +702,8 @@
       "related_slugs": [
         "pax-autocratica-gameplay",
         "pax-autocratica-price",
-        "pax-autocratica-trailer"
+        "pax-autocratica-trailer",
+        "pax-autocratica-linux-support"
       ],
       "ad_slot_count": 2
     },
@@ -5817,6 +5839,16 @@
           ],
           "evidence_relation": "direct",
           "notes": "Date is explicit because demo availability is volatile."
+        },
+        {
+          "dimension": "current_demo_status",
+          "status": "covered",
+          "claim_ids": [
+            "claim-demo-gone-after-ea-20260920",
+            "claim-demo-return-discussed-no-date-20260920"
+          ],
+          "evidence_relation": "steam_thread_with_multiverse_reply",
+          "notes": "The demo was reported gone after Early Access; Multiverse said keeping the demo up was being discussed but gave no return date."
         }
       ],
       "source_links": [
@@ -5834,9 +5866,14 @@
           "label": "official-directory",
           "url": "https://linktr.ee/playefas",
           "source_type": "official-directory"
+        },
+        {
+          "label": "Steam discussion: Where's the Demo??",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/582805296104087731/",
+          "source_type": "official_community_demo_status"
         }
       ],
-      "last_checked_at": "2026-08-14T07:45:00Z",
+      "last_checked_at": "2026-09-20T09:18:00+08:00",
       "quality_review_id": "q01-pax-autocratica-demo",
       "status": "publish",
       "depth_variance_reason": "This is an access/status intent. It supplies the official entry, concrete live-action check, demo/full boundary and freshness rule without inventing a feature table."

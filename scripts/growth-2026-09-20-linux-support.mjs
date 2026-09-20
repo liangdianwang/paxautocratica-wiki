@@ -183,6 +183,48 @@ const linuxPage = {
 
 replaceOrPush(data.pages, linuxPage);
 
+const demoPage = data.pages.find((page) => page.slug === "pax-autocratica-demo");
+if (demoPage) {
+  demoPage.direct_answer =
+    "The captured current Steam discussion evidence says the Pax Autocratica demo disappeared when Early Access released and was not available at that moment. A later Multiverse reply says the team heard the request about keeping the demo up and that bringing it back is not out of the table, but no current source captured today confirms a live demo button, return date or permanent demo build. Use the live Steam store as the final availability check; if there is no Play Demo action on your account, treat the full Early Access purchase/refund route and videos as the current alternatives.";
+  demoPage.direct_answer_claim_ids = Array.from(new Set([
+    ...(demoPage.direct_answer_claim_ids || []),
+    "claim-demo-gone-after-ea-20260920",
+    "claim-demo-return-discussed-no-date-20260920",
+  ]));
+  demoPage.updated_at = checkedAt;
+  demoPage.sections = demoPage.sections || [];
+  const demoStatusSection = {
+    heading: "Current demo availability boundary",
+    paragraphs: [
+      "The current Steam thread Where's the Demo?? says the demo vanished when Early Access released. A later Multiverse reply says the team heard requests about keeping the demo up and that it is not out of the table, but this is not the same as a published return date.",
+      "This changes the page from an access walkthrough into a live-check boundary: if your Steam account does not show a demo action today, do not assume a hidden demo link still works.",
+    ],
+    steps: [
+      "Open the live Steam store page while logged into the account and region you will use.",
+      "Look for an explicit Play Demo or Download Demo action before telling another player the demo is available.",
+      "If the demo action is absent, use current videos, reviews, Steam discussions and Steam's purchase/refund policy instead of old demo links.",
+      "Recheck the same Steam thread or official news if Multiverse announces the demo has returned.",
+    ],
+    claim_ids: [
+      "claim-demo-gone-after-ea-20260920",
+      "claim-demo-return-discussed-no-date-20260920",
+    ],
+  };
+  const demoIndex = demoPage.sections.findIndex((section) => section.heading === demoStatusSection.heading);
+  if (demoIndex >= 0) demoPage.sections[demoIndex] = demoStatusSection;
+  else demoPage.sections.unshift(demoStatusSection);
+  demoPage.source_ids = Array.from(new Set([
+    ...(demoPage.source_ids || []),
+    "src-steam-discussion-demo-20260920",
+    "src-steam-store-20260920",
+  ]));
+  demoPage.related_slugs = Array.from(new Set([
+    ...(demoPage.related_slugs || []),
+    slug,
+  ]));
+}
+
 const guide = data.blueprint.categories.find((category) => category.slug === "guide");
 if (guide) {
   const statusGroup = guide.groups.find((group) => group.title === "Access, media and current status");
@@ -213,6 +255,33 @@ if (data.site) data.site.version = "local-pending-linux-support";
 data.generated_at = checkedAt;
 
 data.pageProvenance ||= {};
+if (data.pageProvenance["pax-autocratica-demo"]) {
+  data.pageProvenance["pax-autocratica-demo"].last_checked_at = checkedAt;
+  uniquePush(
+    data.pageProvenance["pax-autocratica-demo"].source_links,
+    {
+      label: "Steam discussion: Where's the Demo??",
+      url: "https://steamcommunity.com/app/1067360/discussions/0/582805296104087731/",
+      source_type: "official_community_demo_status",
+    },
+    (item) => item.url,
+  );
+  uniquePush(
+    data.pageProvenance["pax-autocratica-demo"].coverage || [],
+    {
+      dimension: "current_demo_status",
+      status: "covered",
+      claim_ids: [
+        "claim-demo-gone-after-ea-20260920",
+        "claim-demo-return-discussed-no-date-20260920",
+      ],
+      evidence_relation: "steam_thread_with_multiverse_reply",
+      notes:
+        "The demo was reported gone after Early Access; Multiverse said keeping the demo up was being discussed but gave no return date.",
+    },
+    (item) => item.dimension,
+  );
+}
 data.pageProvenance[slug] = {
   intent_id: "intent-20260920-linux-support",
   intent_type: "platform_compatibility_boundary",
