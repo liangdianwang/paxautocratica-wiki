@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, crowded UI and HUD clutter, soldiers fighting in base, soundtrack and OST status, Linux and Proton support boundaries, revive behavior, performance checks, Supreme Powers petition status, overworked soldiers, ST-11 patch changes, ultrawide visuals, save wipe and 1.0 progress, Sector 3 final boss prep, capture mechanics, demo access, price checks, videos, community links, and current Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, Auto-Defense and base-defense boundaries, crowded UI and HUD clutter, soldiers fighting in base, soundtrack and OST status, Linux and Proton support boundaries, revive behavior, performance checks, Supreme Powers petition status, overworked soldiers, ST-11 patch changes, ultrawide visuals, save wipe and 1.0 progress, Sector 3 final boss prep, capture mechanics, demo access, price checks, videos, community links, and current Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-23"
+        "Updated 2026-09-24"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -134,8 +134,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, crowded UI and HUD clutter, soldiers fighting in base, soundtrack and OST status, Linux and Proton support boundaries, revive behavior, performance checks, Supreme Powers petition status, overworked soldiers, ST-11 patch changes, ultrawide visuals, save wipe and 1.0 progress, Sector 3 final boss prep, capture mechanics, demo access, price checks, videos, community links, and current Early Access questions.",
-    "keywords": "Pax Autocratica wiki, Pax Autocratica crowded UI, hide HUD, mission objectives, resource feed, UI clutter, ST-11 patch, soldiers fighting in base, soundtrack, Linux support, performance, Early Access"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, Auto-Defense and base-defense boundaries, crowded UI and HUD clutter, soldiers fighting in base, soundtrack and OST status, Linux and Proton support boundaries, revive behavior, performance checks, Supreme Powers petition status, overworked soldiers, ST-11 patch changes, ultrawide visuals, save wipe and 1.0 progress, Sector 3 final boss prep, capture mechanics, demo access, price checks, videos, community links, and current Early Access questions.",
+    "keywords": "Pax Autocratica wiki, Pax Autocratica Auto-Defense, Pax Autocratica base defense, Pax Autocratica auto turrets, Missile Towers, enemy turrets, ST-11 patch, soldiers fighting in base, crowded UI, performance, Early Access"
   },
   "theme": {
     "hue": 164,
@@ -189,6 +189,7 @@
               "pax-autocratica-sector-2-difficulty",
               "pax-autocratica-sector-3-final-boss",
               "pax-autocratica-best-troops",
+              "pax-autocratica-auto-defense",
               "pax-autocratica-overworked-soldiers",
               "pax-autocratica-soldiers-fighting-base",
               "pax-autocratica-soldier-gear",
@@ -373,6 +374,10 @@
           {
             "keyword": "Pax Autocratica Crowded UI",
             "slug": "pax-autocratica-crowded-ui"
+          },
+          {
+            "keyword": "Pax Autocratica Auto-Defense",
+            "slug": "pax-autocratica-auto-defense"
           }
         ]
       }
@@ -2078,7 +2083,8 @@
         "pax-autocratica-capture-mechanics",
         "pax-autocratica-sector-2-difficulty",
         "pax-autocratica-community",
-        "pax-autocratica-soldiers-fighting-base"
+        "pax-autocratica-soldiers-fighting-base",
+        "pax-autocratica-auto-defense"
       ],
       "ad_slot_count": 2,
       "last_checked_at": "2026-08-21T01:06:09.726Z"
@@ -4022,7 +4028,8 @@
         "pax-autocratica-multiplayer",
         "pax-autocratica-custom-colony-settings",
         "pax-autocratica-trade-port",
-        "pax-autocratica-gameplay"
+        "pax-autocratica-gameplay",
+        "pax-autocratica-auto-defense"
       ],
       "ad_slot_count": 2
     },
@@ -4526,7 +4533,8 @@
         "pax-autocratica-capture-mechanics",
         "pax-autocratica-sector-2-difficulty",
         "pax-autocratica-roadmap",
-        "pax-autocratica-crowded-ui"
+        "pax-autocratica-crowded-ui",
+        "pax-autocratica-auto-defense"
       ],
       "ad_slot_count": 2
     },
@@ -5466,7 +5474,8 @@
         "pax-autocratica-save-wipe",
         "pax-autocratica-community",
         "pax-autocratica-soundtrack",
-        "pax-autocratica-crowded-ui"
+        "pax-autocratica-crowded-ui",
+        "pax-autocratica-auto-defense"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-21T09:20:00+08:00",
@@ -6063,7 +6072,8 @@
         "pax-autocratica-overworked-soldiers",
         "pax-autocratica-custom-colony-settings",
         "pax-autocratica-best-troops",
-        "pax-autocratica-community"
+        "pax-autocratica-community",
+        "pax-autocratica-auto-defense"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-22T09:18:00+08:00",
@@ -6212,6 +6222,158 @@
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-23T09:18:00+08:00",
+      "time_sensitivity": "changing",
+      "page_status": "publish",
+      "index_status": "index"
+    },
+    {
+      "keyword": "Pax Autocratica Auto-Defense",
+      "slug": "pax-autocratica-auto-defense",
+      "seo": {
+        "title": "Pax Autocratica Auto-Defense: Affix, Turrets and Base Defense",
+        "description": "A source-backed Pax Autocratica Auto-Defense guide explaining the official affix evidence, enemy turret references, Missile Towers, and what not to assume about base defense."
+      },
+      "direct_answer": "Pax Autocratica does have official references to an Auto-Defense affix and to turrets or Missile Towers in combat/balance notes, but the captured sources do not prove a full base-defense mode where enemies raid your colony or where you place permanent auto turrets around the base. Treat Auto-Defense as a combat/affix term unless a current in-game tooltip or official patch note says otherwise. If you are asking whether the game is a colony-defense tower-defense loop, the safe answer today is no confirmed source-backed page can promise that; the official store describes building a colony and personally storming roguelite battlefields with soldiers.",
+      "direct_answer_claim_ids": [
+        "claim-auto-defense-current-demand-20260924",
+        "claim-auto-defense-official-st11-20260924",
+        "claim-auto-defense-demo-warning-20260924",
+        "claim-auto-defense-enemy-turrets-20260924",
+        "claim-auto-defense-store-boundary-20260924",
+        "claim-auto-defense-no-base-defense-proof-20260924"
+      ],
+      "sections": [
+        {
+          "heading": "Current answer",
+          "paragraphs": [
+            "The useful distinction is practical: Auto-Defense, enemy turrets, Missile Towers and base defense sound related, but the official sources use them in different contexts. Mixing them together would mislead a player who wants raids against the colony or buildable defensive emplacements.",
+            "The latest official Steam News item captured today remains Directive ST-11 from 2026-09-11. ST-11 mentions improvements to allied Auto-Defense affix effects, allied affix cooldowns, enemy/battle behavior and broader Early Access goals, but it does not announce a colony raid mode or a base turret building system."
+          ],
+          "steps": [
+            "Use Auto-Defense as an affix/combat keyword first, not as proof of base raids.",
+            "Use turret references only in the exact source context where they appear.",
+            "Check the current build before treating old demo notes as final Early Access mechanics."
+          ],
+          "claim_ids": [
+            "claim-auto-defense-official-st11-20260924",
+            "claim-auto-defense-no-base-defense-proof-20260924"
+          ]
+        },
+        {
+          "heading": "What official sources actually say",
+          "paragraphs": [
+            "ST-11 says the effects of the allied Auto-Defense affix were improved. It also says shared allied affix cooldown was reduced and several named soldiers received combat-strength increases. Those points support a combat-affix reading, not a base-defense structure reading.",
+            "Older official demo update text says a danger warning was added for the Auto-Defense affix. The same update family also mentions enemy turrets in the Elysia Oasis Decisive Battle and Missile Towers in balance notes. Those are useful combat terms, but they still do not establish a general player-built base turret system."
+          ],
+          "steps": [
+            "When you see Auto-Defense, look for the word affix in the source.",
+            "When you see turrets or Missile Towers, check whether the note is about a battle, enemy placement or balance.",
+            "Do not combine separate patch-note bullets into a feature that the source did not announce."
+          ],
+          "claim_ids": [
+            "claim-auto-defense-official-st11-20260924",
+            "claim-auto-defense-demo-warning-20260924",
+            "claim-auto-defense-enemy-turrets-20260924"
+          ]
+        },
+        {
+          "heading": "Base defense boundary",
+          "paragraphs": [
+            "The Steam store description captured today frames the current game around building a colony, shaping citizens and personally storming roguelite battlefields with soldiers. That supports the colony-plus-expedition identity, but it is not the same as a promise that enemies attack your home base or that the base can be defended with automatic turrets.",
+            "If your purchase decision depends on a RimWorld-style raid loop, a tower-defense layer or permanent base guns, do not rely on the Auto-Defense keyword alone. Wait for an official patch note, store text, or current in-game system that directly says base defense, raids, defensive buildings or player-built turrets are available."
+          ],
+          "steps": [
+            "Look for direct official wording, not just similar combat terms.",
+            "Separate colony management from expedition combat in your expectations.",
+            "Treat Early Access roadmap language about future systems as future-facing unless the feature is in the current build."
+          ],
+          "claim_ids": [
+            "claim-auto-defense-store-boundary-20260924",
+            "claim-auto-defense-no-base-defense-proof-20260924"
+          ]
+        },
+        {
+          "heading": "How to test it in-game",
+          "paragraphs": [
+            "If you already own the game, test the current build by checking soldier gear, affixes, core fragments, battle tooltips and any building research that appears after upgrades. This is safer than following generic web pages that may invent armor names, cooldowns, turret recipes or faction counters.",
+            "A useful test note should name the source screen: Soldier Details, Crafting, Tactical Bureau, battle affix tooltip, Elysia Oasis, or another exact UI. If a tooltip uses Auto-Defense, record whether it belongs to allied equipment, an enemy affix, a core, or a combat encounter."
+          ],
+          "steps": [
+            "Open Soldier Details and gear/crafting screens in the current build.",
+            "Search for Auto-Defense in actual item, affix, core or battle text.",
+            "If you find a turret-like item, record whether it is deployable by the player or only appears in a battle.",
+            "Compare the wording against the official patch notes before sharing it as a guide."
+          ],
+          "claim_ids": [
+            "claim-auto-defense-official-st11-20260924",
+            "claim-auto-defense-demo-warning-20260924"
+          ]
+        },
+        {
+          "heading": "Evidence boundary",
+          "paragraphs": [
+            "This page does not publish Auto-Defense formulas, internal cooldown values, gear drop rates, exact turret recipes, faction counters or a guaranteed best build. The captured official material does not provide those details.",
+            "Update this page only when Multiverse publishes direct wording about Auto-Defense mechanics, defensive buildings, colony raids, base-defense systems, player-built turrets, Missile Towers, or a current-build tooltip that can be verified without private saves or speculation."
+          ],
+          "steps": [
+            "Use official notes for shipped terms.",
+            "Use community discussion as demand evidence, not as a complete mechanics source.",
+            "Keep future roadmap wording separate from current-playable features."
+          ],
+          "claim_ids": [
+            "claim-auto-defense-current-demand-20260924",
+            "claim-auto-defense-no-base-defense-proof-20260924"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Pax Autocratica have Auto-Defense?",
+          "answer": "Official notes mention an Auto-Defense affix and improvements to allied Auto-Defense effects, so yes, Auto-Defense is a real official term. The captured sources do not prove a complete base-defense system.",
+          "claim_ids": [
+            "claim-auto-defense-official-st11-20260924",
+            "claim-auto-defense-no-base-defense-proof-20260924"
+          ]
+        },
+        {
+          "question": "Are Auto-Defense and base defense the same thing?",
+          "answer": "No. In the captured sources, Auto-Defense is tied to affix/combat wording. Base defense would need direct evidence about colony raids or defensive buildings.",
+          "claim_ids": [
+            "claim-auto-defense-demo-warning-20260924",
+            "claim-auto-defense-store-boundary-20260924"
+          ]
+        },
+        {
+          "question": "Do the turret references mean I can build auto turrets at base?",
+          "answer": "Not from the captured sources. Official text mentions enemy turrets in a specific battle and Missile Towers in balance notes, but that is not proof of permanent player-built base turrets.",
+          "claim_ids": [
+            "claim-auto-defense-enemy-turrets-20260924"
+          ]
+        },
+        {
+          "question": "Should I buy Pax Autocratica for base raids?",
+          "answer": "Only buy it for that reason if you can verify direct current evidence. The official store wording supports colony building plus roguelite battlefield combat, not a confirmed raid-defense loop.",
+          "claim_ids": [
+            "claim-auto-defense-store-boundary-20260924"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-community-home-20260924",
+        "src-steam-news-st11-20260924",
+        "src-steam-news-demo-auto-defense-20260924",
+        "src-steam-appdetails-20260924",
+        "src-official-site-20260924"
+      ],
+      "related_slugs": [
+        "pax-autocratica-best-troops",
+        "pax-autocratica-soldiers-fighting-base",
+        "pax-autocratica-st11-patch-notes",
+        "pax-autocratica-roadmap",
+        "pax-autocratica-performance"
+      ],
+      "parent_category": "Guide",
+      "updated_at": "2026-09-24T09:18:00+08:00",
       "time_sensitivity": "changing",
       "page_status": "publish",
       "index_status": "index"
@@ -9001,6 +9163,69 @@
       "quality_review_id": "q01-pax-autocratica-crowded-ui",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct UI clutter and hide-HUD task, separate from ultrawide rendering, performance, and generic patch notes."
+    },
+    "pax-autocratica-auto-defense": {
+      "intent_id": "intent-20260924-auto-defense-base-defense",
+      "intent_type": "mechanic_boundary_and_purchase_question",
+      "user_job": "Help players understand whether Auto-Defense, turrets and Missile Towers mean Pax Autocratica has base-defense auto turrets.",
+      "intent_evidence_ids": [
+        "src-steam-community-home-20260924",
+        "src-steam-news-st11-20260924",
+        "src-steam-news-demo-auto-defense-20260924",
+        "src-steam-appdetails-20260924"
+      ],
+      "answerability": "resolved_as_official_term_boundary",
+      "coverage": [
+        {
+          "dimension": "current_player_question",
+          "status": "covered",
+          "claim_ids": [
+            "claim-auto-defense-current-demand-20260924"
+          ],
+          "evidence_relation": "current_community_search_and_homepage_demand_signal",
+          "notes": "Current public discovery surfaces a player question about base defense and auto turrets, making this a distinct player task from generic combat or soldier behavior."
+        },
+        {
+          "dimension": "official_auto_defense_term",
+          "status": "covered",
+          "claim_ids": [
+            "claim-auto-defense-official-st11-20260924",
+            "claim-auto-defense-demo-warning-20260924"
+          ],
+          "evidence_relation": "official_steam_news",
+          "notes": "Official Steam News mentions Auto-Defense as an affix and ST-11 mentions improved allied Auto-Defense effects."
+        },
+        {
+          "dimension": "base_defense_or_auto_turret_system",
+          "status": "blocked",
+          "claim_ids": [
+            "claim-auto-defense-no-base-defense-proof-20260924"
+          ],
+          "evidence_relation": "not_published",
+          "notes": "Captured official sources do not announce colony raids, player-built defensive buildings or permanent base auto turrets."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam community home: current content and ST-11 card",
+          "url": "https://steamcommunity.com/app/1067360",
+          "source_type": "community_and_official_content_surface"
+        },
+        {
+          "label": "Steam News API: Pax Autocratica announcements",
+          "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1067360&count=20&maxlength=0&format=json",
+          "source_type": "official_steam_news"
+        },
+        {
+          "label": "Steam appdetails: official store description",
+          "url": "https://store.steampowered.com/api/appdetails?appids=1067360&filters=basic,genres,categories,release_date,platforms",
+          "source_type": "official_store_metadata"
+        }
+      ],
+      "last_checked_at": "2026-09-24T09:18:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-auto-defense",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a distinct Auto-Defense/base-defense terminology task, separate from soldier fighting, performance, patch notes and roadmap pages."
     }
   },
   "homeProvenance": {
@@ -9752,6 +9977,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "Shows the game interface context for a page about HUD visibility and UI clutter without inventing a new screenshot."
+    },
+    {
+      "asset_id": "pax-autocratica-auto-defense-20260924",
+      "page": "/pax-autocratica-auto-defense",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-best-troops-12.webp",
+      "alt": "Pax Autocratica combat scene used for the Auto-Defense and base-defense boundary guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-24T09:18:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 combat screenshot already present in the site media registry.",
+      "relevance_reason": "Shows expedition combat context for a page distinguishing combat affixes and turret terms from a base-defense system."
     }
   ],
   "ads": {
@@ -9824,12 +10065,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-pending-crowded-ui",
+    "version": "local-pending-auto-defense",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-23T09:18:00+08:00"
+  "generated_at": "2026-09-24T09:18:00+08:00"
 }
