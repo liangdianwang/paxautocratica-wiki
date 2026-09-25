@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, Auto-Defense and base-defense boundaries, crowded UI and HUD clutter, soldiers fighting in base, soundtrack and OST status, Linux and Proton support boundaries, revive behavior, performance checks, Supreme Powers petition status, overworked soldiers, ST-11 patch changes, ultrawide visuals, save wipe and 1.0 progress, Sector 3 final boss prep, capture mechanics, demo access, price checks, videos, community links, and current Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to ST-24 and ST-11 patch changes, logistics, revive behavior, performance, Auto-Defense and base-defense boundaries, crowded UI, soldiers fighting in base, soundtrack and OST status, Linux support, Supreme Powers, overworked soldiers, ultrawide visuals, save wipe and Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-24"
+        "Updated 2026-09-25"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -134,8 +134,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to gameplay, Auto-Defense and base-defense boundaries, crowded UI and HUD clutter, soldiers fighting in base, soundtrack and OST status, Linux and Proton support boundaries, revive behavior, performance checks, Supreme Powers petition status, overworked soldiers, ST-11 patch changes, ultrawide visuals, save wipe and 1.0 progress, Sector 3 final boss prep, capture mechanics, demo access, price checks, videos, community links, and current Early Access questions.",
-    "keywords": "Pax Autocratica wiki, Pax Autocratica Auto-Defense, Pax Autocratica base defense, Pax Autocratica auto turrets, Missile Towers, enemy turrets, ST-11 patch, soldiers fighting in base, crowded UI, performance, Early Access"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to ST-24 and ST-11 patch changes, logistics, revive behavior, performance, Auto-Defense and base-defense boundaries, crowded UI, soldiers fighting in base, soundtrack and OST status, Linux support, Supreme Powers, overworked soldiers, ultrawide visuals, save wipe and Early Access questions.",
+    "keywords": "Pax Autocratica wiki, Pax Autocratica ST-24, Pax Autocratica patch notes, Pax Autocratica Resource Transport Station, Pax Autocratica revive, Pax Autocratica DLSS, Pax Autocratica performance, Pax Autocratica capture mechanics"
   },
   "theme": {
     "hue": 164,
@@ -217,6 +217,7 @@
               "pax-autocratica-language-patches",
               "pax-autocratica-auroria-day-reward",
               "pax-autocratica-st11-patch-notes",
+              "pax-autocratica-st24-patch-notes",
               "pax-autocratica-save-wipe",
               "pax-autocratica-ultrawide-blurry",
               "pax-autocratica-supreme-powers-petition",
@@ -378,6 +379,10 @@
           {
             "keyword": "Pax Autocratica Auto-Defense",
             "slug": "pax-autocratica-auto-defense"
+          },
+          {
+            "keyword": "Pax Autocratica ST-24 Patch Notes",
+            "slug": "pax-autocratica-st24-patch-notes"
           }
         ]
       }
@@ -1509,6 +1514,18 @@
       ],
       "sections": [
         {
+          "heading": "ST-24 capture timing recheck",
+          "paragraphs": [
+            "Directive ST-24 says failed capture attempts are now more likely to resolve earlier, reducing time spent waiting through multiple capture jiggles. It also says normal enemy soldiers killed by explosive damage now trigger the same follow-up behavior as normal deaths.",
+            "This changes the practical test route for capture complaints, but it does not publish exact capture probabilities, hidden formulas or a full enemy table."
+          ],
+          "steps": [
+            "Retest failed capture timing in the current build before citing old wait patterns.",
+            "Separate explosive-kill follow-up behavior from ordinary Capture Rounds behavior.",
+            "Do not convert the patch note into a precise probability table."
+          ]
+        },
+        {
           "heading": "What the current official sources confirm",
           "paragraphs": [
             "The Steam store describes weakened foes being captured and dragged back to base. It then frames the prison as a decision point where a captive can be subjected to fear, indoctrination, execution or conversion. The developer's launch AMA gives the same boundary in plainer terms: a weakened enemy can return to the colony and become a prisoner, a citizen, a recruit or a sacrifice.",
@@ -1651,7 +1668,8 @@
         "src-steam-store",
         "src-reddit-ama",
         "src-steam-frontline",
-        "src-steam-capture-discussion"
+        "src-steam-capture-discussion",
+        "src-steam-news-st24-20260925"
       ],
       "claim_ids": [
         "claim-capture-official",
@@ -1660,7 +1678,7 @@
         "claim-capture-community",
         "claim-capture-choice"
       ],
-      "updated_at": "2026-08-17T09:16:16Z",
+      "updated_at": "2026-09-25T09:20:00+08:00",
       "time_sensitivity": "changing",
       "image_needs": [
         {
@@ -1680,7 +1698,8 @@
         "pax-autocratica-community",
         "pax-autocratica-mods",
         "pax-autocratica-best-troops",
-        "pax-autocratica-capture-lock"
+        "pax-autocratica-capture-lock",
+        "pax-autocratica-st24-patch-notes"
       ],
       "ad_slot_count": 2
     },
@@ -1919,6 +1938,18 @@
       ],
       "sections": [
         {
+          "heading": "ST-24 special-soldier boundary",
+          "paragraphs": [
+            "Directive ST-24 says special soldiers, including IntelliExplorer A20 and Miralisse Novarin, should no longer randomly receive negative general and combat traits. It also adjusts the combat male/female ratio and changes Trade Port goods.",
+            "That is useful for current troop evaluation, but it still does not create a universal best-soldier ranking. Retest individual soldiers, goods and traits on the current build."
+          ],
+          "steps": [
+            "Recheck special soldier traits after updating.",
+            "Do not reuse older negative-trait screenshots as current evidence without build context.",
+            "Treat Trade Port goods advice as build-sensitive after ST-24."
+          ]
+        },
+        {
           "heading": "Start with the real answer: no official tier list exists",
           "paragraphs": [
             "Pax Autocratica's current official materials describe a colony-to-combat loop with soldiers, captured enemies, weapons, Cores, Elites, Bosses and Sector Overlords. They do not publish a dated table that ranks every troop, enemy recruit or upgrade path from best to worst. That means a public guide should not invent a universal tier list just because players are asking for one.",
@@ -2054,7 +2085,8 @@
         "src-steam-store",
         "src-steam-allnews",
         "src-steam-discussions-20260819",
-        "src-webcafe-best-troops-planned"
+        "src-webcafe-best-troops-planned",
+        "src-steam-news-st24-20260925"
       ],
       "claim_ids": [
         "claim-best-troops-no-fixed-tier",
@@ -2063,7 +2095,7 @@
         "claim-best-troops-protect-force",
         "claim-best-troops-ea-boundary"
       ],
-      "updated_at": "2026-08-21T01:06:09.726Z",
+      "updated_at": "2026-09-25T09:20:00+08:00",
       "time_sensitivity": "changing",
       "image_needs": [
         {
@@ -2084,7 +2116,8 @@
         "pax-autocratica-sector-2-difficulty",
         "pax-autocratica-community",
         "pax-autocratica-soldiers-fighting-base",
-        "pax-autocratica-auto-defense"
+        "pax-autocratica-auto-defense",
+        "pax-autocratica-st24-patch-notes"
       ],
       "ad_slot_count": 2,
       "last_checked_at": "2026-08-21T01:06:09.726Z"
@@ -2548,6 +2581,18 @@
       ],
       "sections": [
         {
+          "heading": "ST-24 changes the Warehouse check",
+          "paragraphs": [
+            "Directive ST-24 changes the older Warehouse advice directly: transporting resources from the Resource Transport Station to the Warehouse no longer requires the station to be Level 2. It also says interrupted hauling tasks now send carried items directly to the Warehouse instead of dropping them on the ground.",
+            "That means older Mk2-only explanations should be treated as historical context. The current first check is whether the latest build has moved the resource to Warehouse inventory after a worker trip or interruption."
+          ],
+          "steps": [
+            "Retest Warehouse transfer on the current build even if the station is not Level 2.",
+            "Watch one worker cycle and compare Warehouse inventory before and after.",
+            "Report only if the Warehouse does not receive the item and the route/build details are clear."
+          ]
+        },
+        {
           "heading": "What the current reports show",
           "paragraphs": [
             "A Steam discussion describes the friction clearly: resources were sitting in the transport hub and had to be picked up manually, even after a Warehouse existed. The useful reply in that thread says to upgrade the transport hub, and later comments point to level 2 wording as the place where the automatic behavior is explained.",
@@ -2638,14 +2683,15 @@
         "src-steam-discussion-transport-hub-20260825",
         "src-reddit-transporting-station-20260825",
         "src-steam-store-20260825",
-        "src-steam-news-api-20260825"
+        "src-steam-news-api-20260825",
+        "src-steam-news-st24-20260925"
       ],
       "claim_ids": [
         "claim-transport-station-symptom",
         "claim-mk2-warehouse-community-check",
         "claim-early-access-systems-change"
       ],
-      "updated_at": "2026-08-25T01:07:36.232Z",
+      "updated_at": "2026-09-25T09:20:00+08:00",
       "time_sensitivity": "changing",
       "image_needs": [
         {
@@ -2664,7 +2710,8 @@
         "pax-autocratica-gameplay",
         "pax-autocratica-custom-colony-settings",
         "pax-autocratica-community",
-        "pax-autocratica-sector-2-difficulty"
+        "pax-autocratica-sector-2-difficulty",
+        "pax-autocratica-st24-patch-notes"
       ],
       "ad_slot_count": 2
     },
@@ -4534,7 +4581,8 @@
         "pax-autocratica-sector-2-difficulty",
         "pax-autocratica-roadmap",
         "pax-autocratica-crowded-ui",
-        "pax-autocratica-auto-defense"
+        "pax-autocratica-auto-defense",
+        "pax-autocratica-st24-patch-notes"
       ],
       "ad_slot_count": 2
     },
@@ -5342,6 +5390,18 @@
       ],
       "sections": [
         {
+          "heading": "ST-24 DLSS and performance recheck",
+          "paragraphs": [
+            "Directive ST-24 adds NVIDIA DLSS 4.5 Frame Generation support and says overall performance logic was improved. Players with supported hardware should update graphics drivers before judging current performance.",
+            "This is direct evidence for a fresh performance test, but it does not erase every frame drop, heat, crash or memory-leak-like report. Continue using reversible settings and official reporting steps for repeat symptoms."
+          ],
+          "steps": [
+            "Update the game and graphics driver before testing DLSS 4.5.",
+            "Compare with reversible in-game settings before changing launch flags.",
+            "If slowdown persists after closing the game, keep the memory-leak-style report separate."
+          ]
+        },
+        {
           "heading": "First check the hardware baseline",
           "paragraphs": [
             "Steam lists Pax Autocratica as a Windows 10 64-bit Early Access game with 16 GB RAM required. The minimum graphics baseline is a GTX 1060 6 GB or RX 480 for 1080p, and a GTX 1070 8 GB or Radeon RX Vega 56 for 1440p. The recommended graphics baseline is a GTX 2060 Super or RX 5700 XT with 8 GB or more of VRAM.",
@@ -5466,7 +5526,8 @@
         "src-steam-discussion-bug-reporting-20260918",
         "src-steam-discussion-performance-20260918",
         "src-steam-discussions-index-20260918",
-        "src-steam-discussion-memory-leak-20260921"
+        "src-steam-discussion-memory-leak-20260921",
+        "src-steam-news-st24-20260925"
       ],
       "related_slugs": [
         "pax-autocratica-st11-patch-notes",
@@ -5475,10 +5536,11 @@
         "pax-autocratica-community",
         "pax-autocratica-soundtrack",
         "pax-autocratica-crowded-ui",
-        "pax-autocratica-auto-defense"
+        "pax-autocratica-auto-defense",
+        "pax-autocratica-st24-patch-notes"
       ],
       "parent_category": "Guide",
-      "updated_at": "2026-09-21T09:20:00+08:00",
+      "updated_at": "2026-09-25T09:20:00+08:00",
       "time_sensitivity": "changing",
       "page_status": "publish",
       "index_status": "index"
@@ -5499,6 +5561,18 @@
         "claim-revive-no-guaranteed-ai-rescue-20260919"
       ],
       "sections": [
+        {
+          "heading": "ST-24 revive-speed recheck",
+          "paragraphs": [
+            "Directive ST-24 directly changes revive behavior by setting a strict minimum speed for soldiers going to revive a downed Leader. This makes old complaints about slow responders worth retesting in the current build.",
+            "The note does not prove every revive design, pathfinding or future co-op concern is solved. Use it as a speed/pathing recheck, not a universal revive guarantee."
+          ],
+          "steps": [
+            "Update first, then reproduce the same downed-player situation if possible.",
+            "Record map, distance, blocked paths and assigned helpers if revive still fails.",
+            "Keep co-op speculation separate unless a new official co-op note appears."
+          ]
+        },
         {
           "heading": "What the current developer reply confirms",
           "paragraphs": [
@@ -5617,17 +5691,19 @@
         "src-steam-discussion-bug-reporting-20260919",
         "src-steam-discussions-index-20260919",
         "src-steam-news-st11-20260919",
-        "src-steam-store-20260919"
+        "src-steam-store-20260919",
+        "src-steam-news-st24-20260925"
       ],
       "related_slugs": [
         "pax-autocratica-best-troops",
         "pax-autocratica-f1-commands",
         "pax-autocratica-sector-3-final-boss",
         "pax-autocratica-multiplayer",
-        "pax-autocratica-community"
+        "pax-autocratica-community",
+        "pax-autocratica-st24-patch-notes"
       ],
       "parent_category": "Guide",
-      "updated_at": "2026-09-19T09:11:00+08:00",
+      "updated_at": "2026-09-25T09:20:00+08:00",
       "time_sensitivity": "changing",
       "page_status": "publish",
       "index_status": "index"
@@ -6377,6 +6453,158 @@
       "time_sensitivity": "changing",
       "page_status": "publish",
       "index_status": "index"
+    },
+    {
+      "keyword": "Pax Autocratica ST-24 Patch Notes",
+      "slug": "pax-autocratica-st24-patch-notes",
+      "seo": {
+        "title": "Pax Autocratica ST-24 Patch Notes: Logistics, Revive and DLSS",
+        "description": "A source-backed Pax Autocratica Directive ST-24 guide covering logistics fixes, revive speed, DLSS 4.5, Sector 1 battles, capture timing and what players should recheck."
+      },
+      "direct_answer": "Directive ST-24 is the September 24, 2026 official Pax Autocratica maintenance update. The player-visible changes to recheck first are Resource Transport Station and Warehouse hauling, temporary assignment and auto-assignment logic, carried items being sent to the Warehouse after an interrupted hauling task, DLSS 4.5 Frame Generation and performance logic, faster revive responders, earlier failed-capture resolution, three new Sector 1 - Elysia battles, Medic Healing Grenade activation speed, special soldiers no longer randomly receiving negative general or combat traits, combat gender-ratio tuning, and Trade Port goods changes. Treat it as an official patch checklist, not proof that every old logistics, revive, performance, capture or balance complaint is solved.",
+      "direct_answer_claim_ids": [
+        "claim-st24-official-20260925",
+        "claim-st24-logistics-20260925",
+        "claim-st24-combat-revive-20260925",
+        "claim-st24-performance-20260925"
+      ],
+      "sections": [
+        {
+          "heading": "What to recheck first",
+          "paragraphs": [
+            "ST-24 matters because it touches several guides that previously depended on ST-11 or player-reported workarounds. The safest use is a recheck list: update through Steam, revisit the affected system in the current build, then decide whether an older workaround still applies.",
+            "For colony management, the patch changes hauling behavior around Resource Transport Stations, full producing buildings, Warehouse transfers and interrupted hauling tasks. For combat, it changes revive responder speed, failed-capture pacing, Medic Healing Grenade activation, Sector 1 battle availability and several soldier or enemy outcomes."
+          ],
+          "steps": [
+            "Update Pax Autocratica through Steam before testing an old report.",
+            "Use ST-24 for official changed areas, but keep unrelated community bugs separate.",
+            "Capture build, save, sector, building level and screenshot before reporting any repeat issue."
+          ],
+          "claim_ids": [
+            "claim-st24-official-20260925",
+            "claim-st24-logistics-20260925",
+            "claim-st24-combat-revive-20260925"
+          ]
+        },
+        {
+          "heading": "Logistics and Warehouse changes",
+          "paragraphs": [
+            "The official note says temporary assignment and auto-assignment logic were improved so soldiers return to previous tasks after temporary work and choose better fitting idle tasks such as Mining, Logging and Gathering. It also says workers at the Resource Transport Station should spread out when resource-producing buildings are full instead of clustering together.",
+            "The most important Warehouse boundary is that transporting resources from the Resource Transport Station to the Warehouse no longer requires the station to be Level 2. If a hauling task is interrupted, carried items should now go directly to the Warehouse rather than being dropped on the ground."
+          ],
+          "steps": [
+            "Recheck any old advice that said Warehouse transport requires Resource Transport Station Level 2.",
+            "Watch whether workers split across full producing buildings instead of bunching up.",
+            "If a worker is interrupted, compare Warehouse inventory before assuming carried items vanished."
+          ],
+          "claim_ids": [
+            "claim-st24-logistics-20260925"
+          ]
+        },
+        {
+          "heading": "Combat, revive and capture checks",
+          "paragraphs": [
+            "ST-24 says special soldiers such as IntelliExplorer A20 and Miralisse Novarin will no longer randomly receive negative general and combat traits. It also adjusts the male and female soldier ratio in combat and changes Trade Port goods by adjusting attributes, drops and removing several goods that were especially harmful to soldiers.",
+            "For downed-player cases, the patch adds a minimum revive-speed requirement for soldiers going to revive the Leader. For capture, failed attempts should more often resolve earlier, reducing time spent waiting through several capture jiggles. Explosive kills on normal enemy soldiers now trigger the same follow-up behavior as normal deaths."
+          ],
+          "steps": [
+            "Retest revive response in the current build before citing older revive complaints.",
+            "Retest failed capture timing instead of relying on pre-ST-24 wait patterns.",
+            "Do not treat Trade Port goods lists, special soldier trait outcomes or combat population ratios as stable across older guides."
+          ],
+          "claim_ids": [
+            "claim-st24-combat-revive-20260925"
+          ]
+        },
+        {
+          "heading": "Performance and new content scope",
+          "paragraphs": [
+            "The official patch adds support for NVIDIA DLSS 4.5 Frame Generation and says overall performance logic was improved. That is direct evidence for a current performance recheck, but it is not a universal promise that all FPS drops, heat, crashes or memory-leak-like symptoms are gone.",
+            "The content addition called out by the note is three new battles in Sector 1 - Elysia. This does not prove new sectors, co-op, a full roadmap milestone, or a changed final boss. Keep the scope tight: Sector 1 gets new battles; broader future systems still need their own official evidence."
+          ],
+          "steps": [
+            "Update graphics drivers if you plan to test DLSS 4.5 Frame Generation.",
+            "Compare performance with reversible settings first; avoid unsafe launch flags or third-party fix tools.",
+            "Treat the three Sector 1 battles as a current content addition, not as proof of a wider roadmap drop."
+          ],
+          "claim_ids": [
+            "claim-st24-performance-20260925",
+            "claim-st24-sector1-20260925"
+          ]
+        },
+        {
+          "heading": "What ST-24 does not prove",
+          "paragraphs": [
+            "ST-24 is a maintenance directive with concrete changes, not a complete mechanics manual. It does not publish exact revive formulas, capture probabilities, DLSS benchmark numbers, Trade Port item tables, new battle walkthroughs, special soldier build rankings, or a guarantee that every old discussion thread is resolved.",
+            "Use this page as an official routing page. If your question is specifically about revive design, Resource Transport Station behavior, performance, capture mechanics or best troops, use the related guide after checking whether its ST-24 note applies."
+          ],
+          "steps": [
+            "Do not copy the full patch note into community posts; link the official source.",
+            "Do not mark older pages solved unless the changed behavior was actually direct.",
+            "Recheck this page when Multiverse publishes the next maintenance directive."
+          ],
+          "claim_ids": [
+            "claim-st24-official-20260925"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is ST-24 the latest official Pax Autocratica update?",
+          "answer": "Yes. The Steam News API captured on September 25, 2026 returned Directive ST-24 as the newest official Pax Autocratica news item, dated September 24, 2026 UTC and authored by Multiverse.",
+          "claim_ids": [
+            "claim-st24-official-20260925"
+          ]
+        },
+        {
+          "question": "Does Warehouse transport still require Resource Transport Station Level 2?",
+          "answer": "ST-24 says transporting resources from the Resource Transport Station to the Warehouse no longer requires Level 2. Recheck old Warehouse advice against the current build.",
+          "claim_ids": [
+            "claim-st24-logistics-20260925"
+          ]
+        },
+        {
+          "question": "Did ST-24 fix revive problems?",
+          "answer": "It directly changes revive response speed by setting a strict minimum speed for soldiers heading to revive the downed Leader. It does not prove every pathfinding, co-op or design complaint is solved.",
+          "claim_ids": [
+            "claim-st24-combat-revive-20260925"
+          ]
+        },
+        {
+          "question": "Does DLSS 4.5 mean all performance issues are fixed?",
+          "answer": "No. ST-24 adds DLSS 4.5 Frame Generation support and says performance logic improved, but continuing hardware, heat, crash or slowdown symptoms still need normal troubleshooting evidence.",
+          "claim_ids": [
+            "claim-st24-performance-20260925"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-news-st24-20260925",
+        "src-steam-appdetails-20260925",
+        "src-steam-discussions-20260925",
+        "src-official-site-20260925"
+      ],
+      "claim_ids": [
+        "claim-st24-official-20260925",
+        "claim-st24-logistics-20260925",
+        "claim-st24-combat-revive-20260925",
+        "claim-st24-performance-20260925",
+        "claim-st24-sector1-20260925"
+      ],
+      "updated_at": "2026-09-25T09:20:00+08:00",
+      "time_sensitivity": "official_patch_notes",
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-st11-patch-notes",
+        "pax-autocratica-resource-transport-station-warehouse",
+        "pax-autocratica-revive-player",
+        "pax-autocratica-performance",
+        "pax-autocratica-capture-mechanics",
+        "pax-autocratica-best-troops"
+      ],
+      "ad_slot_count": 2
     }
   ],
   "pageProvenance": {
@@ -7230,6 +7458,11 @@
       ],
       "source_links": [
         {
+          "label": "Steam announcement: Directive ST-24",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        },
+        {
           "label": "Steam store",
           "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
           "source_type": "official_store"
@@ -7250,7 +7483,7 @@
           "source_type": "community"
         }
       ],
-      "last_checked_at": "2026-08-17T09:16:16Z",
+      "last_checked_at": "2026-09-25T09:20:00+08:00",
       "quality_review_id": "q01-pax-autocratica-capture-mechanics",
       "status": "publish",
       "depth_variance_reason": "The page answers the independent capture-and-prisoner task with an actionable loop, current official scope, a separate community evidence boundary, FAQ coverage and a dated Early Access recheck rule. It deliberately withholds exact percentages and a universal enemy list."
@@ -7402,6 +7635,11 @@
       ],
       "source_links": [
         {
+          "label": "Steam announcement: Directive ST-24",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        },
+        {
           "label": "Steam store",
           "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
           "source_type": "official_store"
@@ -7422,7 +7660,7 @@
           "source_type": "keyword_evidence"
         }
       ],
-      "last_checked_at": "2026-08-21T01:06:09.726Z",
+      "last_checked_at": "2026-09-25T09:20:00+08:00",
       "quality_review_id": "q01-pax-autocratica-best-troops",
       "status": "publish",
       "depth_variance_reason": "The page answers an independent player task observed in today's Steam discussions. It uses official AG-12/AG-14 and store facts for upgrade/capture/current-state advice, separates community demand from official proof, and refuses unsupported troop rankings or capture formulas."
@@ -7507,11 +7745,16 @@
       ]
     },
     "pax-autocratica-resource-transport-station-warehouse": {
-      "last_checked_at": "2026-08-25T01:07:36.232Z",
+      "last_checked_at": "2026-09-25T09:20:00+08:00",
       "quality_review_id": "q01-pax-autocratica-resource-transport-station-warehouse",
       "status": "publish",
       "depth_variance_reason": "The page solves a distinct logistics symptom using two independent current community reports while explicitly refusing to present community replies as official mechanics documentation.",
       "source_links": [
+        {
+          "label": "Steam announcement: Directive ST-24",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        },
         {
           "label": "Steam discussion: transport hub resources",
           "url": "https://steamcommunity.com/app/1067360/discussions/0/585056732983808481/",
@@ -8747,6 +8990,11 @@
       ],
       "source_links": [
         {
+          "label": "Steam announcement: Directive ST-24",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        },
+        {
           "label": "Pax Autocratica Steam store",
           "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
           "source_type": "official_store"
@@ -8777,7 +9025,7 @@
           "source_type": "current_player_performance_report"
         }
       ],
-      "last_checked_at": "2026-09-21T09:20:00+08:00",
+      "last_checked_at": "2026-09-25T09:20:00+08:00",
       "quality_review_id": "q01-pax-autocratica-performance",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct performance troubleshooting task using official requirements, official patch notes, pinned reporting guidance and a current player report, while refusing unsupported FPS or config claims."
@@ -8833,6 +9081,11 @@
       ],
       "source_links": [
         {
+          "label": "Steam announcement: Directive ST-24",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        },
+        {
           "label": "Steam discussion: Assigning NPCs to revive player is a bad design choice",
           "url": "https://steamcommunity.com/app/1067360/discussions/0/500617547938443235/",
           "source_type": "developer_reply_and_community_report"
@@ -8858,7 +9111,7 @@
           "source_type": "official_store"
         }
       ],
-      "last_checked_at": "2026-09-19T09:11:00+08:00",
+      "last_checked_at": "2026-09-25T09:20:00+08:00",
       "quality_review_id": "q01-pax-autocratica-revive-player",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct downed-player revive troubleshooting task with a current developer reply, reporting route and co-op design boundary, while refusing unsupported revive formulas or current co-op claims."
@@ -9226,6 +9479,65 @@
       "quality_review_id": "q01-pax-autocratica-auto-defense",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct Auto-Defense/base-defense terminology task, separate from soldier fighting, performance, patch notes and roadmap pages."
+    },
+    "pax-autocratica-st24-patch-notes": {
+      "intent_id": "intent-20260925-st24-patch-notes",
+      "intent_type": "official_patch_notes_status_guide",
+      "user_job": "Understand what the ST-24 maintenance update changed and which older Pax Autocratica guide advice needs a current-build recheck.",
+      "intent_evidence_ids": [
+        "src-steam-news-st24-20260925",
+        "src-steam-appdetails-20260925",
+        "src-steam-discussions-20260925"
+      ],
+      "answerability": "resolved_with_official_steam_news_and_current_site_context",
+      "coverage": [
+        {
+          "dimension": "official_update_identity",
+          "status": "covered",
+          "claim_ids": [
+            "claim-st24-official-20260925"
+          ],
+          "evidence_relation": "steam_news_api",
+          "notes": "Steam news item 1844751498221781 is authored by Multiverse, dated 2026-09-24T14:56:35.000Z, and body hash is ac86333a2c457bb2b0e36a515f40402cd6a5f787ec58b7a7b9da2a65dc26a7dd."
+        },
+        {
+          "dimension": "player_impact_mapping",
+          "status": "covered",
+          "claim_ids": [
+            "claim-st24-logistics-20260925",
+            "claim-st24-combat-revive-20260925",
+            "claim-st24-performance-20260925"
+          ],
+          "evidence_relation": "official_patch_bullets_plus_existing_affected_guides",
+          "notes": "The page maps official changes to logistics, revive, capture, performance and troop-evaluation recheck tasks without claiming every old issue is solved."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam announcement: Directive ST-24",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Pax Autocratica Steam discussions",
+          "url": "https://steamcommunity.com/app/1067360/discussions/",
+          "source_type": "community"
+        },
+        {
+          "label": "Official site",
+          "url": "https://www.paxautocratica.com/",
+          "source_type": "official_website"
+        }
+      ],
+      "last_checked_at": "2026-09-25T09:20:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-st24-patch-notes",
+      "status": "publish",
+      "depth_variance_reason": "The page turns a broad official patch note into a player recheck guide for logistics, revive, capture, performance, special soldiers and Sector 1 content while avoiding unsupported formulas or universal-fix claims."
     }
   },
   "homeProvenance": {
@@ -9993,6 +10305,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 combat screenshot already present in the site media registry.",
       "relevance_reason": "Shows expedition combat context for a page distinguishing combat affixes and turret terms from a base-defense system."
+    },
+    {
+      "asset_id": "pax-autocratica-st24-patch-notes-20260925",
+      "page": "/pax-autocratica-st24-patch-notes",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-guide-02.webp",
+      "alt": "Pax Autocratica gameplay scene used for the ST-24 maintenance update guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-25T09:20:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "Supports a patch guide covering logistics, combat, revive and performance changes without inventing a patch-specific image."
     }
   ],
   "ads": {
@@ -10065,12 +10393,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-pending-auto-defense",
+    "version": "local-pending-st24",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-24T09:18:00+08:00"
+  "generated_at": "2026-09-25T09:20:00+08:00"
 }
