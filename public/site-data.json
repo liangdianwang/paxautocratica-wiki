@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to ST-24 and ST-11 patch changes, logistics, revive behavior, performance, Auto-Defense and base-defense boundaries, crowded UI, soldiers fighting in base, soundtrack and OST status, Linux support, Supreme Powers, overworked soldiers, ultrawide visuals, save wipe and Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to ST-24 Sector 1 Elysia battles, patch changes, logistics, revive behavior, performance, Auto-Defense and base-defense boundaries, crowded UI, soldiers fighting in base, soundtrack and OST status, Linux support, Supreme Powers, overworked soldiers, ultrawide visuals, save wipe and Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-25"
+        "Updated 2026-09-27"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -134,8 +134,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to ST-24 and ST-11 patch changes, logistics, revive behavior, performance, Auto-Defense and base-defense boundaries, crowded UI, soldiers fighting in base, soundtrack and OST status, Linux support, Supreme Powers, overworked soldiers, ultrawide visuals, save wipe and Early Access questions.",
-    "keywords": "Pax Autocratica wiki, Pax Autocratica ST-24, Pax Autocratica patch notes, Pax Autocratica Resource Transport Station, Pax Autocratica revive, Pax Autocratica DLSS, Pax Autocratica performance, Pax Autocratica capture mechanics"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to ST-24 Sector 1 Elysia battles, patch changes, logistics, revive behavior, performance, Auto-Defense and base-defense boundaries, crowded UI, soldiers fighting in base, soundtrack and OST status, Linux support, Supreme Powers, overworked soldiers, ultrawide visuals, save wipe and Early Access questions.",
+    "keywords": "Pax Autocratica wiki, Pax Autocratica Sector 1 Elysia, Pax Autocratica ST-24, Pax Autocratica patch notes, Pax Autocratica Elysia battles, Pax Autocratica guide"
   },
   "theme": {
     "hue": 164,
@@ -186,6 +186,7 @@
             "slugs": [
               "pax-autocratica-capture-mechanics",
               "pax-autocratica-capture-lock",
+              "pax-autocratica-sector-1-elysia-battles",
               "pax-autocratica-sector-2-difficulty",
               "pax-autocratica-sector-3-final-boss",
               "pax-autocratica-best-troops",
@@ -383,6 +384,10 @@
           {
             "keyword": "Pax Autocratica ST-24 Patch Notes",
             "slug": "pax-autocratica-st24-patch-notes"
+          },
+          {
+            "keyword": "Pax Autocratica Sector 1 Elysia Battles",
+            "slug": "pax-autocratica-sector-1-elysia-battles"
           }
         ]
       }
@@ -1699,7 +1704,8 @@
         "pax-autocratica-mods",
         "pax-autocratica-best-troops",
         "pax-autocratica-capture-lock",
-        "pax-autocratica-st24-patch-notes"
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-sector-1-elysia-battles"
       ],
       "ad_slot_count": 2
     },
@@ -1917,7 +1923,8 @@
         "pax-autocratica-gameplay",
         "pax-autocratica-capture-mechanics",
         "pax-autocratica-community",
-        "pax-autocratica-best-troops"
+        "pax-autocratica-best-troops",
+        "pax-autocratica-sector-1-elysia-battles"
       ],
       "ad_slot_count": 2
     },
@@ -2117,7 +2124,8 @@
         "pax-autocratica-community",
         "pax-autocratica-soldiers-fighting-base",
         "pax-autocratica-auto-defense",
-        "pax-autocratica-st24-patch-notes"
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-sector-1-elysia-battles"
       ],
       "ad_slot_count": 2,
       "last_checked_at": "2026-08-21T01:06:09.726Z"
@@ -5537,7 +5545,8 @@
         "pax-autocratica-soundtrack",
         "pax-autocratica-crowded-ui",
         "pax-autocratica-auto-defense",
-        "pax-autocratica-st24-patch-notes"
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-sector-1-elysia-battles"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-25T09:20:00+08:00",
@@ -6602,6 +6611,136 @@
         "pax-autocratica-revive-player",
         "pax-autocratica-performance",
         "pax-autocratica-capture-mechanics",
+        "pax-autocratica-best-troops",
+        "pax-autocratica-sector-1-elysia-battles"
+      ],
+      "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Sector 1 Elysia Battles",
+      "slug": "pax-autocratica-sector-1-elysia-battles",
+      "seo": {
+        "title": "Pax Autocratica Sector 1 Elysia Battles: ST-24 Recheck",
+        "description": "A source-backed Pax Autocratica Sector 1 Elysia guide for the three ST-24 new battles, what to recheck, and what the official patch does not reveal."
+      },
+      "direct_answer": "Directive ST-24 officially adds three new battles to Sector 1 - Elysia. Use that as a current-build recheck signal: update the game, revisit Elysia from the expedition map, treat new combat nodes as part of the first-sector route, and record what changed before relying on older Elysia walkthroughs. The official note does not publish the battle names, spawn rules, reward tables, difficulty numbers, boss order, Core Fragment odds, or a complete walkthrough, so this page keeps the answer to preparation and verification rather than inventing a route.",
+      "direct_answer_claim_ids": [
+        "claim-elysia-st24-new-battles-20260927",
+        "claim-elysia-boundary-20260927"
+      ],
+      "sections": [
+        {
+          "heading": "What ST-24 confirms",
+          "paragraphs": [
+            "The current official Steam News capture for Pax Autocratica still returns Directive ST-24 as the newest official update, dated September 24, 2026 UTC. In the New Content / Combat section, the directive says three new battles were added to Sector 1 - Elysia.",
+            "That is enough to update the old Elysia answer: first-sector routes and older videos may now be missing encounters. It is not enough to name the battles, rank them, publish their rewards, or claim a fixed progression threshold."
+          ],
+          "steps": [
+            "Update through Steam before comparing any old Elysia guide or video.",
+            "Open Sector 1 - Elysia in the current build and look for battle nodes that were not present in your older route.",
+            "Keep notes by build date, sector, node label and result instead of copying pre-ST-24 battle order as permanent."
+          ],
+          "claim_ids": [
+            "claim-elysia-st24-new-battles-20260927"
+          ]
+        },
+        {
+          "heading": "How to prepare without a fake walkthrough",
+          "paragraphs": [
+            "Sector 1 is still the player's first expedition proving ground, so the safest advice is practical preparation rather than exact routing. Bring a weapon and squad state you can afford to test, bank valuable Core Fragments or resources before greed turns the run bad, and compare Expedition Progress with Enemy Strength before chaining another unknown fight.",
+            "The page deliberately avoids a complete battle-by-battle script because the current official source only says that three battles were added. If a video or guide names a specific new encounter, treat it as footage evidence for that build, not an official universal list."
+          ],
+          "steps": [
+            "Enter Elysia with a clear return condition: low ammo, wounded squad, valuable haul, objective done or enemy strength too high.",
+            "Treat a new battle as a scouting fight first; do not risk the whole expedition to identify a node.",
+            "After returning, turn the result into one specific upgrade, gear or roster change before re-entering."
+          ],
+          "claim_ids": [
+            "claim-elysia-prep-route-20260927"
+          ]
+        },
+        {
+          "heading": "What to recheck in older Elysia content",
+          "paragraphs": [
+            "Older Prologue or Early Access Elysia material can still explain the broad loop, but ST-24 creates a hard freshness boundary. Any page that says exactly how many battles Elysia contains, which optional fights to skip, or how the first decisive route should unfold needs a current-build check.",
+            "This applies especially to pages about Core Fragments, decisive battles and early expedition pacing. The new official fact is the addition of battles; the unknowns are the detailed pathing, reward and difficulty outcomes."
+          ],
+          "steps": [
+            "Check whether a source was recorded before September 24, 2026.",
+            "Keep Prologue-era Elysia battle names separate from current full-game Sector 1 evidence.",
+            "Prefer current official patch notes plus current-build footage when deciding whether old routing advice is stale."
+          ],
+          "claim_ids": [
+            "claim-elysia-boundary-20260927"
+          ]
+        },
+        {
+          "heading": "What this page will not claim",
+          "paragraphs": [
+            "The ST-24 note does not publish a battle list, map coordinates, drop tables, enemy rosters, Core Fragment probabilities, best loadouts, new boss names, or a promise that Elysia difficulty is now easier or harder. Those would need direct current-build footage, repeat testing or another official note.",
+            "It also does not prove a new sector, a co-op milestone, a full roadmap delivery, or a changed Sector 2 or Sector 3 answer. Keep this page scoped to the first-sector content addition and the player's verification path."
+          ],
+          "steps": [
+            "Do not rewrite old guides with invented battle names.",
+            "Do not convert one player's first run into a universal optimal route.",
+            "Recheck this page when the next maintenance directive names Elysia, battles, expedition progress or rewards."
+          ],
+          "claim_ids": [
+            "claim-elysia-boundary-20260927"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Did ST-24 add new battles to Pax Autocratica Sector 1 - Elysia?",
+          "answer": "Yes. The latest official Steam News capture for September 27, 2026 still shows Directive ST-24 as the newest update, and that update says three new battles were added to Sector 1 - Elysia.",
+          "claim_ids": [
+            "claim-elysia-st24-new-battles-20260927"
+          ]
+        },
+        {
+          "question": "Does the patch name the three new Elysia battles?",
+          "answer": "No. The official note confirms the count and sector, but it does not publish battle names, node locations, enemy rosters or reward tables.",
+          "claim_ids": [
+            "claim-elysia-boundary-20260927"
+          ]
+        },
+        {
+          "question": "Should I still trust old Elysia walkthroughs?",
+          "answer": "Use them only as broad loop context if they predate September 24, 2026. For exact routing, battle count or rewards, recheck against the current build because ST-24 changed Sector 1 content.",
+          "claim_ids": [
+            "claim-elysia-boundary-20260927"
+          ]
+        },
+        {
+          "question": "Does this prove Elysia is harder now?",
+          "answer": "No. Three new battles are confirmed, but the official note does not say whether first-sector difficulty, rewards or progression thresholds were raised or lowered.",
+          "claim_ids": [
+            "claim-elysia-boundary-20260927"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-news-st24-20260927",
+        "src-steam-appdetails-20260927",
+        "src-steam-allnews-serp-20260927",
+        "src-youtube-search-20260927"
+      ],
+      "claim_ids": [
+        "claim-elysia-st24-new-battles-20260927",
+        "claim-elysia-prep-route-20260927",
+        "claim-elysia-boundary-20260927"
+      ],
+      "updated_at": "2026-09-27T09:20:00+08:00",
+      "time_sensitivity": "official_patch_recheck",
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-sector-2-difficulty",
+        "pax-autocratica-capture-mechanics",
+        "pax-autocratica-performance",
         "pax-autocratica-best-troops"
       ],
       "ad_slot_count": 2
@@ -9538,6 +9677,63 @@
       "quality_review_id": "q01-pax-autocratica-st24-patch-notes",
       "status": "publish",
       "depth_variance_reason": "The page turns a broad official patch note into a player recheck guide for logistics, revive, capture, performance, special soldiers and Sector 1 content while avoiding unsupported formulas or universal-fix claims."
+    },
+    "pax-autocratica-sector-1-elysia-battles": {
+      "intent_id": "intent-20260927-sector-1-elysia-battles",
+      "intent_type": "official_patch_content_recheck",
+      "user_job": "Understand what the ST-24 addition of three Sector 1 - Elysia battles means, and how to recheck older first-sector routing advice without relying on invented battle details.",
+      "intent_evidence_ids": [
+        "src-steam-news-st24-20260927",
+        "src-steam-appdetails-20260927",
+        "src-steam-allnews-serp-20260927"
+      ],
+      "answerability": "resolved_with_official_boundary_only",
+      "coverage": [
+        {
+          "dimension": "official_new_content",
+          "status": "covered",
+          "claim_ids": [
+            "claim-elysia-st24-new-battles-20260927"
+          ],
+          "evidence_relation": "steam_news_api",
+          "notes": "Steam news item 1844751498221781 is dated 2026-09-24T14:56:35.000Z; body hash ac86333a2c457bb2b0e36a515f40402cd6a5f787ec58b7a7b9da2a65dc26a7dd."
+        },
+        {
+          "dimension": "walkthrough_boundary",
+          "status": "bounded",
+          "claim_ids": [
+            "claim-elysia-boundary-20260927"
+          ],
+          "evidence_relation": "official_patch_omission_plus_existing_search_context",
+          "notes": "The official note confirms three new battles but omits names, route, rewards and difficulty; the page therefore gives a recheck path, not a fabricated walkthrough."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam announcement: Directive ST-24",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Steam Community all news",
+          "url": "https://steamcommunity.com/app/1067360/allnews/",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Pax Autocratica Steam discussions",
+          "url": "https://steamcommunity.com/app/1067360/discussions/",
+          "source_type": "community"
+        }
+      ],
+      "last_checked_at": "2026-09-27T09:20:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-sector-1-elysia-battles",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a distinct first-sector content freshness task created by ST-24 while explicitly refusing unsupported battle names, route order, drops or difficulty numbers."
     }
   },
   "homeProvenance": {
@@ -10321,6 +10517,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "Supports a patch guide covering logistics, combat, revive and performance changes without inventing a patch-specific image."
+    },
+    {
+      "asset_id": "pax-autocratica-sector-1-elysia-battles-20260927",
+      "page": "/pax-autocratica-sector-1-elysia-battles",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-sector-2-difficulty-11.jpg",
+      "alt": "Pax Autocratica expedition scene used for the Sector 1 Elysia battles guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-27T09:20:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 expedition screenshot already present in the site media registry.",
+      "relevance_reason": "Shows the expedition context for a current-build page about Sector 1 Elysia battle additions."
     }
   ],
   "ads": {
@@ -10393,12 +10605,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-pending-st24",
+    "version": "local-pending-elysia-battles",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-25T09:20:00+08:00"
+  "generated_at": "2026-09-27T09:20:00+08:00"
 }
