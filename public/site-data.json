@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to ST-24 Sector 1 Elysia battles, patch changes, logistics, revive behavior, performance, Auto-Defense and base-defense boundaries, crowded UI, soldiers fighting in base, soundtrack and OST status, Linux support, Supreme Powers, overworked soldiers, ultrawide visuals, save wipe and Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to combat classes, ST-24 Sector 1 Elysia battles, patch changes, logistics, revive behavior, performance, Auto-Defense, crowded UI, soldiers fighting in base, soundtrack status, Linux support and Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-27"
+        "Updated 2026-09-28"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -134,8 +134,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to ST-24 Sector 1 Elysia battles, patch changes, logistics, revive behavior, performance, Auto-Defense and base-defense boundaries, crowded UI, soldiers fighting in base, soundtrack and OST status, Linux support, Supreme Powers, overworked soldiers, ultrawide visuals, save wipe and Early Access questions.",
-    "keywords": "Pax Autocratica wiki, Pax Autocratica Sector 1 Elysia, Pax Autocratica ST-24, Pax Autocratica patch notes, Pax Autocratica Elysia battles, Pax Autocratica guide"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to combat classes, ST-24 Sector 1 Elysia battles, patch changes, logistics, revive behavior, performance, Auto-Defense, crowded UI, soldiers fighting in base, soundtrack status, Linux support and Early Access questions.",
+    "keywords": "Pax Autocratica wiki, Pax Autocratica combat classes, Pax Autocratica best classes, Pax Autocratica medics, Pax Autocratica shieldmasters, Pax Autocratica ST-24, Pax Autocratica guide"
   },
   "theme": {
     "hue": 164,
@@ -190,6 +190,7 @@
               "pax-autocratica-sector-2-difficulty",
               "pax-autocratica-sector-3-final-boss",
               "pax-autocratica-best-troops",
+              "pax-autocratica-combat-classes",
               "pax-autocratica-auto-defense",
               "pax-autocratica-overworked-soldiers",
               "pax-autocratica-soldiers-fighting-base",
@@ -388,6 +389,10 @@
           {
             "keyword": "Pax Autocratica Sector 1 Elysia Battles",
             "slug": "pax-autocratica-sector-1-elysia-battles"
+          },
+          {
+            "keyword": "Pax Autocratica Combat Classes",
+            "slug": "pax-autocratica-combat-classes"
           }
         ]
       }
@@ -2125,7 +2130,8 @@
         "pax-autocratica-soldiers-fighting-base",
         "pax-autocratica-auto-defense",
         "pax-autocratica-st24-patch-notes",
-        "pax-autocratica-sector-1-elysia-battles"
+        "pax-autocratica-sector-1-elysia-battles",
+        "pax-autocratica-combat-classes"
       ],
       "ad_slot_count": 2,
       "last_checked_at": "2026-08-21T01:06:09.726Z"
@@ -2436,7 +2442,8 @@
         "pax-autocratica-best-troops",
         "pax-autocratica-gameplay",
         "pax-autocratica-sector-2-difficulty",
-        "pax-autocratica-save-during-expedition"
+        "pax-autocratica-save-during-expedition",
+        "pax-autocratica-combat-classes"
       ],
       "ad_slot_count": 2
     },
@@ -5709,7 +5716,8 @@
         "pax-autocratica-sector-3-final-boss",
         "pax-autocratica-multiplayer",
         "pax-autocratica-community",
-        "pax-autocratica-st24-patch-notes"
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-combat-classes"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-25T09:20:00+08:00",
@@ -6612,7 +6620,8 @@
         "pax-autocratica-performance",
         "pax-autocratica-capture-mechanics",
         "pax-autocratica-best-troops",
-        "pax-autocratica-sector-1-elysia-battles"
+        "pax-autocratica-sector-1-elysia-battles",
+        "pax-autocratica-combat-classes"
       ],
       "ad_slot_count": 2
     },
@@ -6741,7 +6750,158 @@
         "pax-autocratica-sector-2-difficulty",
         "pax-autocratica-capture-mechanics",
         "pax-autocratica-performance",
-        "pax-autocratica-best-troops"
+        "pax-autocratica-best-troops",
+        "pax-autocratica-combat-classes"
+      ],
+      "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Combat Classes",
+      "slug": "pax-autocratica-combat-classes",
+      "seo": {
+        "title": "Pax Autocratica Combat Classes: Medics, Shields and Squad Roles",
+        "description": "A source-backed Pax Autocratica combat classes guide for reading class roles, medics, shield units and shotgun troops without inventing a fixed tier list."
+      },
+      "direct_answer": "Pax Autocratica does not publish an official combat-class tier list. The safer current-build answer is to use combat classes as squad roles: keep a recovery layer such as Medics, protect key soldiers with shield or front-line roles when the build supports it, use burst-damage troops for fast threats, and recheck class details inside the Soldier Details interface after every major patch. Current player discussion names Medics, shieldmasters and cluster shotgunners as obvious favorites, while official updates confirm class UI support, class-based sorting and repeated soldier/combat balance changes. That is enough for a role-based guide, but not enough to claim exact best classes, hidden formulas, DPS rankings or a permanent meta.",
+      "direct_answer_claim_ids": [
+        "claim-combat-classes-demand-20260928",
+        "claim-combat-classes-official-ui-20260928",
+        "claim-combat-classes-boundary-20260928"
+      ],
+      "sections": [
+        {
+          "heading": "Start with roles, not a tier list",
+          "paragraphs": [
+            "The current Steam discussion asks where the post-patch class meta stands and specifically calls out Medics, shieldmasters and cluster shotgunners. That is useful demand evidence: players are trying to decide which roles deserve roster space after several patches.",
+            "The official sources do not publish class tables or role rankings. They do, however, confirm that the Soldier Details interface can show class details, that Soldier Management and inventory gained class-based sorting, and that soldier balance, affixes, collision and combat readability have been repeatedly adjusted. Read classes as current-build roles, not as permanent spreadsheet entries."
+          ],
+          "steps": [
+            "Open Soldier Details and read the class detail before deploying a soldier.",
+            "Sort or group soldiers by class when checking the roster, then decide what role the next expedition lacks.",
+            "Avoid copying a tier list that does not cite the current build or the latest patch notes."
+          ],
+          "claim_ids": [
+            "claim-combat-classes-demand-20260928",
+            "claim-combat-classes-official-ui-20260928"
+          ]
+        },
+        {
+          "heading": "Keep a recovery layer",
+          "paragraphs": [
+            "Community discussion treats Medics as essential because they answer a basic expedition risk: keeping the squad and Leader alive long enough to finish the fight or retreat. ST-24 also changes revive responder speed, so any class advice involving recovery should be checked in the latest build rather than copied from older revive complaints.",
+            "The boundary is important. No captured official source says one Medic count is optimal, that every map requires the same healer ratio, or that Medics solve pathing, co-op or downed-player design issues by themselves."
+          ],
+          "steps": [
+            "Bring recovery when the run is failing from attrition rather than damage output.",
+            "Retest revive and healing behavior after ST-24 before trusting old advice.",
+            "Record map, distance, squad spacing and blocked paths if recovery still fails."
+          ],
+          "claim_ids": [
+            "claim-combat-classes-demand-20260928",
+            "claim-combat-classes-boundary-20260928"
+          ]
+        },
+        {
+          "heading": "Use shields and burst troops for different failures",
+          "paragraphs": [
+            "The same discussion praises shield-style soldiers for defensive value and cluster shotgunners as shock troops. Treat those as role hints, not proof of a final meta. Shields answer survivability and pressure problems; burst troops answer fast clear or dangerous target problems.",
+            "Official updates support this role-based framing because they repeatedly touch soldier collision, allied affix cooldowns, named combat-strength changes, enemy affixes and interface clarity. Those changes can move the value of a role without making any one class permanently best."
+          ],
+          "steps": [
+            "If soldiers die before dealing value, test more protection or spacing before adding more damage.",
+            "If enemies survive long enough to overwhelm the squad, test burst damage or a more focused target plan.",
+            "Change one squad role at a time so the next failed expedition teaches you what improved."
+          ],
+          "claim_ids": [
+            "claim-combat-classes-official-ui-20260928"
+          ]
+        },
+        {
+          "heading": "What to recheck after patches",
+          "paragraphs": [
+            "ST-11 and ST-24 both show that soldier behavior and combat balance are still moving. ST-11 mentions soldier class details in the Soldier Details interface and improves several soldier/combat systems; ST-24 changes special-soldier trait outcomes, combat gender ratio, Trade Port goods and revive response speed.",
+            "That means combat-class guidance should be dated. If a patch mentions soldiers, affixes, revive, capture, class UI, Trade Port goods or expedition balance, revisit class choices before assuming yesterday's squad plan still holds."
+          ],
+          "steps": [
+            "Check the latest official Steam News before changing your roster around a class claim.",
+            "Separate named special soldiers from general class advice.",
+            "Do not convert Trade Port or trait changes into a class ranking unless the source actually supports it."
+          ],
+          "claim_ids": [
+            "claim-combat-classes-official-ui-20260928",
+            "claim-combat-classes-boundary-20260928"
+          ]
+        },
+        {
+          "heading": "What this page will not claim",
+          "paragraphs": [
+            "This page does not claim a best combat class, a fixed healer count, exact DPS values, class unlock requirements, hidden class formulas, a ranked list of every soldier, or a guaranteed build for every sector. The current evidence supports a practical decision route, not a math table.",
+            "For troop quality, captures and upgrades, use the Best Troops guide. For commands and spacing, use the F1 Commands guide. Combat classes sit between those pages: they help decide what role the squad lacks once you know the mission problem."
+          ],
+          "steps": [
+            "Use class advice to choose a test, not to skip testing.",
+            "Keep patch date and build context attached to any class claim.",
+            "Update this page only when official notes or current high-quality evidence change the role boundary."
+          ],
+          "claim_ids": [
+            "claim-combat-classes-boundary-20260928"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What are the best combat classes in Pax Autocratica?",
+          "answer": "There is no official fixed class ranking. Use classes by role: recovery, protection, burst damage, control and squad support, then retest after patches that touch soldiers or combat.",
+          "claim_ids": [
+            "claim-combat-classes-boundary-20260928"
+          ]
+        },
+        {
+          "question": "Are Medics essential?",
+          "answer": "Current player discussion treats Medics as an obvious favorite, but the safe answer is role-based: bring recovery when attrition or downed-player situations are the real failure point.",
+          "claim_ids": [
+            "claim-combat-classes-demand-20260928"
+          ]
+        },
+        {
+          "question": "Did the developer publish class stats or DPS tables?",
+          "answer": "No captured official source publishes a full combat-class stat table, DPS ranking or best-build formula. Official notes confirm class UI and soldier/combat changes, not a tier list.",
+          "claim_ids": [
+            "claim-combat-classes-official-ui-20260928",
+            "claim-combat-classes-boundary-20260928"
+          ]
+        },
+        {
+          "question": "How is this different from the Best Troops guide?",
+          "answer": "Best Troops covers upgrade, capture and force-quality decisions. Combat Classes focuses on squad role coverage: healing, shielding, burst damage and current-build class checks.",
+          "claim_ids": [
+            "claim-combat-classes-boundary-20260928"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-discussion-combat-classes-20260928",
+        "src-steam-news-st11-20260928",
+        "src-steam-news-aug28-20260928",
+        "src-steam-news-st24-20260928",
+        "src-steam-store-20260928"
+      ],
+      "claim_ids": [
+        "claim-combat-classes-demand-20260928",
+        "claim-combat-classes-official-ui-20260928",
+        "claim-combat-classes-boundary-20260928"
+      ],
+      "updated_at": "2026-09-28T09:36:00+08:00",
+      "time_sensitivity": "early_access_balance",
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-best-troops",
+        "pax-autocratica-f1-commands",
+        "pax-autocratica-revive-player",
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-sector-1-elysia-battles"
       ],
       "ad_slot_count": 2
     }
@@ -9734,6 +9894,74 @@
       "quality_review_id": "q01-pax-autocratica-sector-1-elysia-battles",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct first-sector content freshness task created by ST-24 while explicitly refusing unsupported battle names, route order, drops or difficulty numbers."
+    },
+    "pax-autocratica-combat-classes": {
+      "intent_id": "intent-20260928-combat-classes",
+      "intent_type": "community_demand_plus_official_ui_boundary",
+      "user_job": "Decide how to think about Pax Autocratica combat classes after recent patches without relying on an unsupported tier list.",
+      "intent_evidence_ids": [
+        "src-steam-discussion-combat-classes-20260928",
+        "src-steam-news-st11-20260928",
+        "src-steam-news-aug28-20260928",
+        "src-steam-news-st24-20260928",
+        "src-steam-store-20260928"
+      ],
+      "answerability": "resolved_with_role_based_boundary",
+      "coverage": [
+        {
+          "dimension": "player_demand",
+          "status": "covered",
+          "claim_ids": [
+            "claim-combat-classes-demand-20260928"
+          ],
+          "evidence_relation": "steam_discussion_current",
+          "notes": "Now that we have had some patches and time to play, where are we with our favorite class meta? Medics remain essential, shieldmasters are similarly great for their shield heal. Cluster shotgunners are fantastic shock troops (as they should be given the State's decision to build our base around one). Those are obvious. Anyone notice anything fun with the other races?"
+        },
+        {
+          "dimension": "official_class_support",
+          "status": "covered",
+          "claim_ids": [
+            "claim-combat-classes-official-ui-20260928"
+          ],
+          "evidence_relation": "official_patch_notes",
+          "notes": "Official news captures mention Soldier Details class details, class-based sorting, soldier combat-strength changes, allied affix cooldown and ST-24 soldier balance boundaries."
+        },
+        {
+          "dimension": "tier_list_boundary",
+          "status": "bounded",
+          "claim_ids": [
+            "claim-combat-classes-boundary-20260928"
+          ],
+          "evidence_relation": "official_omission",
+          "notes": "No captured official source publishes a full combat-class stat table or permanent ranking."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam discussion: Favorite Combat Classes",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586187095759969121/",
+          "source_type": "community"
+        },
+        {
+          "label": "Steam News: Directive ST-24",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Steam Community all news",
+          "url": "https://steamcommunity.com/app/1067360/allnews/",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Pax Autocratica Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        }
+      ],
+      "last_checked_at": "2026-09-28T09:36:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-combat-classes",
+      "status": "publish",
+      "depth_variance_reason": "The page answers a distinct role-composition task and explicitly avoids an unsupported class tier list, DPS table or fixed meta."
     }
   },
   "homeProvenance": {
@@ -10533,6 +10761,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 expedition screenshot already present in the site media registry.",
       "relevance_reason": "Shows the expedition context for a current-build page about Sector 1 Elysia battle additions."
+    },
+    {
+      "asset_id": "pax-autocratica-combat-classes-20260928",
+      "page": "/pax-autocratica-combat-classes",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-best-troops-12.webp",
+      "alt": "Pax Autocratica combat scene used for the combat classes guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-28T09:36:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 combat screenshot already present in the site media registry.",
+      "relevance_reason": "Shows squad combat context for a guide about combat class roles without inventing class-specific art."
     }
   ],
   "ads": {
@@ -10605,12 +10849,12 @@
   "site": {
     "indexable": true,
     "base_url": "https://paxautocratica.vip",
-    "version": "local-pending-elysia-battles",
+    "version": "local-pending-combat-classes",
     "default_locale": "en",
     "locales": [
       "en"
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-27T09:20:00+08:00"
+  "generated_at": "2026-09-28T09:36:00+08:00"
 }
