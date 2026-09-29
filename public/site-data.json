@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to combat classes, ST-24 Sector 1 Elysia battles, patch changes, logistics, revive behavior, performance, Auto-Defense, crowded UI, soldiers fighting in base, soundtrack status, Linux support and Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to small battle soldier limits, combat classes, ST-24 Sector 1 Elysia battles, patch changes, logistics, revive behavior, performance, Auto-Defense and Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-28"
+        "Updated 2026-09-29"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -134,8 +134,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to combat classes, ST-24 Sector 1 Elysia battles, patch changes, logistics, revive behavior, performance, Auto-Defense, crowded UI, soldiers fighting in base, soundtrack status, Linux support and Early Access questions.",
-    "keywords": "Pax Autocratica wiki, Pax Autocratica combat classes, Pax Autocratica best classes, Pax Autocratica medics, Pax Autocratica shieldmasters, Pax Autocratica ST-24, Pax Autocratica guide"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to small battle soldier limits, combat classes, ST-24 Sector 1 Elysia battles, patch changes, logistics, revive behavior, performance, Auto-Defense and Early Access questions.",
+    "keywords": "Pax Autocratica wiki, Pax Autocratica small battle soldier limit, Pax Autocratica 10 soldiers, Pax Autocratica combat classes, Pax Autocratica ST-24, Pax Autocratica guide"
   },
   "theme": {
     "hue": 164,
@@ -191,6 +191,7 @@
               "pax-autocratica-sector-3-final-boss",
               "pax-autocratica-best-troops",
               "pax-autocratica-combat-classes",
+              "pax-autocratica-small-battle-soldier-limit",
               "pax-autocratica-auto-defense",
               "pax-autocratica-overworked-soldiers",
               "pax-autocratica-soldiers-fighting-base",
@@ -393,6 +394,10 @@
           {
             "keyword": "Pax Autocratica Combat Classes",
             "slug": "pax-autocratica-combat-classes"
+          },
+          {
+            "keyword": "Pax Autocratica Small Battle Soldier Limit",
+            "slug": "pax-autocratica-small-battle-soldier-limit"
           }
         ]
       }
@@ -2131,7 +2136,8 @@
         "pax-autocratica-auto-defense",
         "pax-autocratica-st24-patch-notes",
         "pax-autocratica-sector-1-elysia-battles",
-        "pax-autocratica-combat-classes"
+        "pax-autocratica-combat-classes",
+        "pax-autocratica-small-battle-soldier-limit"
       ],
       "ad_slot_count": 2,
       "last_checked_at": "2026-08-21T01:06:09.726Z"
@@ -5553,7 +5559,8 @@
         "pax-autocratica-crowded-ui",
         "pax-autocratica-auto-defense",
         "pax-autocratica-st24-patch-notes",
-        "pax-autocratica-sector-1-elysia-battles"
+        "pax-autocratica-sector-1-elysia-battles",
+        "pax-autocratica-small-battle-soldier-limit"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-25T09:20:00+08:00",
@@ -6326,7 +6333,7 @@
         "title": "Pax Autocratica Auto-Defense: Affix, Turrets and Base Defense",
         "description": "A source-backed Pax Autocratica Auto-Defense guide explaining the official affix evidence, enemy turret references, Missile Towers, and what not to assume about base defense."
       },
-      "direct_answer": "Pax Autocratica does have official references to an Auto-Defense affix and to turrets or Missile Towers in combat/balance notes, but the captured sources do not prove a full base-defense mode where enemies raid your colony or where you place permanent auto turrets around the base. Treat Auto-Defense as a combat/affix term unless a current in-game tooltip or official patch note says otherwise. If you are asking whether the game is a colony-defense tower-defense loop, the safe answer today is no confirmed source-backed page can promise that; the official store describes building a colony and personally storming roguelite battlefields with soldiers.",
+      "direct_answer": "Pax Autocratica has official references to an Auto-Defense affix and to combat turrets, but a current Steam base-defense request received a developer/community-manager boundary: home-base defense with bugs and turrets has been suggested many times, is not currently planned, and has been taken under advisement. Treat Auto-Defense as a combat/affix term unless a current official patch note or in-game system directly says colony raids, base-defense mode, or player-built base turrets are available.",
       "direct_answer_claim_ids": [
         "claim-auto-defense-current-demand-20260924",
         "claim-auto-defense-official-st11-20260924",
@@ -6350,6 +6357,21 @@
           "claim_ids": [
             "claim-auto-defense-official-st11-20260924",
             "claim-auto-defense-no-base-defense-proof-20260924"
+          ]
+        },
+        {
+          "heading": "2026 base-defense request update",
+          "paragraphs": [
+            "A current Steam discussion asks for defending the home base from bugs with turrets. Gurttron replies that this has been suggested many times, is currently not planned, and has been taken under advisement.",
+            "That direct boundary strengthens the earlier evidence rule: do not turn Auto-Defense, enemy turrets or Missile Tower wording into a claim that a playable base-defense/tower-defense layer exists today."
+          ],
+          "steps": [
+            "Use the request as demand evidence, not as feature evidence.",
+            "Do not publish turret recipes, raid strategy or base-defense build orders until the game ships that system.",
+            "Recheck future patch notes for direct base-defense wording before changing this answer."
+          ],
+          "claim_ids": [
+            "claim-base-defense-not-planned-20260929"
           ]
         },
         {
@@ -6456,7 +6478,8 @@
         "src-steam-news-st11-20260924",
         "src-steam-news-demo-auto-defense-20260924",
         "src-steam-appdetails-20260924",
-        "src-official-site-20260924"
+        "src-official-site-20260924",
+        "src-steam-discussion-base-defence-20260929"
       ],
       "related_slugs": [
         "pax-autocratica-best-troops",
@@ -6466,10 +6489,13 @@
         "pax-autocratica-performance"
       ],
       "parent_category": "Guide",
-      "updated_at": "2026-09-24T09:18:00+08:00",
+      "updated_at": "2026-09-29T09:05:15+08:00",
       "time_sensitivity": "changing",
       "page_status": "publish",
-      "index_status": "index"
+      "index_status": "index",
+      "claim_ids": [
+        "claim-base-defense-not-planned-20260929"
+      ]
     },
     {
       "keyword": "Pax Autocratica ST-24 Patch Notes",
@@ -6621,7 +6647,8 @@
         "pax-autocratica-capture-mechanics",
         "pax-autocratica-best-troops",
         "pax-autocratica-sector-1-elysia-battles",
-        "pax-autocratica-combat-classes"
+        "pax-autocratica-combat-classes",
+        "pax-autocratica-small-battle-soldier-limit"
       ],
       "ad_slot_count": 2
     },
@@ -6751,7 +6778,8 @@
         "pax-autocratica-capture-mechanics",
         "pax-autocratica-performance",
         "pax-autocratica-best-troops",
-        "pax-autocratica-combat-classes"
+        "pax-autocratica-combat-classes",
+        "pax-autocratica-small-battle-soldier-limit"
       ],
       "ad_slot_count": 2
     },
@@ -6901,7 +6929,153 @@
         "pax-autocratica-f1-commands",
         "pax-autocratica-revive-player",
         "pax-autocratica-st24-patch-notes",
-        "pax-autocratica-sector-1-elysia-battles"
+        "pax-autocratica-sector-1-elysia-battles",
+        "pax-autocratica-small-battle-soldier-limit"
+      ],
+      "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Small Battle Soldier Limit",
+      "slug": "pax-autocratica-small-battle-soldier-limit",
+      "seo": {
+        "title": "Pax Autocratica Small Battle Soldier Limit: 10 Soldiers Bug Check",
+        "description": "A source-backed Pax Autocratica guide for the current small-battle 10-soldier limit report, what the marked Steam answer says, and what not to assume before a patch note."
+      },
+      "direct_answer": "A current Steam discussion reports that after the latest large update, a small battle map only allows 10 soldiers. The thread is marked answered, and the marked answer says it is a bug that is being worked on after being found during Early Access testing. Treat that as a current bug-report boundary, not as an official permanent squad-size rule. There is no captured official patch note that publishes a universal small-battle soldier cap, a setting to bypass it, or a release date for the fix.",
+      "direct_answer_claim_ids": [
+        "claim-small-battle-limit-demand-20260929",
+        "claim-small-battle-limit-bug-boundary-20260929",
+        "claim-small-battle-limit-official-boundary-20260929"
+      ],
+      "sections": [
+        {
+          "heading": "What changed for the player",
+          "paragraphs": [
+            "The current discussion asks whether a post-update small battle map being limited to 10 soldiers is intended or a bug. That is a narrow but real player task: before changing your roster, you need to know whether you missed an option or whether the limit should be treated as a reported issue.",
+            "The safest answer today is not to turn the number 10 into a permanent mechanics table. Use it as a current report tied to small battles after the update, then recheck official patch notes before writing new build advice around it."
+          ],
+          "steps": [
+            "Record the battle type, sector, map size and exact squad count shown by the deployment UI.",
+            "Check whether the limit appears only on small battle maps or across all expeditions.",
+            "Do not delete or rebuild squads just because this specific report exists."
+          ],
+          "claim_ids": [
+            "claim-small-battle-limit-demand-20260929"
+          ]
+        },
+        {
+          "heading": "What the marked answer supports",
+          "paragraphs": [
+            "The Steam thread has an answer marker. The marked answer says the behavior is a bug, that it is currently being worked on, and that it was found during Early Access testing. That is useful triage evidence for players who are wondering whether they missed a hidden setting.",
+            "It is still not the same as a shipped fix note. Until Multiverse publishes a patch note or the current build visibly changes, write this down as a reported small-battle limit bug rather than a resolved rule."
+          ],
+          "steps": [
+            "Use the marked answer to avoid over-explaining the limit as a design choice.",
+            "Keep a save or screenshot if you plan to report your own occurrence.",
+            "Update your conclusion only after an official note or current-build test confirms the behavior changed."
+          ],
+          "claim_ids": [
+            "claim-small-battle-limit-bug-boundary-20260929"
+          ]
+        },
+        {
+          "heading": "How ST-24 fits, and what it does not prove",
+          "paragraphs": [
+            "Directive ST-24 is the latest official news captured today. It adds three new battles to Sector 1 - Elysia and includes several soldier, revive, capture, battle-scene and stability fixes. That makes it relevant background for a post-update battle-limit question.",
+            "ST-24 does not publish a small-battle squad-size table, does not say that 10 soldiers is the intended cap for every small map, and does not state that this exact reported limit is already fixed. The official note is context, not a direct answer to the discussion."
+          ],
+          "steps": [
+            "Read the latest official patch note before treating a community answer as final.",
+            "Separate battle additions from deployment-limit rules.",
+            "If a later directive mentions deployment slots, small battles or soldier caps, recheck this page first."
+          ],
+          "claim_ids": [
+            "claim-small-battle-limit-official-boundary-20260929"
+          ]
+        },
+        {
+          "heading": "What to try before filing another report",
+          "paragraphs": [
+            "If you see the same limit, avoid vague reports like 'soldiers broken.' The useful report names the map, the battle size, the deployment screen count, whether robots and medics were included, and whether other battle sizes behave differently.",
+            "The existing pinned bug-reporting thread is still the safer path for detailed save/log reports. Public discussion can identify demand, but reproducible details are what help the developer separate a UI cap, a map-specific deployment limit, and a broader squad-selection bug."
+          ],
+          "steps": [
+            "Restart the game and reload the same save once before reporting.",
+            "Try one different battle size if available, then compare the deployment count.",
+            "Attach the current build context and avoid claiming it affects every battle unless you tested that."
+          ],
+          "claim_ids": [
+            "claim-small-battle-limit-bug-boundary-20260929"
+          ]
+        },
+        {
+          "heading": "What this page will not claim",
+          "paragraphs": [
+            "This page does not claim the final intended soldier cap, a hidden option to bypass small-battle limits, a guaranteed fix date, a universal 10-soldier rule, a mod workaround, or that every deployment issue after ST-24 has the same cause.",
+            "For choosing roles inside whatever squad size you can deploy, use the Combat Classes guide. For troop quality and capture/upgrades, use Best Troops. For crash or performance symptoms, use Performance instead of treating the soldier limit as a graphics issue."
+          ],
+          "steps": [
+            "Treat 10 soldiers as a reported current symptom, not a complete rules table.",
+            "Use official notes for shipped fixes.",
+            "Keep this topic separate from class ranking and troop-quality decisions."
+          ],
+          "claim_ids": [
+            "claim-small-battle-limit-official-boundary-20260929"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is the 10-soldier small battle limit intended?",
+          "answer": "The current marked Steam answer says it is a bug being worked on. No captured official patch note publishes 10 as the intended small-battle cap.",
+          "claim_ids": [
+            "claim-small-battle-limit-bug-boundary-20260929"
+          ]
+        },
+        {
+          "question": "Can I bypass the limit with a setting?",
+          "answer": "No captured source confirms a setting that bypasses this reported small-battle limit. Recheck the deployment UI and current patch notes before assuming there is a hidden toggle.",
+          "claim_ids": [
+            "claim-small-battle-limit-official-boundary-20260929"
+          ]
+        },
+        {
+          "question": "Did ST-24 fix this exact issue?",
+          "answer": "Not from the captured official note. ST-24 is relevant because it changed battles and soldiers, but it does not directly name the small-battle 10-soldier limit.",
+          "claim_ids": [
+            "claim-small-battle-limit-official-boundary-20260929"
+          ]
+        },
+        {
+          "question": "Should I change my combat class plan because of this?",
+          "answer": "Only for the affected run. If a small battle currently limits your squad, prioritize role coverage inside that limit; do not treat it as a permanent meta rule.",
+          "claim_ids": [
+            "claim-small-battle-limit-demand-20260929"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-discussion-small-battle-limit-20260929",
+        "src-steam-news-st24-20260929",
+        "src-steam-discussions-index-20260929",
+        "src-steam-store-20260929"
+      ],
+      "claim_ids": [
+        "claim-small-battle-limit-demand-20260929",
+        "claim-small-battle-limit-bug-boundary-20260929",
+        "claim-small-battle-limit-official-boundary-20260929"
+      ],
+      "updated_at": "2026-09-29T09:05:15+08:00",
+      "time_sensitivity": "early_access_bug_report",
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-combat-classes",
+        "pax-autocratica-best-troops",
+        "pax-autocratica-sector-1-elysia-battles",
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-performance"
       ],
       "ad_slot_count": 2
     }
@@ -9772,12 +9946,20 @@
           "label": "Steam appdetails: official store description",
           "url": "https://store.steampowered.com/api/appdetails?appids=1067360&filters=basic,genres,categories,release_date,platforms",
           "source_type": "official_store_metadata"
+        },
+        {
+          "label": "Steam discussion: Base Defence?!",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586187334843630783/",
+          "source_type": "community"
         }
       ],
-      "last_checked_at": "2026-09-24T09:18:00+08:00",
+      "last_checked_at": "2026-09-29T09:05:15+08:00",
       "quality_review_id": "q01-pax-autocratica-auto-defense",
       "status": "publish",
-      "depth_variance_reason": "The page answers a distinct Auto-Defense/base-defense terminology task, separate from soldier fighting, performance, patch notes and roadmap pages."
+      "depth_variance_reason": "The page answers a distinct Auto-Defense/base-defense terminology task, separate from soldier fighting, performance, patch notes and roadmap pages.",
+      "boundaries": [
+        "2026-09-29 discussion says base defense with turrets is currently not planned and only taken under advisement."
+      ]
     },
     "pax-autocratica-st24-patch-notes": {
       "intent_id": "intent-20260925-st24-patch-notes",
@@ -9962,6 +10144,77 @@
       "quality_review_id": "q01-pax-autocratica-combat-classes",
       "status": "publish",
       "depth_variance_reason": "The page answers a distinct role-composition task and explicitly avoids an unsupported class tier list, DPS table or fixed meta."
+    },
+    "pax-autocratica-small-battle-soldier-limit": {
+      "intent_id": "intent-20260929-small-battle-soldier-limit",
+      "intent_type": "current_discussion_bug_triage_plus_official_patch_boundary",
+      "user_job": "Decide whether the current small-battle 10-soldier deployment limit is intended, a missed setting, or a reported bug.",
+      "intent_evidence_ids": [
+        "src-steam-discussion-small-battle-limit-20260929",
+        "src-steam-news-st24-20260929",
+        "src-steam-discussions-index-20260929",
+        "src-steam-store-20260929"
+      ],
+      "answerability": "resolved_with_marked_answer_and_patch_boundary",
+      "coverage": [
+        {
+          "dimension": "player_demand",
+          "status": "covered",
+          "claim_ids": [
+            "claim-small-battle-limit-demand-20260929"
+          ],
+          "evidence_relation": "steam_discussion_current",
+          "notes": "after the Huge update came out i can now only have 10 soilders in an small battle Map? i find this kinda Bad bc i wanna unleash my entire robot Army and medics Unles theres an option i missed"
+        },
+        {
+          "dimension": "bug_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-small-battle-limit-bug-boundary-20260929"
+          ],
+          "evidence_relation": "steam_marked_answer",
+          "notes": "Originally posted by Reaper :"
+        },
+        {
+          "dimension": "official_patch_boundary",
+          "status": "bounded",
+          "claim_ids": [
+            "claim-small-battle-limit-official-boundary-20260929"
+          ],
+          "evidence_relation": "official_news_omission",
+          "notes": "ST-24 adds battles and soldier/combat changes but does not publish a small-battle squad-size table or this exact fix."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam discussion: Is this intended or an Bug?",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586187095759926451/",
+          "source_type": "community"
+        },
+        {
+          "label": "Steam News: Directive ST-24",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Steam discussions index",
+          "url": "https://steamcommunity.com/app/1067360/discussions/",
+          "source_type": "community"
+        },
+        {
+          "label": "Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        }
+      ],
+      "last_checked_at": "2026-09-29T09:05:15+08:00",
+      "quality_review_id": "q01-pax-autocratica-small-battle-soldier-limit",
+      "boundaries": [
+        "Does not claim the final intended soldier cap.",
+        "Does not claim a hidden bypass setting.",
+        "Does not claim ST-24 fixed this exact report.",
+        "Does not treat a marked community answer as a full official patch note."
+      ]
     }
   },
   "homeProvenance": {
@@ -10777,6 +11030,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 combat screenshot already present in the site media registry.",
       "relevance_reason": "Shows squad combat context for a guide about combat class roles without inventing class-specific art."
+    },
+    {
+      "asset_id": "pax-autocratica-small-battle-soldier-limit-20260929",
+      "page": "/pax-autocratica-small-battle-soldier-limit",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-best-troops-12.webp",
+      "alt": "Pax Autocratica combat screenshot used for the small battle soldier limit guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-29T09:05:15+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 combat screenshot already present in the site media registry.",
+      "relevance_reason": "Shows expedition combat context for a page about squad deployment limits without inventing bug-specific art."
     }
   ],
   "ads": {
@@ -10856,5 +11125,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-28T09:36:00+08:00"
+  "generated_at": "2026-09-29T09:05:15+08:00"
 }
