@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to small battle soldier limits, combat classes, ST-24 Sector 1 Elysia battles, patch changes, logistics, revive behavior, performance, Auto-Defense and Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to base building, colony logistics, small battle soldier limits, combat classes, ST-24 patch changes, revive behavior, performance, Auto-Defense and Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-29"
+        "Updated 2026-09-30"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -134,8 +134,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to small battle soldier limits, combat classes, ST-24 Sector 1 Elysia battles, patch changes, logistics, revive behavior, performance, Auto-Defense and Early Access questions.",
-    "keywords": "Pax Autocratica wiki, Pax Autocratica small battle soldier limit, Pax Autocratica 10 soldiers, Pax Autocratica combat classes, Pax Autocratica ST-24, Pax Autocratica guide"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to base building, colony logistics, small battle soldier limits, combat classes, ST-24 patch changes, revive behavior, performance, Auto-Defense and Early Access questions.",
+    "keywords": "Pax Autocratica wiki, Pax Autocratica base building, Pax Autocratica colony guide, Pax Autocratica Trade Port, Pax Autocratica ST-24, Pax Autocratica guide"
   },
   "theme": {
     "hue": 164,
@@ -173,6 +173,7 @@
             "title": "Colony logistics and live settings",
             "description": "Check changing colony-management questions without turning community reports into unsupported facts.",
             "slugs": [
+              "pax-autocratica-base-building",
               "pax-autocratica-resource-transport-station-warehouse",
               "pax-autocratica-custom-colony-settings",
               "pax-autocratica-trade-port",
@@ -398,6 +399,10 @@
           {
             "keyword": "Pax Autocratica Small Battle Soldier Limit",
             "slug": "pax-autocratica-small-battle-soldier-limit"
+          },
+          {
+            "keyword": "Pax Autocratica Base Building",
+            "slug": "pax-autocratica-base-building"
           }
         ]
       }
@@ -942,7 +947,8 @@
         "pax-autocratica-trailer",
         "pax-autocratica-mods",
         "pax-autocratica-capture-mechanics",
-        "pax-autocratica-best-troops"
+        "pax-autocratica-best-troops",
+        "pax-autocratica-base-building"
       ],
       "ad_slot_count": 2
     },
@@ -2583,7 +2589,8 @@
         "pax-autocratica-trade-port",
         "pax-autocratica-resource-transport-station-warehouse",
         "pax-autocratica-community",
-        "pax-autocratica-soldiers-fighting-base"
+        "pax-autocratica-soldiers-fighting-base",
+        "pax-autocratica-base-building"
       ],
       "ad_slot_count": 2
     },
@@ -2732,7 +2739,8 @@
         "pax-autocratica-custom-colony-settings",
         "pax-autocratica-community",
         "pax-autocratica-sector-2-difficulty",
-        "pax-autocratica-st24-patch-notes"
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-base-building"
       ],
       "ad_slot_count": 2
     },
@@ -2872,7 +2880,8 @@
         "pax-autocratica-custom-colony-settings",
         "pax-autocratica-resource-transport-station-warehouse",
         "pax-autocratica-gameplay",
-        "pax-autocratica-community"
+        "pax-autocratica-community",
+        "pax-autocratica-base-building"
       ],
       "ad_slot_count": 2
     },
@@ -5224,7 +5233,8 @@
         "pax-autocratica-soldier-gear",
         "pax-autocratica-community",
         "pax-autocratica-revive-player",
-        "pax-autocratica-soldiers-fighting-base"
+        "pax-autocratica-soldiers-fighting-base",
+        "pax-autocratica-base-building"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-19T09:11:00+08:00",
@@ -6173,7 +6183,8 @@
         "pax-autocratica-custom-colony-settings",
         "pax-autocratica-best-troops",
         "pax-autocratica-community",
-        "pax-autocratica-auto-defense"
+        "pax-autocratica-auto-defense",
+        "pax-autocratica-base-building"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-22T09:18:00+08:00",
@@ -6486,7 +6497,8 @@
         "pax-autocratica-soldiers-fighting-base",
         "pax-autocratica-st11-patch-notes",
         "pax-autocratica-roadmap",
-        "pax-autocratica-performance"
+        "pax-autocratica-performance",
+        "pax-autocratica-base-building"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-29T09:05:15+08:00",
@@ -6648,7 +6660,8 @@
         "pax-autocratica-best-troops",
         "pax-autocratica-sector-1-elysia-battles",
         "pax-autocratica-combat-classes",
-        "pax-autocratica-small-battle-soldier-limit"
+        "pax-autocratica-small-battle-soldier-limit",
+        "pax-autocratica-base-building"
       ],
       "ad_slot_count": 2
     },
@@ -7076,6 +7089,157 @@
         "pax-autocratica-sector-1-elysia-battles",
         "pax-autocratica-st24-patch-notes",
         "pax-autocratica-performance"
+      ],
+      "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Base Building",
+      "slug": "pax-autocratica-base-building",
+      "seo": {
+        "title": "Pax Autocratica Base Building: Current Colony Priorities",
+        "description": "A source-backed Pax Autocratica base building guide for colony jobs, hauling, Trade Port context, current player feedback, and what not to assume during Early Access."
+      },
+      "direct_answer": "Pax Autocratica base building is a real current-game pillar, not only decoration. The official Steam store describes turning survivors into a self-sustaining colony where citizens mine, gather, haul, research, and manufacture weapons, armor, food, and supplies. The safest current priority is to treat the base as the preparation layer for expeditions: stabilize production and hauling first, then use Trade Port, research, soldier management, settings, and layout changes to support a specific next run. A current Steam discussion praises fortress-style base building and mentions Trade Port inspiration, while another suggestion thread was acknowledged as feedback sent to the team. Those are demand and direction signals, not proof of a complete base-layout meta, a shipped base-defense mode, or a guaranteed next-feature list.",
+      "direct_answer_claim_ids": [
+        "claim-base-building-official-loop-20260930",
+        "claim-base-building-current-demand-20260930",
+        "claim-base-building-feedback-boundary-20260930",
+        "claim-base-building-st24-logistics-20260930"
+      ],
+      "sections": [
+        {
+          "heading": "What base building is responsible for",
+          "paragraphs": [
+            "The official store wording makes the base more than scenery: citizens are assigned to mining, gathering, hauling, research, and manufacturing weapons, armor, food, and supplies. Those jobs are the state layer that lets the expedition layer keep moving.",
+            "Use that source as the boundary. This page can explain priorities and recheck points, but it should not invent building unlock tables, ideal room blueprints, decoration scores, or exact production math that the captured official sources do not publish."
+          ],
+          "steps": [
+            "Identify the production job that is actually blocking your next expedition.",
+            "Fix hauling and storage visibility before rebuilding the whole settlement.",
+            "Tie each building change to a next-run goal: supplies, gear, research, money, recovery, or troop quality."
+          ],
+          "claim_ids": [
+            "claim-base-building-official-loop-20260930"
+          ]
+        },
+        {
+          "heading": "Current priority route",
+          "paragraphs": [
+            "Start with the chain that fails fastest when ignored: resource production, hauling, Warehouse flow, research or crafting, then expedition preparation. ST-24 is current official evidence that logistics are still actively maintained: it changes temporary assignment, auto-assignment, Resource Transport Station behavior, Warehouse transfer timing, interrupted hauling, Trade Port goods, and Victory Square slots.",
+            "That means a good base plan in this build is not a static floorplan copied from an old screenshot. It is a short checklist that asks which part of the colony-to-frontier loop is slowing the next battle."
+          ],
+          "steps": [
+            "If buildings fill up, recheck Resource Transport Station and Warehouse behavior.",
+            "If soldiers drift from important work, recheck temporary assignment and auto-assignment outcomes.",
+            "If Trade Port purchases hurt soldiers or clutter decisions, recheck current ST-24 goods changes before buying around an old table."
+          ],
+          "claim_ids": [
+            "claim-base-building-st24-logistics-20260930"
+          ]
+        },
+        {
+          "heading": "What today's community evidence adds",
+          "paragraphs": [
+            "A current discussion says the player is moving through the game quickly but sees the long-term vision. In replies, base building is called worth investing in, fortress or town preparation is framed as a highlight, and Trade Port/base design inspiration is mentioned.",
+            "That supports a real reader task: players want to know whether fixing up the base is worth time after the first rush. It does not turn a community reply into an official layout guide, and it does not prove co-op, future buildings, or an exact content schedule."
+          ],
+          "steps": [
+            "Use community base-design talk as inspiration, not as a rules source.",
+            "Treat fortress/Trade Port references as examples of player goals, not mandatory progression.",
+            "Keep co-op hopes on the Multiplayer page until a dated official update confirms a released mode."
+          ],
+          "claim_ids": [
+            "claim-base-building-current-demand-20260930"
+          ]
+        },
+        {
+          "heading": "Suggestion threads are not patch notes",
+          "paragraphs": [
+            "Another current thread collects suggestions around soldier portraits, aerial inspection, readability, elite visuals, unit classes, factions, and art direction. Multiverse replies that the feedback has been noted and sent to the team.",
+            "That is useful for deciding what to watch next, but it is not a shipped feature. For base building, it means future-facing feedback can influence priorities while the public guide must still separate confirmed systems from ideas under review."
+          ],
+          "steps": [
+            "Record the suggestion theme and the reply, but do not promise implementation.",
+            "Update this page only when a dated patch note changes a base, layout, logistics, Trade Port, or construction fact.",
+            "Use the Supreme Powers and Roadmap pages for idea-submission context instead of making each suggestion a thin page."
+          ],
+          "claim_ids": [
+            "claim-base-building-feedback-boundary-20260930"
+          ]
+        },
+        {
+          "heading": "What not to claim yet",
+          "paragraphs": [
+            "This page does not claim a best base blueprint, a full building unlock order, exact work-speed values, complete Trade Port goods tables, a base-defense/turret system, co-op base sharing, or an official schedule for more base content.",
+            "When a player needs a narrower answer, use the dedicated pages: Resource Transport Station/Warehouse for hauling, Trade Port for buying and selling boundaries, Custom Colony Settings for difficulty tuning, Overworked Soldiers for schedule pressure, and Soldiers Fighting In Base for social conflict."
+          ],
+          "steps": [
+            "Do not rebuild the whole base from a single discussion reply.",
+            "Do not treat decoration or fortress inspiration as mechanical optimization unless the current build proves it.",
+            "Recheck ST-24 and later directives before copying any base advice into a permanent guide."
+          ],
+          "claim_ids": [
+            "claim-base-building-feedback-boundary-20260930"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is base building actually important in Pax Autocratica?",
+          "answer": "Yes. The official store describes base and colony jobs as part of the core loop: mining, gathering, hauling, research, manufacturing gear, food, and supplies. Treat the base as expedition preparation, not just decoration.",
+          "claim_ids": [
+            "claim-base-building-official-loop-20260930"
+          ]
+        },
+        {
+          "question": "What should I fix first in the base?",
+          "answer": "Fix the current bottleneck: resource production, hauling/Warehouse flow, research/crafting, or soldier recovery. ST-24 makes hauling and assignment behavior a current-build recheck point.",
+          "claim_ids": [
+            "claim-base-building-st24-logistics-20260930"
+          ]
+        },
+        {
+          "question": "Does a fortress layout or Trade Port build have an official best plan?",
+          "answer": "Not from the captured sources. Current discussion shows player interest and inspiration, while official sources confirm systems and patch changes rather than a best blueprint.",
+          "claim_ids": [
+            "claim-base-building-current-demand-20260930"
+          ]
+        },
+        {
+          "question": "Does this prove base defense is coming?",
+          "answer": "No. Base building is confirmed, but home-base defense with bugs and turrets remains a separate topic with a not-currently-planned boundary on the Auto-Defense page.",
+          "claim_ids": [
+            "claim-base-building-feedback-boundary-20260930"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-store-base-loop-20260930",
+        "src-steam-discussion-base-building-20260930",
+        "src-steam-discussion-suggestions-20260930",
+        "src-steam-news-st24-20260930",
+        "src-steam-discussions-index-20260930"
+      ],
+      "claim_ids": [
+        "claim-base-building-official-loop-20260930",
+        "claim-base-building-current-demand-20260930",
+        "claim-base-building-feedback-boundary-20260930",
+        "claim-base-building-st24-logistics-20260930"
+      ],
+      "updated_at": "2026-09-30T09:30:00+08:00",
+      "time_sensitivity": "early_access_current_build",
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-gameplay",
+        "pax-autocratica-resource-transport-station-warehouse",
+        "pax-autocratica-trade-port",
+        "pax-autocratica-custom-colony-settings",
+        "pax-autocratica-overworked-soldiers",
+        "pax-autocratica-soldiers-fighting-base",
+        "pax-autocratica-auto-defense",
+        "pax-autocratica-st24-patch-notes"
       ],
       "ad_slot_count": 2
     }
@@ -10215,6 +10379,88 @@
         "Does not claim ST-24 fixed this exact report.",
         "Does not treat a marked community answer as a full official patch note."
       ]
+    },
+    "pax-autocratica-base-building": {
+      "intent_id": "intent-20260930-base-building",
+      "intent_type": "current_base_building_priority_guide",
+      "user_job": "Decide whether base building is worth investing in and what current-build base systems to check first.",
+      "intent_evidence_ids": [
+        "src-steam-store-base-loop-20260930",
+        "src-steam-discussion-base-building-20260930",
+        "src-steam-discussion-suggestions-20260930",
+        "src-steam-news-st24-20260930",
+        "src-steam-discussions-index-20260930"
+      ],
+      "answerability": "resolved_with_official_store_loop_plus_current_discussion_and_patch_boundaries",
+      "coverage": [
+        {
+          "dimension": "official_base_loop",
+          "status": "covered",
+          "claim_ids": [
+            "claim-base-building-official-loop-20260930"
+          ],
+          "evidence_relation": "steam_store_current",
+          "notes": "Store confirms colony jobs: mining, gathering, hauling, research, weapons, armor, food and supplies."
+        },
+        {
+          "dimension": "current_player_demand",
+          "status": "covered",
+          "claim_ids": [
+            "claim-base-building-current-demand-20260930"
+          ],
+          "evidence_relation": "current_steam_discussion",
+          "notes": "I am having a great time in the game, I am blazing through it a little fast even though I am on hard and have noticed that they have given us a huge amount of content to work with but I can see the vision and the refining process will definitely take time. Looking forward to it and I hope that if they do announce co-op I can find some cool people to play with! have a great day folks."
+        },
+        {
+          "dimension": "patch_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-base-building-st24-logistics-20260930"
+          ],
+          "evidence_relation": "official_news",
+          "notes": "ST-24 changes hauling, assignment, Warehouse flow, Trade Port goods and Victory Square slots."
+        },
+        {
+          "dimension": "future_suggestion_boundary",
+          "status": "bounded",
+          "claim_ids": [
+            "claim-base-building-feedback-boundary-20260930"
+          ],
+          "evidence_relation": "current_steam_discussion_reply",
+          "notes": "Multiverse says feedback was noted and sent to the team, not that suggestions are shipped."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Steam discussion: This game is amazing, when they have time to finish it WOW!",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/564794139169956456/",
+          "source_type": "community"
+        },
+        {
+          "label": "Steam discussion: A few suggestions etc",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586187334843645686/",
+          "source_type": "community_developer_reply"
+        },
+        {
+          "label": "Steam News: Directive ST-24",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        }
+      ],
+      "last_checked_at": "2026-09-30T09:30:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-base-building",
+      "boundaries": [
+        "Does not claim a best base blueprint.",
+        "Does not publish building unlock or production-value tables.",
+        "Does not claim a shipped base-defense/turret mode.",
+        "Does not promise co-op base sharing or a release schedule for future base content."
+      ],
+      "depth_variance_reason": "The page narrows the existing broad gameplay loop into a current-build base-building priority guide, using official colony-loop evidence plus fresh discussion and ST-24 logistics boundaries."
     }
   },
   "homeProvenance": {
@@ -11046,6 +11292,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 combat screenshot already present in the site media registry.",
       "relevance_reason": "Shows expedition combat context for a page about squad deployment limits without inventing bug-specific art."
+    },
+    {
+      "asset_id": "pax-autocratica-base-building-20260930",
+      "page": "/pax-autocratica-base-building",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-home-01.webp",
+      "alt": "Pax Autocratica colony management scene used for the base building guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-09-30T09:30:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 colony-management screenshot already present in the site media registry.",
+      "relevance_reason": "Shows the colony/base context for a page about production, hauling, Trade Port and base-building priorities."
     }
   ],
   "ads": {
@@ -11125,5 +11387,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-29T09:05:15+08:00"
+  "generated_at": "2026-09-30T09:30:00+08:00"
 }
