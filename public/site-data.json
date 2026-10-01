@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to base building, colony logistics, small battle soldier limits, combat classes, ST-24 patch changes, revive behavior, performance, Auto-Defense and Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to soldier customization status, base building, colony logistics, combat classes, ST-24 patch changes, performance and Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-09-30"
+        "Updated 2026-10-01"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -134,8 +134,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to base building, colony logistics, small battle soldier limits, combat classes, ST-24 patch changes, revive behavior, performance, Auto-Defense and Early Access questions.",
-    "keywords": "Pax Autocratica wiki, Pax Autocratica base building, Pax Autocratica colony guide, Pax Autocratica Trade Port, Pax Autocratica ST-24, Pax Autocratica guide"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to soldier customization status, base building, colony logistics, combat classes, ST-24 patch changes, performance and Early Access questions.",
+    "keywords": "Pax Autocratica wiki, Pax Autocratica soldier customization, Pax Autocratica outfits, Pax Autocratica soldier gear, Pax Autocratica guide"
   },
   "theme": {
     "hue": 164,
@@ -196,6 +196,7 @@
               "pax-autocratica-auto-defense",
               "pax-autocratica-overworked-soldiers",
               "pax-autocratica-soldiers-fighting-base",
+              "pax-autocratica-soldier-customization",
               "pax-autocratica-soldier-gear",
               "pax-autocratica-red-gear",
               "pax-autocratica-sacrifice-units",
@@ -403,6 +404,10 @@
           {
             "keyword": "Pax Autocratica Base Building",
             "slug": "pax-autocratica-base-building"
+          },
+          {
+            "keyword": "Pax Autocratica Soldier Customization",
+            "slug": "pax-autocratica-soldier-customization"
           }
         ]
       }
@@ -2143,7 +2148,8 @@
         "pax-autocratica-st24-patch-notes",
         "pax-autocratica-sector-1-elysia-battles",
         "pax-autocratica-combat-classes",
-        "pax-autocratica-small-battle-soldier-limit"
+        "pax-autocratica-small-battle-soldier-limit",
+        "pax-autocratica-soldier-customization"
       ],
       "ad_slot_count": 2,
       "last_checked_at": "2026-08-21T01:06:09.726Z"
@@ -3779,7 +3785,8 @@
         "pax-autocratica-best-troops",
         "pax-autocratica-sacrifice-units",
         "pax-autocratica-f1-commands",
-        "pax-autocratica-sell-unwanted-items"
+        "pax-autocratica-sell-unwanted-items",
+        "pax-autocratica-soldier-customization"
       ],
       "ad_slot_count": 2
     },
@@ -4106,7 +4113,8 @@
         "pax-autocratica-custom-colony-settings",
         "pax-autocratica-trade-port",
         "pax-autocratica-gameplay",
-        "pax-autocratica-auto-defense"
+        "pax-autocratica-auto-defense",
+        "pax-autocratica-soldier-customization"
       ],
       "ad_slot_count": 2
     },
@@ -5395,7 +5403,8 @@
         "pax-autocratica-roadmap",
         "pax-autocratica-auroria-day-reward",
         "pax-autocratica-custom-colony-settings",
-        "pax-autocratica-community"
+        "pax-autocratica-community",
+        "pax-autocratica-soldier-customization"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-17T09:18:00+08:00",
@@ -6661,7 +6670,8 @@
         "pax-autocratica-sector-1-elysia-battles",
         "pax-autocratica-combat-classes",
         "pax-autocratica-small-battle-soldier-limit",
-        "pax-autocratica-base-building"
+        "pax-autocratica-base-building",
+        "pax-autocratica-soldier-customization"
       ],
       "ad_slot_count": 2
     },
@@ -6943,7 +6953,8 @@
         "pax-autocratica-revive-player",
         "pax-autocratica-st24-patch-notes",
         "pax-autocratica-sector-1-elysia-battles",
-        "pax-autocratica-small-battle-soldier-limit"
+        "pax-autocratica-small-battle-soldier-limit",
+        "pax-autocratica-soldier-customization"
       ],
       "ad_slot_count": 2
     },
@@ -7239,6 +7250,153 @@
         "pax-autocratica-overworked-soldiers",
         "pax-autocratica-soldiers-fighting-base",
         "pax-autocratica-auto-defense",
+        "pax-autocratica-st24-patch-notes"
+      ],
+      "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Soldier Customization",
+      "slug": "pax-autocratica-soldier-customization",
+      "seo": {
+        "title": "Pax Autocratica Soldier Customization: Outfits, Gender and Gear Boundaries",
+        "description": "A source-backed Pax Autocratica soldier customization guide for outfit requests, gender/model differences, gear boundaries and what is only under review during Early Access."
+      },
+      "direct_answer": "Pax Autocratica does not currently have a captured official feature that lets players freely change every soldier's outfit, armor appearance, body model or uniform. The current public boundary is narrower: a Sept. 29 Steam discussion asks to change what soldiers wear, and Gurttron replies that this has been suggested many times and is under review or consideration for later additions. An earlier official State of the Frontline post also says requests such as visual differences between male and female soldiers, stylized avatars and more customizations are being worked on or investigated. Treat soldier customization as a watched Early Access request, not a shipped wardrobe system or confirmed roadmap date.",
+      "direct_answer_claim_ids": [
+        "claim-soldier-customization-current-request-20261001",
+        "claim-soldier-customization-official-investigation-20261001",
+        "claim-soldier-customization-boundary-20261001"
+      ],
+      "sections": [
+        {
+          "heading": "What players are asking for now",
+          "paragraphs": [
+            "The current Steam thread is direct: the player wants to change what soldiers wear. A community reply expands that into outfits, gender, weapons and armor, but that expansion is not the same as a shipped system.",
+            "Use the thread as demand evidence. It proves players are looking for appearance control, not that a full wardrobe, armor-transmog system, Steam Workshop clothing support, or character creator is already in the game."
+          ],
+          "steps": [
+            "Separate cosmetic outfit requests from combat class and gear-stat questions.",
+            "Check whether the latest patch notes mention clothing, soldier models, avatars, armor visuals or customization before assuming a feature exists.",
+            "Do not follow a community workaround unless it cites the current build and avoids save or account risk."
+          ],
+          "claim_ids": [
+            "claim-soldier-customization-current-request-20261001"
+          ]
+        },
+        {
+          "heading": "What the developer reply actually confirms",
+          "paragraphs": [
+            "Gurttron's current reply confirms that the request has been suggested and brought up many times, and that it is under review or consideration for down-the-road additions. That is a useful official-community boundary because it answers the status question without pretending the feature has shipped.",
+            "It does not confirm a release window, a clothing slot list, armor skin behavior, paid cosmetic plans, mod support, body sliders, or whether existing soldiers will be retroactively editable."
+          ],
+          "steps": [
+            "Treat the answer as under consideration, not promised.",
+            "Watch later Steam News first; discussion replies should be rechecked against dated patch notes.",
+            "If you only need stronger soldiers, use gear/class pages rather than waiting for appearance customization."
+          ],
+          "claim_ids": [
+            "claim-soldier-customization-boundary-20261001"
+          ]
+        },
+        {
+          "heading": "How it connects to the official roadmap boundary",
+          "paragraphs": [
+            "The official State of the Frontline post already names several related requests: visual differences between male and female soldiers, stylized avatars and more customizations are among items being worked on or investigated. That makes today's discussion stronger than a lone suggestion.",
+            "The same wording is still cautious. Worked on or investigated does not equal released, dated, guaranteed, or fully scoped. Early Access pages should preserve that distinction so players do not plan a colony around missing customization controls."
+          ],
+          "steps": [
+            "Use the official post to justify watching customization, avatars and soldier-model changes.",
+            "Use later patch notes to confirm any actual implementation.",
+            "Avoid combining unrelated requests into one promised feature bundle."
+          ],
+          "claim_ids": [
+            "claim-soldier-customization-official-investigation-20261001"
+          ]
+        },
+        {
+          "heading": "Gear stats and visual customization are separate",
+          "paragraphs": [
+            "Pax Autocratica already has many soldier-facing systems: class roles, special soldiers, weapon and armor drops, Trade Port goods, traits and combat balance. Those systems affect what soldiers can do. They do not automatically prove that the player can change how every soldier looks.",
+            "That matters because a player searching for soldier customization may be asking a cosmetic question, while a player searching for soldier gear may need build, drop or stat advice. Mixing them creates a thin and misleading page."
+          ],
+          "steps": [
+            "Use Soldier Gear for equipment and stat progression.",
+            "Use Combat Classes for squad role coverage.",
+            "Use this page only for appearance, outfit, avatar and model customization status."
+          ],
+          "claim_ids": [
+            "claim-soldier-customization-boundary-20261001"
+          ]
+        },
+        {
+          "heading": "What not to claim yet",
+          "paragraphs": [
+            "This page does not claim a current clothing editor, a confirmed transmog system, exact outfit slots, armor-skin rules, Steam Workshop clothing support, paid cosmetic plans, body sliders, gender-selection mechanics or a release date.",
+            "It also does not claim that today's request is rejected. The best current answer is that customization is a known player request under review or investigation, and that actual implementation needs a later dated source."
+          ],
+          "steps": [
+            "Recheck Steam News after each directive before updating the answer.",
+            "Do not turn discussion optimism into a confirmed roadmap.",
+            "Only add a build-specific how-to once the game exposes the relevant controls."
+          ],
+          "claim_ids": [
+            "claim-soldier-customization-boundary-20261001"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I change what soldiers wear in Pax Autocratica?",
+          "answer": "No captured official source confirms a current full outfit editor. The current developer reply says the request has been raised many times and is under review or consideration for later additions.",
+          "claim_ids": [
+            "claim-soldier-customization-current-request-20261001",
+            "claim-soldier-customization-boundary-20261001"
+          ]
+        },
+        {
+          "question": "Are gender or body model options confirmed?",
+          "answer": "The official State of the Frontline post says visual differences between male and female soldiers and more customizations are being worked on or investigated. It does not confirm exact options, controls or timing.",
+          "claim_ids": [
+            "claim-soldier-customization-official-investigation-20261001"
+          ]
+        },
+        {
+          "question": "Is this the same as soldier gear?",
+          "answer": "No. Gear affects equipment and combat value. This page is about appearance, outfits, avatars and model customization status.",
+          "claim_ids": [
+            "claim-soldier-customization-boundary-20261001"
+          ]
+        },
+        {
+          "question": "Should I wait for customization before building a roster?",
+          "answer": "Probably not. Use current class, gear, trait and squad-role systems for gameplay decisions, and treat appearance customization as a watched Early Access request.",
+          "claim_ids": [
+            "claim-soldier-customization-boundary-20261001"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-discussion-soldier-customization-20261001",
+        "src-steam-news-state-frontline-20261001",
+        "src-steam-appdetails-20261001",
+        "src-steam-discussions-index-20261001"
+      ],
+      "claim_ids": [
+        "claim-soldier-customization-current-request-20261001",
+        "claim-soldier-customization-official-investigation-20261001",
+        "claim-soldier-customization-boundary-20261001"
+      ],
+      "updated_at": "2026-10-01T09:02:30+08:00",
+      "time_sensitivity": "early_access_current_build",
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-soldier-gear",
+        "pax-autocratica-combat-classes",
+        "pax-autocratica-best-troops",
+        "pax-autocratica-roadmap",
+        "pax-autocratica-supreme-powers-petition",
         "pax-autocratica-st24-patch-notes"
       ],
       "ad_slot_count": 2
@@ -10461,6 +10619,72 @@
         "Does not promise co-op base sharing or a release schedule for future base content."
       ],
       "depth_variance_reason": "The page narrows the existing broad gameplay loop into a current-build base-building priority guide, using official colony-loop evidence plus fresh discussion and ST-24 logistics boundaries."
+    },
+    "pax-autocratica-soldier-customization": {
+      "intent_id": "intent-20261001-soldier-customization",
+      "intent_type": "current_soldier_appearance_customization_status",
+      "user_job": "Find out whether Pax Autocratica currently lets players customize soldier outfits, models or appearance.",
+      "intent_evidence_ids": [
+        "src-steam-discussion-soldier-customization-20261001",
+        "src-steam-news-state-frontline-20261001",
+        "src-steam-appdetails-20261001",
+        "src-steam-discussions-index-20261001"
+      ],
+      "answerability": "resolved_with_current_developer_reply_and_official_roadmap_boundary",
+      "coverage": [
+        {
+          "dimension": "current_player_request",
+          "status": "covered",
+          "claim_ids": [
+            "claim-soldier-customization-current-request-20261001"
+          ],
+          "evidence_relation": "current_steam_discussion",
+          "notes": "I would like to change what they wear."
+        },
+        {
+          "dimension": "developer_status_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-soldier-customization-boundary-20261001"
+          ],
+          "evidence_relation": "current_steam_discussion_developer_reply",
+          "notes": "Leader, this has been suggested and brought up many times, it is currently under review/consideration for down the road additions.\\n\\nAll Hail The State!"
+        },
+        {
+          "dimension": "official_related_roadmap_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-soldier-customization-official-investigation-20261001"
+          ],
+          "evidence_relation": "official_news",
+          "notes": "State of the Frontline lists visual differences between male and female soldiers, stylized avatars and more customizations as being worked on or investigated."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam discussion: Would like to see customization option's for my soldire's",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586187435308754556/",
+          "source_type": "community_developer_reply"
+        },
+        {
+          "label": "Steam News: State of the Frontline",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840944183776533",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        }
+      ],
+      "last_checked_at": "2026-10-01T09:02:30+08:00",
+      "quality_review_id": "q01-pax-autocratica-soldier-customization",
+      "boundaries": [
+        "Does not claim a current outfit editor or clothing slot list.",
+        "Does not claim armor transmog, paid cosmetics, Workshop clothing support or body sliders.",
+        "Does not publish a release date or treat under review as promised."
+      ],
+      "depth_variance_reason": "The page answers a distinct cosmetic/status intent that is separate from gear stats, combat classes and roadmap suggestion pages."
     }
   },
   "homeProvenance": {
@@ -11308,6 +11532,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 colony-management screenshot already present in the site media registry.",
       "relevance_reason": "Shows the colony/base context for a page about production, hauling, Trade Port and base-building priorities."
+    },
+    {
+      "asset_id": "pax-autocratica-soldier-customization-20261001",
+      "page": "/pax-autocratica-soldier-customization",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-best-troops-12.webp",
+      "alt": "Pax Autocratica soldier roster scene used for the soldier customization status guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-10-01T09:02:30+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 soldier-focused image already present in the site media registry.",
+      "relevance_reason": "The page explains soldier appearance, model and outfit customization boundaries."
     }
   ],
   "ads": {
@@ -11387,5 +11627,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-09-30T09:30:00+08:00"
+  "generated_at": "2026-10-01T09:02:30+08:00"
 }
