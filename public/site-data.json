@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to soldier customization status, base building, colony logistics, combat classes, ST-24 patch changes, performance and Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to the 80% discount mistake, live Steam price, soldier customization status, base building, colony logistics, combat classes, ST-24 patch changes and Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-10-01"
+        "Updated 2026-10-02"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -134,8 +134,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to soldier customization status, base building, colony logistics, combat classes, ST-24 patch changes, performance and Early Access questions.",
-    "keywords": "Pax Autocratica wiki, Pax Autocratica soldier customization, Pax Autocratica outfits, Pax Autocratica soldier gear, Pax Autocratica guide"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to the 80% discount mistake, live Steam price, soldier customization status, base building, colony logistics, combat classes, ST-24 patch changes and Early Access questions.",
+    "keywords": "Pax Autocratica wiki, Pax Autocratica 80% discount, Pax Autocratica price mistake, Pax Autocratica Steam sale, Pax Autocratica guide"
   },
   "theme": {
     "hue": 164,
@@ -212,6 +212,7 @@
             "slugs": [
               "pax-autocratica-demo",
               "pax-autocratica-price",
+              "pax-autocratica-80-discount-mistake",
               "pax-autocratica-trailer",
               "pax-autocratica-soundtrack",
               "pax-autocratica-community",
@@ -408,6 +409,10 @@
           {
             "keyword": "Pax Autocratica Soldier Customization",
             "slug": "pax-autocratica-soldier-customization"
+          },
+          {
+            "keyword": "Pax Autocratica 80% Discount Mistake",
+            "slug": "pax-autocratica-80-discount-mistake"
           }
         ]
       }
@@ -754,7 +759,8 @@
         "pax-autocratica-gameplay",
         "pax-autocratica-price",
         "pax-autocratica-trailer",
-        "pax-autocratica-linux-support"
+        "pax-autocratica-linux-support",
+        "pax-autocratica-80-discount-mistake"
       ],
       "ad_slot_count": 2
     },
@@ -1284,6 +1290,22 @@
           ]
         },
         {
+          "heading": "October 2026 80% discount warning",
+          "paragraphs": [
+            "On 2026-10-02, the US Steam appdetails snapshot showed Pax Autocratica at $5.99, an 80% discount from $29.99. Multiverse's pinned Steam discussion says that 80% discount was a mistake and that the intended discount was 20%.",
+            "This does not change the evergreen rule on this page: use the live Steam checkout for your region. The 80% mistake has its own current-status guide because it affects purchase interpretation and abandonment fears."
+          ],
+          "steps": [
+            "Open the live Steam listing before purchasing.",
+            "Read the 80% discount mistake guide for the current official explanation.",
+            "Do not treat a cached discount screenshot as a guaranteed price."
+          ],
+          "claim_ids": [
+            "claim-discount-current-store-snapshot-20261002",
+            "claim-discount-official-mistake-20261002"
+          ]
+        },
+        {
           "heading": "Why this page does not show one fixed number",
           "paragraphs": [
             "A single price copied into an evergreen page would answer only one market at one moment. Steam can display different currencies and regional availability, and discounts can expire. Keeping the live handoff visible is therefore a more accurate answer than presenting a number that looks authoritative but has no region or timestamp attached.",
@@ -1349,7 +1371,9 @@
       ],
       "source_ids": [
         "src-steam-store",
-        "src-steamdb-app"
+        "src-steamdb-app",
+        "src-steam-appdetails-price-20261002",
+        "src-steam-discussion-discount-mistake-20261002"
       ],
       "claim_ids": [
         "claim-price-status",
@@ -1357,7 +1381,7 @@
         "claim-price-checked",
         "claim-price-entry"
       ],
-      "updated_at": "2026-08-14T08:05:00Z",
+      "updated_at": "2026-10-02T09:18:00+08:00",
       "time_sensitivity": "changing",
       "image_needs": [
         {
@@ -1375,7 +1399,8 @@
       "related_slugs": [
         "pax-autocratica-demo",
         "pax-autocratica-gameplay",
-        "pax-autocratica-community"
+        "pax-autocratica-community",
+        "pax-autocratica-80-discount-mistake"
       ],
       "ad_slot_count": 2
     },
@@ -4114,7 +4139,8 @@
         "pax-autocratica-trade-port",
         "pax-autocratica-gameplay",
         "pax-autocratica-auto-defense",
-        "pax-autocratica-soldier-customization"
+        "pax-autocratica-soldier-customization",
+        "pax-autocratica-80-discount-mistake"
       ],
       "ad_slot_count": 2
     },
@@ -6671,7 +6697,8 @@
         "pax-autocratica-combat-classes",
         "pax-autocratica-small-battle-soldier-limit",
         "pax-autocratica-base-building",
-        "pax-autocratica-soldier-customization"
+        "pax-autocratica-soldier-customization",
+        "pax-autocratica-80-discount-mistake"
       ],
       "ad_slot_count": 2
     },
@@ -7397,6 +7424,155 @@
         "pax-autocratica-best-troops",
         "pax-autocratica-roadmap",
         "pax-autocratica-supreme-powers-petition",
+        "pax-autocratica-st24-patch-notes"
+      ],
+      "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica 80% Discount Mistake",
+      "slug": "pax-autocratica-80-discount-mistake",
+      "seo": {
+        "title": "Pax Autocratica 80% Discount Mistake: What the Developer Said",
+        "description": "A source-backed Pax Autocratica guide to the Steam 80% discount mistake, current $5.99 US snapshot, what is official, and what players should not assume."
+      },
+      "direct_answer": "The current US Steam snapshot captured on 2026-10-02 shows Pax Autocratica at $5.99, an 80% discount from $29.99, but the official pinned developer thread says that 80% was a mistake and that the intended discount was 20%. Multiverse also says the game is not being abandoned, development is not stopping, and this is not a shutdown sale. Treat the live Steam checkout as the only purchase surface, and treat the pinned developer post as the current explanation; do not assume the 80% price will remain or that buying through Steam creates any promise beyond Steam's normal purchase/refund rules.",
+      "direct_answer_claim_ids": [
+        "claim-discount-current-store-snapshot-20261002",
+        "claim-discount-official-mistake-20261002",
+        "claim-discount-not-abandoned-20261002"
+      ],
+      "sections": [
+        {
+          "heading": "What changed today",
+          "paragraphs": [
+            "The live Steam appdetails snapshot for App ID 1067360 currently returns a US price of $5.99, down from $29.99, with an 80% discount. That makes the price question much sharper than the evergreen Price page, because players are now asking whether this is a real sale, a mistake, or a signal that the project is winding down.",
+            "The strongest current answer comes from the official pinned Steam discussion by Multiverse. It says the 80% discount was set by mistake, that the intended discount was 20%, and that Steam Support has been contacted to see what can be corrected."
+          ],
+          "steps": [
+            "Check the live Steam listing before buying, because price and discount state are volatile.",
+            "Read the pinned developer post before interpreting the sale as a business signal.",
+            "Use the purchase price visible at checkout, not screenshots or cached sale comments."
+          ],
+          "claim_ids": [
+            "claim-discount-current-store-snapshot-20261002",
+            "claim-discount-official-mistake-20261002"
+          ]
+        },
+        {
+          "heading": "Does this mean Pax Autocratica is being abandoned?",
+          "paragraphs": [
+            "No captured official source says Pax Autocratica is being abandoned. The pinned developer post says the opposite: the game is not being abandoned, development is not stopping, and the discount is not a final or shutdown sale.",
+            "That matters because an 80% discount soon after Early Access can look alarming. The page should answer the fear directly without turning the post into a promise about specific future updates, funding, player counts, DLC, or exact Steam Support outcomes."
+          ],
+          "steps": [
+            "Do not read an 80% discount alone as proof of abandonment.",
+            "Do not read the apology as a guarantee that Steam will keep, remove, or reimburse any specific sale state.",
+            "Follow later Steam News or pinned developer replies for changes after this snapshot."
+          ],
+          "claim_ids": [
+            "claim-discount-not-abandoned-20261002",
+            "claim-discount-official-mistake-20261002"
+          ]
+        },
+        {
+          "heading": "If you bought it at 80%, what should you assume?",
+          "paragraphs": [
+            "The official post does not publish a special promise about already completed purchases, refunds, entitlement changes, regional differences, or whether the 80% promotion can be corrected retroactively. Those are Steam account and checkout questions, not guide-page facts.",
+            "The safe practical answer is simple: if your Steam account completed the purchase, verify ownership and refund eligibility through Steam's own library, purchase history and refund flow. Do not rely on Reddit comments, screenshots, or another region's store state for your own account."
+          ],
+          "steps": [
+            "Check your Steam purchase history and library ownership.",
+            "Use Steam Support for refund or entitlement questions.",
+            "Avoid third-party keys or payment links that claim to preserve the mistaken price."
+          ],
+          "claim_ids": [
+            "claim-discount-boundary-20261002"
+          ]
+        },
+        {
+          "heading": "How this differs from the normal Price page",
+          "paragraphs": [
+            "The normal Price page remains the stable place for evergreen advice: use the live Steam listing because price, currency and discounts change by region and date. This page exists because today's current official context is narrower and more urgent: there is a developer-confirmed mistake around the discount percentage.",
+            "Once the Steam price and pinned thread stop being current, this page should be updated or retired into the Price page rather than kept as a permanent deal page."
+          ],
+          "steps": [
+            "Use this page for the October 2026 80% discount mistake explanation.",
+            "Use the Price page for ordinary regional price and checkout guidance.",
+            "Recheck the page after Steam Support or a later official announcement changes the status."
+          ],
+          "claim_ids": [
+            "claim-discount-boundary-20261002"
+          ]
+        },
+        {
+          "heading": "What not to overclaim",
+          "paragraphs": [
+            "This page does not claim that everyone can keep the mistaken discount, that Steam Support will or will not change the sale, that the developer owes compensation, or that the correct intended sale is already live in every region. It also does not claim the project is financially distressed, cancelled, or switching to a shutdown sale.",
+            "It only records the current store snapshot, the official developer explanation, and the practical boundary for players deciding whether to buy, wait, refund, or follow updates."
+          ],
+          "steps": [
+            "Timestamp any price number you repeat.",
+            "Avoid turning player jokes or sale-thread speculation into facts.",
+            "Update the page when Steam store data or the pinned developer post changes."
+          ],
+          "claim_ids": [
+            "claim-discount-boundary-20261002"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is the Pax Autocratica 80% discount real?",
+          "answer": "It was visible in the captured US Steam appdetails snapshot, but the developer says the 80% discount was a mistake and the intended discount was 20%. Check the live Steam checkout before acting.",
+          "claim_ids": [
+            "claim-discount-current-store-snapshot-20261002",
+            "claim-discount-official-mistake-20261002"
+          ]
+        },
+        {
+          "question": "Is Pax Autocratica being abandoned?",
+          "answer": "The pinned developer post says no: Multiverse says the game is not being abandoned, development is not stopping, and this is not a shutdown sale.",
+          "claim_ids": [
+            "claim-discount-not-abandoned-20261002"
+          ]
+        },
+        {
+          "question": "Will buyers keep the 80% discount?",
+          "answer": "No captured official source gives a special guarantee. Check your Steam purchase history, ownership state and Steam Support options for account-specific questions.",
+          "claim_ids": [
+            "claim-discount-boundary-20261002"
+          ]
+        },
+        {
+          "question": "Should I use a third-party deal page?",
+          "answer": "No. Use the official Steam listing and checkout for your region. Third-party comments or screenshots can be stale or wrong.",
+          "claim_ids": [
+            "claim-discount-boundary-20261002"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-appdetails-price-20261002",
+        "src-steam-discussion-discount-mistake-20261002",
+        "src-steam-discussion-discount-talk-20261002",
+        "src-steam-news-latest-20261002"
+      ],
+      "claim_ids": [
+        "claim-discount-current-store-snapshot-20261002",
+        "claim-discount-official-mistake-20261002",
+        "claim-discount-not-abandoned-20261002",
+        "claim-discount-boundary-20261002"
+      ],
+      "updated_at": "2026-10-02T09:18:00+08:00",
+      "time_sensitivity": "volatile_sale_status",
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-price",
+        "pax-autocratica-review",
+        "pax-autocratica-demo",
+        "pax-autocratica-roadmap",
         "pax-autocratica-st24-patch-notes"
       ],
       "ad_slot_count": 2
@@ -10685,6 +10861,64 @@
         "Does not publish a release date or treat under review as promised."
       ],
       "depth_variance_reason": "The page answers a distinct cosmetic/status intent that is separate from gear stats, combat classes and roadmap suggestion pages."
+    },
+    "pax-autocratica-80-discount-mistake": {
+      "intent_id": "intent-20261002-discount-mistake",
+      "intent_type": "volatile_purchase_status_and_discount_explanation",
+      "user_job": "Understand whether Pax Autocratica's 80% Steam discount is a mistake, whether the game is being abandoned, and how to act safely.",
+      "intent_evidence_ids": [
+        "src-steam-appdetails-price-20261002",
+        "src-steam-discussion-discount-mistake-20261002",
+        "src-steam-discussion-discount-talk-20261002",
+        "src-steam-news-latest-20261002"
+      ],
+      "answerability": "resolved_with_current_store_snapshot_and_pinned_developer_explanation",
+      "coverage": [
+        {
+          "dimension": "current_store_price_snapshot",
+          "status": "covered",
+          "claim_ids": [
+            "claim-discount-current-store-snapshot-20261002"
+          ],
+          "evidence_relation": "official_platform_api",
+          "notes": "$5.99 from $29.99, 80% off, USD"
+        },
+        {
+          "dimension": "developer_explanation",
+          "status": "covered",
+          "claim_ids": [
+            "claim-discount-official-mistake-20261002",
+            "claim-discount-not-abandoned-20261002"
+          ],
+          "evidence_relation": "pinned_official_steam_discussion",
+          "notes": "We owe everyone an apology.\n\nThe current 80% discount was set by mistake. The intended discount was 20%, and the wrong percentage was entered when the promotion was configured.\n\nWe understand how alarming an 80% discount can look, so we want to be completely clear:\n\nPax Autocratica is not being abandoned, development is not stopping, and this is not a final or \"shutdown\" sale.\n\nWe are already contacting Steam Support to see what can be done to correct the issue as quickly as possible.\n\nWe are still actively working on the game and on the larger Early Access updates we've discussed with the community.\n\nThis was simply a human error on our side, and we are extremely sorry for the confusion and concern it caused.\n\nThank you for your patience and continued support."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam store appdetails snapshot",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Steam pinned discussion: Important notice, the 80% discount was a mistake",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586187435308905311/",
+          "source_type": "official_developer_discussion"
+        },
+        {
+          "label": "Steam discussion: -80 already???",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586187435308880232/",
+          "source_type": "community_discussion"
+        }
+      ],
+      "last_checked_at": "2026-10-02T09:18:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-80-discount-mistake",
+      "boundaries": [
+        "Does not claim the 80% price will remain.",
+        "Does not promise purchase, refund or entitlement outcomes.",
+        "Does not present the mistake as abandonment, shutdown, or a guaranteed future discount."
+      ],
+      "depth_variance_reason": "This is a volatile, current purchase-interpretation task distinct from the evergreen Price page."
     }
   },
   "homeProvenance": {
@@ -11548,6 +11782,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 soldier-focused image already present in the site media registry.",
       "relevance_reason": "The page explains soldier appearance, model and outfit customization boundaries."
+    },
+    {
+      "asset_id": "pax-autocratica-80-discount-mistake-20261002",
+      "page": "/pax-autocratica-80-discount-mistake",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-community-09.webp",
+      "alt": "Pax Autocratica official game scene used for the 80 percent discount mistake guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-10-02T09:18:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "The page explains a Steam store discount and official community clarification, so an official store-linked visual is appropriate."
     }
   ],
   "ads": {
@@ -11627,5 +11877,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-10-01T09:02:30+08:00"
+  "generated_at": "2026-10-02T09:18:00+08:00"
 }
