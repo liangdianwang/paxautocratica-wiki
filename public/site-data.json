@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to the 80% discount mistake, live Steam price, soldier customization status, base building, colony logistics, combat classes, ST-24 patch changes and Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to troop upgrading, discount correction status, live Steam price, soldier customization, base building, colony logistics, combat classes, ST-24 patch changes and Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-10-02"
+        "Updated 2026-10-04"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -134,8 +134,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to the 80% discount mistake, live Steam price, soldier customization status, base building, colony logistics, combat classes, ST-24 patch changes and Early Access questions.",
-    "keywords": "Pax Autocratica wiki, Pax Autocratica 80% discount, Pax Autocratica price mistake, Pax Autocratica Steam sale, Pax Autocratica guide"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to troop upgrading, discount correction status, live Steam price, soldier customization, base building, colony logistics, combat classes, ST-24 patch changes and Early Access questions.",
+    "keywords": "Pax Autocratica wiki, Pax Autocratica troop upgrading, Pax Autocratica upgrade soldiers, Pax Autocratica fodder units, Pax Autocratica price fixed, Pax Autocratica guide"
   },
   "theme": {
     "hue": 164,
@@ -192,6 +192,7 @@
               "pax-autocratica-sector-3-final-boss",
               "pax-autocratica-best-troops",
               "pax-autocratica-combat-classes",
+              "pax-autocratica-troop-upgrading",
               "pax-autocratica-small-battle-soldier-limit",
               "pax-autocratica-auto-defense",
               "pax-autocratica-overworked-soldiers",
@@ -413,6 +414,10 @@
           {
             "keyword": "Pax Autocratica 80% Discount Mistake",
             "slug": "pax-autocratica-80-discount-mistake"
+          },
+          {
+            "keyword": "Pax Autocratica Troop Upgrading",
+            "slug": "pax-autocratica-troop-upgrading"
           }
         ]
       }
@@ -1290,6 +1295,21 @@
           ]
         },
         {
+          "heading": "October 4 discount correction",
+          "paragraphs": [
+            "The 2026-10-04 US Steam appdetails snapshot shows Pax Autocratica at $23.99, a 20% discount from $29.99, and the store description says the incorrect Autumn Sale discount has now been fixed.",
+            "This means the Price page should no longer describe the 80% discount as the current live price. It remains relevant only as a short-lived pricing mistake that was corrected."
+          ],
+          "steps": [
+            "Check the live Steam listing before purchasing.",
+            "Use the 80% discount mistake page only for context about what happened.",
+            "Do not rely on cached sale screenshots or third-party deal pages for today's price."
+          ],
+          "claim_ids": [
+            "claim-discount-fixed-20261004"
+          ]
+        },
+        {
           "heading": "October 2026 80% discount warning",
           "paragraphs": [
             "On 2026-10-02, the US Steam appdetails snapshot showed Pax Autocratica at $5.99, an 80% discount from $29.99. Multiverse's pinned Steam discussion says that 80% discount was a mistake and that the intended discount was 20%.",
@@ -1381,7 +1401,7 @@
         "claim-price-checked",
         "claim-price-entry"
       ],
-      "updated_at": "2026-10-02T09:18:00+08:00",
+      "updated_at": "2026-10-04T09:20:00+08:00",
       "time_sensitivity": "changing",
       "image_needs": [
         {
@@ -1400,7 +1420,8 @@
         "pax-autocratica-demo",
         "pax-autocratica-gameplay",
         "pax-autocratica-community",
-        "pax-autocratica-80-discount-mistake"
+        "pax-autocratica-80-discount-mistake",
+        "pax-autocratica-troop-upgrading"
       ],
       "ad_slot_count": 2
     },
@@ -1751,7 +1772,8 @@
         "pax-autocratica-best-troops",
         "pax-autocratica-capture-lock",
         "pax-autocratica-st24-patch-notes",
-        "pax-autocratica-sector-1-elysia-battles"
+        "pax-autocratica-sector-1-elysia-battles",
+        "pax-autocratica-troop-upgrading"
       ],
       "ad_slot_count": 2
     },
@@ -2174,7 +2196,8 @@
         "pax-autocratica-sector-1-elysia-battles",
         "pax-autocratica-combat-classes",
         "pax-autocratica-small-battle-soldier-limit",
-        "pax-autocratica-soldier-customization"
+        "pax-autocratica-soldier-customization",
+        "pax-autocratica-troop-upgrading"
       ],
       "ad_slot_count": 2,
       "last_checked_at": "2026-08-21T01:06:09.726Z"
@@ -3811,7 +3834,8 @@
         "pax-autocratica-sacrifice-units",
         "pax-autocratica-f1-commands",
         "pax-autocratica-sell-unwanted-items",
-        "pax-autocratica-soldier-customization"
+        "pax-autocratica-soldier-customization",
+        "pax-autocratica-troop-upgrading"
       ],
       "ad_slot_count": 2
     },
@@ -4942,7 +4966,8 @@
         "pax-autocratica-save-during-expedition",
         "pax-autocratica-st11-patch-notes",
         "pax-autocratica-price",
-        "pax-autocratica-roadmap"
+        "pax-autocratica-roadmap",
+        "pax-autocratica-troop-upgrading"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-14T10:35:00+08:00",
@@ -5268,7 +5293,8 @@
         "pax-autocratica-community",
         "pax-autocratica-revive-player",
         "pax-autocratica-soldiers-fighting-base",
-        "pax-autocratica-base-building"
+        "pax-autocratica-base-building",
+        "pax-autocratica-troop-upgrading"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-19T09:11:00+08:00",
@@ -6981,7 +7007,8 @@
         "pax-autocratica-st24-patch-notes",
         "pax-autocratica-sector-1-elysia-battles",
         "pax-autocratica-small-battle-soldier-limit",
-        "pax-autocratica-soldier-customization"
+        "pax-autocratica-soldier-customization",
+        "pax-autocratica-troop-upgrading"
       ],
       "ad_slot_count": 2
     },
@@ -7459,6 +7486,21 @@
           ]
         },
         {
+          "heading": "October 4 status: the 80% mistake is fixed",
+          "paragraphs": [
+            "The Steam appdetails snapshot captured on 2026-10-04 now shows the Autumn Sale at $23.99, a 20% discount from $29.99. The Steam store description also displays an Important Notice saying the first-day Autumn Sale discount was set incorrectly and has now been fixed.",
+            "That changes the current answer from '80% is visible in the live snapshot' to '80% was the mistake; the current official US snapshot is 20%'. Keep the older 80% context as history, not as a live buying instruction."
+          ],
+          "steps": [
+            "Use the current Steam checkout for your region.",
+            "Treat screenshots of the 80% price as historical unless the live checkout shows that price again.",
+            "Do not infer abandonment from the corrected sale state."
+          ],
+          "claim_ids": [
+            "claim-discount-fixed-20261004"
+          ]
+        },
+        {
           "heading": "Does this mean Pax Autocratica is being abandoned?",
           "paragraphs": [
             "No captured official source says Pax Autocratica is being abandoned. The pinned developer post says the opposite: the game is not being abandoned, development is not stopping, and the discount is not a final or shutdown sale.",
@@ -7563,7 +7605,7 @@
         "claim-discount-not-abandoned-20261002",
         "claim-discount-boundary-20261002"
       ],
-      "updated_at": "2026-10-02T09:18:00+08:00",
+      "updated_at": "2026-10-04T09:20:00+08:00",
       "time_sensitivity": "volatile_sale_status",
       "page_status": "publish",
       "index_status": "index",
@@ -7573,7 +7615,162 @@
         "pax-autocratica-review",
         "pax-autocratica-demo",
         "pax-autocratica-roadmap",
-        "pax-autocratica-st24-patch-notes"
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-troop-upgrading"
+      ],
+      "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Troop Upgrading",
+      "slug": "pax-autocratica-troop-upgrading",
+      "seo": {
+        "title": "Pax Autocratica Troop Upgrading: Fodder, Rarity and Boundaries",
+        "description": "A source-backed Pax Autocratica guide to troop upgrading, same-species sacrifice rules, rarity decisions, official upgrade patch context, and what not to overclaim."
+      },
+      "direct_answer": "Pax Autocratica troop upgrading is best treated as a soldier-investment decision, not a universal checklist. Official patch notes confirm that Soldier Upgrade progression has been adjusted and that special-soldier trait issues have received fixes, while the current Steam troop-upgrading discussion explains a same-species sacrifice rule and click-based upgrade workflow. Use the upgrade screen as the final in-game authority: if a captured or spare unit does not appear as upgrade material, do not force the assumption that it is bugged. Recheck species compatibility, whether the unit is eligible, and whether using that unit is worth the colony cost.",
+      "direct_answer_claim_ids": [
+        "claim-official-upgrade-progression-ag12",
+        "claim-steam-same-species-sacrifice",
+        "claim-current-troop-upgrading-demand"
+      ],
+      "sections": [
+        {
+          "heading": "What official sources actually confirm",
+          "paragraphs": [
+            "The strongest official upgrade-specific source is AG-12, where Multiverse says Soldier Upgrade progression was improved by reducing the points required to upgrade regular soldiers, elites and bosses. That proves troop upgrading is a maintained system, but it does not publish a full XP table, fodder formula, rarity chart or best upgrade route.",
+            "ST-24 adds a later soldier-quality boundary: special soldiers such as IntelliExplorer A20 and Miralisse Novarin should no longer randomly get negative general and combat traits. That is useful context when deciding whether to invest in special soldiers, but it still does not turn every named soldier into an automatic best upgrade target."
+          ],
+          "steps": [
+            "Treat AG-12 as proof that Soldier Upgrade progression is official and has been tuned.",
+            "Treat ST-24 as a special-soldier trait fix, not a full upgrade-meta guide.",
+            "Do not invent exact upgrade point costs, drop rates or rank breakpoints from patch-note wording."
+          ],
+          "claim_ids": [
+            "claim-official-upgrade-progression-ag12",
+            "claim-st24-special-soldier-trait-fix"
+          ]
+        },
+        {
+          "heading": "Why some units do not appear as fodder",
+          "paragraphs": [
+            "The current Steam troop-upgrading discussion points to compatibility as the first thing to check: the detailed answer says the sacrifice species has to match the target soldier, and that players should click the square sacrifice slot and then choose soldiers rather than dragging a batch blindly.",
+            "Because this compatibility explanation comes from player discussion rather than a formal official table, the safe wording is: check species compatibility first, then check whether the unit is locked, assigned, unavailable, too valuable or otherwise ineligible in the current build. If the in-game upgrade panel does not accept a unit, that live panel wins over any guide wording."
+          ],
+          "steps": [
+            "Open the upgrade interface and confirm the target soldier you are upgrading.",
+            "Try sacrifice material from the same species before assuming the interface is broken.",
+            "Avoid sacrificing rare, named or useful workers until you know the upgrade result is worth the loss.",
+            "If units still do not appear, capture the build version and report the exact target and fodder types."
+          ],
+          "claim_ids": [
+            "claim-steam-same-species-sacrifice",
+            "claim-current-troop-upgrading-demand"
+          ]
+        },
+        {
+          "heading": "When upgrading is worth the investment",
+          "paragraphs": [
+            "The official AG-12 patch note proves upgrade progression was important enough to tune, and the current Steam discussion proves players still get stuck on the practical workflow. That makes the decision less about maxing everything and more about choosing a small set of soldiers that actually solve your current bottleneck.",
+            "A good priority order is to protect proven squad roles first: medics and other support that keep the Leader alive, front-line units that consistently survive, and high-rarity soldiers whose base work speed or combat value you actually use. The page should not claim a permanent tier list, because balance, rarity and drops can change with updates."
+          ],
+          "steps": [
+            "Upgrade a few proven squad members before trying to raise every captured unit.",
+            "Favor soldiers whose role you already use in expeditions or base work.",
+            "Stop before the grind blocks your sector progress; core choices, weapons and ship capacity also matter."
+          ],
+          "claim_ids": [
+            "claim-official-upgrade-progression-ag12",
+            "claim-st24-special-soldier-trait-fix"
+          ]
+        },
+        {
+          "heading": "Fear, aging and colony side effects",
+          "paragraphs": [
+            "Troop upgrading overlaps with the colony sim because upgrade material, captured units, sacrifice choices and workforce pressure all affect which people remain available. Official store text also frames citizens as people who can become grateful, afraid, loyal or rebellious, so upgrading should not be described as a pure stat spreadsheet detached from the colony.",
+            "That does not mean this page should publish a fear formula. It should tell players the safer workflow: check the colony state before mass sacrifices or conversions, watch whether the upgrade action affects unrest or fear in your current build, and avoid using core workers or near-term expedition members as disposable material unless you are prepared for the knock-on effects."
+          ],
+          "steps": [
+            "Check fear, loyalty and workforce pressure before mass-upgrading.",
+            "Use prisoners or spare captured units only when the game accepts them and the colony can absorb the decision.",
+            "Consider turning soldier aging off only if you knowingly want to change that part of the experience."
+          ],
+          "claim_ids": [
+            "claim-store-fear-loyalty-colony",
+            "claim-steam-same-species-sacrifice"
+          ]
+        },
+        {
+          "heading": "What this page will not claim",
+          "paragraphs": [
+            "This page does not claim a complete XP table, hidden formula, guaranteed best fodder farm, exact color-to-color cost, best class tier list, species-by-species ranking or a permanent meta. It also does not treat a Steam discussion comment as official formula documentation.",
+            "Its job is narrower: connect the current player question to official upgrade-related patch context, show the compatibility boundary reported in the current Steam thread, and help readers avoid wasting rare units or mistaking every rejected fodder unit for a bug."
+          ],
+          "steps": [
+            "Use official patch notes for what changed.",
+            "Use the current Steam discussion for demand and workflow clues.",
+            "Use the current in-game upgrade panel as the final eligibility check."
+          ],
+          "claim_ids": [
+            "claim-boundary-no-hidden-formulas"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Why can I not use some captured units to upgrade?",
+          "answer": "The current Steam thread points first to compatibility: the detailed answer says sacrifice species has to match the target soldier. Because this is not an official formula table, confirm it in the live upgrade panel before treating it as a bug.",
+          "claim_ids": [
+            "claim-steam-same-species-sacrifice"
+          ]
+        },
+        {
+          "question": "Did the developer change troop upgrading?",
+          "answer": "Yes. AG-12 says Soldier Upgrade progression was improved by reducing the points required to upgrade regular soldiers, elites and bosses. It does not publish a full cost table.",
+          "claim_ids": [
+            "claim-official-upgrade-progression-ag12"
+          ]
+        },
+        {
+          "question": "Should I upgrade every soldier to the highest rarity?",
+          "answer": "No. Official sources confirm the upgrade system was tuned, but they do not say every soldier should be maxed. Upgrade the soldiers that solve your current combat or base-work bottleneck before trying to raise everyone.",
+          "claim_ids": [
+            "claim-official-upgrade-progression-ag12"
+          ]
+        },
+        {
+          "question": "Does upgrading have fear or colony consequences?",
+          "answer": "It can overlap with fear, aging, sacrifice and captured-unit decisions, but no captured official source gives a precise fear formula. Watch the live colony state before mass-upgrading.",
+          "claim_ids": [
+            "claim-store-fear-loyalty-colony",
+            "claim-boundary-no-hidden-formulas"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-news-ag12-upgrade-20261004",
+        "src-steam-news-st24-special-soldiers-20261004",
+        "src-steam-discussion-troop-upgrading-20261004",
+        "src-steam-store-fear-loyalty-20261004"
+      ],
+      "claim_ids": [
+        "claim-official-upgrade-progression-ag12",
+        "claim-st24-special-soldier-trait-fix",
+        "claim-current-troop-upgrading-demand",
+        "claim-steam-same-species-sacrifice",
+        "claim-store-fear-loyalty-colony",
+        "claim-boundary-no-hidden-formulas"
+      ],
+      "updated_at": "2026-10-04T09:20:00+08:00",
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-best-troops",
+        "pax-autocratica-combat-classes",
+        "pax-autocratica-soldier-gear",
+        "pax-autocratica-capture-mechanics",
+        "pax-autocratica-overworked-soldiers",
+        "pax-autocratica-save-wipe"
       ],
       "ad_slot_count": 2
     }
@@ -10919,6 +11116,62 @@
         "Does not present the mistake as abandonment, shutdown, or a guaranteed future discount."
       ],
       "depth_variance_reason": "This is a volatile, current purchase-interpretation task distinct from the evergreen Price page."
+    },
+    "pax-autocratica-troop-upgrading": {
+      "intent_id": "intent-20261004-troop-upgrading",
+      "intent_type": "soldier_upgrade_fodder_and_rarity_decision",
+      "user_job": "Understand how to approach troop upgrading, why fodder may not appear, and what official sources do or do not confirm.",
+      "intent_evidence_ids": [
+        "src-steam-news-ag12-upgrade-20261004",
+        "src-steam-news-st24-special-soldiers-20261004",
+        "src-steam-discussion-troop-upgrading-20261004",
+        "src-steam-store-fear-loyalty-20261004"
+      ],
+      "answerability": "partial_with_official_patch_context_and_current_community_demand",
+      "coverage": [
+        {
+          "dimension": "official_upgrade_progression",
+          "status": "covered",
+          "claim_ids": [
+            "claim-official-upgrade-progression-ag12"
+          ],
+          "evidence_relation": "official_patch_note",
+          "notes": "AG-12 says Soldier Upgrade progression was improved by reducing required points for regular soldiers, elites and bosses."
+        },
+        {
+          "dimension": "fodder_compatibility",
+          "status": "steam_discussion_reported",
+          "claim_ids": [
+            "claim-steam-same-species-sacrifice"
+          ],
+          "evidence_relation": "steam_discussion",
+          "notes": "A current Steam discussion reports that sacrifice species has to match the target soldier; no official formula table captured."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam News API: AG-12 Soldier Upgrade progression",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840944183773769",
+          "source_type": "official_patch_note"
+        },
+        {
+          "label": "Steam News API: ST-24 special soldier trait fix",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_patch_note"
+        },
+        {
+          "label": "Steam discussion: So how does troop upgrading work?",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586187704184611019/",
+          "source_type": "community_discussion"
+        }
+      ],
+      "last_checked_at": "2026-10-04T09:20:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-troop-upgrading",
+      "boundaries": [
+        "Does not publish exact XP tables, hidden formulas or drop rates.",
+        "Does not treat Steam discussion comments as official formula documentation.",
+        "Does not rank every class or soldier as a permanent meta."
+      ]
     }
   },
   "homeProvenance": {
@@ -11798,6 +12051,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "The page explains a Steam store discount and official community clarification, so an official store-linked visual is appropriate."
+    },
+    {
+      "asset_id": "pax-autocratica-troop-upgrading-20261004",
+      "page": "/pax-autocratica-troop-upgrading",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-best-troops-12.webp",
+      "alt": "Pax Autocratica squad scene used for the troop upgrading guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-10-04T09:20:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 squad screenshot already present in the site media registry.",
+      "relevance_reason": "The page explains soldier upgrade decisions, fodder and rarity, so a squad-focused game image is appropriate."
     }
   ],
   "ads": {
@@ -11877,5 +12146,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-10-02T09:18:00+08:00"
+  "generated_at": "2026-10-04T09:20:00+08:00"
 }
