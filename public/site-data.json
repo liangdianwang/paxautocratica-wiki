@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to troop upgrading, discount correction status, live Steam price, soldier customization, base building, colony logistics, combat classes, ST-24 patch changes and Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to prison interrogation freezes, troop upgrading, discount correction status, live Steam price, soldier customization, base building, colony logistics and Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-10-04"
+        "Updated 2026-10-05"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -71,6 +71,12 @@
           "title": "Understand Capture Mechanics",
           "description": "Read the current capture loop, prisoner choices, and the evidence boundary around percentages.",
           "href": "/pax-autocratica-capture-mechanics/"
+        },
+        {
+          "number": "6",
+          "title": "Fix Prison Freeze",
+          "description": "Recover from prison interrogation camera/UI lockups and send useful K-key feedback.",
+          "href": "/pax-autocratica-prison-interrogation-freeze/"
         }
       ],
       "claim_ids": [
@@ -134,8 +140,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to troop upgrading, discount correction status, live Steam price, soldier customization, base building, colony logistics, combat classes, ST-24 patch changes and Early Access questions.",
-    "keywords": "Pax Autocratica wiki, Pax Autocratica troop upgrading, Pax Autocratica upgrade soldiers, Pax Autocratica fodder units, Pax Autocratica price fixed, Pax Autocratica guide"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to prison interrogation freezes, troop upgrading, discount correction status, live Steam price, soldier customization, base building, colony logistics and Early Access questions.",
+    "keywords": "Pax Autocratica prison interrogation freeze, Pax Autocratica camera bug, Pax Autocratica K-key feedback, Pax Autocratica wiki, Pax Autocratica troop upgrading"
   },
   "theme": {
     "hue": 164,
@@ -186,6 +192,7 @@
             "description": "Prepare for harder sectors, control soldiers, manage risk and understand the current capture loop.",
             "slugs": [
               "pax-autocratica-capture-mechanics",
+              "pax-autocratica-prison-interrogation-freeze",
               "pax-autocratica-capture-lock",
               "pax-autocratica-sector-1-elysia-battles",
               "pax-autocratica-sector-2-difficulty",
@@ -418,6 +425,10 @@
           {
             "keyword": "Pax Autocratica Troop Upgrading",
             "slug": "pax-autocratica-troop-upgrading"
+          },
+          {
+            "keyword": "Pax Autocratica Prison Interrogation Freeze",
+            "slug": "pax-autocratica-prison-interrogation-freeze"
           }
         ]
       }
@@ -1773,7 +1784,8 @@
         "pax-autocratica-capture-lock",
         "pax-autocratica-st24-patch-notes",
         "pax-autocratica-sector-1-elysia-battles",
-        "pax-autocratica-troop-upgrading"
+        "pax-autocratica-troop-upgrading",
+        "pax-autocratica-prison-interrogation-freeze"
       ],
       "ad_slot_count": 2
     },
@@ -5631,7 +5643,8 @@
         "pax-autocratica-auto-defense",
         "pax-autocratica-st24-patch-notes",
         "pax-autocratica-sector-1-elysia-battles",
-        "pax-autocratica-small-battle-soldier-limit"
+        "pax-autocratica-small-battle-soldier-limit",
+        "pax-autocratica-prison-interrogation-freeze"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-25T09:20:00+08:00",
@@ -7770,7 +7783,141 @@
         "pax-autocratica-soldier-gear",
         "pax-autocratica-capture-mechanics",
         "pax-autocratica-overworked-soldiers",
-        "pax-autocratica-save-wipe"
+        "pax-autocratica-save-wipe",
+        "pax-autocratica-prison-interrogation-freeze"
+      ],
+      "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Prison Interrogation Freeze",
+      "slug": "pax-autocratica-prison-interrogation-freeze",
+      "seo": {
+        "title": "Pax Autocratica Prison Interrogation Freeze: Camera Bug Help",
+        "description": "A source-backed Pax Autocratica guide for prison interrogation freezes, camera snap-back after interrogation, K-key feedback reports, and safe temporary workarounds."
+      },
+      "direct_answer": "If Pax Autocratica freezes on the prison screen after interrogation, or the camera snaps back to the prison after you leave, treat it as a current bug-reporting case rather than a solved prisoner mechanic. Two current Steam threads describe the same prison/interrogation camera failure pattern. Multiverse asks affected players to submit K-key in-game feedback so the team can inspect logs, while the pinned bug-reporting guidance asks for player logs and save files. Use only temporary workarounds such as re-entering/exiting the interrogation state, moving after leaving, verifying files, or starting an expedition if that restores the camera; do not edit saves or assume there is a hidden prison timing rule.",
+      "direct_answer_claim_ids": [
+        "claim-prison-freeze-current-thread-20261005",
+        "claim-prison-camera-snap-current-thread-20261005",
+        "claim-k-key-feedback-developer-20261005"
+      ],
+      "sections": [
+        {
+          "heading": "What the current bug looks like",
+          "paragraphs": [
+            "The strongest current signal is not a new official patch note, but a cluster of Steam discussion reports. One Chinese thread says interrogation can leave the player stuck on the prison interface while people still move. Another thread says that after interrogating someone and leaving, the player's camera can snap back to the prison while the character keeps moving.",
+            "Those two descriptions are close enough to treat as one troubleshooting cluster: prison interrogation can desynchronize the camera or UI from the player's actual movement. The page should not call it a hidden prisoner mechanic, because the developer reply asks for logs rather than explaining a gameplay rule."
+          ],
+          "steps": [
+            "If the prison view freezes after interrogation, avoid repeating the interrogation action until you have a recovery path.",
+            "If the camera snaps back after leaving the prison, record exactly when the snap happens and whether your character can still move.",
+            "Keep the build date, save state and affected prisoner context with the report."
+          ],
+          "claim_ids": [
+            "claim-prison-freeze-current-thread-20261005",
+            "claim-prison-camera-snap-current-thread-20261005"
+          ]
+        },
+        {
+          "heading": "Temporary recovery steps to try first",
+          "paragraphs": [
+            "A player in the Chinese thread reports that re-entering interrogation, exiting again and walking afterward helped them recover. Another player reports that holding Escape and starting an expedition fixed the camera after the snap-back. These are player workarounds, not official fixes, so treat them as low-risk recovery attempts rather than guaranteed steps.",
+            "The safest order is to avoid destructive actions: try leaving and re-entering the interaction, move away, save only if the game is responsive and you are confident the state is not corrupted, then restart or verify files if the issue repeats."
+          ],
+          "steps": [
+            "Try exiting and re-entering the interrogation interaction once, then walk away from the prison area.",
+            "If the character moves but the camera is stuck, try opening a normal menu or starting an expedition only if you are comfortable leaving the current base state.",
+            "Restart the game and verify Steam files if the prison camera bug repeats across sessions.",
+            "Do not edit save files or delete local data unless the developer or support thread specifically asks for it."
+          ],
+          "claim_ids": [
+            "claim-prison-player-workaround-20261005",
+            "claim-pinned-bug-reporting-thread"
+          ]
+        },
+        {
+          "heading": "When to submit K-key feedback",
+          "paragraphs": [
+            "Multiverse replies in the current prison-interrogation thread that if the issue happens again, the player should submit K-key feedback in-game so the team can locate the specific unit/problem more easily. That is the most important current action because the issue is stateful: the team needs logs and a save context, not just a forum description.",
+            "The older pinned bug/glitch thread points in the same direction by asking for player logs and save files for issues that are stuck, crashing or hard to reproduce. That gives this page a direct reporting path without inventing a fix."
+          ],
+          "steps": [
+            "Press K in-game when the bug is present or immediately after recovering.",
+            "Mention that the issue happened after prison interrogation.",
+            "Include whether the UI froze, whether the camera snapped back, and whether your character could still move.",
+            "Add any repeatable workaround you tried, such as re-entering interrogation or starting an expedition."
+          ],
+          "claim_ids": [
+            "claim-k-key-feedback-developer-20261005",
+            "claim-pinned-bug-reporting-thread"
+          ]
+        },
+        {
+          "heading": "What not to overclaim",
+          "paragraphs": [
+            "This page does not claim the prison bug is fixed, does not publish a permanent workaround, and does not say every prisoner or interrogation state can trigger it. It also does not turn a temporary player workaround into an official support instruction.",
+            "Update the page only when Multiverse publishes a dated patch note or a clearer developer reply that changes the answer. Until then, the page exists to help players recognize the bug, recover safely, and send a report with useful evidence."
+          ],
+          "steps": [
+            "Use dated Steam threads as current evidence, not as a final mechanics table.",
+            "Keep prisoner conversion and capture strategy separate from this camera/UI bug.",
+            "Prefer K-key logs over repeated forum-only comments when the bug can be reproduced."
+          ],
+          "claim_ids": [
+            "claim-boundary-no-permanent-prison-fix-20261005"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is the prison interrogation freeze a known current issue?",
+          "answer": "Yes, it is at least a current reported issue. Two Steam threads describe prison interrogation leaving the UI or camera stuck, and Multiverse asks affected players to submit K-key in-game feedback if it happens again.",
+          "claim_ids": [
+            "claim-prison-freeze-current-thread-20261005",
+            "claim-k-key-feedback-developer-20261005"
+          ]
+        },
+        {
+          "question": "Is there a guaranteed fix?",
+          "answer": "No guaranteed fix was captured. Player comments mention re-entering/exiting interrogation or starting an expedition as temporary recovery attempts, but the developer request is to submit K-key feedback with logs.",
+          "claim_ids": [
+            "claim-prison-player-workaround-20261005",
+            "claim-k-key-feedback-developer-20261005"
+          ]
+        },
+        {
+          "question": "Should I change save files?",
+          "answer": "No. The current evidence supports reporting through K-key feedback and using low-risk recovery attempts. Do not edit saves unless official support asks for a specific file action.",
+          "claim_ids": [
+            "claim-pinned-bug-reporting-thread",
+            "claim-boundary-no-permanent-prison-fix-20261005"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-discussion-prison-freeze-20261005",
+        "src-steam-discussion-camera-snap-20261005",
+        "src-steam-discussion-bug-reporting-20261005",
+        "src-steam-news-st24-20261005"
+      ],
+      "claim_ids": [
+        "claim-prison-freeze-current-thread-20261005",
+        "claim-prison-camera-snap-current-thread-20261005",
+        "claim-k-key-feedback-developer-20261005",
+        "claim-prison-player-workaround-20261005",
+        "claim-pinned-bug-reporting-thread",
+        "claim-boundary-no-permanent-prison-fix-20261005"
+      ],
+      "updated_at": "2026-10-05T20:35:00+08:00",
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-capture-mechanics",
+        "pax-autocratica-performance",
+        "pax-autocratica-menu-bugged",
+        "pax-autocratica-prologue-bug",
+        "pax-autocratica-troop-upgrading"
       ],
       "ad_slot_count": 2
     }
@@ -11172,6 +11319,31 @@
         "Does not treat Steam discussion comments as official formula documentation.",
         "Does not rank every class or soldier as a permanent meta."
       ]
+    },
+    "pax-autocratica-prison-interrogation-freeze": {
+      "last_checked_at": "2026-10-05T20:35:00+08:00",
+      "source_links": [
+        {
+          "label": "Steam discussion: prison interrogation freeze",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586187435308943761/",
+          "source_type": "steam_discussion"
+        },
+        {
+          "label": "Steam discussion: camera snap after interrogation",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/84031737849571307/",
+          "source_type": "steam_discussion"
+        },
+        {
+          "label": "Steam pinned bug/glitch reporting thread",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/585056732983840454/",
+          "source_type": "steam_discussion"
+        },
+        {
+          "label": "Steam News API: latest official update remains ST-24",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        }
+      ]
     }
   },
   "homeProvenance": {
@@ -12067,6 +12239,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 squad screenshot already present in the site media registry.",
       "relevance_reason": "The page explains soldier upgrade decisions, fodder and rarity, so a squad-focused game image is appropriate."
+    },
+    {
+      "asset_id": "pax-autocratica-prison-interrogation-freeze-20261005",
+      "page": "/pax-autocratica-prison-interrogation-freeze",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-home-01.webp",
+      "alt": "Pax Autocratica colony scene used for the prison interrogation freeze guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-10-05T20:35:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "Shows colony/prison-management context for a bug guide without inventing a bug-specific screenshot."
     }
   ],
   "ads": {
@@ -12146,5 +12334,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-10-04T09:20:00+08:00"
+  "generated_at": "2026-10-05T20:35:00+08:00"
 }
