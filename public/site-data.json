@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to prison interrogation freezes, troop upgrading, discount correction status, live Steam price, soldier customization, base building, colony logistics and Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to healing food, prison interrogation freezes, troop upgrading, discount correction status, soldier customization, base building, colony logistics and Early Access questions.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-10-05"
+        "Updated 2026-10-06"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -140,8 +140,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to prison interrogation freezes, troop upgrading, discount correction status, live Steam price, soldier customization, base building, colony logistics and Early Access questions.",
-    "keywords": "Pax Autocratica prison interrogation freeze, Pax Autocratica camera bug, Pax Autocratica K-key feedback, Pax Autocratica wiki, Pax Autocratica troop upgrading"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to healing food, prison interrogation freezes, troop upgrading, discount correction status, soldier customization, base building, colony logistics and Early Access questions.",
+    "keywords": "Pax Autocratica healing food, Pax Autocratica canteen, Pax Autocratica medbay, Pax Autocratica wiki, Pax Autocratica prison interrogation freeze"
   },
   "theme": {
     "hue": 164,
@@ -184,7 +184,8 @@
               "pax-autocratica-custom-colony-settings",
               "pax-autocratica-trade-port",
               "pax-autocratica-sell-unwanted-items",
-              "pax-autocratica-reproductive-allocation-facility"
+              "pax-autocratica-reproductive-allocation-facility",
+              "pax-autocratica-healing-food"
             ]
           },
           {
@@ -429,6 +430,10 @@
           {
             "keyword": "Pax Autocratica Prison Interrogation Freeze",
             "slug": "pax-autocratica-prison-interrogation-freeze"
+          },
+          {
+            "keyword": "Pax Autocratica Healing Food",
+            "slug": "pax-autocratica-healing-food"
           }
         ]
       }
@@ -7920,6 +7925,130 @@
         "pax-autocratica-troop-upgrading"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Healing Food",
+      "slug": "pax-autocratica-healing-food",
+      "seo": {
+        "title": "Pax Autocratica Healing Food: When It Helps",
+        "description": "A source-backed Pax Autocratica guide for healing food, canteen recovery, medbay pressure, risky trait food, and the current evidence boundary."
+      },
+      "direct_answer": "Pax Autocratica healing food is not a universal hospital replacement, but it is not automatically useless either. The official Steam store confirms food and supplies are part of the colony loop, and a current Steam discussion gives practical use cases: injured soldiers may recover faster when they can reach food, healing food can reduce pressure when medbays are limited, and recovery food can offset risky food that causes injury while granting a trait. Use it as support, read the live tooltip, and do not claim a hidden healing formula from community comments.",
+      "direct_answer_claim_ids": [
+        "claim-healing-food-current-thread-20261006",
+        "claim-official-food-supplies-boundary",
+        "claim-no-hidden-healing-formula-20261006"
+      ],
+      "sections": [
+        {
+          "heading": "What official sources actually support",
+          "paragraphs": [
+            "The official store description says citizens can manufacture food and supplies, and it frames the colony as the base layer that feeds expedition growth. That confirms food is part of the state-management loop, but it does not publish a healing-food table, exact injury timers, sickness thresholds or a universal canteen priority rule.",
+            "ST-24 also mentions Medic Healing Grenade activation speed, which proves combat healing and recovery behavior are still being adjusted in Early Access. It does not say healing food was rebalanced, so do not use ST-24 as proof that every meal or injury state changed."
+          ],
+          "steps": [
+            "Treat food as part of colony logistics first.",
+            "Treat medic and hospital systems as separate healing routes.",
+            "Recheck the live item tooltip before using rare food on a valuable soldier."
+          ],
+          "claim_ids": [
+            "claim-official-food-supplies-boundary",
+            "claim-st24-medic-healing-grenade-context"
+          ]
+        },
+        {
+          "heading": "When healing food is actually useful",
+          "paragraphs": [
+            "The current Steam discussion gives the clearest player-task signal: one player argues healing food feels useless, while replies describe cases where it can help. One answer says injured soldiers can walk to the canteen and recover faster, especially when the player is not manually delivering food. Another says it can help when medbays are limited or when soldiers do not go to the hospital.",
+            "That makes the safe answer conditional. Healing food is useful when it reduces a real bottleneck: too few medbays, injured fighters who can still reach food, or a recovery window before the next expedition. It is weaker when the injury is severe, the soldier cannot reach the food, or a hospital/medic solution is clearly available."
+          ],
+          "steps": [
+            "Put recovery food where injured soldiers can reach it without manual hauling.",
+            "Watch whether the injury state clears faster than normal rest in your current build.",
+            "Use healing food to reduce medbay pressure, not to replace all medical infrastructure."
+          ],
+          "claim_ids": [
+            "claim-healing-food-current-thread-20261006"
+          ]
+        },
+        {
+          "heading": "Pairing risky food with recovery food",
+          "paragraphs": [
+            "One community reply describes a narrow use case: some foods may cause an injured effect while giving a permanent positive trait, and players can manually give recovery food afterward to reduce the hospital penalty. This is useful as a cautionary workflow, not as a guaranteed min-max formula.",
+            "If you experiment with trait food, do it on a replaceable or already-tested soldier first. The current public evidence does not prove every trait food is worth the injury, and it does not publish exact recovery timing for every food combination."
+          ],
+          "steps": [
+            "Read the tooltip before giving a food with a negative side effect.",
+            "Keep recovery food ready before applying risky trait food.",
+            "Do not test expensive or rare combinations on your only proven fighter."
+          ],
+          "claim_ids": [
+            "claim-risky-food-recovery-boundary-20261006"
+          ]
+        },
+        {
+          "heading": "What not to overclaim",
+          "paragraphs": [
+            "This page does not claim a complete food list, exact healing values, hospital priority formula, best canteen layout, hidden injury math or universal trait-food build. It also does not treat a player reply as official balance documentation.",
+            "Update this page if Multiverse publishes dated patch notes about food healing, sickness recovery, canteen behavior, hospital routing or food trait effects. Until then, the best current answer is practical: use healing food where access and timing matter, keep medical infrastructure available, and test one variable at a time."
+          ],
+          "steps": [
+            "Use the Steam thread for current player demand and cautious use cases.",
+            "Use the official store only for the broad food-and-supplies boundary.",
+            "Keep hospitals, medics and bug reports separate from food-effect speculation."
+          ],
+          "claim_ids": [
+            "claim-no-hidden-healing-formula-20261006"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is healing food useless?",
+          "answer": "Not always. The current Steam discussion suggests healing food can help when medbays are limited, when injured soldiers can reach the canteen, or when you need to offset a food side effect. It is not proven to replace hospitals or medics.",
+          "claim_ids": [
+            "claim-healing-food-current-thread-20261006"
+          ]
+        },
+        {
+          "question": "Should I manually feed every injured soldier?",
+          "answer": "Probably not. Try canteen placement and normal recovery first. Manual feeding makes sense only when a specific fighter matters and the food effect is worth the attention cost.",
+          "claim_ids": [
+            "claim-healing-food-current-thread-20261006"
+          ]
+        },
+        {
+          "question": "Can healing food remove every injury or sickness?",
+          "answer": "No captured source proves that. Check the item tooltip and current injury state, then use hospitals, medics or support routes when food does not solve the problem.",
+          "claim_ids": [
+            "claim-no-hidden-healing-formula-20261006"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-discussion-healing-food-20261006",
+        "src-steam-store-food-supplies-20261006",
+        "src-steam-news-st24-20261006"
+      ],
+      "claim_ids": [
+        "claim-healing-food-current-thread-20261006",
+        "claim-official-food-supplies-boundary",
+        "claim-st24-medic-healing-grenade-context",
+        "claim-risky-food-recovery-boundary-20261006",
+        "claim-no-hidden-healing-formula-20261006"
+      ],
+      "updated_at": "2026-10-06T09:35:00+08:00",
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-base-building",
+        "pax-autocratica-overworked-soldiers",
+        "pax-autocratica-combat-classes",
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-troop-upgrading"
+      ],
+      "ad_slot_count": 2
     }
   ],
   "pageProvenance": {
@@ -11344,6 +11473,26 @@
           "source_type": "official_community"
         }
       ]
+    },
+    "pax-autocratica-healing-food": {
+      "last_checked_at": "2026-10-06T09:35:00+08:00",
+      "source_links": [
+        {
+          "label": "Steam discussion: Food that heals is useless",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586187800873884479/",
+          "source_type": "steam_discussion"
+        },
+        {
+          "label": "Steam store: food and supplies boundary",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Steam News API: ST-24 Medic Healing Grenade context",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        }
+      ]
     }
   },
   "homeProvenance": {
@@ -12255,6 +12404,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "Shows colony/prison-management context for a bug guide without inventing a bug-specific screenshot."
+    },
+    {
+      "asset_id": "pax-autocratica-healing-food-20261006",
+      "page": "/pax-autocratica-healing-food",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-home-01.webp",
+      "alt": "Pax Autocratica colony scene used for the healing food guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-10-06T09:35:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "Shows colony production context for a guide about food, supplies, recovery and medbay pressure."
     }
   ],
   "ads": {
@@ -12334,5 +12499,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-10-05T20:35:00+08:00"
+  "generated_at": "2026-10-06T09:35:00+08:00"
 }
