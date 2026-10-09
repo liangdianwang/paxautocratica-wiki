@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to healing food, prison interrogation freezes, troop upgrading, discount correction status, soldier customization, base building, colony logistics and Early Access questions.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to colony mood statuses, healing food, prison interrogation freezes, troop upgrading, price correction status and base logistics.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-10-06"
+        "Updated 2026-10-09"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -77,6 +77,12 @@
           "title": "Fix Prison Freeze",
           "description": "Recover from prison interrogation camera/UI lockups and send useful K-key feedback.",
           "href": "/pax-autocratica-prison-interrogation-freeze/"
+        },
+        {
+          "number": "7",
+          "title": "Decode Mood Status",
+          "description": "Check Humiliated, Resentful and Agitated without inventing hidden formulas.",
+          "href": "/pax-autocratica-humiliated-resentful-agitated-status/"
         }
       ],
       "claim_ids": [
@@ -140,8 +146,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to healing food, prison interrogation freezes, troop upgrading, discount correction status, soldier customization, base building, colony logistics and Early Access questions.",
-    "keywords": "Pax Autocratica healing food, Pax Autocratica canteen, Pax Autocratica medbay, Pax Autocratica wiki, Pax Autocratica prison interrogation freeze"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to colony mood statuses, healing food, prison interrogation freezes, troop upgrading, price correction status and base logistics.",
+    "keywords": "Pax Autocratica Humiliated status, Pax Autocratica Resentful status, Pax Autocratica Agitated status, Pax Autocratica public bath, Pax Autocratica wiki"
   },
   "theme": {
     "hue": 164,
@@ -205,6 +211,7 @@
               "pax-autocratica-auto-defense",
               "pax-autocratica-overworked-soldiers",
               "pax-autocratica-soldiers-fighting-base",
+              "pax-autocratica-humiliated-resentful-agitated-status",
               "pax-autocratica-soldier-customization",
               "pax-autocratica-soldier-gear",
               "pax-autocratica-red-gear",
@@ -434,6 +441,10 @@
           {
             "keyword": "Pax Autocratica Healing Food",
             "slug": "pax-autocratica-healing-food"
+          },
+          {
+            "keyword": "Pax Autocratica Humiliated, Resentful and Agitated Status",
+            "slug": "pax-autocratica-humiliated-resentful-agitated-status"
           }
         ]
       }
@@ -1311,6 +1322,21 @@
           ]
         },
         {
+          "heading": "October 9 US snapshot: no active discount",
+          "paragraphs": [
+            "The 2026-10-09 US Steam appdetails snapshot shows Pax Autocratica at $29.99 with 0% discount. The store description still displays the Important Notice saying the first-day Autumn Sale discount was set incorrectly and has now been fixed.",
+            "That changes the current price boundary again: the 80% discount was the mistake, the 20% sale was a corrected sale snapshot on October 4, and today's captured US snapshot shows no active discount. Use the live Steam checkout for your region before purchasing."
+          ],
+          "steps": [
+            "Treat both the 80% and 20% screenshots as historical unless the live listing shows them again.",
+            "Use the live Steam checkout for your region and account.",
+            "Do not infer abandonment or a permanent price from any cached sale screenshot."
+          ],
+          "claim_ids": [
+            "claim-price-us-no-active-discount-20261009"
+          ]
+        },
+        {
           "heading": "October 4 discount correction",
           "paragraphs": [
             "The 2026-10-04 US Steam appdetails snapshot shows Pax Autocratica at $23.99, a 20% discount from $29.99, and the store description says the incorrect Autumn Sale discount has now been fixed.",
@@ -1417,7 +1443,7 @@
         "claim-price-checked",
         "claim-price-entry"
       ],
-      "updated_at": "2026-10-04T09:20:00+08:00",
+      "updated_at": "2026-10-09T10:35:00+08:00",
       "time_sensitivity": "changing",
       "image_needs": [
         {
@@ -1437,7 +1463,8 @@
         "pax-autocratica-gameplay",
         "pax-autocratica-community",
         "pax-autocratica-80-discount-mistake",
-        "pax-autocratica-troop-upgrading"
+        "pax-autocratica-troop-upgrading",
+        "pax-autocratica-humiliated-resentful-agitated-status"
       ],
       "ad_slot_count": 2
     },
@@ -2214,7 +2241,8 @@
         "pax-autocratica-combat-classes",
         "pax-autocratica-small-battle-soldier-limit",
         "pax-autocratica-soldier-customization",
-        "pax-autocratica-troop-upgrading"
+        "pax-autocratica-troop-upgrading",
+        "pax-autocratica-humiliated-resentful-agitated-status"
       ],
       "ad_slot_count": 2,
       "last_checked_at": "2026-08-21T01:06:09.726Z"
@@ -2846,6 +2874,21 @@
           ]
         },
         {
+          "heading": "October 9 recheck: Trade Port rework remains pending",
+          "paragraphs": [
+            "A current Steam thread asks about Trade Port behavior, and a developer reply says the team has a rework card with a fix to that issue and other Trade Port improvements on the todo list.",
+            "That is stronger than a random player guess, but still not a shipped patch note. Keep using this page as a caution checklist until a dated official update documents the exact Trade Port changes."
+          ],
+          "steps": [
+            "Use the current thread as evidence that Trade Port improvements remain on the team's todo list.",
+            "Do not claim the rework is already live.",
+            "Recheck the next directive before publishing item tables or direct-sell advice."
+          ],
+          "claim_ids": [
+            "claim-trade-port-rework-pending-20261009"
+          ]
+        },
+        {
           "heading": "How the older money problem fits",
           "paragraphs": [
             "The earlier money-pressure thread asked whether the Trade Port ever sells a player's own ores and how to automate money. Before AG-27, replies pointed players toward expeditions, traders and manually carried goods. AG-27 now gives that demand a clearer base-side route.",
@@ -2932,7 +2975,7 @@
         "claim-trade-port-risk-separation",
         "claim-ag27-not-full-price-table"
       ],
-      "updated_at": "2026-08-28T09:04:22.7627779+08:00",
+      "updated_at": "2026-10-09T10:35:00+08:00",
       "time_sensitivity": "changing",
       "image_needs": [
         {
@@ -2952,7 +2995,8 @@
         "pax-autocratica-resource-transport-station-warehouse",
         "pax-autocratica-gameplay",
         "pax-autocratica-community",
-        "pax-autocratica-base-building"
+        "pax-autocratica-base-building",
+        "pax-autocratica-humiliated-resentful-agitated-status"
       ],
       "ad_slot_count": 2
     },
@@ -5311,7 +5355,8 @@
         "pax-autocratica-revive-player",
         "pax-autocratica-soldiers-fighting-base",
         "pax-autocratica-base-building",
-        "pax-autocratica-troop-upgrading"
+        "pax-autocratica-troop-upgrading",
+        "pax-autocratica-humiliated-resentful-agitated-status"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-19T09:11:00+08:00",
@@ -6263,7 +6308,8 @@
         "pax-autocratica-best-troops",
         "pax-autocratica-community",
         "pax-autocratica-auto-defense",
-        "pax-autocratica-base-building"
+        "pax-autocratica-base-building",
+        "pax-autocratica-humiliated-resentful-agitated-status"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-22T09:18:00+08:00",
@@ -7322,7 +7368,8 @@
         "pax-autocratica-overworked-soldiers",
         "pax-autocratica-soldiers-fighting-base",
         "pax-autocratica-auto-defense",
-        "pax-autocratica-st24-patch-notes"
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-humiliated-resentful-agitated-status"
       ],
       "ad_slot_count": 2
     },
@@ -7504,6 +7551,21 @@
           ]
         },
         {
+          "heading": "October 9 US snapshot: no active discount",
+          "paragraphs": [
+            "The 2026-10-09 US Steam appdetails snapshot shows Pax Autocratica at $29.99 with 0% discount. The store description still displays the Important Notice saying the first-day Autumn Sale discount was set incorrectly and has now been fixed.",
+            "That changes the current price boundary again: the 80% discount was the mistake, the 20% sale was a corrected sale snapshot on October 4, and today's captured US snapshot shows no active discount. Use the live Steam checkout for your region before purchasing."
+          ],
+          "steps": [
+            "Treat both the 80% and 20% screenshots as historical unless the live listing shows them again.",
+            "Use the live Steam checkout for your region and account.",
+            "Do not infer abandonment or a permanent price from any cached sale screenshot."
+          ],
+          "claim_ids": [
+            "claim-price-us-no-active-discount-20261009"
+          ]
+        },
+        {
           "heading": "October 4 status: the 80% mistake is fixed",
           "paragraphs": [
             "The Steam appdetails snapshot captured on 2026-10-04 now shows the Autumn Sale at $23.99, a 20% discount from $29.99. The Steam store description also displays an Important Notice saying the first-day Autumn Sale discount was set incorrectly and has now been fixed.",
@@ -7623,7 +7685,7 @@
         "claim-discount-not-abandoned-20261002",
         "claim-discount-boundary-20261002"
       ],
-      "updated_at": "2026-10-04T09:20:00+08:00",
+      "updated_at": "2026-10-09T10:35:00+08:00",
       "time_sensitivity": "volatile_sale_status",
       "page_status": "publish",
       "index_status": "index",
@@ -7634,7 +7696,8 @@
         "pax-autocratica-demo",
         "pax-autocratica-roadmap",
         "pax-autocratica-st24-patch-notes",
-        "pax-autocratica-troop-upgrading"
+        "pax-autocratica-troop-upgrading",
+        "pax-autocratica-humiliated-resentful-agitated-status"
       ],
       "ad_slot_count": 2
     },
@@ -8046,7 +8109,158 @@
         "pax-autocratica-overworked-soldiers",
         "pax-autocratica-combat-classes",
         "pax-autocratica-st24-patch-notes",
-        "pax-autocratica-troop-upgrading"
+        "pax-autocratica-troop-upgrading",
+        "pax-autocratica-humiliated-resentful-agitated-status"
+      ],
+      "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Humiliated, Resentful and Agitated Status",
+      "slug": "pax-autocratica-humiliated-resentful-agitated-status",
+      "seo": {
+        "title": "Pax Autocratica Humiliated, Resentful, Agitated Status Help",
+        "description": "A source-backed Pax Autocratica guide to Humiliated, Resentful and Agitated statuses, social interactions, public bath support, brawls and reporting boundaries."
+      },
+      "direct_answer": "Humiliated, Resentful and Agitated in Pax Autocratica should be treated as colony-social status effects first, not as proof that the player personally caused every problem. In the current Steam thread, Multiverse says the team plans to deepen the colony sim with more interactions, directives and buildings, but for now some citizens simply are not friendly. The developer also says these statuses can appear when certain interactions happen, such as losing a brawl, and are not all related to player actions. Use public baths and other positive buildings as mood support, check traits and recent fights, and avoid inventing an exact loyalty or fear formula until a dated patch note publishes one.",
+      "direct_answer_claim_ids": [
+        "claim-status-current-player-demand-20261009",
+        "claim-status-developer-social-boundary-20261009",
+        "claim-store-colony-social-systems-20261009"
+      ],
+      "sections": [
+        {
+          "heading": "What the current developer reply confirms",
+          "paragraphs": [
+            "The strongest current source is the Steam thread titled Humiliated, Resentful, Agitated Status. The player describes seeing insults, reconciliation, low loyalty growth, and status labels that feel random when playing a benevolent-leader colony.",
+            "Multiverse answers that deeper colony-sim interactions, directives and buildings are planned or considered, but also gives a current-build boundary: some people not being friendly is standard, public bath and other positive buildings can help mood, and the status labels can appear from interactions such as losing a brawl. That means the page should explain a social-system checklist, not a hidden punishment formula."
+          ],
+          "steps": [
+            "Treat the status as a social or mood signal before assuming a broken save.",
+            "Look for recent brawls, insults, hostile interactions or unfriendly traits.",
+            "Use positive mood buildings such as public baths where your current build supports them.",
+            "Do not claim every Humiliated or Resentful citizen was caused by one player decree."
+          ],
+          "claim_ids": [
+            "claim-status-current-player-demand-20261009",
+            "claim-status-developer-social-boundary-20261009"
+          ]
+        },
+        {
+          "heading": "How to investigate without overreacting",
+          "paragraphs": [
+            "The safest workflow is to separate social conflict from fatigue, food, fear and base fights. A citizen can look like a management failure when the immediate cause is a social interaction, a recent brawl or a mood facility gap. Change one variable at a time so you can tell what actually helped.",
+            "If the affected citizen is also Overworked or Exhausted, fix the schedule and recovery issue first. If the same citizens are also starting fights, inspect traits and conflict patterns. If the status appears after a known brawl, wait through a normal recovery window before punishing, exiling or replacing people."
+          ],
+          "steps": [
+            "Record the status, citizen name, traits, job, schedule and recent interactions.",
+            "Check whether the citizen recently lost a brawl or was involved in insults.",
+            "Add or improve mood support before changing the whole colony policy.",
+            "Run one comparable day before deciding the status is permanent."
+          ],
+          "claim_ids": [
+            "claim-status-developer-social-boundary-20261009",
+            "claim-store-colony-social-systems-20261009"
+          ]
+        },
+        {
+          "heading": "What positive buildings can and cannot prove",
+          "paragraphs": [
+            "The developer specifically names public bath and other positive buildings as mood help. That is useful enough for a practical checklist, but it is not a published table of exact status-removal values. Use these buildings as support infrastructure, not as a guaranteed instant cure.",
+            "If adding mood support reduces the status frequency, keep the change and document the build. If nothing changes, preserve the evidence and avoid stacking unrelated punishments that make the colony harder to diagnose."
+          ],
+          "steps": [
+            "Confirm positive buildings are built, staffed and reachable.",
+            "Watch whether the status clears after normal social and sleep cycles.",
+            "Avoid assuming one public bath fixes every Resentful or Agitated case."
+          ],
+          "claim_ids": [
+            "claim-status-developer-social-boundary-20261009"
+          ]
+        },
+        {
+          "heading": "When to report it",
+          "paragraphs": [
+            "Report the issue when the same status looks repeatable, permanent or disconnected from readable interactions after normal recovery checks. A good report should give the team enough context to separate intended social simulation from a stuck status label.",
+            "Include citizen names, status labels, traits, recent fights or insults, work schedule, mood buildings, fear and loyalty context, and whether the status survived reload or a full day cycle."
+          ],
+          "steps": [
+            "Capture the build date and the exact status labels.",
+            "List recent social events, brawls, public bath availability and work schedule.",
+            "Mention whether the colony is benevolent, fear-heavy or mixed.",
+            "Use the Steam support or in-game feedback route if the symptom is repeatable."
+          ],
+          "claim_ids": [
+            "claim-status-current-player-demand-20261009"
+          ]
+        },
+        {
+          "heading": "What this page will not claim",
+          "paragraphs": [
+            "This page does not publish an exact mood formula, loyalty threshold, fear target, brawl probability, public-bath value, or guaranteed cure for Humiliated, Resentful and Agitated. The captured developer reply supports cause categories and a safe investigation path, not a complete mechanics database.",
+            "Update this page when Multiverse publishes dated patch notes for social interactions, mood buildings, directives, citizen conflict or status display. Until then, treat it as current Early Access guidance with clear evidence boundaries."
+          ],
+          "steps": [
+            "Use the Steam thread for current status behavior and developer boundary.",
+            "Use the official store for broad colony-social system language.",
+            "Use future patch notes for exact values or confirmed fixes."
+          ],
+          "claim_ids": [
+            "claim-boundary-no-status-formula-20261009"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Are Humiliated, Resentful and Agitated always my fault?",
+          "answer": "No. The current developer reply says these statuses can appear from interactions such as losing a brawl and are not all related to player actions.",
+          "claim_ids": [
+            "claim-status-developer-social-boundary-20261009"
+          ]
+        },
+        {
+          "question": "What should I check first?",
+          "answer": "Check recent brawls or insults, the affected citizen's traits, schedule pressure, and whether positive mood buildings such as public baths are available.",
+          "claim_ids": [
+            "claim-status-developer-social-boundary-20261009"
+          ]
+        },
+        {
+          "question": "Is there an exact loyalty or fear formula?",
+          "answer": "No captured official source gives an exact formula. Treat fear, loyalty and mood as real systems, but do not publish a hidden threshold as fact.",
+          "claim_ids": [
+            "claim-store-colony-social-systems-20261009",
+            "claim-boundary-no-status-formula-20261009"
+          ]
+        },
+        {
+          "question": "Does this mean deeper colony sim updates are confirmed?",
+          "answer": "The developer says there are plans to deepen the colony sim and that the idea will be taken into consideration. That is a direction signal, not a dated release promise.",
+          "claim_ids": [
+            "claim-status-developer-social-boundary-20261009"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-discussion-statuses-20261009",
+        "src-steam-store-social-systems-20261009",
+        "src-steam-news-st24-20261009"
+      ],
+      "claim_ids": [
+        "claim-status-current-player-demand-20261009",
+        "claim-status-developer-social-boundary-20261009",
+        "claim-store-colony-social-systems-20261009",
+        "claim-boundary-no-status-formula-20261009"
+      ],
+      "updated_at": "2026-10-09T10:35:00+08:00",
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-soldiers-fighting-base",
+        "pax-autocratica-overworked-soldiers",
+        "pax-autocratica-base-building",
+        "pax-autocratica-healing-food",
+        "pax-autocratica-best-troops"
       ],
       "ad_slot_count": 2
     }
@@ -8567,9 +8781,14 @@
           "label": "platform",
           "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
           "source_type": "platform"
+        },
+        {
+          "label": "Steam appdetails US snapshot: $29.99 / 0% discount",
+          "url": "https://store.steampowered.com/api/appdetails?appids=1067360&cc=us&l=en",
+          "source_type": "official_platform_api"
         }
       ],
-      "last_checked_at": "2026-08-14T08:05:00Z",
+      "last_checked_at": "2026-10-09T10:35:00+08:00",
       "quality_review_id": "q01-pax-autocratica-price",
       "status": "publish",
       "depth_variance_reason": "This is a live-purchase handoff page; hard-coded pricing text would go stale and add less value than the regional store check."
@@ -9222,7 +9441,7 @@
       ]
     },
     "pax-autocratica-trade-port": {
-      "last_checked_at": "2026-08-28T09:04:22.7627779+08:00",
+      "last_checked_at": "2026-10-09T10:35:00+08:00",
       "quality_review_id": "q01-pax-autocratica-trade-port",
       "status": "publish",
       "depth_variance_reason": "AG-27 directly changes the Trade Port answer from planned selling to shipped item selling, while the page still avoids unverified price tables, passive Warehouse automation and soldier-purchase conclusions.",
@@ -9256,6 +9475,11 @@
           "label": "Pax Autocratica Steam store",
           "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
           "source_type": "official_store"
+        },
+        {
+          "label": "Steam discussion: About trade port",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586188069723489953/",
+          "source_type": "steam_discussion"
         }
       ]
     },
@@ -11382,9 +11606,14 @@
           "label": "Steam discussion: -80 already???",
           "url": "https://steamcommunity.com/app/1067360/discussions/0/586187435308880232/",
           "source_type": "community_discussion"
+        },
+        {
+          "label": "Steam appdetails US snapshot: no active discount on Oct 9",
+          "url": "https://store.steampowered.com/api/appdetails?appids=1067360&cc=us&l=en",
+          "source_type": "official_platform_api"
         }
       ],
-      "last_checked_at": "2026-10-02T09:18:00+08:00",
+      "last_checked_at": "2026-10-09T10:35:00+08:00",
       "quality_review_id": "q01-pax-autocratica-80-discount-mistake",
       "boundaries": [
         "Does not claim the 80% price will remain.",
@@ -11489,6 +11718,26 @@
         },
         {
           "label": "Steam News API: ST-24 Medic Healing Grenade context",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        }
+      ]
+    },
+    "pax-autocratica-humiliated-resentful-agitated-status": {
+      "last_checked_at": "2026-10-09T10:35:00+08:00",
+      "source_links": [
+        {
+          "label": "Steam discussion: Humiliated, Resentful, Agitated Status",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586188069723518147/",
+          "source_type": "steam_discussion"
+        },
+        {
+          "label": "Steam store: Pax Autocratica",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_platform"
+        },
+        {
+          "label": "Steam News API: latest official update remains ST-24",
           "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
           "source_type": "official_community"
         }
@@ -12420,6 +12669,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "Shows colony production context for a guide about food, supplies, recovery and medbay pressure."
+    },
+    {
+      "asset_id": "pax-autocratica-humiliated-status-20261009",
+      "page": "/pax-autocratica-humiliated-resentful-agitated-status",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-home-01.webp",
+      "alt": "Pax Autocratica colony scene used for the Humiliated Resentful Agitated status guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-10-09T10:35:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "Shows colony-management context for social status guidance without inventing a status-specific screenshot."
     }
   ],
   "ads": {
@@ -12499,5 +12764,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-10-06T09:35:00+08:00"
+  "generated_at": "2026-10-09T10:35:00+08:00"
 }
