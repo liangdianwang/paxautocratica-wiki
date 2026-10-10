@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to colony mood statuses, healing food, prison interrogation freezes, troop upgrading, price correction status and base logistics.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to reducing fear stats, colony mood statuses, healing food, prison bugs, troop upgrading, price status and base logistics.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-10-09"
+        "Updated 2026-10-10"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -83,6 +83,12 @@
           "title": "Decode Mood Status",
           "description": "Check Humiliated, Resentful and Agitated without inventing hidden formulas.",
           "href": "/pax-autocratica-humiliated-resentful-agitated-status/"
+        },
+        {
+          "number": "8",
+          "title": "Reduce Fear",
+          "description": "Lower high soldier fear after mass upgrades without inventing hidden formulas.",
+          "href": "/pax-autocratica-reduce-fear-stats/"
         }
       ],
       "claim_ids": [
@@ -146,8 +152,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to colony mood statuses, healing food, prison interrogation freezes, troop upgrading, price correction status and base logistics.",
-    "keywords": "Pax Autocratica Humiliated status, Pax Autocratica Resentful status, Pax Autocratica Agitated status, Pax Autocratica public bath, Pax Autocratica wiki"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to reducing fear stats, colony mood statuses, healing food, prison bugs, troop upgrading, price status and base logistics.",
+    "keywords": "Pax Autocratica reduce fear stats, Pax Autocratica fear, Pax Autocratica soldier fear, Pax Autocratica troop upgrading fear, Pax Autocratica wiki"
   },
   "theme": {
     "hue": 164,
@@ -207,6 +213,7 @@
               "pax-autocratica-best-troops",
               "pax-autocratica-combat-classes",
               "pax-autocratica-troop-upgrading",
+              "pax-autocratica-reduce-fear-stats",
               "pax-autocratica-small-battle-soldier-limit",
               "pax-autocratica-auto-defense",
               "pax-autocratica-overworked-soldiers",
@@ -445,6 +452,10 @@
           {
             "keyword": "Pax Autocratica Humiliated, Resentful and Agitated Status",
             "slug": "pax-autocratica-humiliated-resentful-agitated-status"
+          },
+          {
+            "keyword": "Pax Autocratica Reduce Fear Stats",
+            "slug": "pax-autocratica-reduce-fear-stats"
           }
         ]
       }
@@ -5356,7 +5367,8 @@
         "pax-autocratica-soldiers-fighting-base",
         "pax-autocratica-base-building",
         "pax-autocratica-troop-upgrading",
-        "pax-autocratica-humiliated-resentful-agitated-status"
+        "pax-autocratica-humiliated-resentful-agitated-status",
+        "pax-autocratica-reduce-fear-stats"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-19T09:11:00+08:00",
@@ -6309,7 +6321,8 @@
         "pax-autocratica-community",
         "pax-autocratica-auto-defense",
         "pax-autocratica-base-building",
-        "pax-autocratica-humiliated-resentful-agitated-status"
+        "pax-autocratica-humiliated-resentful-agitated-status",
+        "pax-autocratica-reduce-fear-stats"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-22T09:18:00+08:00",
@@ -7852,7 +7865,8 @@
         "pax-autocratica-capture-mechanics",
         "pax-autocratica-overworked-soldiers",
         "pax-autocratica-save-wipe",
-        "pax-autocratica-prison-interrogation-freeze"
+        "pax-autocratica-prison-interrogation-freeze",
+        "pax-autocratica-reduce-fear-stats"
       ],
       "ad_slot_count": 2
     },
@@ -8110,7 +8124,8 @@
         "pax-autocratica-combat-classes",
         "pax-autocratica-st24-patch-notes",
         "pax-autocratica-troop-upgrading",
-        "pax-autocratica-humiliated-resentful-agitated-status"
+        "pax-autocratica-humiliated-resentful-agitated-status",
+        "pax-autocratica-reduce-fear-stats"
       ],
       "ad_slot_count": 2
     },
@@ -8260,7 +8275,159 @@
         "pax-autocratica-overworked-soldiers",
         "pax-autocratica-base-building",
         "pax-autocratica-healing-food",
-        "pax-autocratica-best-troops"
+        "pax-autocratica-best-troops",
+        "pax-autocratica-reduce-fear-stats"
+      ],
+      "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Reduce Fear Stats",
+      "slug": "pax-autocratica-reduce-fear-stats",
+      "seo": {
+        "title": "Pax Autocratica Reduce Fear Stats: Soldier Fear Checklist",
+        "description": "A source-backed Pax Autocratica guide to reducing high soldier fear after mass upgrades or sacrifices, with safe food, gift, building and reporting boundaries."
+      },
+      "direct_answer": "If Pax Autocratica fear stats jump after mass-upgrading soldiers, stop spending more people first and treat it as a colony-state problem, not a hidden upgrade formula. The current Steam thread reports fear rising to 76-90% after using more than 40 soldiers as upgrade material, and community replies point to removing permanent fear sources, waiting for fear to fall over time, and using gifts or cooked food that explicitly reduce fear. The official Steam store supports the broad boundary because fear, loyalty, bonds, feuds and sacrifice are real colony systems, but no captured source publishes an exact fear-decay formula, safe percentage, or guaranteed instant reset.",
+      "direct_answer_claim_ids": [
+        "claim-fear-stat-current-demand-20261010",
+        "claim-store-fear-sacrifice-boundary-20261010",
+        "claim-boundary-no-fear-formula-20261010"
+      ],
+      "sections": [
+        {
+          "heading": "Why fear can spike after mass upgrades",
+          "paragraphs": [
+            "The current Steam thread is useful because it gives a concrete failure mode: the player used more than 40 soldiers as upgrade materials to raise several Chief soldiers into purple tiers, then saw total fear sit around 76-90%. They also tried Care, Leader's Clemency, zero work hours and steam showers without seeing the number drop quickly.",
+            "That is enough to justify a separate player-task page. It is not the same question as a generic mood status or soldiers fighting in base. The problem is how to bring a high fear stat back down after a costly upgrade/sacrifice sequence."
+          ],
+          "steps": [
+            "Stop doing additional mass upgrades or sacrifices until the fear trend is readable.",
+            "Record the current fear percentage, recent upgrade actions, work schedule and active buildings.",
+            "Separate fear from loyalty, fatigue and Humiliated/Resentful/Agitated labels so you do not change the wrong system."
+          ],
+          "claim_ids": [
+            "claim-fear-stat-current-demand-20261010"
+          ]
+        },
+        {
+          "heading": "Remove permanent fear sources first",
+          "paragraphs": [
+            "One community reply points first to removing buildings that carry permanent fear values, then letting time reduce the remaining fear. The original player says they had not built obvious fear-inducing buildings such as turrets or Guiding Light, which makes this a checklist rather than a guaranteed fix.",
+            "Use that evidence carefully: dismantling or disabling a fear source can make sense if your current colony has one, but the captured thread does not prove every fear spike comes from buildings or that a building change instantly resets the colony."
+          ],
+          "steps": [
+            "Inspect buildings, decrees and facilities that explicitly add fear or punishment pressure.",
+            "Remove or pause only one fear source at a time so you can see whether the percentage moves.",
+            "Let at least a normal in-game cycle pass before declaring that the change failed.",
+            "Do not dismantle production-critical buildings just to chase a number unless you can afford the disruption."
+          ],
+          "claim_ids": [
+            "claim-fear-community-building-time-20261010",
+            "claim-boundary-no-fear-formula-20261010"
+          ]
+        },
+        {
+          "heading": "Use explicit fear-reducing items or food",
+          "paragraphs": [
+            "Another current reply gives the most direct player action: gifting items and cooking food that reduce fear level. A separate reply also mentions that some of the faster items may come from traders or levels, while some foods and skills have fear as a cost.",
+            "That means the safe advice is to read the item and food text before using it. A guide should not list invented item names or pretend that every comfort action lowers fear. Use only things your current build labels as lowering fear, and avoid foods or skills that trade one problem for another."
+          ],
+          "steps": [
+            "Check trader goods, level rewards and inventory items for text that explicitly reduces fear.",
+            "Cook or gift only the options that say they lower fear in your current build.",
+            "Avoid foods, skills or decrees that add fear as a cost while you are trying to reduce the stat.",
+            "Test the effect on a small group or one cycle before spending rare goods across the colony."
+          ],
+          "claim_ids": [
+            "claim-fear-community-food-gift-20261010"
+          ]
+        },
+        {
+          "heading": "What zero work hours and showers can prove",
+          "paragraphs": [
+            "The original poster already tried setting work hours to zero and pushing soldiers toward steam showers, but fear stayed high in the captured snapshot. That does not prove rest and comfort never matter. It only proves they were not an instant answer in that reported situation.",
+            "Use rest as support, not as the only fix. If fear came from recent sacrifice or upgrade choices, the colony may need time and explicit fear-reducing actions rather than another schedule change."
+          ],
+          "steps": [
+            "Keep recovery time available while you test item, food or building changes.",
+            "Do not assume zero work hours alone will clear fear caused by mass-upgrade decisions.",
+            "If fear stays high after multiple cycles, preserve the save and report the exact sequence."
+          ],
+          "claim_ids": [
+            "claim-fear-stat-current-demand-20261010",
+            "claim-boundary-no-fear-formula-20261010"
+          ]
+        },
+        {
+          "heading": "What this page will not claim",
+          "paragraphs": [
+            "This page does not publish an exact fear-decay formula, a safe fear threshold, a guaranteed below-20% route, a permanent best food list, or a promise that Care, Leader's Clemency, showers, gifts or specific buildings always work. The current evidence supports a practical recovery checklist, not a mechanics table.",
+            "Update this page when Multiverse publishes a dated patch note or developer reply about fear decay, soldier upgrades, sacrifice cost, gifts, food effects or fear-inducing buildings. Until then, keep the answer reversible and source-bound."
+          ],
+          "steps": [
+            "Use the current Steam thread for demand and observed recovery ideas.",
+            "Use the official store for the broad fear/sacrifice system boundary.",
+            "Use future patch notes for exact values or confirmed fixes."
+          ],
+          "claim_ids": [
+            "claim-boundary-no-fear-formula-20261010"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Why did my fear stat rise after upgrading soldiers?",
+          "answer": "The current thread reports a fear spike after using more than 40 soldiers as upgrade materials. That points to mass-upgrade or sacrifice pressure as a plausible cause in that run, but no captured source gives an exact formula.",
+          "claim_ids": [
+            "claim-fear-stat-current-demand-20261010"
+          ]
+        },
+        {
+          "question": "What should I try first?",
+          "answer": "Stop further mass upgrades, remove any explicit permanent fear sources if your colony has them, then look for gifts or cooked food that explicitly reduce fear in the current build.",
+          "claim_ids": [
+            "claim-fear-community-building-time-20261010",
+            "claim-fear-community-food-gift-20261010"
+          ]
+        },
+        {
+          "question": "Do Care, Leader's Clemency or steam showers always reduce fear?",
+          "answer": "No captured source proves they always work. The original poster tried those routes and still had high fear, so treat them as support checks rather than a guaranteed reset.",
+          "claim_ids": [
+            "claim-fear-stat-current-demand-20261010",
+            "claim-boundary-no-fear-formula-20261010"
+          ]
+        },
+        {
+          "question": "Is there an exact safe fear percentage?",
+          "answer": "No. The thread asks about lowering fear below 10-20%, but current public evidence does not publish an official safe threshold or decay table.",
+          "claim_ids": [
+            "claim-boundary-no-fear-formula-20261010"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-discussion-fear-stats-20261010",
+        "src-steam-store-fear-sacrifice-20261010",
+        "src-steam-news-st24-20261010"
+      ],
+      "claim_ids": [
+        "claim-fear-stat-current-demand-20261010",
+        "claim-fear-community-building-time-20261010",
+        "claim-fear-community-food-gift-20261010",
+        "claim-store-fear-sacrifice-boundary-20261010",
+        "claim-boundary-no-fear-formula-20261010"
+      ],
+      "updated_at": "2026-10-10T09:25:00+08:00",
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-troop-upgrading",
+        "pax-autocratica-soldiers-fighting-base",
+        "pax-autocratica-humiliated-resentful-agitated-status",
+        "pax-autocratica-overworked-soldiers",
+        "pax-autocratica-healing-food"
       ],
       "ad_slot_count": 2
     }
@@ -11742,6 +11909,61 @@
           "source_type": "official_community"
         }
       ]
+    },
+    "pax-autocratica-reduce-fear-stats": {
+      "intent_id": "intent-20261010-reduce-fear-stats",
+      "intent_type": "colony_fear_recovery_after_mass_upgrades",
+      "user_job": "Reduce high soldier fear after mass upgrades or sacrifices without inventing a hidden formula.",
+      "intent_evidence_ids": [
+        "src-steam-discussion-fear-stats-20261010",
+        "src-steam-store-fear-sacrifice-20261010",
+        "src-steam-news-st24-20261010"
+      ],
+      "answerability": "partial_with_current_community_recovery_clues_and_official_fear_system_boundary",
+      "coverage": [
+        {
+          "dimension": "current_player_problem",
+          "status": "covered",
+          "claim_ids": [
+            "claim-fear-stat-current-demand-20261010"
+          ],
+          "evidence_relation": "steam_discussion",
+          "notes": "Current Steam thread reports fear rising to 76-90% after more than 40 soldiers were used as upgrade materials."
+        },
+        {
+          "dimension": "official_system_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-store-fear-sacrifice-boundary-20261010"
+          ],
+          "evidence_relation": "official_store",
+          "notes": "Steam store describes fears, loyalties, bonds, feuds and sacrifice as real systems."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam discussion: reduce fear stats for soldiers",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586188069723697991/",
+          "source_type": "community_discussion"
+        },
+        {
+          "label": "Steam store: Pax Autocratica",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Steam News API: latest official update remains ST-24",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        }
+      ],
+      "last_checked_at": "2026-10-10T09:25:00+08:00",
+      "quality_review_id": "q01-pax-autocratica-reduce-fear-stats",
+      "boundaries": [
+        "Does not publish exact fear-decay formulas, thresholds or item tables.",
+        "Does not treat community replies as official mechanics documentation.",
+        "Does not claim Care, Leader's Clemency, showers, gifts or food always work."
+      ]
     }
   },
   "homeProvenance": {
@@ -12685,6 +12907,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "Shows colony-management context for social status guidance without inventing a status-specific screenshot."
+    },
+    {
+      "asset_id": "pax-autocratica-reduce-fear-stats-20261010",
+      "page": "/pax-autocratica-reduce-fear-stats",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-home-01.webp",
+      "alt": "Pax Autocratica colony scene used for the reduce fear stats guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-10-10T09:25:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "Shows colony-management context for fear, sacrifice and recovery guidance without inventing a fear-specific image."
     }
   ],
   "ads": {
@@ -12764,5 +13002,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-10-09T10:35:00+08:00"
+  "generated_at": "2026-10-10T09:25:00+08:00"
 }
