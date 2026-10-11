@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to reducing fear stats, colony mood statuses, healing food, prison bugs, troop upgrading, price status and base logistics.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to Auroria Day 2 rewards, reducing fear stats, colony mood statuses, healing food, prison bugs, troop upgrading and current price status.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-10-10"
+        "Updated 2026-10-11"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -86,6 +86,12 @@
         },
         {
           "number": "8",
+          "title": "Auroria Day 2",
+          "description": "Check the seven-day reward window, NAT SMG skin and safe claim path.",
+          "href": "/pax-autocratica-auroria-day-2-rewards/"
+        },
+        {
+          "number": "9",
           "title": "Reduce Fear",
           "description": "Lower high soldier fear after mass upgrades without inventing hidden formulas.",
           "href": "/pax-autocratica-reduce-fear-stats/"
@@ -152,8 +158,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to reducing fear stats, colony mood statuses, healing food, prison bugs, troop upgrading, price status and base logistics.",
-    "keywords": "Pax Autocratica reduce fear stats, Pax Autocratica fear, Pax Autocratica soldier fear, Pax Autocratica troop upgrading fear, Pax Autocratica wiki"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to Auroria Day 2 rewards, reducing fear stats, colony mood statuses, healing food, prison bugs, troop upgrading and current price status.",
+    "keywords": "Pax Autocratica Auroria Day 2, Pax Autocratica NAT SMG, Pax Autocratica 1st Deployment Commemorative Set, Pax Autocratica slogan contest, Pax Autocratica wiki"
   },
   "theme": {
     "hue": 164,
@@ -245,6 +251,7 @@
               "pax-autocratica-roadmap",
               "pax-autocratica-language-patches",
               "pax-autocratica-auroria-day-reward",
+              "pax-autocratica-auroria-day-2-rewards",
               "pax-autocratica-st11-patch-notes",
               "pax-autocratica-st24-patch-notes",
               "pax-autocratica-save-wipe",
@@ -456,6 +463,10 @@
           {
             "keyword": "Pax Autocratica Reduce Fear Stats",
             "slug": "pax-autocratica-reduce-fear-stats"
+          },
+          {
+            "keyword": "Pax Autocratica Auroria Day 2 Rewards",
+            "slug": "pax-autocratica-auroria-day-2-rewards"
           }
         ]
       }
@@ -640,7 +651,8 @@
         "pax-autocratica-gameplay",
         "pax-autocratica-multiplayer",
         "pax-autocratica-mods",
-        "pax-autocratica-crowded-ui"
+        "pax-autocratica-crowded-ui",
+        "pax-autocratica-auroria-day-2-rewards"
       ],
       "ad_slot_count": 2
     },
@@ -4580,7 +4592,8 @@
         "pax-autocratica-community",
         "pax-autocratica-trailer",
         "pax-autocratica-roadmap",
-        "pax-autocratica-language-patches"
+        "pax-autocratica-language-patches",
+        "pax-autocratica-auroria-day-2-rewards"
       ],
       "ad_slot_count": 2
     },
@@ -5530,7 +5543,8 @@
         "pax-autocratica-auroria-day-reward",
         "pax-autocratica-custom-colony-settings",
         "pax-autocratica-community",
-        "pax-autocratica-soldier-customization"
+        "pax-autocratica-soldier-customization",
+        "pax-autocratica-auroria-day-2-rewards"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-17T09:18:00+08:00",
@@ -7529,7 +7543,8 @@
         "pax-autocratica-best-troops",
         "pax-autocratica-roadmap",
         "pax-autocratica-supreme-powers-petition",
-        "pax-autocratica-st24-patch-notes"
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-auroria-day-2-rewards"
       ],
       "ad_slot_count": 2
     },
@@ -7710,7 +7725,8 @@
         "pax-autocratica-roadmap",
         "pax-autocratica-st24-patch-notes",
         "pax-autocratica-troop-upgrading",
-        "pax-autocratica-humiliated-resentful-agitated-status"
+        "pax-autocratica-humiliated-resentful-agitated-status",
+        "pax-autocratica-auroria-day-2-rewards"
       ],
       "ad_slot_count": 2
     },
@@ -8428,6 +8444,163 @@
         "pax-autocratica-humiliated-resentful-agitated-status",
         "pax-autocratica-overworked-soldiers",
         "pax-autocratica-healing-food"
+      ],
+      "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Auroria Day 2 Rewards",
+      "slug": "pax-autocratica-auroria-day-2-rewards",
+      "seo": {
+        "title": "Pax Autocratica Auroria Day 2 Rewards: Claim Window and Safety",
+        "description": "A source-backed Pax Autocratica Auroria Day #2 guide covering the seven-day reward window, NAT SMG skin, previous-reward choice, early supporter set and slogan contest boundaries."
+      },
+      "direct_answer": "Auroria Day #2 is now the latest official Pax Autocratica Steam News item. The October 10, 2026 announcement says the event stays active for seven days, offers the NAT SMG - Aurorian Ceremonial Series through the Official State Loyalty Examination, enters participants into a three-key giveaway, and lets each examination select one previous Auroria Day reward not yet acquired. A separate early-supporter reward, the 1st Deployment Commemorative Set, is for backers and players who purchased before the Autumn Sale, but it is claimed only after the next update is live through the in-game account login. Treat the linked form and slogan contest as official event actions, not patch notes or guaranteed mechanics.",
+      "direct_answer_claim_ids": [
+        "claim-auroria-day-2-official-20261011",
+        "claim-auroria-day-2-rewards-20261011",
+        "claim-auroria-day-2-early-supporter-set-20261011",
+        "claim-auroria-day-2-boundaries-20261011"
+      ],
+      "sections": [
+        {
+          "heading": "What changed since Auroria Day #1",
+          "paragraphs": [
+            "Auroria Day #2 is not just a rerun of the September event. The official Steam News feed now lists Auroria Day #2 above ST-24, and the announcement changes the practical player answer in three ways: the public window is seven days, the named participant skin is the NAT SMG - Aurorian Ceremonial Series, and the examination can be used to select one previous Auroria Day reward you missed.",
+            "That makes this a separate current-event page rather than a small edit to the old Auroria Day #1 reward guide. Players need the October 2026 reward list, timing, previous-reward rule, and account-claim boundary in one place."
+          ],
+          "steps": [
+            "Start from the Steam All News or the Steam News API item titled Auroria Day #2.",
+            "Use the linked Official State Loyalty Examination only from that official source.",
+            "Check the event window before submitting; the captured announcement says seven days."
+          ],
+          "claim_ids": [
+            "claim-auroria-day-2-official-20261011",
+            "claim-auroria-day-2-rewards-20261011"
+          ]
+        },
+        {
+          "heading": "What you can claim during the event",
+          "paragraphs": [
+            "The active Auroria Day #2 participation reward is the NAT SMG - Aurorian Ceremonial Series. The announcement also says participants are automatically entered into a giveaway where three people receive Pax Autocratica Steam keys to distribute.",
+            "The previous-reward choice is the important new safety valve. Beginning with Auroria Day #2, each official examination allows citizens to select one earlier Auroria Day reward they have not acquired. Do not read that as every missed reward being granted at once; the wording supports one previous reward per examination."
+          ],
+          "steps": [
+            "Pick the current NAT SMG reward if you want the new ceremonial skin.",
+            "Use the previous-reward option only for one reward you actually missed.",
+            "Treat the Steam-key giveaway as random entry, not a guaranteed key."
+          ],
+          "claim_ids": [
+            "claim-auroria-day-2-rewards-20261011"
+          ]
+        },
+        {
+          "heading": "Early supporter set is a separate claim",
+          "paragraphs": [
+            "The 1st Deployment Commemorative Set is not the same as the public Auroria Day #2 examination reward. The announcement says all backers and players who bought Pax Autocratica before the Autumn Sale receive the set, which includes the 1st Deployment Arcblade, Logo and Flag.",
+            "The claim timing is also different. The official wording says to claim it after the next update is live, then launch the game and register or log in from the top-left Login button on the Main Menu. If eligible, the rewards appear in the Account tab of the Backpack. Until that update is live, do not treat the set as something every player can claim immediately."
+          ],
+          "steps": [
+            "Confirm whether you are a backer or bought the game before the Autumn Sale.",
+            "Wait until the next update is live before troubleshooting the set.",
+            "Use the in-game Login button and Account tab path described by the announcement."
+          ],
+          "claim_ids": [
+            "claim-auroria-day-2-early-supporter-set-20261011"
+          ]
+        },
+        {
+          "heading": "Slogan contest is official, but keep it fictional",
+          "paragraphs": [
+            "Auroria Day #2 also opens the State Propaganda Slogan Contest. The announcement links to a Steam discussion by Multiverse, and that thread says up to three winning slogans may become official Aurorian propaganda posters added directly into Pax Autocratica.",
+            "The contest has a content boundary. Submissions should stay inside the fictional universe of Pax Autocratica and avoid real-world hate, extremist content, real-world political attacks, or calls for violence against real people. This page does not repost player slogans or judge entries; it only records the official participation boundary."
+          ],
+          "steps": [
+            "Post slogans only in the official Steam discussion linked by the event.",
+            "Keep submissions fictional and game-world specific.",
+            "Avoid real-world targets, hate, extremist references, political attacks and real-world violence."
+          ],
+          "claim_ids": [
+            "claim-auroria-day-2-slogan-contest-20261011",
+            "claim-auroria-day-2-boundaries-20261011"
+          ]
+        },
+        {
+          "heading": "What this page will not claim",
+          "paragraphs": [
+            "This page does not mirror the Google Form, collect form answers, guarantee giveaway winners, promise every missed reward can be claimed in one pass, or say the 1st Deployment set is available before the next update. It also does not turn slogan-contest ideas into shipped mechanics.",
+            "Update this page only when Multiverse changes the event window, posts a winner list, ships the next update with the early-supporter claim path, or publishes a newer Auroria Day event."
+          ],
+          "steps": [
+            "Use Steam News for event facts.",
+            "Use the linked Steam discussion for slogan rules.",
+            "Use in-game account UI only after the announced update is live."
+          ],
+          "claim_ids": [
+            "claim-auroria-day-2-boundaries-20261011"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "How long is Auroria Day #2 active?",
+          "answer": "The captured official announcement says Auroria Day #2 remains active for seven days.",
+          "claim_ids": [
+            "claim-auroria-day-2-rewards-20261011"
+          ]
+        },
+        {
+          "question": "What is the Auroria Day #2 skin?",
+          "answer": "The named event reward is the NAT SMG - Aurorian Ceremonial Series.",
+          "claim_ids": [
+            "claim-auroria-day-2-rewards-20261011"
+          ]
+        },
+        {
+          "question": "Can I choose a previous Auroria Day reward?",
+          "answer": "Yes, but the announcement says each examination allows one previous Auroria Day reward you have not acquired. It does not say every missed reward is granted at once.",
+          "claim_ids": [
+            "claim-auroria-day-2-rewards-20261011",
+            "claim-auroria-day-2-boundaries-20261011"
+          ]
+        },
+        {
+          "question": "When do early supporter rewards appear?",
+          "answer": "The 1st Deployment Commemorative Set is claimed after the next update is live, through the in-game Main Menu login and Backpack Account tab, if your account is eligible.",
+          "claim_ids": [
+            "claim-auroria-day-2-early-supporter-set-20261011"
+          ]
+        },
+        {
+          "question": "Is the slogan contest a patch note?",
+          "answer": "No. It is an official event prompt. Winning slogans may become posters in the game, but other submitted ideas are not shipped mechanics.",
+          "claim_ids": [
+            "claim-auroria-day-2-slogan-contest-20261011",
+            "claim-auroria-day-2-boundaries-20261011"
+          ]
+        }
+      ],
+      "source_ids": [
+        "src-steam-news-auroria-day-2-20261011",
+        "src-steam-allnews-auroria-day-2-20261011",
+        "src-steam-discussion-slogan-contest-20261011"
+      ],
+      "claim_ids": [
+        "claim-auroria-day-2-official-20261011",
+        "claim-auroria-day-2-rewards-20261011",
+        "claim-auroria-day-2-early-supporter-set-20261011",
+        "claim-auroria-day-2-slogan-contest-20261011",
+        "claim-auroria-day-2-boundaries-20261011"
+      ],
+      "updated_at": "2026-10-11T09:03:38+08:00",
+      "page_status": "publish",
+      "index_status": "index",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-auroria-day-reward",
+        "pax-autocratica-community",
+        "pax-autocratica-supreme-powers-petition",
+        "pax-autocratica-80-discount-mistake",
+        "pax-autocratica-soldier-customization"
       ],
       "ad_slot_count": 2
     }
@@ -11964,6 +12137,63 @@
         "Does not treat community replies as official mechanics documentation.",
         "Does not claim Care, Leader's Clemency, showers, gifts or food always work."
       ]
+    },
+    "pax-autocratica-auroria-day-2-rewards": {
+      "intent_id": "intent-20261011-auroria-day-2-rewards",
+      "intent_type": "current_official_event_reward_and_safety",
+      "user_job": "Understand what Auroria Day #2 rewards can be claimed, when the event is active, and what not to submit or assume.",
+      "intent_evidence_ids": [
+        "src-steam-news-auroria-day-2-20261011",
+        "src-steam-allnews-auroria-day-2-20261011",
+        "src-steam-discussion-slogan-contest-20261011"
+      ],
+      "answerability": "strong_official_steam_news_with_linked_developer_discussion_boundary",
+      "coverage": [
+        {
+          "dimension": "official_current_event",
+          "status": "covered",
+          "claim_ids": [
+            "claim-auroria-day-2-official-20261011",
+            "claim-auroria-day-2-rewards-20261011"
+          ],
+          "evidence_relation": "steam_news_api_and_allnews",
+          "notes": "Auroria Day #2 is the latest official Steam News item and states the reward, seven-day window, previous reward choice and giveaway entry."
+        },
+        {
+          "dimension": "slogan_safety_boundary",
+          "status": "covered",
+          "claim_ids": [
+            "claim-auroria-day-2-slogan-contest-20261011",
+            "claim-auroria-day-2-boundaries-20261011"
+          ],
+          "evidence_relation": "developer_steam_discussion",
+          "notes": "Multiverse's linked Steam thread lists allowed fictional scope and prohibited real-world content categories."
+        }
+      ],
+      "source_links": [
+        {
+          "label": "Steam News API: Auroria Day #2",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067936441",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Steam All News: Auroria Day #2",
+          "url": "https://steamcommunity.com/app/1067360/allnews/",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Steam discussion: State Propaganda Slogan Contest",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586188313445105531/",
+          "source_type": "developer_discussion"
+        }
+      ],
+      "last_checked_at": "2026-10-11T09:03:38+08:00",
+      "quality_review_id": "q01-pax-autocratica-auroria-day-2-rewards",
+      "boundaries": [
+        "Does not mirror or collect Google Form data.",
+        "Does not guarantee giveaway selection or immediate early-supporter reward delivery.",
+        "Does not treat slogan submissions as shipped mechanics."
+      ]
     }
   },
   "homeProvenance": {
@@ -12923,6 +13153,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "Shows colony-management context for fear, sacrifice and recovery guidance without inventing a fear-specific image."
+    },
+    {
+      "asset_id": "pax-autocratica-auroria-day-2-rewards-20261011",
+      "page": "/pax-autocratica-auroria-day-2-rewards",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-community-09.webp",
+      "alt": "Pax Autocratica community scene used for the Auroria Day 2 rewards guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-10-11T09:03:38+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "Supports an official community event page without redistributing event form data or copying announcement art."
     }
   ],
   "ads": {
@@ -13002,5 +13248,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-10-10T09:25:00+08:00"
+  "generated_at": "2026-10-11T09:03:38+08:00"
 }
