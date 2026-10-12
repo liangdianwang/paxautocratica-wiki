@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to Auroria Day 2 rewards, reducing fear stats, colony mood statuses, healing food, prison bugs, troop upgrading and current price status.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to screen vignette settings, Auroria Day 2 rewards, fear stats, colony mood, healing food, prison bugs and troop upgrading.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-10-11"
+        "Updated 2026-10-12"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -80,18 +80,24 @@
         },
         {
           "number": "7",
+          "title": "Screen Vignette",
+          "description": "Check whether the dark edge shadow has a confirmed toggle or fix.",
+          "href": "/pax-autocratica-darkness-vignette-screen/"
+        },
+        {
+          "number": "8",
           "title": "Decode Mood Status",
           "description": "Check Humiliated, Resentful and Agitated without inventing hidden formulas.",
           "href": "/pax-autocratica-humiliated-resentful-agitated-status/"
         },
         {
-          "number": "8",
+          "number": "9",
           "title": "Auroria Day 2",
           "description": "Check the seven-day reward window, NAT SMG skin and safe claim path.",
           "href": "/pax-autocratica-auroria-day-2-rewards/"
         },
         {
-          "number": "9",
+          "number": "10",
           "title": "Reduce Fear",
           "description": "Lower high soldier fear after mass upgrades without inventing hidden formulas.",
           "href": "/pax-autocratica-reduce-fear-stats/"
@@ -158,8 +164,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to Auroria Day 2 rewards, reducing fear stats, colony mood statuses, healing food, prison bugs, troop upgrading and current price status.",
-    "keywords": "Pax Autocratica Auroria Day 2, Pax Autocratica NAT SMG, Pax Autocratica 1st Deployment Commemorative Set, Pax Autocratica slogan contest, Pax Autocratica wiki"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to screen vignette settings, Auroria Day 2 rewards, fear stats, colony mood, healing food, prison bugs and troop upgrading.",
+    "keywords": "Pax Autocratica darkness vignette, Pax Autocratica screen edge shadow, Pax Autocratica visual settings, Pax Autocratica Auroria Day 2, Pax Autocratica wiki"
   },
   "theme": {
     "hue": 164,
@@ -259,7 +265,8 @@
               "pax-autocratica-supreme-powers-petition",
               "pax-autocratica-performance",
               "pax-autocratica-crowded-ui",
-              "pax-autocratica-linux-support"
+              "pax-autocratica-linux-support",
+              "pax-autocratica-darkness-vignette-screen"
             ]
           }
         ],
@@ -467,6 +474,10 @@
           {
             "keyword": "Pax Autocratica Auroria Day 2 Rewards",
             "slug": "pax-autocratica-auroria-day-2-rewards"
+          },
+          {
+            "keyword": "Pax Autocratica Darkness Vignette Screen",
+            "slug": "pax-autocratica-darkness-vignette-screen"
           }
         ]
       }
@@ -8603,6 +8614,113 @@
         "pax-autocratica-soldier-customization"
       ],
       "ad_slot_count": 2
+    },
+    {
+      "keyword": "Pax Autocratica Darkness Vignette Screen",
+      "slug": "pax-autocratica-darkness-vignette-screen",
+      "seo": {
+        "title": "Pax Autocratica Darkness Vignette: Can You Turn It Off?",
+        "description": "A source-backed Pax Autocratica guide for the dark vignette or oval edge shadow around the screen, current setting limits, what Gurttron said, and how to report it safely."
+      },
+      "direct_answer": "There is no captured official toggle that turns off the dark vignette or oval shadow around the edge of the Pax Autocratica screen. In the current Steam thread, Gurttron first says the effect sounds like the map-edge warning and says he does not believe there is a way to turn it off; after the player explains it appears at the base and shares a screenshot, he says he will forward it to the developers for review. Treat it as an unresolved visual-readability report, not a confirmed bug fix, depth-of-field setting, or shipped accessibility option.",
+      "direct_answer_claim_ids": [
+        "claim-darkness-vignette-thread-20261012",
+        "claim-darkness-vignette-no-toggle-20261012",
+        "claim-darkness-vignette-report-boundary-20261012"
+      ],
+      "sections": [
+        {
+          "heading": "What the current thread actually says",
+          "paragraphs": [
+            "The player report describes a dark oval or vignette around the screen and asks whether it can be turned off because it obscures peripheral vision. That is a different player task from hiding the HUD, fixing ultrawide blur, or improving performance: the question is whether a visible edge-darkening effect has a setting.",
+            "Gurttron's public reply gives the current boundary. He says the last time he recalled that kind of effect, it happened near a map edge as a warning, and he did not believe there was currently a way to turn it off. When the player says the effect is constant at the base and provides a screenshot, he says he is not seeing an issue but will forward it to the developers for review."
+          ],
+          "steps": [
+            "Do not assume the effect is already fixed or user-configurable.",
+            "Check whether it appears only near map edges or also in the base.",
+            "If it is constant, treat it as a reportable visual-readability case."
+          ],
+          "claim_ids": [
+            "claim-darkness-vignette-thread-20261012",
+            "claim-darkness-vignette-no-toggle-20261012"
+          ]
+        },
+        {
+          "heading": "Check nearby graphics settings without inventing a fix",
+          "paragraphs": [
+            "ST-24 is useful background because it names visual settings and image-quality changes: Panini correction was disabled by default and became an option, volumetric light performance was improved, and several projectile or scene visual issues were touched. None of that is a direct darkness-vignette toggle.",
+            "That means the safest checklist is limited. Recheck graphics settings, FOV, Panini correction, brightness/monitor calibration, and whether the effect changes by scene, but do not publish a guaranteed fix unless a later official note or in-game setting names this exact effect."
+          ],
+          "steps": [
+            "Update to the current build before testing.",
+            "Compare the base, map edge, tutorial area and a combat scene.",
+            "Record whether FOV, Panini correction or other visual settings change the symptom."
+          ],
+          "claim_ids": [
+            "claim-darkness-vignette-report-boundary-20261012"
+          ]
+        },
+        {
+          "heading": "How to send a useful report",
+          "paragraphs": [
+            "The pinned bug-reporting route and prior support replies ask players to use the in-game K-key path when possible. For this symptom, a useful report should show where the effect appears, whether it is tied to a map boundary, and which graphics options were tested.",
+            "Avoid framing the report as proof that the game is broken for everyone. The public thread shows disagreement about whether the screenshot is visibly wrong, so the strongest evidence is a repeatable before-and-after test with current settings and build information."
+          ],
+          "steps": [
+            "Attach a screenshot or short clip from the exact scene where the edge shadow appears.",
+            "List resolution, FOV, Panini correction, graphics preset and display mode.",
+            "Say whether it appears at the base, near map edges, in combat, or everywhere.",
+            "Use the K-key or the official Steam bug thread instead of scattering reports across unrelated topics."
+          ],
+          "claim_ids": [
+            "claim-darkness-vignette-report-boundary-20261012"
+          ]
+        },
+        {
+          "heading": "What this page will not claim",
+          "paragraphs": [
+            "This page does not claim that the darkness vignette is a confirmed defect, a depth-of-field effect, an accessibility option, a monitor problem, or a setting that can always be disabled. It also does not reuse the player's external screenshot as proof of a visual fact we did not independently validate.",
+            "Update this page when Multiverse publishes a patch note, setting label, known-issue note, or developer reply that names the vignette, darkness overlay, depth of field, peripheral darkening, map-edge warning, or related visual-readability behavior."
+          ],
+          "steps": [
+            "Keep the answer narrow: no captured toggle, forwarded for review.",
+            "Do not merge this into performance unless a later source ties it to graphics load.",
+            "Do not merge this into ultrawide unless the symptom becomes resolution-specific."
+          ],
+          "claim_ids": [
+            "claim-darkness-vignette-no-toggle-20261012"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I turn off the dark vignette around the screen?",
+          "answer": "No current captured source gives a confirmed toggle. Gurttron says he does not believe there is a way to turn it off and later says the report will be forwarded for developer review."
+        },
+        {
+          "question": "Is it definitely depth of field?",
+          "answer": "No. A player suggests depth of field, but that is not confirmed by the developer or patch notes. Treat it as a hypothesis to test, not the official cause."
+        },
+        {
+          "question": "Is this the same as the ultrawide blurry issue?",
+          "answer": "Not based on today's evidence. ST-24 has Panini and ultrawide-related visual context, but this thread describes a darkness or oval edge effect that can appear outside a pure ultrawide report."
+        },
+        {
+          "question": "What should I include in a bug report?",
+          "answer": "Include a screenshot or clip, location, build date, resolution, FOV, Panini correction state, graphics preset, and whether the effect appears only near map edges or constantly."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "time_sensitivity": "CURRENT",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-crowded-ui",
+        "pax-autocratica-ultrawide-blurry",
+        "pax-autocratica-performance",
+        "pax-autocratica-st24-patch-notes"
+      ],
+      "updated_at": "2026-10-12T09:35:00+08:00"
     }
   ],
   "pageProvenance": {
@@ -12194,6 +12312,38 @@
         "Does not guarantee giveaway selection or immediate early-supporter reward delivery.",
         "Does not treat slogan submissions as shipped mechanics."
       ]
+    },
+    "pax-autocratica-darkness-vignette-screen": {
+      "last_checked_at": "2026-10-12T09:35:00+08:00",
+      "source_links": [
+        {
+          "label": "Steam discussion: Darkness vignette around the screen",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586188528590790449/",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Steam News API: Directive ST-24 visual settings context",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Steam store: visual warning and game page",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Steam discussion: Help My Game Is Bugged/Glitched/Broken",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/585056732983840454/",
+          "source_type": "official_community"
+        }
+      ],
+      "evidence_summary": "Current Steam thread captures the player task, Gurttron's no-current-toggle boundary, and developer-forwarding status; official patch/store sources provide graphics-setting and visual-safety context.",
+      "boundaries": [
+        "No confirmed toggle.",
+        "No confirmed depth-of-field cause.",
+        "No confirmed patch fix.",
+        "No claim that every player sees the same issue."
+      ]
     }
   },
   "homeProvenance": {
@@ -13169,6 +13319,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "Supports an official community event page without redistributing event form data or copying announcement art."
+    },
+    {
+      "asset_id": "pax-autocratica-darkness-vignette-20261012",
+      "page": "/pax-autocratica-darkness-vignette-screen",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-guide-02.webp",
+      "alt": "Pax Autocratica gameplay scene used for the darkness vignette and visual readability guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-10-12T09:35:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "Supports a visual-readability guide without copying an unverified player screenshot."
     }
   ],
   "ads": {
@@ -13248,5 +13414,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-10-11T09:03:38+08:00"
+  "generated_at": "2026-10-12T09:35:00+08:00"
 }
