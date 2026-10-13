@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to screen vignette settings, Auroria Day 2 rewards, fear stats, colony mood, healing food, prison bugs and troop upgrading.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to the VSync/framerate-limit lag bug, screen vignette settings, Auroria Day 2 rewards, fear stats, colony mood, healing food and troop upgrading.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-10-12"
+        "Updated 2026-10-13"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -86,18 +86,24 @@
         },
         {
           "number": "8",
+          "title": "VSync Lag Bug",
+          "description": "Check the current post-update FPS drop and framerate-limit boundary.",
+          "href": "/pax-autocratica-vsync-framerate-limit-bug/"
+        },
+        {
+          "number": "9",
           "title": "Decode Mood Status",
           "description": "Check Humiliated, Resentful and Agitated without inventing hidden formulas.",
           "href": "/pax-autocratica-humiliated-resentful-agitated-status/"
         },
         {
-          "number": "9",
+          "number": "10",
           "title": "Auroria Day 2",
           "description": "Check the seven-day reward window, NAT SMG skin and safe claim path.",
           "href": "/pax-autocratica-auroria-day-2-rewards/"
         },
         {
-          "number": "10",
+          "number": "11",
           "title": "Reduce Fear",
           "description": "Lower high soldier fear after mass upgrades without inventing hidden formulas.",
           "href": "/pax-autocratica-reduce-fear-stats/"
@@ -164,8 +170,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to screen vignette settings, Auroria Day 2 rewards, fear stats, colony mood, healing food, prison bugs and troop upgrading.",
-    "keywords": "Pax Autocratica darkness vignette, Pax Autocratica screen edge shadow, Pax Autocratica visual settings, Pax Autocratica Auroria Day 2, Pax Autocratica wiki"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to the VSync/framerate-limit lag bug, screen vignette settings, Auroria Day 2 rewards, fear stats, colony mood, healing food and troop upgrading.",
+    "keywords": "Pax Autocratica VSync bug, Pax Autocratica framerate limit bug, Pax Autocratica lag after update, Pax Autocratica performance, Pax Autocratica wiki"
   },
   "theme": {
     "hue": 164,
@@ -264,6 +270,7 @@
               "pax-autocratica-ultrawide-blurry",
               "pax-autocratica-supreme-powers-petition",
               "pax-autocratica-performance",
+              "pax-autocratica-vsync-framerate-limit-bug",
               "pax-autocratica-crowded-ui",
               "pax-autocratica-linux-support",
               "pax-autocratica-darkness-vignette-screen"
@@ -478,6 +485,10 @@
           {
             "keyword": "Pax Autocratica Darkness Vignette Screen",
             "slug": "pax-autocratica-darkness-vignette-screen"
+          },
+          {
+            "keyword": "Pax Autocratica VSync Framerate Limit Bug",
+            "slug": "pax-autocratica-vsync-framerate-limit-bug"
           }
         ]
       }
@@ -5570,7 +5581,7 @@
         "title": "Pax Autocratica Performance: FPS, GPU Heat and Crash Checks",
         "description": "A source-backed Pax Autocratica performance guide for FPS drops, GPU heat, loading issues and crash reporting, using current Steam requirements and official troubleshooting."
       },
-      "direct_answer": "For Pax Autocratica performance trouble, separate four cases before changing settings: launch/loading failure, low FPS or GPU heat while playing, post-session slowdown that looks like a possible memory leak, and a crash or save-specific failure. Current official patch notes say ST-11 reduced VRAM usage and improved performance, while Steam discussions still include player reports about base/end-of-expedition performance and a newer memory leak thread. Use reversible checks first: restart the game, verify the issue after closing Pax Autocratica, lower settings or frame limits, capture hardware and build details, and report repeat cases through the K key or support route. Do not publish unsafe registry edits, forced launch flags or third-party fix tools as solutions.",
+      "direct_answer": "For Pax Autocratica performance trouble, separate four cases before changing settings: launch/loading failure, low FPS or GPU heat while playing, post-session slowdown that looks like a possible memory leak, and a crash or save-specific failure. Current official patch notes say ST-24 added DLSS 4.5 Frame Generation support and improved performance logic, while a newer October 2026 developer reply says a known VSync/framerate-limit bug can affect performance when those options are on and should be solved in the next patch. Use reversible checks first, then report repeat cases through the K key or support route with logs and saves.",
       "direct_answer_claim_ids": [
         "claim-performance-official-requirements-20260918",
         "claim-performance-st11-optimizations-20260918",
@@ -5691,6 +5702,21 @@
           "claim_ids": [
             "claim-performance-no-universal-fix-20260918"
           ]
+        },
+        {
+          "heading": "Current VSync and framerate-limit known bug",
+          "paragraphs": [
+            "A current Steam discussion reports post-update lag. Multiverse asks whether the issue is lower FPS, more frequent frame drops, base-only, battle-only or everywhere, then says VSync/framerate limiting has a known performance-impacting bug planned for the next patch.",
+            "This is a narrower current issue than general heat, crashes or memory-leak-like slowdown. If your symptom matches post-update frame drops, test VSync and the framerate limit off and use the detailed bug route if the same scene still reproduces the issue."
+          ],
+          "steps": [
+            "Use the dedicated VSync Framerate Limit Bug page for the current post-update lag thread.",
+            "Keep the broader Performance page for hardware baseline, heat, loading and general crash checks."
+          ],
+          "claim_ids": [
+            "claim-vsync-framerate-bug-thread-20261013",
+            "claim-vsync-framerate-bug-next-patch-20261013"
+          ]
         }
       ],
       "faq": [
@@ -5731,10 +5757,11 @@
         "pax-autocratica-st24-patch-notes",
         "pax-autocratica-sector-1-elysia-battles",
         "pax-autocratica-small-battle-soldier-limit",
-        "pax-autocratica-prison-interrogation-freeze"
+        "pax-autocratica-prison-interrogation-freeze",
+        "pax-autocratica-vsync-framerate-limit-bug"
       ],
       "parent_category": "Guide",
-      "updated_at": "2026-09-25T09:20:00+08:00",
+      "updated_at": "2026-10-13T09:30:00+08:00",
       "time_sensitivity": "changing",
       "page_status": "publish",
       "index_status": "index"
@@ -6044,7 +6071,8 @@
         "pax-autocratica-performance",
         "pax-autocratica-community",
         "pax-autocratica-demo",
-        "pax-autocratica-mods"
+        "pax-autocratica-mods",
+        "pax-autocratica-vsync-framerate-limit-bug"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-20T09:18:00+08:00",
@@ -6826,7 +6854,8 @@
         "pax-autocratica-small-battle-soldier-limit",
         "pax-autocratica-base-building",
         "pax-autocratica-soldier-customization",
-        "pax-autocratica-80-discount-mistake"
+        "pax-autocratica-80-discount-mistake",
+        "pax-autocratica-vsync-framerate-limit-bug"
       ],
       "ad_slot_count": 2
     },
@@ -8718,9 +8747,117 @@
         "pax-autocratica-crowded-ui",
         "pax-autocratica-ultrawide-blurry",
         "pax-autocratica-performance",
-        "pax-autocratica-st24-patch-notes"
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-vsync-framerate-limit-bug"
       ],
       "updated_at": "2026-10-12T09:35:00+08:00"
+    },
+    {
+      "keyword": "Pax Autocratica VSync Framerate Limit Bug",
+      "slug": "pax-autocratica-vsync-framerate-limit-bug",
+      "seo": {
+        "title": "Pax Autocratica VSync Framerate Limit Bug: Lag After Update",
+        "description": "A source-backed Pax Autocratica guide for post-update lag, the current VSync/framerate-limit known bug, what to test, and how to report base FPS drops safely."
+      },
+      "direct_answer": "If Pax Autocratica started lagging after the latest update, first separate ordinary performance trouble from the current VSync/framerate-limit bug. In the October 2026 Steam thread, Multiverse asks whether the problem is lower FPS, more frame drops, base-only, battle-only or everywhere, then says there is a known bug that can impact performance when VSync or the framerate limit is turned on and that it will be solved in the next patch. For this specific symptom, test with VSync and the framerate limit off, capture where the drop happens, and send logs/save files through the official bug route if it repeats. Do not treat this as a universal fix, a released patch, or proof that every performance issue has the same cause.",
+      "direct_answer_claim_ids": [
+        "claim-vsync-framerate-bug-thread-20261013",
+        "claim-vsync-framerate-bug-next-patch-20261013",
+        "claim-vsync-framerate-bug-reporting-20261013"
+      ],
+      "sections": [
+        {
+          "heading": "What the current developer reply says",
+          "paragraphs": [
+            "The current Steam thread starts with a player saying Pax Autocratica lags after the update. Multiverse does not answer with a blanket graphics preset. Instead, the developer asks for the exact shape of the performance problem: lower frame rate than before, more frequent drops, and whether it happens in the base, battle or everywhere.",
+            "The important concrete boundary is the VSync/framerate-limit note. Multiverse says players can try turning off VSync or the framerate limit because there is a known bug, planned to be solved in the next patch, that can affect performance when those options are on."
+          ],
+          "steps": [
+            "Confirm whether the symptom is low FPS, frame drops, stutter, heat, crash or launch failure.",
+            "Record whether it happens in the base, battle, loading screen or everywhere.",
+            "For this current known bug, test VSync and the framerate limit off before changing unrelated settings."
+          ],
+          "claim_ids": [
+            "claim-vsync-framerate-bug-thread-20261013",
+            "claim-vsync-framerate-bug-next-patch-20261013"
+          ]
+        },
+        {
+          "heading": "How this differs from the general performance page",
+          "paragraphs": [
+            "The broader Performance page is still the right place for GPU heat, loading problems, crashes, possible memory-leak behavior and hardware baseline checks. This page is narrower: it covers a current post-update FPS drop report where the developer names VSync or framerate limiting as a known performance risk.",
+            "That narrow scope matters because older troubleshooting advice can point in more than one direction. The pinned support checklist says frame caps or VSync can be useful for some crash/stability cases, while this newer developer reply says the VSync/framerate-limit state can be the problem for this specific post-update lag case. Use the current symptom to choose which test to run."
+          ],
+          "steps": [
+            "Use this page if the issue is post-update lag or frame drops with VSync/framerate limit enabled.",
+            "Use the Performance page for hot GPU, loading, broad crashes or long-session slowdown.",
+            "Use the bug form if the same save or scene keeps reproducing the drop after the reversible tests."
+          ],
+          "claim_ids": [
+            "claim-vsync-framerate-bug-reporting-20261013"
+          ]
+        },
+        {
+          "heading": "A safe test order",
+          "paragraphs": [
+            "Keep the test reversible. Start by changing only VSync and the framerate limit, then retest the same base scene. If supported, also note the DLSS/Frame Generation state because ST-24 added DLSS 4.5 Frame Generation support and says performance logic was improved; that context can help the developer understand the build and hardware path.",
+            "If the issue still happens, do not keep stacking launch flags or third-party fixes. The official support route asks for logs and save files, and the current thread specifically asks for details about where the frame drop occurs."
+          ],
+          "steps": [
+            "Update the game and graphics driver before comparing results.",
+            "Write down your GPU, CPU, resolution, graphics preset, DLSS/Super Resolution, Frame Generation, VSync and framerate-limit state.",
+            "Test the same base scene with VSync/framerate limit on, then off.",
+            "If the result is repeatable, use the K-key report or the detailed bug form with logs and save files."
+          ],
+          "claim_ids": [
+            "claim-vsync-framerate-bug-reporting-20261013"
+          ]
+        },
+        {
+          "heading": "What not to claim yet",
+          "paragraphs": [
+            "This page does not claim the next patch has already shipped, that VSync is always bad, that framerate caps should never be used, or that every post-update lag report is the same bug. It also does not publish unofficial launch options, config edits, registry edits or third-party performance tools.",
+            "Update this page when Multiverse publishes the next patch note naming this VSync/framerate-limit fix, or when the current thread receives a developer follow-up with a more specific workaround."
+          ],
+          "steps": [
+            "Do not call the bug fixed before a patch note or live build proves it.",
+            "Do not merge this with darkness vignette, ultrawide blur or generic hardware limits.",
+            "Do not use community-only settings as official advice."
+          ],
+          "claim_ids": [
+            "claim-vsync-framerate-bug-next-patch-20261013"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Should I turn off VSync in Pax Autocratica after the update?",
+          "answer": "For the current post-update lag report, yes, test with VSync and the framerate limit off because Multiverse says a known bug can affect performance when those are on. That is a test, not a permanent universal rule."
+        },
+        {
+          "question": "Is the VSync/framerate-limit bug fixed already?",
+          "answer": "No captured source says it is fixed today. The developer reply says it will be solved in the next patch."
+        },
+        {
+          "question": "What details should I report?",
+          "answer": "Report whether the drop is in the base, battle or everywhere, plus GPU, CPU, resolution, graphics preset, DLSS/Super Resolution, Frame Generation, VSync, framerate limit, logs and save files."
+        },
+        {
+          "question": "Is this the same as every performance issue?",
+          "answer": "No. Use the general Performance page for crashes, heat, loading and broad FPS issues. This page is for the current VSync/framerate-limit known bug boundary."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "time_sensitivity": "CURRENT",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-performance",
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-darkness-vignette-screen",
+        "pax-autocratica-linux-support"
+      ],
+      "updated_at": "2026-10-13T09:30:00+08:00"
     }
   ],
   "pageProvenance": {
@@ -12344,6 +12481,37 @@
         "No confirmed patch fix.",
         "No claim that every player sees the same issue."
       ]
+    },
+    "pax-autocratica-vsync-framerate-limit-bug": {
+      "last_checked_at": "2026-10-13T09:30:00+08:00",
+      "source_links": [
+        {
+          "label": "Steam discussion: After the update Game LAG",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/586188313445171566/",
+          "source_type": "developer_discussion"
+        },
+        {
+          "label": "Steam discussion: Help My Game Is Bugged/Glitched/Broken",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/585056732983840454/",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Steam News API: Directive ST-24",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        }
+      ],
+      "evidence_summary": "Current Steam discussion captures a developer reply naming a known VSync/framerate-limit performance-impacting bug planned for the next patch; pinned bug-reporting thread provides the logs/save reporting route and ST-24 provides performance setting context.",
+      "boundaries": [
+        "No claim that the next patch has shipped.",
+        "No claim that VSync or framerate caps are always bad.",
+        "No unofficial launch flags or third-party performance tools."
+      ]
     }
   },
   "homeProvenance": {
@@ -13335,6 +13503,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "Supports a visual-readability guide without copying an unverified player screenshot."
+    },
+    {
+      "asset_id": "pax-autocratica-vsync-framerate-limit-bug-20261013",
+      "page": "/pax-autocratica-vsync-framerate-limit-bug",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-guide-02.webp",
+      "alt": "Pax Autocratica gameplay scene used for the VSync framerate limit bug guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-10-13T09:30:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "Supports a performance troubleshooting guide without inventing benchmark imagery."
     }
   ],
   "ads": {
@@ -13414,5 +13598,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-10-12T09:35:00+08:00"
+  "generated_at": "2026-10-13T09:30:00+08:00"
 }

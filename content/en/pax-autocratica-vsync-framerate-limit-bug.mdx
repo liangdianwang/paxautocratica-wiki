@@ -1,0 +1,71 @@
+# Pax Autocratica VSync Framerate Limit Bug
+
+If Pax Autocratica started lagging after the latest update, first separate ordinary performance trouble from the current VSync/framerate-limit bug. In the October 2026 Steam thread, Multiverse asks whether the problem is lower FPS, more frame drops, base-only, battle-only or everywhere, then says there is a known bug that can impact performance when VSync or the framerate limit is turned on and that it will be solved in the next patch. For this specific symptom, test with VSync and the framerate limit off, capture where the drop happens, and send logs/save files through the official bug route if it repeats. Do not treat this as a universal fix, a released patch, or proof that every performance issue has the same cause.
+
+## What the current developer reply says
+
+The current Steam thread starts with a player saying Pax Autocratica lags after the update. Multiverse does not answer with a blanket graphics preset. Instead, the developer asks for the exact shape of the performance problem: lower frame rate than before, more frequent drops, and whether it happens in the base, battle or everywhere.
+
+The important concrete boundary is the VSync/framerate-limit note. Multiverse says players can try turning off VSync or the framerate limit because there is a known bug, planned to be solved in the next patch, that can affect performance when those options are on.
+
+1. Confirm whether the symptom is low FPS, frame drops, stutter, heat, crash or launch failure.
+2. Record whether it happens in the base, battle, loading screen or everywhere.
+3. For this current known bug, test VSync and the framerate limit off before changing unrelated settings.
+
+## How this differs from the general performance page
+
+The broader Performance page is still the right place for GPU heat, loading problems, crashes, possible memory-leak behavior and hardware baseline checks. This page is narrower: it covers a current post-update FPS drop report where the developer names VSync or framerate limiting as a known performance risk.
+
+That narrow scope matters because older troubleshooting advice can point in more than one direction. The pinned support checklist says frame caps or VSync can be useful for some crash/stability cases, while this newer developer reply says the VSync/framerate-limit state can be the problem for this specific post-update lag case. Use the current symptom to choose which test to run.
+
+1. Use this page if the issue is post-update lag or frame drops with VSync/framerate limit enabled.
+2. Use the Performance page for hot GPU, loading, broad crashes or long-session slowdown.
+3. Use the bug form if the same save or scene keeps reproducing the drop after the reversible tests.
+
+## A safe test order
+
+Keep the test reversible. Start by changing only VSync and the framerate limit, then retest the same base scene. If supported, also note the DLSS/Frame Generation state because ST-24 added DLSS 4.5 Frame Generation support and says performance logic was improved; that context can help the developer understand the build and hardware path.
+
+If the issue still happens, do not keep stacking launch flags or third-party fixes. The official support route asks for logs and save files, and the current thread specifically asks for details about where the frame drop occurs.
+
+1. Update the game and graphics driver before comparing results.
+2. Write down your GPU, CPU, resolution, graphics preset, DLSS/Super Resolution, Frame Generation, VSync and framerate-limit state.
+3. Test the same base scene with VSync/framerate limit on, then off.
+4. If the result is repeatable, use the K-key report or the detailed bug form with logs and save files.
+
+## What not to claim yet
+
+This page does not claim the next patch has already shipped, that VSync is always bad, that framerate caps should never be used, or that every post-update lag report is the same bug. It also does not publish unofficial launch options, config edits, registry edits or third-party performance tools.
+
+Update this page when Multiverse publishes the next patch note naming this VSync/framerate-limit fix, or when the current thread receives a developer follow-up with a more specific workaround.
+
+1. Do not call the bug fixed before a patch note or live build proves it.
+2. Do not merge this with darkness vignette, ultrawide blur or generic hardware limits.
+3. Do not use community-only settings as official advice.
+
+## FAQ
+
+### Should I turn off VSync in Pax Autocratica after the update?
+
+For the current post-update lag report, yes, test with VSync and the framerate limit off because Multiverse says a known bug can affect performance when those are on. That is a test, not a permanent universal rule.
+
+### Is the VSync/framerate-limit bug fixed already?
+
+No captured source says it is fixed today. The developer reply says it will be solved in the next patch.
+
+### What details should I report?
+
+Report whether the drop is in the base, battle or everywhere, plus GPU, CPU, resolution, graphics preset, DLSS/Super Resolution, Frame Generation, VSync, framerate limit, logs and save files.
+
+### Is this the same as every performance issue?
+
+No. Use the general Performance page for crashes, heat, loading and broad FPS issues. This page is for the current VSync/framerate-limit known bug boundary.
+
+## Sources
+
+- [Steam discussion: After the update Game LAG](https://steamcommunity.com/app/1067360/discussions/0/586188313445171566/)
+- [Steam discussion: Help My Game Is Bugged/Glitched/Broken](https://steamcommunity.com/app/1067360/discussions/0/585056732983840454/)
+- [Steam News API: Directive ST-24](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221781)
+- [Steam store](https://store.steampowered.com/app/1067360/Pax_Autocratica/)
+
+Last checked: 2026-10-13T09:30:00+08:00
