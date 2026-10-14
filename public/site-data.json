@@ -12,7 +12,7 @@
   "home": {
     "meta": {
       "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-      "description": "A source-backed Pax Autocratica wiki with practical guides to the VSync/framerate-limit lag bug, screen vignette settings, Auroria Day 2 rewards, fear stats, colony mood, healing food and troop upgrading.",
+      "description": "A source-backed Pax Autocratica wiki with practical guides to roadmap dates, VSync/framerate-limit lag, screen vignette settings, Auroria Day 2 rewards, fear stats, colony mood and troop upgrading.",
       "claim_ids": [
         "claim-identity",
         "claim-genre",
@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-10-13"
+        "Updated 2026-10-14"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -92,18 +92,24 @@
         },
         {
           "number": "9",
+          "title": "Roadmap Dates",
+          "description": "Check the current Early Access timing and no-date boundary.",
+          "href": "/pax-autocratica-roadmap-dates/"
+        },
+        {
+          "number": "10",
           "title": "Decode Mood Status",
           "description": "Check Humiliated, Resentful and Agitated without inventing hidden formulas.",
           "href": "/pax-autocratica-humiliated-resentful-agitated-status/"
         },
         {
-          "number": "10",
+          "number": "11",
           "title": "Auroria Day 2",
           "description": "Check the seven-day reward window, NAT SMG skin and safe claim path.",
           "href": "/pax-autocratica-auroria-day-2-rewards/"
         },
         {
-          "number": "11",
+          "number": "12",
           "title": "Reduce Fear",
           "description": "Lower high soldier fear after mass upgrades without inventing hidden formulas.",
           "href": "/pax-autocratica-reduce-fear-stats/"
@@ -170,8 +176,8 @@
   },
   "metadata": {
     "title": "Pax Autocratica Wiki & Guides | Source-Backed Help",
-    "description": "A source-backed Pax Autocratica wiki with practical guides to the VSync/framerate-limit lag bug, screen vignette settings, Auroria Day 2 rewards, fear stats, colony mood, healing food and troop upgrading.",
-    "keywords": "Pax Autocratica VSync bug, Pax Autocratica framerate limit bug, Pax Autocratica lag after update, Pax Autocratica performance, Pax Autocratica wiki"
+    "description": "A source-backed Pax Autocratica wiki with practical guides to roadmap dates, VSync/framerate-limit lag, screen vignette settings, Auroria Day 2 rewards, fear stats, colony mood and troop upgrading.",
+    "keywords": "Pax Autocratica roadmap dates, Pax Autocratica roadmap, Pax Autocratica Early Access, Pax Autocratica co-op date, Pax Autocratica wiki"
   },
   "theme": {
     "hue": 164,
@@ -261,6 +267,7 @@
               "pax-autocratica-multiplayer",
               "pax-autocratica-custom-colony-settings",
               "pax-autocratica-roadmap",
+              "pax-autocratica-roadmap-dates",
               "pax-autocratica-language-patches",
               "pax-autocratica-auroria-day-reward",
               "pax-autocratica-auroria-day-2-rewards",
@@ -489,6 +496,10 @@
           {
             "keyword": "Pax Autocratica VSync Framerate Limit Bug",
             "slug": "pax-autocratica-vsync-framerate-limit-bug"
+          },
+          {
+            "keyword": "Pax Autocratica Roadmap Dates",
+            "slug": "pax-autocratica-roadmap-dates"
           }
         ]
       }
@@ -674,7 +685,8 @@
         "pax-autocratica-multiplayer",
         "pax-autocratica-mods",
         "pax-autocratica-crowded-ui",
-        "pax-autocratica-auroria-day-2-rewards"
+        "pax-autocratica-auroria-day-2-rewards",
+        "pax-autocratica-roadmap-dates"
       ],
       "ad_slot_count": 2
     },
@@ -1330,7 +1342,8 @@
         "pax-autocratica-gameplay",
         "pax-autocratica-community",
         "pax-autocratica-demo",
-        "pax-autocratica-revive-player"
+        "pax-autocratica-revive-player",
+        "pax-autocratica-roadmap-dates"
       ],
       "ad_slot_count": 2
     },
@@ -4200,6 +4213,21 @@
             "claim-roadmap-no-dated-milestones-20260907",
             "claim-roadmap-serp-demand-20260907"
           ]
+        },
+        {
+          "heading": "Current roadmap date boundary",
+          "paragraphs": [
+            "The October 2026 Roadmap Dates discussion clarifies that the roadmap is not a public dated patch calendar. Gurttron points to an Early Access estimate of about two years, and Multiverse says the team will try to provide more detailed time frames while avoiding overcommitted dates.",
+            "Use the dedicated Roadmap Dates page when the question is timing, quarters, 1.0, or whether a planned feature has a public date."
+          ],
+          "steps": [
+            "Do not convert planned roadmap items into dated release promises.",
+            "Check Steam News before saying a roadmap item is live."
+          ],
+          "claim_ids": [
+            "claim-roadmap-dates-two-year-ea-20261014",
+            "claim-roadmap-dates-no-overcommit-20261014"
+          ]
         }
       ],
       "faq": [
@@ -4248,7 +4276,7 @@
         "claim-roadmap-price-rise-20260907",
         "claim-roadmap-serp-demand-20260907"
       ],
-      "updated_at": "2026-09-07T09:41:06.9998682+08:00",
+      "updated_at": "2026-10-14T09:40:00+08:00",
       "time_sensitivity": "changing",
       "image_needs": [
         {
@@ -4270,7 +4298,8 @@
         "pax-autocratica-gameplay",
         "pax-autocratica-auto-defense",
         "pax-autocratica-soldier-customization",
-        "pax-autocratica-80-discount-mistake"
+        "pax-autocratica-80-discount-mistake",
+        "pax-autocratica-roadmap-dates"
       ],
       "ad_slot_count": 2
     },
@@ -4777,7 +4806,8 @@
         "pax-autocratica-roadmap",
         "pax-autocratica-crowded-ui",
         "pax-autocratica-auto-defense",
-        "pax-autocratica-st24-patch-notes"
+        "pax-autocratica-st24-patch-notes",
+        "pax-autocratica-roadmap-dates"
       ],
       "ad_slot_count": 2
     },
@@ -8640,7 +8670,8 @@
         "pax-autocratica-community",
         "pax-autocratica-supreme-powers-petition",
         "pax-autocratica-80-discount-mistake",
-        "pax-autocratica-soldier-customization"
+        "pax-autocratica-soldier-customization",
+        "pax-autocratica-roadmap-dates"
       ],
       "ad_slot_count": 2
     },
@@ -8858,6 +8889,113 @@
         "pax-autocratica-linux-support"
       ],
       "updated_at": "2026-10-13T09:30:00+08:00"
+    },
+    {
+      "keyword": "Pax Autocratica Roadmap Dates",
+      "slug": "pax-autocratica-roadmap-dates",
+      "seo": {
+        "title": "Pax Autocratica Roadmap Dates: Update Timing and 1.0 Window",
+        "description": "A source-backed Pax Autocratica guide explaining whether the roadmap has dates, the current two-year Early Access estimate, and what not to overread from planned features."
+      },
+      "direct_answer": "Pax Autocratica does not have a public dated patch calendar today. The clearest current answer is in the Steam Roadmap Dates discussion: Gurttron says the Early Access estimate is about two years, and Multiverse says the team will try to give more detailed time frames for roadmap elements but does not want to overcommit and then move dates again. Use the Steam store and official news for what is live now, and treat roadmap items such as co-op, larger Early Access goals, and base customization as planned until an official update gives a released build or a specific date.",
+      "direct_answer_claim_ids": [
+        "claim-roadmap-dates-no-calendar-20261014",
+        "claim-roadmap-dates-two-year-ea-20261014",
+        "claim-roadmap-dates-no-overcommit-20261014"
+      ],
+      "sections": [
+        {
+          "heading": "What the current date answer is",
+          "paragraphs": [
+            "The Roadmap Dates thread is useful because it asks the exact player question: whether there are rough months, quarters or other timing estimates for major quality-of-life and content updates. The answer is not a schedule. Gurttron points to an Early Access estimate of about two years, while Multiverse says the team will try to give more detailed time frames but wants to avoid overcommitting.",
+            "That means a buyer or returning player should not convert the roadmap into a release calendar. The practical planning answer is broad Early Access development, not a dated promise for each item."
+          ],
+          "steps": [
+            "Use about two years as the current broad Early Access frame, not a fixed 1.0 date.",
+            "Wait for official Steam News before treating a roadmap item as released.",
+            "Do not rely on community-made quarter charts unless they link back to official dated posts."
+          ],
+          "claim_ids": [
+            "claim-roadmap-dates-two-year-ea-20261014",
+            "claim-roadmap-dates-no-overcommit-20261014"
+          ]
+        },
+        {
+          "heading": "How this differs from the roadmap page",
+          "paragraphs": [
+            "The general roadmap page covers what is planned and what is currently playable. This page answers the narrower timing question: do the roadmap items have dates, and what should players expect from the Early Access window?",
+            "Keeping the two pages separate helps avoid a bad answer. A roadmap feature can be real and planned while still having no public date. This page is the place to check that boundary before buying for a future feature or waiting for co-op."
+          ],
+          "steps": [
+            "Read the roadmap page for planned features and current-feature boundaries.",
+            "Use this page for date, quarter, 1.0 and update-timing questions.",
+            "If a new patch note ships a feature, update both pages with the released-build evidence."
+          ],
+          "claim_ids": [
+            "claim-roadmap-dates-no-calendar-20261014"
+          ]
+        },
+        {
+          "heading": "What official news adds to the timing picture",
+          "paragraphs": [
+            "Directive ST-11 says the team's focus is shifting toward larger Early Access goals such as deeper colony simulation, co-op, and major new systems, while warning that meaningful updates need focus rather than frequent small patches. Auroria Day #2 also says the next update will push base customization further.",
+            "Those are useful direction signals, but neither gives a ship date. Treat them as current roadmap context, not a promise that a specific feature is arriving this week."
+          ],
+          "steps": [
+            "Use ST-11 for the broad development direction after launch stability work.",
+            "Use Auroria Day #2 for the current base-customization teaser.",
+            "Keep co-op, major systems and base customization marked planned until a dated update ships them."
+          ],
+          "claim_ids": [
+            "claim-roadmap-dates-official-news-context-20261014"
+          ]
+        },
+        {
+          "heading": "What not to claim yet",
+          "paragraphs": [
+            "This page does not claim a 1.0 release date, a co-op date, a guaranteed quarter for any feature, or that the current roadmap order is fixed. It also does not turn player pressure in the discussion into an official deadline.",
+            "Update the answer only when Multiverse publishes a new Steam News item, store text, or developer reply with a more specific time frame. If the team only says something is planned, keep it in the planned bucket."
+          ],
+          "steps": [
+            "Do not say co-op is live unless the Steam feature list or patch notes say so.",
+            "Do not call a roadmap image a dated calendar.",
+            "Do not make a new page for each planned feature until the feature has its own player task and evidence."
+          ],
+          "claim_ids": [
+            "claim-roadmap-dates-no-overcommit-20261014"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Pax Autocratica have a dated roadmap?",
+          "answer": "No public dated patch calendar was captured today. The current official/developer evidence gives a broad Early Access frame and says the team wants to avoid overcommitting to dates."
+        },
+        {
+          "question": "How long is Pax Autocratica expected to stay in Early Access?",
+          "answer": "The current Roadmap Dates thread says the Early Access estimate is about two years. Treat that as an estimate, not a fixed full-release date."
+        },
+        {
+          "question": "Does co-op have a date?",
+          "answer": "No captured source gives a co-op date today. ST-11 names co-op as part of larger Early Access goals, but that is roadmap direction rather than a release date."
+        },
+        {
+          "question": "What should I watch for next?",
+          "answer": "Watch Steam News and official developer replies. A patch note or store feature-list change is stronger evidence than a community estimate."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "time_sensitivity": "CURRENT",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-roadmap",
+        "pax-autocratica-st11-patch-notes",
+        "pax-autocratica-auroria-day-2-rewards",
+        "pax-autocratica-multiplayer",
+        "pax-autocratica-community"
+      ],
+      "updated_at": "2026-10-14T09:40:00+08:00"
     }
   ],
   "pageProvenance": {
@@ -12512,6 +12650,37 @@
         "No claim that VSync or framerate caps are always bad.",
         "No unofficial launch flags or third-party performance tools."
       ]
+    },
+    "pax-autocratica-roadmap-dates": {
+      "last_checked_at": "2026-10-14T09:40:00+08:00",
+      "source_links": [
+        {
+          "label": "Steam discussion: Roadmap Dates",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/581680338186751210/",
+          "source_type": "developer_discussion"
+        },
+        {
+          "label": "Steam store",
+          "url": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+          "source_type": "official_store"
+        },
+        {
+          "label": "Steam News API: Directive ST-11",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262695415",
+          "source_type": "official_community"
+        },
+        {
+          "label": "Steam News API: Auroria Day #2",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067936441",
+          "source_type": "official_community"
+        }
+      ],
+      "evidence_summary": "Current Steam discussion gives a two-year Early Access estimate and an official no-overcommit boundary; Steam store and official news provide roadmap and future-feature context without dated release promises.",
+      "boundaries": [
+        "No 1.0 release date claim.",
+        "No co-op release date claim.",
+        "No claim that roadmap order is fixed."
+      ]
     }
   },
   "homeProvenance": {
@@ -13519,6 +13688,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "Supports a performance troubleshooting guide without inventing benchmark imagery."
+    },
+    {
+      "asset_id": "pax-autocratica-roadmap-dates-20261014",
+      "page": "/pax-autocratica-roadmap-dates",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-guide-02.webp",
+      "alt": "Pax Autocratica official gameplay scene used for the roadmap dates guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-10-14T09:40:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
+      "relevance_reason": "Supports a roadmap status guide without inventing or redrawing the official roadmap image."
     }
   ],
   "ads": {
@@ -13598,5 +13783,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-10-13T09:30:00+08:00"
+  "generated_at": "2026-10-14T09:40:00+08:00"
 }
