@@ -26,7 +26,7 @@
       "stats": [
         "Windows on Steam",
         "Steam App ID 1067360",
-        "Updated 2026-10-14"
+        "Updated 2026-10-18"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Open official site",
@@ -280,7 +280,8 @@
               "pax-autocratica-vsync-framerate-limit-bug",
               "pax-autocratica-crowded-ui",
               "pax-autocratica-linux-support",
-              "pax-autocratica-darkness-vignette-screen"
+              "pax-autocratica-darkness-vignette-screen",
+              "pax-autocratica-camera-height-setting"
             ]
           }
         ],
@@ -500,6 +501,10 @@
           {
             "keyword": "Pax Autocratica Roadmap Dates",
             "slug": "pax-autocratica-roadmap-dates"
+          },
+          {
+            "keyword": "Pax Autocratica Camera Height Setting",
+            "slug": "pax-autocratica-camera-height-setting"
           }
         ]
       }
@@ -5788,7 +5793,8 @@
         "pax-autocratica-sector-1-elysia-battles",
         "pax-autocratica-small-battle-soldier-limit",
         "pax-autocratica-prison-interrogation-freeze",
-        "pax-autocratica-vsync-framerate-limit-bug"
+        "pax-autocratica-vsync-framerate-limit-bug",
+        "pax-autocratica-camera-height-setting"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-10-13T09:30:00+08:00",
@@ -6550,7 +6556,8 @@
         "pax-autocratica-st11-patch-notes",
         "pax-autocratica-performance",
         "pax-autocratica-ultrawide-blurry",
-        "pax-autocratica-community"
+        "pax-autocratica-community",
+        "pax-autocratica-camera-height-setting"
       ],
       "parent_category": "Guide",
       "updated_at": "2026-09-23T09:18:00+08:00",
@@ -8779,7 +8786,8 @@
         "pax-autocratica-ultrawide-blurry",
         "pax-autocratica-performance",
         "pax-autocratica-st24-patch-notes",
-        "pax-autocratica-vsync-framerate-limit-bug"
+        "pax-autocratica-vsync-framerate-limit-bug",
+        "pax-autocratica-camera-height-setting"
       ],
       "updated_at": "2026-10-12T09:35:00+08:00"
     },
@@ -8996,6 +9004,90 @@
         "pax-autocratica-community"
       ],
       "updated_at": "2026-10-14T09:40:00+08:00"
+    },
+    {
+      "keyword": "Pax Autocratica Camera Height Setting",
+      "slug": "pax-autocratica-camera-height-setting",
+      "seo": {
+        "title": "Pax Autocratica Camera Height Setting: Raise First-Person View",
+        "description": "How to use the current First-Person Camera Height setting in Pax Autocratica, with the official patch boundary and the player problem it answers."
+      },
+      "direct_answer": "Pax Autocratica now has a First-Person Camera Height setting. The October 16 OT-16 patch says it lets Leaders customize first-person viewpoint height. If the view feels too low, open the in-game settings and look for that named setting; change only that control, then retest the same scene. The public patch note does not state a numeric range, a default value, or a universal best height.",
+      "direct_answer_claim_ids": [
+        "claim-ot16-camera-height-20261018"
+      ],
+      "sections": [
+        {
+          "heading": "Why this setting exists",
+          "paragraphs": [
+            "Players have repeatedly described the first-person view as too low in the Steam discussion “Camera too low?”. That thread has a moderator-marked answer about testing an adjustable camera view. OT-16 now confirms the shipped First-Person Camera Height setting.",
+            "The official patch says the control customizes viewpoint height. It does not document whether it changes FOV, third-person camera, aiming behavior, collision, movement, or accessibility presets."
+          ],
+          "steps": [
+            "Update Pax Autocratica to the current build.",
+            "Open Settings while in-game and find First-Person Camera Height.",
+            "Change that one setting and revisit the same base or expedition scene.",
+            "Keep the result that makes the view comfortable without treating it as a required competitive setting."
+          ],
+          "claim_ids": [
+            "claim-ot16-camera-height-20261018"
+          ]
+        },
+        {
+          "heading": "A safe way to test it",
+          "paragraphs": [
+            "Use a repeatable scene so that UI scale, brightness, FOV, vignette and camera height are not all changed at once. If the result still feels wrong, record the scene and the setting state for a focused report instead of installing an unverified mod or editing files.",
+            "This is separate from the darkness-vignette page. OT-16 also adds a Vignette setting, but the patch gives no basis to say that camera height fixes edge darkening, ultrawide blur, performance, or every accessibility concern."
+          ],
+          "steps": [
+            "Note your current camera height before changing it.",
+            "Test in one stationary scene, then one combat/expedition scene.",
+            "If the problem remains, report the build and scene through the official support route."
+          ],
+          "claim_ids": [
+            "claim-ot16-camera-height-20261018"
+          ]
+        },
+        {
+          "heading": "What this guide does not claim",
+          "paragraphs": [
+            "This page does not invent slider values, keybinds, a preset name, a camera mod recommendation, or a guarantee that all players can remove the low-view feeling. It only records the setting named in OT-16 and the player task that prompted it.",
+            "Recheck this page if Multiverse publishes a more detailed control description or a later patch changes the setting."
+          ],
+          "steps": [
+            "Do not assume a number is optimal for every display or player.",
+            "Do not treat old discussion replies as newer than the live OT-16 patch.",
+            "Do not use this page as evidence about field of view or third-person camera."
+          ],
+          "claim_ids": [
+            "claim-ot16-camera-height-20261018"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I raise the first-person camera in Pax Autocratica?",
+          "answer": "OT-16 adds a First-Person Camera Height setting. Open in-game settings and adjust that named control."
+        },
+        {
+          "question": "What is the best camera height?",
+          "answer": "No official source captured today gives a recommended value or range. Test it in the same scene and use the height that is comfortable for you."
+        },
+        {
+          "question": "Does camera height fix the dark vignette?",
+          "answer": "No. OT-16 names both settings, but does not say one fixes the other."
+        }
+      ],
+      "page_status": "publish",
+      "index_status": "index",
+      "time_sensitivity": "CURRENT",
+      "parent_category": "Guide",
+      "related_slugs": [
+        "pax-autocratica-darkness-vignette-screen",
+        "pax-autocratica-performance",
+        "pax-autocratica-crowded-ui"
+      ],
+      "updated_at": "2026-10-18T09:06:00+08:00"
     }
   ],
   "pageProvenance": {
@@ -12681,6 +12773,26 @@
         "No co-op release date claim.",
         "No claim that roadmap order is fixed."
       ]
+    },
+    "pax-autocratica-camera-height-setting": {
+      "last_checked_at": "2026-10-18T09:06:00+08:00",
+      "source_links": [
+        {
+          "label": "Steam Community: DIRECTIVE OT-16",
+          "url": "https://steamcommunity.com/app/1067360/allnews/",
+          "source_type": "official_announcement"
+        },
+        {
+          "label": "Steam discussion: Camera too low?",
+          "url": "https://steamcommunity.com/app/1067360/discussions/0/585056732983829915/",
+          "source_type": "community_demand"
+        }
+      ],
+      "evidence_summary": "OT-16 confirms the shipped First-Person Camera Height setting; a moderator-marked Steam thread independently documents the player task.",
+      "boundaries": [
+        "No numeric range or keybind claimed.",
+        "No FOV, third-person, vignette, or performance claim."
+      ]
     }
   },
   "homeProvenance": {
@@ -13704,6 +13816,22 @@
       "identity_check": "pass",
       "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot already present in the site media registry.",
       "relevance_reason": "Supports a roadmap status guide without inventing or redrawing the official roadmap image."
+    },
+    {
+      "asset_id": "pax-autocratica-camera-height-20261018",
+      "page": "/pax-autocratica-camera-height-setting",
+      "role": "hero",
+      "public_path": "/media/pax-autocratica-guide-02.webp",
+      "alt": "Pax Autocratica gameplay scene for the first-person camera height setting guide",
+      "width": 1920,
+      "height": 1080,
+      "status": "ready",
+      "source_page": "https://store.steampowered.com/app/1067360/Pax_Autocratica/",
+      "source_type": "official_store_screenshot",
+      "captured_at": "2026-10-18T09:06:00+08:00",
+      "identity_check": "pass",
+      "identity_check_reason": "Reuses an existing verified Steam App ID 1067360 screenshot.",
+      "relevance_reason": "Supports a camera-settings guide without inventing an in-game UI image."
     }
   ],
   "ads": {
@@ -13783,5 +13911,5 @@
     ],
     "favicon_path": "/icon.png"
   },
-  "generated_at": "2026-10-14T09:40:00+08:00"
+  "generated_at": "2026-10-18T09:06:00+08:00"
 }
