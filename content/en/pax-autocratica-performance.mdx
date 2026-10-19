@@ -1,6 +1,6 @@
 # Pax Autocratica Performance
 
-If Pax Autocratica runs hot, drops frames, hangs on loading or crashes, start with the official baseline before chasing random fixes: compare your PC with the Steam requirements, verify game files, test Super Resolution and Frame Generation off, cap the frame rate or use VSync, then report persistent issues in-game with the K key or the official bug form. The latest captured official patch notes say ST-11 reduced VRAM usage, improved overall performance, adjusted default frame-rate behavior and fixed some crashes/loading failures, but they do not promise a universal FPS target for every GPU or base size.
+If Pax Autocratica runs hot, drops frames, hangs on loading or crashes, start with the official baseline before chasing random fixes: compare your PC with the Steam requirements, verify game files, test Super Resolution and Frame Generation off, cap the frame rate or use VSync, then report persistent issues in-game with the K key or the official bug form. The latest captured official patch notes, Directive OT-16, say the team fixed memory leaks, reduced memory usage, and improved stability for FSR, DLSS, and Frame Generation. They do not promise a universal FPS target for every GPU or base size.
 
 ## First check the hardware baseline
 
@@ -25,14 +25,17 @@ Use those steps because they are reversible and evidence-led. They do not requir
 1. Restart and retest the same save or same expedition scene.
 1. Only reinstall after the smaller checks fail.
 
-## What ST-11 already changed
+## What the latest official updates changed
 
-Directive ST-11 is still the latest official Steam News item captured today. It says the team optimized loading to prevent stuck or failed starts under certain circumstances, reduced VRAM usage, improved overall performance, made the first launch use the current display refresh rate as the default frame-rate limit, and gave loading screens a separate frame-rate limit.
+Directive ST-11 says the team optimized loading to prevent stuck or failed starts under certain circumstances, reduced VRAM usage, improved overall performance, made the first launch use the current display refresh rate as the default frame-rate limit, and gave loading screens a separate frame-rate limit. Those are still useful troubleshooting context.
+
+The newer Directive OT-16 adds a more specific stability update: it says memory leaks were fixed, memory usage was reduced, and FSR, DLSS, and Frame Generation stability was improved. This is a meaningful reason to update before repeating an older test, but it is not proof that every existing performance issue, hardware combination, or large-base slowdown is resolved.
 
 Earlier official notes also mention improved Low graphics behavior, base performance, smoke and fire effects, model rendering and scene loading efficiency. Those notes are useful context, but they are not a promise that every hot GPU, large base or expedition firefight is fully solved.
 
 1. Update to the current Steam build before testing old performance advice.
-1. Retest loading, base view and end-of-expedition firefights separately.
+1. Retest loading, base view and end-of-expedition firefights separately after OT-16.
+1. If you use FSR, DLSS, or Frame Generation, test the same scene once with the feature enabled and once disabled; do not assume a patch note is a universal benchmark.
 1. Record whether the problem is heat, frame time spikes, loading, a crash or a save-read failure.
 
 ## When to report instead of tweaking
@@ -70,9 +73,9 @@ Keep ultrawide blur, Steam Deck keyboard behavior and individual crash cases sep
 
 Yes. Steam lists Windows 10 64-bit, 16 GB RAM, DirectX 11, 40 GB storage, and GPU baselines for 1080p, 1440p and recommended play.
 
-### Did ST-11 fix all performance problems?
+### Did the latest patch fix all performance problems?
 
-No. ST-11 lists loading, VRAM, frame-rate and crash improvements, but the current Performance discussion still shows players reporting hot GPU and frame-drop issues.
+No. OT-16 reports fixes for memory leaks and stability improvements for FSR, DLSS, and Frame Generation; ST-11 also lists loading, VRAM, frame-rate and crash improvements. Neither announcement promises that every hot GPU, frame drop, or large-base slowdown is fully resolved.
 
 ### What should I try first for crashes or stuck loading?
 
@@ -85,9 +88,10 @@ Not from the captured evidence. Start with reversible official troubleshooting a
 ## Sources
 
 - [Pax Autocratica Steam store](https://store.steampowered.com/app/1067360/Pax_Autocratica/)
+- [Steam News: Directive OT-16 — State Maintenance](https://steamcommunity.com/app/1067360/allnews/)
 - [Steam News API: Directive ST-11](https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1067360&count=20&maxlength=0&format=json)
 - [Steam discussion: Help My Game Is Bugged/Glitched/Broken](https://steamcommunity.com/app/1067360/discussions/0/585056732983840454/)
 - [Steam discussion: Performance](https://steamcommunity.com/app/1067360/discussions/0/564794139169858415/)
 - [Steam General Discussions](https://steamcommunity.com/app/1067360/discussions/)
 
-Last checked: 2026-10-13T09:30:00+08:00
+Last checked: 2026-10-19T09:00:00+08:00
