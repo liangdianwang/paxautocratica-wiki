@@ -2913,13 +2913,29 @@
         "title": "Pax Autocratica Trade Port: AG-27 Selling and Current Risks",
         "description": "Pax Autocratica Trade Port guide updated for AG-27: item selling is live, but prices, automation and soldier purchase risks still need current-build checks."
       },
-      "direct_answer": "After AG-27, the Trade Port can now sell unwanted or excess items to visiting merchant ships. That means the old AG-25 answer, which treated direct selling as only planned, is outdated. Use the Trade Port as a current selling route, but do not assume every item has the same value, that Warehouse stock sells automatically, or that soldier purchase risks are solved unless the current build and logs confirm it.",
+      "direct_answer": "After AG-27, the Trade Port can sell unwanted or excess items to visiting merchant ships. Separately, the October 23 maintenance directive temporarily disables the logic that lets soldiers visit the Trading Post to buy items. Keep those two paths separate, and do not infer a permanent removal, a price-table change, Warehouse automation, or a complete fix for soldier purchase risks from that short notice.",
       "direct_answer_claim_ids": [
         "claim-ag27-trading-post-selling",
         "claim-ag27-not-full-price-table",
         "claim-trade-port-risk-separation"
       ],
       "sections": [
+        {
+          "heading": "October 23 maintenance: soldier purchases are temporarily disabled",
+          "paragraphs": [
+            "The official Steam maintenance directive published on October 23 says the logic that lets soldiers visit the Trading Post to purchase items has been temporarily disabled. This is a current-build boundary for the purchase side of the system; it does not remove the earlier AG-27 confirmation that Leaders can sell unwanted or excess items to visiting merchant ships.",
+            "The notice is deliberately narrow. It does not describe a permanent removal, a completed Trade Port rework, a price-table change, or a fix for every soldier-trait report connected to older purchases."
+          ],
+          "steps": [
+            "If you are checking a soldier-related Trade Port outcome, confirm whether the current build still permits soldier purchases before relying on an older report.",
+            "Keep player-driven selling and soldier purchasing separate: the new notice only names temporary purchase disablement.",
+            "Recheck the newest official Steam news before treating the temporary status as permanent."
+          ],
+          "claim_ids": [
+            "claim-trade-port-soldier-purchases-temporarily-disabled-20261023",
+            "claim-ag27-trading-post-selling"
+          ]
+        },
         {
           "heading": "What AG-27 changed",
           "paragraphs": [
@@ -3001,6 +3017,13 @@
       ],
       "faq": [
         {
+          "question": "Are soldiers still buying items at the Trade Port?",
+          "answer": "Not in the build covered by the October 23 maintenance directive: the developer says that logic is temporarily disabled. Recheck the newest official Steam news before treating that status as permanent.",
+          "claim_ids": [
+            "claim-trade-port-soldier-purchases-temporarily-disabled-20261023"
+          ]
+        },
+        {
           "question": "Can the Trade Port sell my own items now?",
           "answer": "Yes, AG-27 says Leaders can sell unwanted or excess items to visiting merchant ships at the Trading Post. The patch note does not prove every storage or automation detail.",
           "claim_ids": [
@@ -3025,6 +3048,7 @@
         }
       ],
       "source_ids": [
+        "src-steam-news-state-maintenance-20261023",
         "src-steam-news-ag27-item-selling-20260828",
         "src-steamdb-ag27-mirror-20260828",
         "src-steam-community-hub-ag27-20260828",
@@ -3033,12 +3057,13 @@
         "src-steam-store-current-20260828"
       ],
       "claim_ids": [
+        "claim-trade-port-soldier-purchases-temporarily-disabled-20261023",
         "claim-ag27-trading-post-selling",
         "claim-trade-port-money-demand-current",
         "claim-trade-port-risk-separation",
         "claim-ag27-not-full-price-table"
       ],
-      "updated_at": "2026-10-09T10:35:00+08:00",
+      "updated_at": "2026-10-23T09:00:00+08:00",
       "time_sensitivity": "changing",
       "image_needs": [
         {
@@ -10266,11 +10291,16 @@
       ]
     },
     "pax-autocratica-trade-port": {
-      "last_checked_at": "2026-10-09T10:35:00+08:00",
+      "last_checked_at": "2026-10-23T09:00:00+08:00",
       "quality_review_id": "q01-pax-autocratica-trade-port",
       "status": "publish",
-      "depth_variance_reason": "AG-27 directly changes the Trade Port answer from planned selling to shipped item selling, while the page still avoids unverified price tables, passive Warehouse automation and soldier-purchase conclusions.",
+      "depth_variance_reason": "AG-27 directly changes the Trade Port answer from planned selling to shipped item selling; the October 23 maintenance notice adds a narrow current-build boundary that soldier purchases are temporarily disabled. The page still avoids unverified price tables, passive Warehouse automation and permanent soldier-purchase conclusions.",
       "source_links": [
+        {
+          "label": "Steam Community news: October 23 State Maintenance Directive",
+          "url": "https://steamcommunity.com/app/1067360/allnews/",
+          "source_type": "official_community"
+        },
         {
           "label": "Steam News API: AG-27 item selling",
           "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1067360&count=10&maxlength=8000&format=json",
